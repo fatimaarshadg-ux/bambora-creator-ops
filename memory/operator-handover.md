@@ -18,4 +18,6 @@ Since the handover (built 2026-09-25), the Bambora creator-ops job on this Windo
 
 **Sync:** the operator's private GitHub repo is cloned at `~/claude-setup` (same path as Fatima's, so every path in the notes works). End of session: `powershell -NoProfile -ExecutionPolicy Bypass -File "$USERPROFILE/claude-setup/sync.ps1" -Message "<what changed>"`.
 
+**Taking turns with Fatima (second audit, 2026-09-25):** this repo (`fatimaarshadg-ux/bambora-creator-ops`) is the one live copy of the shift data. Fatima's Mac swaps data with it through `work/backup/handoff-mac.sh take|give`; one machine runs sweeps at a time. Details: `~/claude-setup/docs/12-sync-with-fatima.md`. Who decides what: `docs/11-decision-guide.md`. The operator uses Fatima's Claude account, so pick this PC's Chrome in Claude in Chrome, never hers.
+
 Related: [[windows-machine]], [[core-rules]], [[claude-in-chrome-standing-permission]].

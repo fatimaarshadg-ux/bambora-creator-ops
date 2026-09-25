@@ -37,7 +37,7 @@ Add any new tool, folder or cloud location here the day it appears (Claude does 
 | `work/trybe-5pct-migration/` | the September 2026 move of creators to the 5% program (who was messaged, who moved) |
 | `work/trybe-grandparent-program/` | the Grandparents Program setup and welcome text |
 | `work/bombara-folder/` | the source of `C:\Users\<you>\Bombara` |
-| `work/backup/` | `sync_check.ps1`, `make_backup_zip.ps1` |
+| `work/backup/` | `sync_check.ps1`, `make_backup_zip.ps1`, `handoff-mac.sh` (Fatima's Mac only) |
 | `work/common/` | `trybe_key.py`, `store-trybe-key.ps1` |
 | `tools/claude-media-watcher/` | the media watcher, vendored |
 | `docs/` | this manual |

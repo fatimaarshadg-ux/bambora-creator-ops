@@ -5,7 +5,7 @@ Copy everything inside the box below and paste it into Claude (Claude app, **Cod
 ```
 Hi Claude. I'm taking over Fatima's Bambora creator-ops job on this Windows PC. Everything you need is in my repo at ~/claude-setup (installed with install.ps1). Please get fully set up before we do any real work:
 
-1. Read, in this order: ~/claude-setup/OPERATOR.md, ~/.claude/CLAUDE.md, your memory index MEMORY.md and the memory files operator-handover, windows-machine, core-rules and open-work (the newest "open-work" file), then ~/claude-setup/docs/README.md, docs/01-how-the-job-works.md, docs/02-rules.md, routines/START.md and routines/full-run.md, and the skills creator-ops-daily, trybe-portal, trybe-applicant-review, fatima-creator-voice (with lessons.md), human-messages and media-watcher.
+1. Read, in this order: ~/claude-setup/OPERATOR.md, ~/.claude/CLAUDE.md, your memory index MEMORY.md and the memory files operator-handover, windows-machine, core-rules and open-work (the newest "open-work" file), then ~/claude-setup/docs/README.md, docs/01-how-the-job-works.md, docs/02-rules.md, docs/11-decision-guide.md, docs/12-sync-with-fatima.md, routines/START.md and routines/full-run.md, and the skills creator-ops-daily, trybe-portal, trybe-applicant-review, fatima-creator-voice (with lessons.md), human-messages and media-watcher.
 
 2. Verify the install and fix anything small yourself (tell me what you fixed). Check each and give me a PASS/FAIL list:
    - py -3 works; py -3 ~/claude-setup/work/creator-db/followups.py due runs and prints the ledger
@@ -15,14 +15,14 @@ Hi Claude. I'm taking over Fatima's Bambora creator-ops job on this Windows PC. 
    - your memory folder is the one install.ps1 made (see ~/claude-setup/.project-slug) and MEMORY.md is loaded in this session; if not, find the right folder under ~/.claude/projects and copy the memory there
    - bash ~/claude-setup/work/sweep/streams.sh status and the PowerShell start.ps1 both run
    - the Trybe MCP server (tools named mcp__trybe__*) is available; if not, tell me what to click
-   - Claude in Chrome can see my Chrome (list the tabs) and the Trybe brand portal opens logged in; Google Drive, Notion, Claude Docs (the Bambora Creator Tracker) and Atria connectors answer
+   - Claude in Chrome: list the connected browsers. This is Fatima's Claude account, so her Mac's Chrome may show up too; pick the one on THIS Windows PC and never act in hers. Then list the tabs and check the Trybe brand portal opens logged in; Google Drive, Notion, Claude Docs (the Bambora Creator Tracker) and Atria connectors answer
    - git -C ~/claude-setup status is clean or explainable, and git can push (dry run is fine)
 
-3. If OPERATOR.md still has <placeholders>, ask me for my name, work hours, timezone, end-of-day time and GitHub username in ONE message, then fill it in.
+3. If OPERATOR.md still has <placeholders>, ask me in ONE message for my first name and whether the hours, timezone and end-of-day time already in it are right for me, then fill it in.
 
 4. Tell me in plain words: what the job is, what you will do on your own, and what will always wait for my yes. Then list anything still missing that only I can do (sign-ins, connectors, permissions), each as one simple instruction.
 
-5. Offer to create the scheduled tasks from ~/claude-setup/docs/07-scheduled-tasks.md with times in my timezone, and wait for my yes before creating them.
+5. Offer to create the scheduled tasks that docs/07-scheduled-tasks.md marks "create on this PC" (NOT bambora-end-of-day-wrapup: the end-of-day session timer does that job here), with times in my timezone, and wait for my yes before creating them.
 
 6. Run sync.ps1 to push the filled-in OPERATOR.md. Then say "ready" and tell me that each work day I just type: start the routines
 

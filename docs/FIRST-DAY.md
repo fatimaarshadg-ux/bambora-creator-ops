@@ -6,9 +6,9 @@ Plan on a relaxed first shift: let Claude do the work and use each step to see h
 
 1. Setup done: README steps 1 to 8, the installer self-test all PASS, FIRST-PROMPT pasted, Claude said "ready".
 2. `OPERATOR.md` filled in (name, hours, timezone, end-of-day time, GitHub username).
-3. Read, in this order (about an hour): `docs/README.md` (ownership), `01-how-the-job-works.md`, `02-rules.md`, `04-voice-guide.md`, `09-background-machinery.md`, `10-shift-checklists.md`. Skim the `GLOSSARY.md`.
+3. Read, in this order (about an hour): `docs/README.md` (ownership), `01-how-the-job-works.md`, `02-rules.md`, `04-voice-guide.md`, `09-background-machinery.md`, `10-shift-checklists.md`, `11-decision-guide.md`. Skim the `GLOSSARY.md` and the second half of `08-troubleshooting.md` ("Things that go wrong during a shift").
 4. Scheduled tasks created (Claude offers this in the first prompt).
-5. Windows power settings changed (never sleep when plugged in; lid does nothing when plugged in).
+5. Windows settings changed (README Step 6b): never sleep when plugged in, lid does nothing, update active hours cover your shift, no automatic lock, Chrome Memory Saver off.
 
 ## Hour 1: start and watch
 

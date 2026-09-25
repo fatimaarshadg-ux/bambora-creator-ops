@@ -17,8 +17,9 @@ You need about **1 hour** for the setup below. After that, starting a work day t
 | A Windows 10 or 11 PC, with internet | yours |
 | Fatima's Bambora Google login (fatima@bamboraco.com) | Fatima gives it to you. This gets you into Trybe, Google Drive, Notion and Slack as her. |
 | The **Trybe API key** | Fatima sends it to you privately. You paste it once into a hidden box. **Never paste it into the Claude chat.** |
-| A **GitHub** account that can see this private repo | github.com (free). Fatima (or whoever owns this repo) invites your username. |
-| A **Claude** account with Claude Code (Pro or Max plan) | claude.ai. Ask Fatima which account to use. |
+| Fatima's **GitHub** login | The same email, fatima@bamboraco.com. The repo is on her account (`fatimaarshadg-ux`), so there is no invitation to accept. |
+| Fatima's **Claude** login | The same email again. You use her Claude account, so the Creator Tracker, Google Drive, Notion and Atria connections are already there. Her own Claude use on the Mac shares the same usage limit. |
+| Fatima **reachable by message** for the first hour | New-PC sign-ins (Google, GitHub, Claude, Slack) may ask her phone to approve, or send a code to her email. |
 
 ---
 
@@ -42,6 +43,10 @@ winget install -e --id Git.Git --accept-package-agreements --accept-source-agree
 - If it says `winget` is not recognized: open the **Microsoft Store**, search **App Installer**, click **Get** or **Update**, then try again. Or download Git by hand from https://git-scm.com/download/win and click Next through the installer (the defaults are fine).
 
 When it finishes, **close PowerShell and open it again** (Step 1), so Windows notices Git.
+
+## Step 2b. Open Fatima's email in Microsoft Edge (for sign-in codes)
+
+GitHub and Claude may email a sign-in code to fatima@bamboraco.com during setup. Chrome is not installed yet, so use **Microsoft Edge** (already on every Windows PC): click **Start**, type `Edge`, open it, go to https://mail.google.com and sign in with fatima@bamboraco.com. Keep that window open until Step 8. (If Google asks Fatima's phone to approve, message her.)
 
 ## Step 3. Download this repo to the right place
 
@@ -98,7 +103,7 @@ Install these by hand (click Next through each installer; defaults are fine), th
    - **Heads-up:** Google will probably say "Verify it's you" or send a prompt to **Fatima's phone**, because it is a new PC. Message Fatima before you start this step so she can tap **Yes** (or read you the code). The same can happen for Slack and Notion.
    - If Chrome asks "Turn on sync?", **Yes** is fine in this Bambora profile (it keeps you signed in).
 2. Go to the **Chrome Web Store** (https://chromewebstore.google.com), search **Claude**, open **Claude** by **Anthropic**, click **Add to Chrome**, then **Add extension**.
-3. Click the puzzle-piece icon at the top right of Chrome, then the pin next to **Claude**, so its icon stays visible. Click it and sign in with the **Claude** account.
+3. Click the puzzle-piece icon at the top right of Chrome, then the pin next to **Claude**, so its icon stays visible. Click it and sign in with Fatima's Claude account (fatima@bamboraco.com).
 4. In this same Chrome, open and sign in to each of these (keep them signed in):
    - Trybe brand portal: https://jointrybe.com/brand?b=a8bedbc3-3b30-410d-a09e-2aa3aeb3a8e9 (use the same sign-in Fatima uses for Trybe; if you see a **Continue with Google** button, click it and pick fatima@bamboraco.com. If you are not sure, ask her before trying passwords.)
    - Google Drive: https://drive.google.com
@@ -111,23 +116,27 @@ Install these by hand (click Next through each installer; defaults are fine), th
 2. Sign in with **fatima@bamboraco.com**.
 3. Open **File Explorer** (the yellow folder icon). On the left you should now see a drive called **Google Drive (G:)** with **My Drive** and **Shared drives** inside. That is how Claude uploads approved videos.
 
-## Step 6b. Stop the PC from sleeping during your shift
+## Step 6b. Keep the PC awake, unlocked and restart-free during your shift
 
 A sleeping PC means missed sweeps (Claude, Chrome and the timers all freeze). Claude starts a keep-awake helper every shift, but set these once too:
 
 1. **Start** > **Settings** > **System** > **Power & battery** (Windows 11) or **Power & sleep** (Windows 10). Under **Screen and sleep**, set **"When plugged in, put my device to sleep after"** to **Never**.
 2. **Laptop:** Start, type `Control Panel`, open **Hardware and Sound** > **Power Options** > **Choose what closing the lid does**. Under **Plugged in**, set **When I close the lid** to **Do nothing**. Click **Save changes**.
 3. Keep the charger in during your shift.
+4. **No restarts for updates during your shift.** Start > Settings > **Windows Update** > **Advanced options** > **Active hours**: choose **Manually**, start **4 PM**, end **6 AM** (your hours plus an hour each side). Back on the Windows Update page, turn **off** "Get the latest updates as soon as they're available".
+5. **No automatic lock.** Start > Settings > **Accounts** > **Sign-in options**: "If you've been away, when should Windows require you to sign in again?" > **Never**; **Dynamic lock** off. A locked PC stops Claude from clicking anything in Chrome. Never press Windows+L during a shift; switch the monitor off with its button if you want privacy.
+6. **Chrome must not put tabs to sleep.** In the Bambora Chrome profile (after Step 5): **three dots** > **Settings** > **Performance**: **Memory Saver** OFF, **Energy Saver** OFF.
 
 (Why and how it all works: `docs/09-background-machinery.md`.)
 
 ## Step 7. Open Claude Code in the Bombara folder
 
-1. Click **Start**, type `Claude`, open the **Claude** app, and sign in.
+1. Click **Start**, type `Claude`, open the **Claude** app, and sign in with **fatima@bamboraco.com** (the code arrives in the Gmail you opened in Step 2b).
 2. Click the **Code** tab at the top.
 3. When it asks for a folder, choose `C:\Users\<you>\Bombara` (it was created by the installer). Always open this same folder: Claude's memory is tied to it.
 4. If Claude asks whether to **trust this folder** or **allow the project's MCP server "trybe"**, say **yes** (that is the Trybe tool that lives in this folder).
-5. Connect the tools Claude uses. In the Claude app go to **Settings**, then **Connectors**, and connect (sign in with the Bambora account where asked):
+5. Leave the permission mode on the normal setting (Claude **asks** before anything new). Never pick "bypass permissions". How to answer a permission question: `docs/08-troubleshooting.md`, "Claude asks for permission in the middle of a sweep".
+6. Check the tools Claude uses. Because this is Fatima's Claude account, most are probably connected already. In the Claude app go to **Settings**, then **Connectors**, and make sure each of these says connected (if not, click **Connect** and sign in with fatima@bamboraco.com):
    - **Google Drive**
    - **Notion**
    - **Claude in Chrome** (so Claude can use the Chrome you signed in above)
@@ -150,7 +159,7 @@ start the routines
 
 Before you type it, make sure Fatima is not running the routine on her Mac right now (one computer at a time, see the box at the top).
 
-That is the whole daily start. Claude starts its 30-minute sweep, works through chat, samples, partnership ads, video submissions, new applicants and follow-ups, and sends you ONE message per sweep: what it did, what needs your yes (each with a recommendation), and real questions only. Keep the Claude app and Chrome open and the PC awake (lid open, charger in) during your work hours.
+That is the whole daily start. The full start and end checklists are in `docs/10-shift-checklists.md`; when you are unsure whether something is yours to decide, look it up in `docs/11-decision-guide.md`. Claude starts its 30-minute sweep, works through chat, samples, partnership ads, video submissions, new applicants and follow-ups, and sends you ONE message per sweep: what it did, what needs your yes (each with a recommendation), and real questions only. Keep the Claude app and Chrome open and the PC awake (lid open, charger in) during your work hours.
 
 At the end of your day Claude writes the session log and pushes everything to GitHub by itself.
 
@@ -166,6 +175,8 @@ At the end of your day Claude writes the session log and pushes everything to Gi
 | `docs/02-rules.md` | Every rule (safety, messages, samples, applicants, who to ignore) |
 | `docs/GLOSSARY.md` | Every word you will hear (yapper, V3, sample gate, Liam links...) |
 | `docs/10-shift-checklists.md` | Start-of-shift and end-of-shift checklists, and what runs when |
+| `docs/11-decision-guide.md` | Do I act, or ask Fatima? 38 real examples |
+| `docs/12-sync-with-fatima.md` | Taking turns with Fatima: which copy is the real one, and the handoff |
 | `docs/09-background-machinery.md` | The invisible pieces (keep-awake, timers, watchdog, helper server) explained |
 | `docs/08-troubleshooting.md` | When something breaks, by symptom |
 | `HANDOVER-BUILD-REPORT.md` | How this repo was built from Fatima's Mac setup, and what is still open |

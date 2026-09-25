@@ -13,7 +13,7 @@ There are two kinds of automatic runs. Knowing the difference saves a lot of con
 ## Session timers (set by "start the routines")
 
 1. **Full sweep:** cron `7,37 * * * *`, recurring. Prompt: "FULL SWEEP: follow ~/claude-setup/routines/full-run.md for ALL six streams. Slow reviews go to background agents. Mark each stream with streams.sh done, then mark.sh, restart watchdog.sh 30 60, push. If you're mid-task, say so in one line and run it right after the current step. Never skip."
-2. **End of day:** cron at your end-of-day time (Fatima's was `12 4 * * *`, 4:12 AM PKT), recurring. Prompt: "END OF DAY: send the Links for Liam list, file any approved videos not yet in Drive, write the session log, push, and stop the sweep timer for the night."
+2. **End of day:** cron at your end-of-day time (Fatima's was `12 4 * * *`, 4:12 AM PKT), recurring. Prompt: "END OF DAY: follow the END OF SHIFT list in ~/claude-setup/docs/10-shift-checklists.md: file any approved videos not yet in Drive, send the remaining Links for Liam, save new rules to memory, write the session log, run sync.ps1, upload the repo zip to Drive, then stop the sweep timer and the watchdog for the night." **This is the only end-of-day job on this PC** (decided in the second audit, 2026-09-25): it runs inside the live session, so it can do everything, and the scheduled wrap-up task below is not created. Two wrap-ups would file, push and message twice.
 3. **Watchdog:** `bash ~/claude-setup/work/sweep/watchdog.sh 30 60` in the background.
 
 Timer times are in the PC's local time. If your timezone is not Pakistan time, Claude converts the end-of-day time from `OPERATOR.md`.
@@ -24,9 +24,9 @@ Prompts are in `scheduled-tasks/<name>/SKILL.md` (install.ps1 also copied them t
 
 | Task | Schedule (Fatima's, PKT) | What it does | Status at handover |
 |---|---|---|---|
-| `bambora-inspo-research-every-3-days` | every 3 days | Atria + TikTok + YouTube + Instagram inspo pack to Drive "Bambora Inspo / Week of ...", tagged (`tags.tsv`), links doc, matched to creators | active |
-| `bambora-end-of-day-wrapup` | daily ~4:15 AM (end of shift) | session log, tracker tidy, Liam links, sync_check + push, repo zip to Drive | active (the session end-of-day timer covers most of it; keep one of the two to avoid doing it twice) |
-| `bambora-full-cycle-every-4h` | every 4 hours | prep only: submission verdicts, applicant verdicts, sample list, database refresh, "Needs your go" in the tracker | useful on days with no live session |
+| `bambora-inspo-research-every-3-days` | every 3 days | Atria + TikTok + YouTube + Instagram inspo pack to Drive "Bambora Inspo / Week of ...", tagged (`tags.tsv`), links doc, matched to creators | **create on this PC** |
+| `bambora-end-of-day-wrapup` | daily ~4:15 AM (end of shift) | session log, tracker tidy, Liam links, sync_check + push, repo zip to Drive | **do NOT create on this PC**: the end-of-day session timer does this job. Kept for Fatima's Mac. |
+| `bambora-full-cycle-every-4h` | every 4 hours | prep only: submission verdicts, applicant verdicts, sample list, database refresh, "Needs your go" in the tracker | optional: only for days with no live session, and only if Fatima is not running her routine (one machine at a time) |
 | `bambora-messages-every-2h` | every 2 hours | drafts replies only | **PAUSED** since 2026-09-23 (the live sweep replaced it); enable only for days with no live session |
 | `trybe-5pct-replies-report` | one-off | read-only report on replies to the September 5% migration message | historical; don't recreate unless Fatima asks |
 

@@ -3,11 +3,13 @@ name: bambora-end-of-day-wrapup
 description: Daily at 4:15 AM, the end of Fatima's work day (about 5 PM to 5 AM PKT): session log, tracker tidy-up, Drive filing + Liam links, push to GitHub, repo zip to Drive.
 ---
 
+> **Not used on the Windows PC.** There the end-of-day session timer (routines/START.md, docs/10-shift-checklists.md) does this job, so this task is NOT created (two wrap-ups would file, push and message twice). Kept for Fatima's Mac.
+
 You are Fatima's assistant for Bambora creator ops. Daily wrap-up.
 WORK DAY (her rule, 2026-09-24): her day runs from about 5 PM to 5 AM PKT, so this runs at about 4:15 AM. "Today" means the work day that started around 5 PM yesterday; name the session log after that start date. Nothing is sent and nothing is approved.
 1. Read today's sections of the Bambora Creator Tracker doc (Claude Docs connector; doc 3db72f36-d656-451e-8ddb-ec6f39609238, body node 76b93b85-4f18) and today's scheduled-task runs.
 2. Write or update ~/claude-setup/work/session-logs/YYYY-MM-DD.md: what got done, any new rules or corrections Fatima gave, and what's open for tomorrow. Learnings only, no raw chat.
-3. Make sure every new rule, preference or fact is saved in memory (~/.claude/projects/<PROJECT>/memory/, one file per fact, plus a line in MEMORY.md) or in a skill. Copy changed memory files and skills into ~/claude-setup (add lines to memory/MEMORY.md; never overwrite it). Add any new tool, folder or cloud location to ~/claude-setup/NEW-MACHINE.md.
+3. Make sure every new rule, preference or fact is saved in memory (~/.claude/projects/<PROJECT>/memory/, one file per fact, plus a line in MEMORY.md) or in a skill. Copy changed memory files and skills into ~/claude-setup (add lines to memory/MEMORY.md; never overwrite it). Add any new tool, folder or cloud location to ~/claude-setup/docs/05-where-everything-lives.md.
 4. At the top of the tracker, rebuild "Due next" for tomorrow: follow-ups due, reminders (for example Emily Seitz and Katherine Bodie on Sep 24), and open promises.
 5. Run `powershell -NoProfile -ExecutionPolicy Bypass -File "$USERPROFILE/claude-setup/work/backup/sync_check.ps1"` (copies any skill, memory file, task prompt or CLAUDE.md the repo is missing), then git add, commit and push ~/claude-setup. The pre-commit hook blocks em dashes, so rewrite any it flags (except in verbatim backups). Never push secrets.
 6. No em dashes. End with a two-line summary.

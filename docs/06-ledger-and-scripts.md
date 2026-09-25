@@ -80,6 +80,7 @@ All from Git Bash (Claude's shell). PowerShell ones are run as `powershell -NoPr
 | `work/sweep/every.sh` / `.ps1` | Timed extras: `due metaaccess 300`, `done metaaccess` | |
 | `work/backup/sync_check.ps1` | Copy skills, memory, CLAUDE.md, task prompts from this PC into the repo | sync.ps1 runs it |
 | `work/backup/make_backup_zip.ps1` | Zip the repo for the Drive backup | end of day |
+| `work/backup/handoff-mac.sh` | Swap the shift data (ledger, seen lists, filing and Liam records, logs) between this repo and Fatima's `claude-setup` | on **Fatima's Mac** only, at each handoff (`12-sync-with-fatima.md`) |
 | `work/common/trybe_key.py` | Load the Trybe key (`--check` to test) | `py -3 ... trybe_key.py --check` |
 | `work/common/store-trybe-key.ps1` | Store or replace the Trybe key (masked box) | `-Force` to replace |
 | `sync.ps1` | Push to GitHub (with a secret check) | `-Message "what changed"` |

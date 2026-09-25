@@ -35,6 +35,8 @@ Your job: start it each work day ("start the routines"), answer the one message 
 | [08-troubleshooting.md](08-troubleshooting.md) | When something breaks (by symptom) |
 | [09-background-machinery.md](09-background-machinery.md) | Every invisible piece (keep-awake, timer, watchdog, helper server, tab fronting, cl= markers, permissions, the key, backups): what, why, how to start and check it |
 | [10-shift-checklists.md](10-shift-checklists.md) | START OF SHIFT and END OF SHIFT checklists, and the "what runs when" timeline |
+| [11-decision-guide.md](11-decision-guide.md) | Do I act, or ask Fatima? 38 real examples |
+| [12-sync-with-fatima.md](12-sync-with-fatima.md) | Taking turns with Fatima: the one live copy and the handoff |
 | [GLOSSARY.md](GLOSSARY.md) | Every word and name you will hear |
 
 The chapters are a readable summary. The **source of truth** Claude actually follows is in `routines/` (the run order), `skills/` (methods) and `memory/` (rules and facts). If a chapter and a skill ever disagree, the skill or memory file wins; tell Claude so it fixes the chapter.

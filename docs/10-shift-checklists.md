@@ -4,7 +4,7 @@ Print this page or keep it open. Times below use Fatima's day (about 5 PM to 5 A
 
 ## START OF SHIFT (about 5 minutes)
 
-0. **One computer at a time:** check Fatima is not running the routine on her Mac right now. Tell her you are starting.
+0. **One computer at a time:** check Fatima is not running the routine on her Mac right now. If she was on shift, she runs the handoff first (`12-sync-with-fatima.md`). Tell her you are starting.
 1. **Power:** charger plugged in, laptop lid open.
 2. **Chrome:** open the Bambora Chrome profile (fatima@bamboraco.com). Check you are still signed in to Trybe (https://jointrybe.com/brand?b=a8bedbc3-3b30-410d-a09e-2aa3aeb3a8e9). If Trybe shows a login page, sign in yourself.
 3. **Google Drive for desktop:** the Drive icon is in the taskbar tray (bottom right, maybe under the ^ arrow) and File Explorer shows `Google Drive (G:)`.
@@ -24,8 +24,12 @@ Print this page or keep it open. Times below use Fatima's day (about 5 PM to 5 A
 
 - Every ~30 minutes, one message from Claude: **Done**, **Needs your go** (numbered, with recommendations), **Questions**. Answer like "yes 1 and 3, no 2 because ...".
 - Money, retainers, protected creators, program settings, new Trybe key → check with Fatima before you say yes.
-- When 5+ videos are ready for Liam, Claude gives you a ready message: copy it into Slack to Liam.
+- When 5+ videos are ready for Liam, Claude gives you a ready message: copy it into Slack to Liam (steps: `08-troubleshooting.md`, "The Liam message").
+- Claude asks for permission? Answer it (what to allow and what to deny: `08-troubleshooting.md`). Not sure whether something is yours to decide? `11-decision-guide.md`.
+- The PC restarted, a Trybe tab closed, the screen locked, Claude hit a usage limit: `08-troubleshooting.md`, "Things that go wrong during a shift".
 - If you step away: leave everything open. The keep-awake keeps the PC on.
+- About every 5 hours a sweep summary includes a **Meta access** line (who got a partnership ads request, who was asked to connect Instagram, who got a nudge). Nothing for you to do; it is there so you can see it happened.
+- Samples Claude approved on its own, follow-ups it sent and quiet check-ins show up under **Done**. You only answer **Needs your go** and **Questions**.
 
 ## END OF SHIFT (Claude runs most of it at the end-of-day time; you finish the last 3 steps)
 
@@ -52,5 +56,5 @@ Print this page or keep it open. Times below use Fatima's day (about 5 PM to 5 A
 | Every 3 days (scheduled task) | Inspo research pack to Drive, tagged, matched to creators | `scheduled-tasks/bambora-inspo-research-every-3-days` |
 | Every 3 days | Personal inspo messages (drafts to you first) | skill `creator-ops-daily` section 7 |
 | Every 4 hours (optional scheduled task) | Full-cycle prep for days without a live session (drafts only) | `scheduled-tasks/bambora-full-cycle-every-4h` |
-| End of day (~45 min before you stop) | Drive filing, Liam links, session log, push, repo zip to Drive, stop timer | `routines/START.md` section 4, `scheduled-tasks/bambora-end-of-day-wrapup` |
+| End of day (~45 min before you stop) | Drive filing, Liam links, session log, push, repo zip to Drive, stop timer | the end-of-day session timer (`routines/START.md` section 4). The only end-of-day job on this PC. |
 | Weekly | Top performers ($500+) check; taste profile refresh every month or two | skill `creator-ops-daily` section 6, skill `trybe-applicant-review` |

@@ -32,13 +32,17 @@ Scan drafts for dashes before sending. When you find one, work out what relation
 - `streams.sh`, `mark.sh`, `watchdog.sh` and `every.sh` run unchanged in Git Bash (`bash ~/claude-setup/work/sweep/<name>.sh ...`).
 - The Trybe API key is in Windows DPAPI; scripts load it with `work/common/trybe_key.py`. Never print it, never ask for it in chat.
 - Watch videos with `~/claude-media-watcher/watch "<file or link>"` (skill `media-watcher`).
+- **Use only this PC's Chrome.** This is Fatima's Claude account, so Claude in Chrome may also see her Mac's Chrome. Before the first browser step of a session, list the connected browsers and select the Windows one; never click, type or navigate in Fatima's browser.
+- Run `.py` files as `py -3 <path>`, never by their bare path (the `#!/usr/bin/env python3` line can open the Microsoft Store on Windows).
 
 # Start of a Bambora work day
 
-**One machine at a time.** Fatima's Mac and this PC use the same Trybe account. Only one of them may run sweeps at any moment, or creators get double replies, samples get double approvals and the ledgers diverge. If the operator says Fatima is running the routine on her Mac, do not start timers, the watchdog or any sweep here; say so in one line.
+**One machine at a time.** Fatima's Mac and this PC use the same Trybe account. Only one of them may run sweeps at any moment, or creators get double replies, samples get double approvals and the ledgers diverge. If the operator says Fatima is running the routine on her Mac, do not start timers, the watchdog or any sweep here; say so in one line. Handoffs between the two machines follow `~/claude-setup/docs/12-sync-with-fatima.md`: when start.ps1 prints a last change that is a handoff from Fatima's Mac, read the newest session logs from her shift in `work/session-logs/` and save any new rule to memory before the first sweep.
 
 
-When the operator starts a working session ("let's start", "good morning", "what's on today", "start the routines"), load the `creator-ops-daily` skill and follow `~/claude-setup/routines/START.md` without asking: setup (`start.ps1`), the timers, the watchdog, then `routines/full-run.md` every 30 minutes until the end of her work day. Run `py -3 ~/claude-setup/work/creator-db/followups.py due` (the single follow-up ledger) and read the creator tracker first, so no reply, promise or follow-up is missed. Write every creator message with the `fatima-creator-voice` skill, after reading that creator's DM history. End each sweep with ONE message: what was done, what needs her go (with a recommendation each), and real questions only.
+When the operator starts a working session ("let's start", "good morning", "what's on today", "start the routines"), load the `creator-ops-daily` skill and follow `~/claude-setup/routines/START.md` without asking: setup (`start.ps1`), the timers, the watchdog, then `routines/full-run.md` every 30 minutes until the end of her work day. Run `py -3 ~/claude-setup/work/creator-db/followups.py due` (the single follow-up ledger) and read the creator tracker first, so no reply, promise or follow-up is missed. Write every creator message with the `fatima-creator-voice` skill, after reading that creator's DM history. End each sweep with ONE message: what was done, what needs her go (with a recommendation each), and real questions only. Who decides what, with examples: `~/claude-setup/docs/11-decision-guide.md`.
+
+The end-of-day session timer (routines/START.md) is the ONLY end-of-day job on this PC. Do not create the `bambora-end-of-day-wrapup` scheduled task here.
 
 # Save work to GitHub
 

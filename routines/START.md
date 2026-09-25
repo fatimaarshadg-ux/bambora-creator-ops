@@ -10,7 +10,7 @@ Her work day runs from about 5 PM to 5 AM PKT. From "start the routines" until 5
 3. Chrome: make sure the three Trybe tabs exist (chat `&cl=3`, Discovery `&cl=1`, Creators `&cl=4`); open any that are missing. Load `chat-helpers.js` and `roster-scan.js` from `http://127.0.0.1:8765/`.
 4. Timers (session-only, so recreate them every day):
    - CronCreate `7,37 * * * *`, recurring: "FULL SWEEP: follow ~/claude-setup/routines/full-run.md for ALL six streams. Slow reviews go to background agents. Mark each stream with streams.sh done, then mark.sh, restart watchdog.sh 30 60, push. If you're mid-task for Fatima, tell her in one line and run it right after the current step. Never skip."
-   - CronCreate `12 4 * * *`, recurring: "END OF DAY: send Fatima the Links for Liam list (work/trybe-drive-filing/liam-links-<day>.md), file any approved videos not yet in Drive, write the session log, push, and stop the sweep timer for the night."
+   - CronCreate `12 4 * * *`, recurring: "END OF DAY: follow the END OF SHIFT list in ~/claude-setup/docs/10-shift-checklists.md: file any approved videos not yet in Drive, send the remaining Links for Liam (liam_batch.py message --any, then sent), save new rules to memory, write the session log, run sync.ps1, upload the repo zip to Drive (make_backup_zip.ps1), then stop the sweep timer and the watchdog for the night." On the Windows PC this session timer is the ONLY end-of-day job; the bambora-end-of-day-wrapup scheduled task is not created there (docs/07-scheduled-tasks.md).
    - `bash ~/claude-setup/work/sweep/watchdog.sh 30 60` in the background.
 5. Run the first full sweep right away (don't wait for :07).
 
