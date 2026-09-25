@@ -282,6 +282,7 @@ Check "Google Chrome" (& $apps[2].Test) "https://www.google.com/chrome/"
 Check "Google Drive for desktop" (& $apps[6].Test) "winget install Google.GoogleDrive (or https://www.google.com/drive/download/)"
 Check "Claude desktop app / Claude Code" (& $apps[8].Test) "https://claude.ai/download"
 Check "Working folder ~/Bombara" (Test-Path (Join-Path $work "bambora-content-checklist.html")) "rerun install.ps1"
+Check "Trybe MCP server config (Bombara\.mcp.json)" ((Test-Path (Join-Path $work ".mcp.json")) -and (Test-Path (Join-Path $mcp "server.js"))) "rerun install.ps1 (it copies work\bombara-folder, including .mcp.json, into Bombara)"
 $nSkills = @(Get-ChildItem $skillsDir -Directory -ErrorAction SilentlyContinue).Count
 Check "Skills installed ($nSkills)" ((Test-Path (Join-Path $skillsDir "creator-ops-daily\SKILL.md")) -and (Test-Path (Join-Path $skillsDir "fatima-creator-voice\lessons.md"))) "rerun install.ps1"
 $nMem = @(Get-ChildItem $memDir -Filter *.md -ErrorAction SilentlyContinue).Count

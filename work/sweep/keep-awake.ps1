@@ -12,6 +12,7 @@
 # is saved in keepawake.pid so it is never started twice. It stops when you run "stop", sign out or
 # restart. It does NOT stop a laptop from sleeping when the LID is closed: set "When I close the lid:
 # Do nothing (plugged in)" once (docs/09-background-machinery.md), or keep the lid open.
+# The flag value 2147483651 is 0x80000003 written in decimal (a hex string overflows UInt32 in PowerShell 5.1).
 # Alternative if you prefer an app: Microsoft PowerToys, "Awake" (winget install Microsoft.PowerToys).
 param([ValidateSet("start", "stop", "status")][string]$Action = "start")
 $pidFile = Join-Path $env:USERPROFILE "claude-setup\work\sweep\keepawake.pid"
@@ -40,7 +41,7 @@ switch ($Action) {
         if ($p) { Write-Output "keep-awake: already running (pid $($p.Id))"; exit 0 }
         $code = @'
 Add-Type -Namespace KA -Name Power -MemberDefinition '[DllImport("kernel32.dll")] public static extern uint SetThreadExecutionState(uint f);'
-while ($true) { [KA.Power]::SetThreadExecutionState([uint32]"0x80000003") | Out-Null; Start-Sleep -Seconds 50 }
+while ($true) { [KA.Power]::SetThreadExecutionState([uint32]2147483651) | Out-Null; Start-Sleep -Seconds 50 }
 '@
         $enc = [Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes($code))
         $np = Start-Process powershell -ArgumentList "-NoProfile", "-WindowStyle", "Hidden", "-EncodedCommand", $enc -WindowStyle Hidden -PassThru

@@ -29,6 +29,12 @@ git -C $repo diff --cached --quiet
 if ($LASTEXITCODE -eq 0) { Write-Host "Nothing changed. Already up to date."; exit 0 }
 git -C $repo commit -m $Message
 if ($LASTEXITCODE -ne 0) { Write-Host "Commit failed (see above; an em dash in a new line is the usual reason)." -ForegroundColor Yellow; exit 1 }
+# Take in anything pushed from elsewhere first, or the push is rejected ("fetch first").
+git -C $repo pull --rebase --autostash
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "Pull FAILED (probably the same file was changed on GitHub and here, often work\creator-db\followups.json). Nothing was pushed. Tell Claude: 'sync.ps1 pull failed, sort out the conflict'." -ForegroundColor Yellow
+    exit 1
+}
 git -C $repo push
 if ($LASTEXITCODE -ne 0) { Write-Host "Push FAILED. The commit is saved on this PC; run 'gh auth login' (or check the internet) and run sync.ps1 again." -ForegroundColor Yellow; exit 1 }
 Write-Host "Pushed: $Message"

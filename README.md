@@ -6,6 +6,8 @@ This repo lets you do Fatima's whole daily Bambora creator job (Trybe chat, samp
 
 You need about **1 hour** for the setup below. After that, starting a work day takes 2 minutes.
 
+> **ONE COMPUTER AT A TIME.** Only one machine may run the routine ("start the routines") at any moment: this PC **or** Fatima's Mac, never both. Both use the same Trybe account, so two running at once would message the same creators twice, approve the same samples twice and overwrite each other's follow-up list. Agree with Fatima who is on shift, and tell her when you start and stop.
+
 ---
 
 ## Before you start: have these ready
@@ -42,6 +44,8 @@ winget install -e --id Git.Git --accept-package-agreements --accept-source-agree
 When it finishes, **close PowerShell and open it again** (Step 1), so Windows notices Git.
 
 ## Step 3. Download this repo to the right place
+
+First, accept the invitation: GitHub emails you "invited you to collaborate" (or open https://github.com/notifications). Click **View invitation**, then **Accept invitation**. Without this, the download below says "Repository not found".
 
 Paste this, replacing `OWNER/REPO` with the repo's name from its GitHub page (for example `fatimaarshadg-ux/bambora-ops-handover`):
 
@@ -90,11 +94,13 @@ Install these by hand (click Next through each installer; defaults are fine), th
 
 ## Step 5. Chrome: sign in as Bambora and add Claude in Chrome
 
-1. Open **Google Chrome**. Click the round profile picture at the top right, then **Turn on sync** (or **Add** a new profile) and sign in with **fatima@bamboraco.com** and the password Fatima gave you. Use this Chrome profile for all Bambora work.
+1. Open **Google Chrome**. Click the round profile picture at the top right, then **Add** (a new profile). Choose **Sign in**, and sign in with **fatima@bamboraco.com** and the password Fatima gave you. Use this Chrome profile for all Bambora work, and your own profile for everything else.
+   - **Heads-up:** Google will probably say "Verify it's you" or send a prompt to **Fatima's phone**, because it is a new PC. Message Fatima before you start this step so she can tap **Yes** (or read you the code). The same can happen for Slack and Notion.
+   - If Chrome asks "Turn on sync?", **Yes** is fine in this Bambora profile (it keeps you signed in).
 2. Go to the **Chrome Web Store** (https://chromewebstore.google.com), search **Claude**, open **Claude** by **Anthropic**, click **Add to Chrome**, then **Add extension**.
 3. Click the puzzle-piece icon at the top right of Chrome, then the pin next to **Claude**, so its icon stays visible. Click it and sign in with the **Claude** account.
 4. In this same Chrome, open and sign in to each of these (keep them signed in):
-   - Trybe brand portal: https://jointrybe.com/brand?b=a8bedbc3-3b30-410d-a09e-2aa3aeb3a8e9
+   - Trybe brand portal: https://jointrybe.com/brand?b=a8bedbc3-3b30-410d-a09e-2aa3aeb3a8e9 (use the same sign-in Fatima uses for Trybe; if you see a **Continue with Google** button, click it and pick fatima@bamboraco.com. If you are not sure, ask her before trying passwords.)
    - Google Drive: https://drive.google.com
    - Notion: https://www.notion.so
    - Slack: https://app.slack.com
@@ -141,6 +147,8 @@ In the Claude app, Code tab, folder `Bombara`, type:
 ```
 start the routines
 ```
+
+Before you type it, make sure Fatima is not running the routine on her Mac right now (one computer at a time, see the box at the top).
 
 That is the whole daily start. Claude starts its 30-minute sweep, works through chat, samples, partnership ads, video submissions, new applicants and follow-ups, and sends you ONE message per sweep: what it did, what needs your yes (each with a recommendation), and real questions only. Keep the Claude app and Chrome open and the PC awake (lid open, charger in) during your work hours.
 

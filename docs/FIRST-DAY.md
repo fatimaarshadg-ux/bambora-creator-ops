@@ -48,6 +48,6 @@ Follow the **END OF SHIFT** checklist. Check the wrap-up message says "Pushed". 
 - Paste the Trybe key (or any password) into the Claude chat.
 - Minimise the Chrome window Claude is using, or close its `cl=` tabs.
 - Open Claude Code in a folder other than `Bombara`.
-- Run two "start the routines" chats at once.
+- Run two "start the routines" chats at once, or run the routine while Fatima runs hers on her Mac.
 - Tell a creator about the handover.
 - Make the GitHub repo public.

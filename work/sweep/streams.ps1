@@ -18,7 +18,8 @@ $cmd = $args[0]
 $rest = @($args | Select-Object -Skip 1)
 switch ($cmd) {
     "done" {
-        foreach ($s in $rest) { Set-Content -LiteralPath (Join-Path $dir $s) -Value (Now) -Encoding ascii }
+        # LF only (no CRLF): streams.sh reads these with $(cat) and bash arithmetic fails on a trailing \r
+        foreach ($s in $rest) { [IO.File]::WriteAllText((Join-Path $dir $s), "$(Now)`n") }
         Write-Output ("streams done: " + ($rest -join " ") + " (" + (Get-Date -Format "HH:mm") + ")")
     }
     "status" {

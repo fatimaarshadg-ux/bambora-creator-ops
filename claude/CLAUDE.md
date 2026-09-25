@@ -35,6 +35,9 @@ Scan drafts for dashes before sending. When you find one, work out what relation
 
 # Start of a Bambora work day
 
+**One machine at a time.** Fatima's Mac and this PC use the same Trybe account. Only one of them may run sweeps at any moment, or creators get double replies, samples get double approvals and the ledgers diverge. If the operator says Fatima is running the routine on her Mac, do not start timers, the watchdog or any sweep here; say so in one line.
+
+
 When the operator starts a working session ("let's start", "good morning", "what's on today", "start the routines"), load the `creator-ops-daily` skill and follow `~/claude-setup/routines/START.md` without asking: setup (`start.ps1`), the timers, the watchdog, then `routines/full-run.md` every 30 minutes until the end of her work day. Run `py -3 ~/claude-setup/work/creator-db/followups.py due` (the single follow-up ledger) and read the creator tracker first, so no reply, promise or follow-up is missed. Write every creator message with the `fatima-creator-voice` skill, after reading that creator's DM history. End each sweep with ONE message: what was done, what needs her go (with a recommendation each), and real questions only.
 
 # Save work to GitHub

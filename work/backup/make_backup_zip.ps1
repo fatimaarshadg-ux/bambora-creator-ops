@@ -7,5 +7,12 @@ $stage = Join-Path $env:USERPROFILE "claude-backup-staging"
 if (Test-Path $stage) { Remove-Item $stage -Recurse -Force }
 New-Item -ItemType Directory -Force $stage | Out-Null
 $zip = Join-Path $stage ("claude-setup-" + (Get-Date -Format "yyyy-MM-dd") + ".zip")
-Compress-Archive -Path (Join-Path $env:USERPROFILE "claude-setup") -DestinationPath $zip -CompressionLevel Optimal
+# tar.exe (built into Windows 10 1803+ and 11) writes a real zip with -a and includes the hidden .git folder.
+# Compress-Archive is only the fallback: it skips hidden items, so that zip would have no git history.
+$tar = Join-Path $env:SystemRoot "System32\tar.exe"
+if (Test-Path $tar) {
+    & $tar -a -c -f $zip -C $env:USERPROFILE claude-setup
+} else {
+    Compress-Archive -Path (Join-Path $env:USERPROFILE "claude-setup") -DestinationPath $zip -CompressionLevel Optimal
+}
 Get-ChildItem $stage | Format-Table Name, Length -AutoSize

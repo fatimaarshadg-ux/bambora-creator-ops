@@ -68,7 +68,10 @@ Feedback to creators is gentle coaching; findings to you are direct.
 4. On camera but hesitant, stiff, poorly spoken, or a heavy accent → **REJECT**.
 
 Also:
-- Must speak English and live in an English-speaking country.
+- Must speak English and live in an English-speaking country (hard requirements: otherwise reject).
+- Talking to camera but small numbers: accept only with great energy on camera AND 3 to 4 real comments on recent TikToks (real people, not bots or emoji spam). Claude judges this itself and shows the evidence.
+- **Automatic reject:** no message with the application AND no talking-to-camera videos AND weak engagement.
+- After accepting: no extra personal DM (the automatic V3 welcome is enough); rejected applicants get no message.
 - A big Trybe portfolio of talking-head videos overrides weak TikTok numbers (leaning accept, never auto-reject).
 - Bilingual never counts against anyone. Their other content never counts against them. GMV is ignored. Existing Bambora customers are a strong plus.
 - Accept into **Bambora Affiliates V3 (5%) only.**
@@ -82,9 +85,10 @@ Also:
 - **Retainer askers:** Kia Layton, Krystal Camacho, Andrew Pagliara, Madison Grove. Kia is the #1 seller and is still ignored ("drop kia too, just ignore her").
 - Also **Emily Seitz** and **Madison Tanefski**.
 - **Abbey Way:** ignore her questions (2026-09-24).
-- **Tasha Clay:** accepted 10% and Fatima moved her herself on 2026-09-25. The move is DONE; never bring it up again. Answer her replies normally. Don't use her videos as inspo examples (bad thumbstop rate; Videos 3 and 4 in the example set are hers).
 - **Shelby Pinedo and Harley Haas:** never replied to the migration message; no follow-up until Fatima says.
 - Upset creators (about the 5% change): open their messages so they are read, list them for Fatima, do not reply.
+
+**Not ignored, but settled (do not reopen):** Tasha Clay accepted 10% and Fatima moved her herself on 2026-09-25. The move is DONE; never bring it up again. Answer her replies normally. Don't use her videos as inspo examples (bad thumbstop rate; Videos 3 and 4 in the example set are hers).
 
 ## 7. The 10 protected creators ("our loving creators")
 
@@ -97,7 +101,7 @@ Cambria Reau, Sophia Lease, Ciara Burnett, Carissa Lyman, Cassie Avery Charvat, 
 ## 8. Money
 
 - **Base retainer offer (2026-09-25):** creators who keep up 20 to 30 videos a month for 30 to 60 days get a guaranteed **$400 a month** base; "the real magic is in the commissions". Creators posting 20 to 30 videos a month usually hit 2 to 3 winners. No deadline, no per-product quota. Don't mention the dropped "$300 at $1,000 GMV" idea.
-- Tasha Clay: offered 10% instead of 5% (9/24); any reply about numbers goes to Fatima.
+- Tasha Clay: accepted 10% and was moved on 2026-09-25 (settled; see section 6). A new question from her about money still goes to Fatima.
 - Anything else about money: to you, and you check with Fatima.
 
 ## 9. Inspo
@@ -128,5 +132,13 @@ Cambria Reau, Sophia Lease, Ciara Burnett, Carissa Lyman, Cassie Avery Charvat, 
 
 - Approved videos go to Drive folder **Trybe** (Main Media > Trybe, the media buyers' drive) right after approval, named `CreatorNameNoSpaces/fatima/trybe=<8-char id>` (the "fatima" part stays; it is the naming convention the media buyers use).
 - Inspo and example videos go to **My Drive > Bambora Inspo**, never Main Media.
-- Liam gets links in batches of 5+ (and the rest at end of day). Never resend a video he already has.
+- Liam gets links in batches of 5+ (and the rest at end of day). Never resend a video he already has. After every Drive filing Claude runs `liam_batch.py status`; at READY you get a forward-ready "Now you can send this to Liam:" message, and Claude marks them sent. (2026-09-25)
 - Fatima's "Bambora_Trybe_DM_History" and "Tasks for Trybe Management" Google Docs are not for Claude to use.
+
+## 12. Meta (partnership ads) access check (2026-09-25)
+
+- Every ~5 hours (`every.sh due metaaccess 300`) Claude goes through every V3 creator who still lacks partnership ads access: clicks **Request** where it is available (then a tiny note), asks "--" creators to connect a **public** Instagram or Facebook in their Trybe profile (not if asked in the last 2 days), and nudges requests pending 3+ days once. Same message rules as always, logged in the ledger.
+
+## 13. One machine at a time
+
+- **Only ONE computer runs the routine at a time**: either this PC or Fatima's Mac, never both. Both are signed in to the same Trybe account, so two sweeps would reply to the same creators twice, approve the same samples twice and overwrite each other's follow-up ledger. Before you type "start the routines", make sure Fatima is not running hers, and tell her when you stop.

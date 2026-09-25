@@ -14,6 +14,8 @@
 - Every question comes batched into **one message per sweep**, each with Claude's recommendation and a ready draft, so you can answer "yes 1, 3; no 2".
 - When you answer, Claude acts straight away and closes the loop in the same turn.
 
+**One computer at a time:** only this PC or Fatima's Mac runs the routine at any moment, never both (same Trybe account). Check with her before you start.
+
 Your job: start it each work day ("start the routines"), answer the one message per sweep, keep Chrome and the PC awake, and pass anything about money or the 10 protected creators to Fatima.
 
 **Who the creators think they are talking to:** Fatima. Messages go out from Fatima's Trybe account, in Fatima's voice. Never mention a sister, an assistant or a handover to a creator.

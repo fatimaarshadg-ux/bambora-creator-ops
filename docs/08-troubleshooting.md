@@ -74,3 +74,6 @@ Tell Claude right away. Trybe lets you **edit** a sent message (hover it, Edit m
 
 ### Two Claude chats both running the routine
 Close one. Two sweeps fight over the same Chrome tabs.
+
+### Fatima's Mac and this PC both running the routine
+Stop one right away (on this PC: tell Claude "stop the sweep timer and the watchdog", or close the chat). Then ask Claude to check the last hour of Trybe chats for double replies and to compare the follow-up ledger with Fatima's, so nothing is sent twice or lost.

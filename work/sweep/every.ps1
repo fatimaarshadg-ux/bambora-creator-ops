@@ -15,7 +15,7 @@ switch ($cmd) {
         Write-Output "not due: $name ($age min)"; exit 1
     }
     "done" {
-        Set-Content -LiteralPath (Join-Path $dir $name) -Value $now -Encoding ascii
+        [IO.File]::WriteAllText((Join-Path $dir $name), "$now`n")  # LF only, so every.sh can read it
         Write-Output ("$name done " + (Get-Date -Format "HH:mm"))
     }
     default { Write-Output "usage: every.ps1 due <name> [minutes] | done <name>" }

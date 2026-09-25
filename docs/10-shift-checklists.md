@@ -4,6 +4,7 @@ Print this page or keep it open. Times below use Fatima's day (about 5 PM to 5 A
 
 ## START OF SHIFT (about 5 minutes)
 
+0. **One computer at a time:** check Fatima is not running the routine on her Mac right now. Tell her you are starting.
 1. **Power:** charger plugged in, laptop lid open.
 2. **Chrome:** open the Bambora Chrome profile (fatima@bamboraco.com). Check you are still signed in to Trybe (https://jointrybe.com/brand?b=a8bedbc3-3b30-410d-a09e-2aa3aeb3a8e9). If Trybe shows a login page, sign in yourself.
 3. **Google Drive for desktop:** the Drive icon is in the taskbar tray (bottom right, maybe under the ^ arrow) and File Explorer shows `Google Drive (G:)`.

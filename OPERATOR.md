@@ -18,6 +18,7 @@ Claude reads this file at the start of every session. It says who is running Bam
 
 ## Reminders (do not change)
 
+- **One computer at a time.** Only this PC OR Fatima's Mac runs "start the routines", never both at once (same Trybe account: double messages, double approvals, a split follow-up ledger). Tell Fatima when you start and stop.
 - Messages to creators go out **as Fatima**, from Fatima's Trybe account, in Fatima's voice. Creators never hear about a handover.
 - You are signed in to Chrome with Fatima's Bambora Google account (fatima@bamboraco.com). Never type a password into anything Claude asks for; you sign in yourself.
 - Never paste the Trybe API key into the chat. It lives in Windows DPAPI (install.ps1 stored it).

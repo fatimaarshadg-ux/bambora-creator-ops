@@ -68,7 +68,16 @@ if (Test-Path $tasks) {
 $cm = Join-Path $claude "CLAUDE.md"
 $cmRepo = Join-Path $repo "claude\CLAUDE.md"
 if (Test-Path $cm) {
-    $txt = Restore ([IO.File]::ReadAllText($cm))
-    if ([IO.File]::ReadAllText($cmRepo) -ne $txt) { [IO.File]::WriteAllText($cmRepo, $txt, $utf8); Write-Output "CLAUDE.md synced" }
+    # Only the part install.ps1 put between the bambora-ops markers goes back to the repo. Copying the whole
+    # file would carry the markers (and any older instructions below them) into claude\CLAUDE.md, and the
+    # next install would wrap them again, nesting a new copy every time.
+    $all = [IO.File]::ReadAllText($cm)
+    $m = [regex]::Match($all, '(?s)<!-- bambora-ops:start[^\n]*\n(.*?)\r?\n?<!-- bambora-ops:end -->')
+    if ($m.Success) {
+        $txt = Restore ($m.Groups[1].Value.TrimEnd() + "`n")
+        if ([IO.File]::ReadAllText($cmRepo).TrimEnd() -ne $txt.TrimEnd()) { [IO.File]::WriteAllText($cmRepo, $txt, $utf8); Write-Output "CLAUDE.md synced" }
+    } else {
+        Write-Output "CLAUDE.md on this PC has no bambora-ops markers; not synced (rerun install.ps1 to restore them)"
+    }
 }
 Write-Output "sync check done"
