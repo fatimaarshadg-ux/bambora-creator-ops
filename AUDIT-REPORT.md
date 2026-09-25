@@ -126,3 +126,70 @@ All of them were also copied into the build overlay (`scratchpad/overlay`), so `
 - **H7. Scheduled tasks:** keep either the `bambora-end-of-day-wrapup` task or the session end-of-day timer, not both, or the wrap-up runs twice.
 - **H8. Skills to keep:** Fatima's personal ad-writing skills (evolve-*, voc-miner, bot-forensics) and the dmca monitor are included. Keep them, or remove them for the sister?
 - **H9. Commit identity:** commits are made as `operator@users.noreply.github.com`. That is harmless but anonymous; use her GitHub noreply address if you want her commits linked to her account.
+
+# Second audit
+
+Done 2026-09-25 on Fatima's Mac, with fresh eyes, by role-playing the operator through a first install, a full 5 PM to 5 AM shift and the usual breakages, using only what the repo says. Nothing was pushed and none of Fatima's own files were changed. Every fix is committed locally and copied into the build overlay (or added as a text port in `build.py`), and a rebuild after the fixes changed nothing.
+
+**Verdict: READY TO PUSH and hand over, with one condition:** a real test install on a Windows PC (H2 below) before her first live shift. The content is complete, the account questions are settled by defaults, and every point where she would have had to guess now has a written answer.
+
+## Step 0: data synced
+
+`build.py` only copies sources into the repo, so it was run. The ledger `work/creator-db/followups.json` is byte-identical to `~/claude-setup/work/creator-db/followups.json` and holds tonight's items (Elizabeth Albee, Sandeep kaur, Kaitlyn Cunningham, Jaimie Kunkel, Madilynne Cantrell). Every live memory file is present (only `macos-drive-upload-technique.md` is replaced by its Windows version on purpose), including `feedback-take-ownership`, `creator-base-retainer-offer` and `routine-liam-batches-and-meta-access`. Committed as "Sync tonight's ledger and session log".
+
+**Found while doing it:** the build overlay was behind the repo. Its `README.md` and `HANDOVER-BUILD-REPORT.md` still had the old `OWNER/REPO` placeholder and the "accept the invitation" step, so any rebuild would have undone the two commits that filled in the repo name. The overlay now matches the repo.
+
+## What the role-play found, and what was fixed
+
+### (a) First install on a blank Windows 11 PC
+1. **Contradiction about accounts.** The "have these ready" table said she needs her own GitHub account and an invite, and "ask Fatima which Claude account"; Step 3 said to use Fatima's GitHub. Fixed: GitHub and Claude are both Fatima's (fatima@bamboraco.com), no invite, and her Claude use on the Mac shares the usage limit.
+2. **Sign-in codes with no email open.** GitHub (Step 3) and Claude (Step 7) can email a code to fatima@bamboraco.com before Chrome exists. Added Step 2b: open Gmail in Microsoft Edge first.
+3. **The PC could restart or lock mid-shift.** Nothing covered Windows Update restarts, the automatic lock, or Chrome's Memory Saver (which discards background tabs and wipes the helpers). A locked PC makes Chrome treat tabs as hidden, so Claude cannot click. Added to README Step 6b, FIRST-DAY and troubleshooting: update active hours 4 PM to 6 AM, "require sign-in" Never, Dynamic lock off, never Windows+L, Memory Saver and Energy Saver off.
+4. **Permission mode was never mentioned.** Added: keep the normal "ask" mode, never bypass.
+5. **Connectors:** with Fatima's Claude account they are probably connected already; the step now says "check each says connected".
+6. **OPERATOR.md** asked for a GitHub username she doesn't have. Now prefilled with Fatima's hours, timezone, end-of-day time and accounts; only her first name is left to fill.
+
+### (b) First full shift
+7. **"Do I decide this, or does Fatima?"** had no single answer page. Added `docs/11-decision-guide.md`: the four rules, then 38 concrete cases (messages, samples, videos, applicants, partnership ads and Liam, money and programs, permissions), each marked Claude, You, Fatima or Nobody, all taken from memory and skills.
+8. **Sending Liam's batch:** "copy it into Slack" had no steps. Added them (new Chrome window, not Claude's tabs; app.slack.com; Liam under Direct messages; paste; Enter), and that `liam_batch.py sent` already ran.
+9. **5-hour Meta check and Done items:** she would not know what they look like in the summary. Added a note to the "during the shift" list.
+10. **Samples rule contradiction in the routine itself:** `routines/live-sweep.md` (Fatima's text) still said "V3, US", while core-rules says any English-speaking country and that "US address" was a mistake. Fixed through a text port in `build.py`. Fatima's own Mac copy still has the old wording (not touched).
+11. **Two end-of-day mechanisms** (H7). Decided: the session timer is the only one on the PC. Its prompt now covers everything the scheduled wrap-up did (Drive filing, Liam links, memory, session log, sync.ps1, repo zip to Drive, stop timer and watchdog). The scheduled task prompt carries a "not used on the Windows PC" note, docs/07 marks it "do NOT create on this PC", and FIRST-PROMPT no longer offers it.
+
+### (c) Something breaks
+12. Added troubleshooting sections for: PC restarted overnight (six steps back to running), screen locked, a Trybe tab closed, Chrome relaunch, discarded tabs, **a permission prompt mid-sweep** (what to allow, what to allow only after a yes, what to deny), the helper server down (with the port-in-use case), **unsure whether to approve** ("hold 2", "show me 2"), a Claude usage limit, Claude driving the wrong Chrome, Claude in Chrome not connected, and "Main Media" missing from Drive for desktop (add a shortcut from "Shared with me").
+13. **Push failed** advice said `gh auth login` only; git uses its own credential helper, so it also needs `gh auth setup-git`, signed in as Fatima's GitHub. Fixed.
+14. **start.ps1 pulled with a plain `git pull`**, which fails whenever the PC has unpushed commits or an edited ledger ("divergent branches"). Now `pull --rebase --autostash`, and it prints who pushed last, so a handoff from Fatima is visible.
+
+### Skills on Windows (step 2)
+15. `trybe-applicant-review` ran `~/claude-setup/work/social-tools/tt.py` by its bare path. On Windows the `#!/usr/bin/env python3` line can land on the Microsoft Store alias. Now `py -3 ...` (text port), and CLAUDE.md says to always run `.py` files with `py -3`.
+16. **Same Claude account, two Chromes.** Claude in Chrome can list several connected browsers on one account, so Claude on the PC could drive Fatima's Mac Chrome. CLAUDE.md and FIRST-PROMPT now make Claude list the connected browsers and select the Windows one; troubleshooting covers it.
+17. Allowlist gaps: the browser selection tools, the Drive `update_file` rename used after every filing, and the applicant review scripts (run by background agents, which would otherwise stop on a prompt). Added.
+18. Checked and fine as written: creator-ops-daily (every command is `py -3` or a PowerShell port; Drive filing goes through drive-upload.ps1), trybe-portal, human-messages (`py -3 lint_message.py`), fatima-creator-voice (text only), media-watcher (`~/claude-media-watcher/watch` finds `.venv/Scripts/python.exe` from Git Bash; `watch.cmd` for PowerShell), `tt.py`/`tt_find.py` (standard library plus `yt-dlp` on the PATH), the applicant scripts (`ffmpeg` on the PATH; Pillow, numpy and faster-whisper installed for `py -3` by install.ps1; `PYTHONUTF8=1` covers their plain `open()` calls), `fetch_media.py` (`ffprobe`, `ffmpeg`, Pillow). The scheduled wrap-up prompt pointed at a `NEW-MACHINE.md` the repo does not have; it now points at `docs/05-where-everything-lives.md`.
+
+### Sync with Fatima (H1, step 3)
+19. **Decided and documented** in `docs/12-sync-with-fatima.md`: this repo is the one live copy of the shift data from handover day. Fatima's `claude-setup` keeps the Mac versions of skills and scripts. Only data moves between them, with a new script for her Mac, `work/backup/handoff-mac.sh take|give|diff` (ledger, creator database, seen lists, filing and Liam records, session logs, applicant verdict notes, voice lessons). One machine at a time, with a written handoff in both directions; new rules travel through the session logs. The script was tested end to end on throwaway clones (give, push, take) and changes nothing unless run on her Mac.
+
+## "Needs a human" list from the first audit: where each stands
+
+| # | Default chosen and documented | Still needs a human? |
+|---|---|---|
+| H1 one source of truth | This repo is the live copy; handoff script for the Mac (docs/12) | Fatima clones the repo on her Mac once (`git clone ... ~/bambora-creator-ops`) |
+| H2 real Windows test | none possible | **Yes.** One install on a spare PC or VM before the first shift (list of things to watch is in the first audit) |
+| H3 Claude account | Fatima's account; shared usage limit and the two-Chrome risk are handled in the docs | no |
+| H4 Trybe key | Fatima gives the existing key privately; never a new one | Fatima sends it |
+| H5 Google 2-Step | Fatima reachable for the first sign-ins; Gmail open in Edge for codes | Optional: add the sister's phone as a second 2-Step method (Fatima's choice) |
+| H6 placeholders | repo name, accounts and hours filled in; Liam gets messages as Fatima, like everything else | only her first name, at first run |
+| H7 end of day | session timer only | no |
+| H8 personal ad skills | keep: they only trigger on ad-writing requests and cost nothing | no |
+| H9 commit identity | keep her first name with the noreply email, so Fatima can tell whose commits are whose | no |
+
+## Checks re-run
+- **Secrets:** the real Trybe key (read from the Keychain, never printed) has 0 hits in the tree and in the full history; the token and key pattern scan finds only the scanner patterns themselves; no credential files are tracked.
+- **Dashes:** every line added in this audit was checked for em dashes, en dash connectors, `--` as punctuation and spaced hyphens. The only hits are git's `--` pathspec separator in `handoff-mac.sh` (command syntax) and list bullets.
+
+## Still open
+- **H2, the Windows test install.** Nothing has run on Windows yet. Beyond the first audit's list, also check: that the Claude app's permission prompt wording matches troubleshooting's description, that a locked screen really stops clicks (written from how Chrome treats a locked session, not tested), and that Claude in Chrome shows both browsers when Fatima's Mac is connected too.
+- **Fatima's own Mac files** still say "V3, US" for samples (`~/claude-setup/routines/live-sweep.md`). Only the handover copy was fixed.
+- **Exact button names** in the Claude app (Connectors, permission modes, Claude in Chrome) are still written from memory.
+- The first audit's risks for `front.ps1` (the Alt tap, the "Trybe" title match) and for background processes started by `start.ps1` stay open until H2.
