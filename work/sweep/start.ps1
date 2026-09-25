@@ -25,8 +25,12 @@ try {
 
 # 3. Pull the latest repo (the operator may have pushed from another machine, or Fatima may have)
 $old = $ErrorActionPreference; $ErrorActionPreference = "Continue"
-git -C $repo pull -q 2>&1 | Out-Null
-if ($LASTEXITCODE -eq 0) { Write-Output "repo up to date" } else { Write-Output "repo pull FAILED (check git status in $repo)" }
+# --rebase --autostash: a plain pull fails when this PC has its own unpushed commits or an edited ledger.
+git -C $repo pull -q --rebase --autostash 2>&1 | Out-Null
+if ($LASTEXITCODE -eq 0) { Write-Output "repo up to date" } else { Write-Output "repo pull FAILED (probably the same file changed here and on GitHub; Claude: run git -C ~/claude-setup status and sort out the conflict before sweeping)" }
+# Who pushed last, and when: a push from Fatima's side in the last hour means she may be on shift (one machine at a time).
+$last = git -C $repo log -1 --format="%an, %ar: %s" 2>$null
+if ($last) { Write-Output "last change on GitHub: $last" }
 $ErrorActionPreference = $old
 
 # 4. What is owed today, and how fresh each stream is

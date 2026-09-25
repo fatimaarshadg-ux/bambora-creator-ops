@@ -27,7 +27,7 @@ Work on your own and report once, with evidence. Fatima wants little hand-holdin
 **Yapper = speaking straight to camera for at least part of the video.** Voiceover over lifestyle footage does not count. Neither does lip-sync, or text overlays with music.
 
 ## 3. Social numbers and engagement
-- **TikTok: never use the browser** (it gets a 403 within minutes). Use `~/claude-setup/work/social-tools/tt.py <handle> --videos 4 --comments 10`. For likes and follower totals, one profile page load each at a normal pace is fine; the data-e2e selectors are in `tiktok-no-browser-tool`.
+- **TikTok: never use the browser** (it gets a 403 within minutes). Use `py -3 ~/claude-setup/work/social-tools/tt.py <handle> --videos 4 --comments 10`. For likes and follower totals, one profile page load each at a normal pace is fine; the data-e2e selectors are in `tiktok-no-browser-tool`.
 - `scripts/cscore.py` counts **real** comments per video: not the creator's own, not spam, at least two real words.
 - **Instagram:** her logged-in Chrome. Profile `og:description` gives followers; each post's `og:description` gives likes and comment counts. Keep a 3 second pace.
 - For creators with the numbers but no yapper video on Trybe, **check their TikTok for yapper content before drafting any DM**: download the 3 most-viewed recent videos with yt-dlp, then take frames and a transcript.
