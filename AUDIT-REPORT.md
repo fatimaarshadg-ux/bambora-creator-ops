@@ -82,7 +82,7 @@ Places where she would have got stuck, now fixed:
 - Chrome said "Turn on sync" in her own profile, which would mix Fatima's Google account into the sister's personal Chrome. Changed to "Add a new profile".
 - **Trybe sign-in:** no method was given. Added: use Fatima's Trybe sign-in method (Continue with Google if shown) and ask her before trying passwords.
 
-Still open (a human has to fill these in): `OWNER/REPO` in README step 3, and the exact button names in the Claude app's Connectors screen, which were written from memory.
+Still open (a human has to fill these in): `fatimaarshadg-ux/bambora-creator-ops` in README step 3, and the exact button names in the Claude app's Connectors screen, which were written from memory.
 
 ### 6. Rules completeness: PASS after fix
 
@@ -122,7 +122,7 @@ All of them were also copied into the build overlay (`scratchpad/overlay`), so `
 - **H3. Claude account.** Does she use Fatima's account or her own? This decides whether she can reach the Creator Tracker Claude Doc and the connectors (Drive, Notion, Claude Docs, Atria). With her own account, the connector ids in `settings/allowlist.json` will be different, so those entries do nothing and she will get a permission prompt once per tool.
 - **H4. Trybe API key.** Give her the existing key privately. Do not create a new one, because that can replace Fatima's.
 - **H5. Google 2-Step Verification** on fatima@bamboraco.com: Fatima has to be reachable to approve the first sign-ins (Google, then maybe Slack and Notion). Consider adding the sister's phone as a second 2-Step method, or backup codes.
-- **H6. README placeholders and details:** `OWNER/REPO`, the sister's GitHub username, her hours and timezone (FIRST-PROMPT asks for these), and whether Liam knows someone else is covering.
+- **H6. README placeholders and details:** `fatimaarshadg-ux/bambora-creator-ops`, the sister's GitHub username, her hours and timezone (FIRST-PROMPT asks for these), and whether Liam knows someone else is covering.
 - **H7. Scheduled tasks:** keep either the `bambora-end-of-day-wrapup` task or the session end-of-day timer, not both, or the wrap-up runs twice.
 - **H8. Skills to keep:** Fatima's personal ad-writing skills (evolve-*, voc-miner, bot-forensics) and the dmca monitor are included. Keep them, or remove them for the sister?
 - **H9. Commit identity:** commits are made as `operator@users.noreply.github.com`. That is harmless but anonymous; use her GitHub noreply address if you want her commits linked to her account.

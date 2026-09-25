@@ -47,10 +47,10 @@ When it finishes, **close PowerShell and open it again** (Step 1), so Windows no
 
 First, accept the invitation: GitHub emails you "invited you to collaborate" (or open https://github.com/notifications). Click **View invitation**, then **Accept invitation**. Without this, the download below says "Repository not found".
 
-Paste this, replacing `OWNER/REPO` with the repo's name from its GitHub page (for example `fatimaarshadg-ux/bambora-ops-handover`):
+Paste this, replacing `fatimaarshadg-ux/bambora-creator-ops` with the repo's name from its GitHub page (for example `fatimaarshadg-ux/bambora-ops-handover`):
 
 ```powershell
-git clone https://github.com/OWNER/REPO.git "$env:USERPROFILE\claude-setup"
+git clone https://github.com/fatimaarshadg-ux/bambora-creator-ops.git "$env:USERPROFILE\claude-setup"
 ```
 
 - A GitHub sign-in window pops up the first time. Sign in with **your** GitHub account and click **Authorize**.

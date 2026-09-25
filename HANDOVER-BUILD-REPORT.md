@@ -74,7 +74,7 @@ Not included: anything under `~/.claude/secrets`, Keychain, cookies, `.credentia
 
 ## 4. Open questions for Fatima
 
-1. **GitHub:** the sister's GitHub username, which account owns the private repo, and its name (README step 3 has `OWNER/REPO`).
+1. **GitHub:** the sister's GitHub username, which account owns the private repo, and its name (README step 3 has `fatimaarshadg-ux/bambora-creator-ops`).
 2. **Claude account:** does the sister use her own Claude account (Pro or Max) or Fatima's? This decides whether the **Bambora Creator Tracker** Claude Doc and the Claude-account connectors (Google Drive, Notion, Claude Docs, Atria) are reachable. Her own account needs the tracker doc shared, and Atria reconnected.
 3. **Trybe API key:** give her the current key privately (not a new one; a new key may replace Fatima's). Confirm she should use Fatima's Trybe login through the Bambora Google account, as planned.
 4. **Google Drive:** is "Main Media" (with the Trybe folder) a shared drive the Bambora account already sees in Drive for desktop? Same for "Bambora Inspo" and "Claude Backup".
