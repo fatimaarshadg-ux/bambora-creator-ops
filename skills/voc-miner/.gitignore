@@ -1,0 +1,9 @@
+# Never commit credentials or harvested data
+.env
+*.key
+corpus.jsonl
+*.jsonl
+*.csv
+__pycache__/
+*.pyc
+.DS_Store

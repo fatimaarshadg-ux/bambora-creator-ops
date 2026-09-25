@@ -1,0 +1,3 @@
+NO VIDEOS r's account is either private or has embedding disabled
+ERROR: [tiktok:user] Judithandrea22: Unable to extract secondary user ID. If you are able to get the channel_id from a video posted by this user, try using "tiktokuser:channel_id" as the input URL (replacing `channel_id` with its actual value)
+

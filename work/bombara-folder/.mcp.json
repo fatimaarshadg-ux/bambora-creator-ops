@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "trybe": {
+      "command": "node",
+      "args": ["trybe-review/mcp-server/server.js"]
+    }
+  }
+}

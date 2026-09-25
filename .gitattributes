@@ -1,0 +1,12 @@
+* text=auto
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.sh text eol=lf
+hooks/pre-commit text eol=lf
+tools/claude-media-watcher/watch text eol=lf
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.pdf binary
+*.pptx binary
+*.zip binary

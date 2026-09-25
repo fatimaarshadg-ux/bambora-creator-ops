@@ -1,0 +1,35 @@
+{
+  "_note": "Facts the model is allowed to use. Anything not listed here must not be claimed in an idea. Fatima: review and correct before launch, especially the lines marked CONFIRM.",
+  "brand": "Bambora",
+  "product": "Bambora Sling, a hip-carry sling for babies and toddlers, worn over one shoulder",
+  "audience": "Moms of babies and toddlers, mainly toddlers who still want to be carried",
+  "voice": "Friendly, casual, mom to mom. Sounds like a real parent talking, never like an ad. No hype words.",
+  "features": [
+    "Hip-carry position that feels natural",
+    "Lightweight and compact, folds small enough for a diaper bag or handbag",
+    "Padded shoulder strap",
+    "Adjustable fit for different wearers",
+    "Quick on and off, easy for toddlers who want up and down",
+    "Buckle with a safety loop",
+    "Takes the toddler's weight off the arms so one arm is not doing all the work",
+    "90 day money-back guarantee"
+  ],
+  "facts_to_confirm": [
+    "CONFIRM: supported weight and age range (creators must not state a number until this is filled in)",
+    "CONFIRM: price and any current offer"
+  ],
+  "claims_rules": [
+    "Never state a weight limit, age range, price or discount unless it appears in the features list above.",
+    "No medical claims. Do not say it fixes, cures, treats or prevents pain or posture problems. It is fine to describe how carrying feels, for example 'my shoulder gets a break'.",
+    "Never say hands-free. One hand stays on the child at all times, so say 'frees up a hand' or 'one hand free' instead.",
+    "Do not name competitor brands. Refer to categories only, for example 'my bulky structured carrier' or 'the cheap sling I got online'.",
+    "Do not invent statistics, reviews, awards or expert endorsements."
+  ],
+  "filming_safety_rules": [
+    "One hand supports the child in every shot. Never write a beat that needs both hands away from the child.",
+    "Never suggest filming while cooking, near a stove, holding a hot drink, or on stairs.",
+    "Child sits with the seat tucked under their bottom, high on the chest, face visible at all times.",
+    "Buckle fully clicked with the safety loop in use in any close-up.",
+    "Vertical 9:16, with on-screen text kept inside the middle square. No watermarks or app stickers."
+  ]
+}

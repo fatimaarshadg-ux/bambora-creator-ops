@@ -1,0 +1,63 @@
+# Applicants already reviewed (one name per line). The sweep flags any Inbox name NOT in this list as NEW.
+Emily Martines
+Bailey Schneider
+Casey Muniz
+Yaritzacruz
+Nikki Lujan
+Chris and Alicia Cameron
+Caitlin Smith
+Alyssa Lauderdale
+Michelle Thode
+Maddie Tesimale
+Victoria Ranaudo
+Tracey Parece
+Hazel Vargas
+Cassie Burris
+Sam Macsai
+Katie Jo Diaz
+Kodi Sarlett
+Jodi Hangebrauck
+Kaylie Geschke
+Baili kinnick
+Savanna Kessinger
+Jaimie Clements
+Emily Morgan
+Kait Hammons
+Kem Platts
+Sage
+Serenity Beach
+Jimmy Ralph
+Lindsey Perkins
+Caitlyn McLead
+Nawal Dehhani
+Bena De Los Angeles
+Retired Athlete Turned Mom
+Athena Bennett
+Angelica Seto
+Paige Wolf
+brooklyn dunn
+Dounia Nasrallah
+Jennie Allmon
+Elizabeth Parker
+Maiss Al
+Nicole Jones
+Payton Hoerbert
+Cassie Kay
+Kristin Crane
+Kaitlin Duncan
+Mia Hankieson
+Justine Krohn
+Breanna Ourada
+Tianna Ovard
+Linsey Roberts
+Laura OSullivan
+Labourgeoise Bynum
+Chelsea Bryant
+Lexie stephens
+Meghan Currie
+Madilynne Cantrell
+Tori Levi Tannen
+Jaimie Kunkel
+Kaitlyn Cunningham
+Elizabeth Albee
+Sandeep kaur

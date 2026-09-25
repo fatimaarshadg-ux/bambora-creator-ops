@@ -1,0 +1,9 @@
+#!/bin/bash
+# Blocks commits that add an em dash, or an en dash used as a connector (" – "), to the repo.
+# Exempt: the no-em-dashes skill (it shows the banned characters) work/bombara-folder (a verbatim backup of her own files) work/creator-db/db (creators' own words: transcripts, captions, DMs), and 11 skills written before the rule (bot-forensics, evolve-*, voc-miner), kept verbatim.
+bad=$(git diff --cached -U0 -- . ':(exclude)skills/no-em-dashes/*' ':(exclude)hooks/*' ':(exclude)work/bombara-folder/*' ':(exclude)work/creator-db/db/*' ':(exclude)skills/bot-forensics/*' ':(exclude)skills/evolve-angles/*' ':(exclude)skills/evolve-call-analysis/*' ':(exclude)skills/evolve-desires/*' ':(exclude)skills/evolve-native-ads-v2/*' ':(exclude)skills/evolve-native-ads/*' ':(exclude)skills/evolve-new-info/*' ':(exclude)skills/evolve-new-mechanism/*' ':(exclude)skills/evolve-static-ads/*' ':(exclude)skills/evolve-video-ads/*' ':(exclude)skills/voc-miner/*' | grep '^+[^+]' | grep -n -e '—' -e ' – ' )
+if [ -n "$bad" ]; then
+  echo "Commit blocked: em dash (or spaced en dash) in added lines. Rewrite them (see skills/no-em-dashes):"
+  echo "$bad" | head -20
+  exit 1
+fi

@@ -1,0 +1,57 @@
+- [OPERATOR, read before anything](operator-handover.md): you now work with Fatima's sister (name, hours, timezone in ~/claude-setup/OPERATOR.md); "her go" means the operator's go; messages still go out as Fatima
+- [Windows machine](windows-machine.md): this is a Windows PC; paths, `py -3`, PowerShell ports of the Mac scripts, Git Bash as Claude's shell
+- [CORE RULES, read first](core-rules.md): the essential safety, messaging, inspo, applicant, ignore-list, autonomy and system rules on one page
+- [OPEN WORK, read second](open-work-2026-09-23-night.md): unfinished partnership-ads notes (19 left), 20h sample nudge, Drive links for Liam, Discovery verdicts
+- [Work day hours](work-day-hours.md): about 5 PM to 5 AM PKT; end-of-day filing, Liam links and wrap-up at about 4:15 AM
+- [Use Chrome extension for logged-in sites](feedback_use_chrome_extension_for_logged_in_sites.md): prefer Claude in Chrome over sandboxed Browser when a site needs login; open it yourself without asking
+- [Bambora brand basics](bambora_brand_basics.md): Bambora ≠ "Bombara" folder name; site, palette, Trybe
+- [Trybe API capabilities](trybe-api-capabilities.md): creator-performance endpoint + on-screen-text search; local MCP server was wrong
+- [Bambora sling safety rules](bambora-sling-safety-rules.md): seat under bottom is the universal rule; M position only for babies; buckle + safety loop
+- [Bambora creator program assets](bambora-creator-program-assets.md): where the checklist site, brief PDF and video set live
+- [Uploading to Drive on Windows](windows-drive-upload-technique.md): Google Drive for desktop copy plus connector rename (drive-upload.ps1); browser fallback with real keystrokes (sendkeys.ps1)
+- [Notion Ad Pipeline build](notion-ad-pipeline-build.md): live + monthly master IDs, template/automation state; automations need Chrome; synthetic copy/paste trick for hosted images
+- [No review: leave nothing behind](feedback-no-review-leave-nothing-behind.md): shared-tool changes must be 100% done, self-verified, no placeholders/test rows/notes-to-self
+- [Never mix metric scopes in one table](feedback-never-mix-metric-scopes.md): subset column + lifetime columns = invented contradictions
+- [Bambora Creative Engine: Monthly Concepts rebuilt](bambora-creative-engine-angle-revert.md): resolved: full names for Angle/Framework/Promo, fresh SEP001 counter, empty-safe naming formula, new views
+- [Trybe Brand API reference](trybe-brand-api.md): submissions list/get/review endpoints, transcript + signed asset URL, approve/reject side effects
+- [Bambora × Trybe submission review project](bambora-trybe-submission-review.md): building a review skill; no local video-watch capability, transcript is the main signal
+- [Claude in Chrome standing permission](claude-in-chrome-standing-permission.md): Fatima OK'd proactive use of her logged-in Chrome via the extension
+- [Trybe API key storage](trybe-api-key-storage.md): Windows DPAPI file ~/.claude/secrets/trybe_api_key.dpapi; scripts load it with work/common/trybe_key.py; never in chat or the repo
+- [Bambora content checklist](bambora-content-checklist.md): the actual 6-point right-way/wrong-way standard (bamborachecklist.netlify.app) for judging submissions
+- [Trybe sample request workflow](trybe-sample-request-workflow.md): where to approve samples in the portal, and the welcome DM to always send after
+- [Verify Trybe DM recipient](trybe-verify-dm-recipient.md): duplicate creator accounts; confirm the thread by its history before sending
+- Skill `trybe-portal` (~/.claude/skills/trybe-portal/SKILL.md): map of where everything lives in the Trybe portal + API traps; load it before any Trybe task
+- Skill `think-before-grinding` (~/.claude/skills/think-before-grinding/SKILL.md): Fatima's lesson: find the structural shortcut before doing bulk work the slow way; stop after two identical failures
+- [Bambora protected creators](bambora-protected-creators.md): the 10 "loving creators" who keep their old commission; never message or move them in the 5% migration; upset creators get read, listed, not answered
+- [Test one before the batch](feedback-test-one-before-batch.md): after any setting change that affects outbound messages, do one real case and read the thread before continuing; the empty V3 welcome sent Trybe's generic default to six creators
+- [media-watcher installed](media-watcher-installed.md): ~/claude-media-watcher on this PC (private Python, ffmpeg, yt-dlp inside it); run `~/claude-media-watcher/watch "<file or link>"`
+- [Creator acceptance criteria](bambora-creator-acceptance-criteria.md): accept yapper content OR 10K+ TikTok likes or followers, or 10K+ IG followers; English speakers in English-speaking countries only; ignore GMV; no message + no yapper + weak engagement = reject
+- [Follow-ups live in the ledger](trybe-applicant-followups.md): single source is ~/claude-setup/work/creator-db/followups.py (due/list/add/done); run `due` at the start of every sweep
+- [TikTok without browser](tiktok-no-browser-tool.md): tt.py (yt-dlp + comment API) for TikTok stats/comments/downloads; browser gets 403-blocked
+- [Queued projects](todo-later-2026-09-23.md): voice/DM skill + off-Mac backup of everything; do after Inbox review
+- [Never overwrite repo memory index](feedback-never-overwrite-repo-memory-index.md): append/edit lines in claude-setup memory/MEMORY.md, never cp over it
+- Skill `trybe-applicant-review` (~/.claude/skills/trybe-applicant-review/SKILL.md): the full method for reviewing Trybe Inbox applicants; load it for any applicant review
+- [Reading Slack](reading-slack-desktop.md): on Windows, Slack in Chrome (signed in with the Bambora account) read with the extension; never press Enter in a composer
+- [Creator DM voice](feedback-creator-dm-voice.md): no parroting their words, personalise only if they did, plain template beats fake; flag no-social-proof applicants
+- Skill `fatima-creator-voice`: self-learning guide for writing creator messages in her voice; read lessons.md first, log every correction
+- Skill `creator-ops-daily`: the start-of-day creator routine (submissions + messages, follow-ups, applicants, samples, top performers, weekly inspo); run at session start
+- [Bambora Creator Tracker doc](bambora-creator-tracker-doc.md): the creator ledger (Claude Doc); read and update it every session
+- [Drive: approved videos](bambora-drive-approved-videos.md): Trybe folder id + naming CreatorName/fatima/trybe=<8-char id>
+- [5% migration follow-up](trybe-5pct-migration-followup.md): status after 9/23, drop retainer askers (incl. Kia), move then accept then her message; V3 invite link
+- [Creator response cadence](creator-response-cadence.md): daily sweep + every 2h chat checks, positive replies always get 💙 + warm line, 1-day follow-ups, 2-week sample check-in
+- [Inspo sources and style](inspo-sources-and-style.md): broad scope beyond babywearing, sources (Trybe/TikTok/YT/IG/Atria/Apify), her reference YT Short, Atria MCP URL
+- [Ask everything before she leaves](feedback-ask-everything-before-she-leaves.md): batch all questions up front before she sleeps; overnight default is go as far as possible
+- [Creator database](creator-database.md): per-creator profiles (V3 + protected 10) in claude-setup/work/creator-db, refreshed daily; blocked routes noted
+- [Scheduled tasks freeze on permission prompts](scheduled-tasks-freeze-on-permissions.md): keep allowlist covering task commands; check runs daily, stop frozen ones
+- [Inspo message rules](inspo-message-rules.md): inspo DMs go through her this run, research each creator, always say it's just inspo + checklist link + warm close; Drive inspo folder is link-shared; check in 3 days (has sling) or ~1 week (no sling)
+- [Solve from data first](feedback-solve-from-data-first.md): work gaps out from the data and build the fix into the system before she has to point it out; ask only about taste and decisions
+- [Ask before guessing](feedback-ask-before-guessing.md): ambiguous creator asks about her assets or promises get a one-line question to Fatima first; the Danielle wrong-links lesson
+- [New work becomes a routine](feedback-new-work-becomes-routine.md): every new task or rule gets built into routines, skill and ledger the same turn, then pushed
+- [Casting mindset](creator-casting-mindset.md): see each creator as roles they can play (pediatrician = must-haves list, mom of many = ranking videos); several varied formats each
+- [Base retainer offer](creator-base-retainer-offer.md): $400/month base for 20 to 30 videos a month after 30 to 60 days of consistency; commissions are the real money; no deadline
+- [Liam batches + Meta access check](routine-liam-batches-and-meta-access.md): forward-ready Liam message at 5+ new videos; partnership-ads access check every ~5 hours
+- [Take ownership](feedback-take-ownership.md): send due follow-ups in the sweep, live state only, never re-raise settled decisions, ask only irreversible/money/unknowns
+- [Claude media watcher](claude-media-watcher.md): public repo fatimaarshadg-ux/claude-media-watcher (vendored in tools/); drop a video/audio file or link and Claude watches it; skill `media-watcher`
+- [Ads Library DMCA monitor](ads-library-dmca-monitor.md): weekly Task Scheduler job live (Mon 09:00) with Slack digest; explicitn.com theft confirmed 2026-09-22; Slack webhook still not stored
+- [Bambora Grandparents Program](bambora-grandparents-program.md): 5% V3 clone for grandparent creators, live and discoverable since 2026-09-24 (join approval on)
+- [No one-off breakdowns in GitHub](feedback-no-oneoff-breakdowns-in-github.md): vetting lists and task working data stay local; push only reusable things

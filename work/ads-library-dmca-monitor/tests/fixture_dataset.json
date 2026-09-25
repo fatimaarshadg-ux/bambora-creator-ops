@@ -1,0 +1,176 @@
+[
+ {
+  "inputUrl": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=bambora&search_type=keyword_exact_phrase",
+  "pageID": "61557300960466",
+  "adArchiveID": "1001",
+  "pageName": "Bambora",
+  "startDateFormatted": "2026-09-01T07:00:00.000Z",
+  "isActive": true,
+  "publisherPlatform": [
+   "FACEBOOK",
+   "INSTAGRAM"
+  ],
+  "snapshot": {
+   "pageId": "61557300960466",
+   "pageName": "Bambora",
+   "pageProfileUri": "https://www.facebook.com/61557300960466",
+   "title": "Bambora Sling Carrier",
+   "body": {
+    "text": "Join the Bambora family!"
+   },
+   "linkUrl": "https://example.com",
+   "images": [
+    {
+     "originalImageUrl": "file:///C:/Users/hp/claude-setup/work/ads-library-dmca-monitor/tests/own_creative.jpg"
+    }
+   ],
+   "videos": [],
+   "cards": []
+  }
+ },
+ {
+  "inputUrl": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=bambora&search_type=keyword_exact_phrase",
+  "pageID": "999001",
+  "adArchiveID": "1002",
+  "pageName": "SnugSling Store",
+  "startDateFormatted": "2026-09-01T07:00:00.000Z",
+  "isActive": true,
+  "publisherPlatform": [
+   "FACEBOOK",
+   "INSTAGRAM"
+  ],
+  "snapshot": {
+   "pageId": "999001",
+   "pageName": "SnugSling Store",
+   "pageProfileUri": "https://www.facebook.com/999001",
+   "title": "Bambora style sling 50% off",
+   "body": {
+    "text": "The BAMBORA carrier everyone loves, now cheaper"
+   },
+   "linkUrl": "https://example.com",
+   "images": [
+    {
+     "originalImageUrl": "file:///C:/Users/hp/claude-setup/work/ads-library-dmca-monitor/tests/unrelated.jpg"
+    }
+   ],
+   "videos": [],
+   "cards": []
+  }
+ },
+ {
+  "inputUrl": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=baby+sling+carrier&search_type=keyword_unordered",
+  "pageID": "999002",
+  "adArchiveID": "1003",
+  "pageName": "Cozy Baby Deals",
+  "startDateFormatted": "2026-09-01T07:00:00.000Z",
+  "isActive": true,
+  "publisherPlatform": [
+   "FACEBOOK",
+   "INSTAGRAM"
+  ],
+  "snapshot": {
+   "pageId": "999002",
+   "pageName": "Cozy Baby Deals",
+   "pageProfileUri": "https://www.facebook.com/999002",
+   "title": "Hip carrier",
+   "body": {
+    "text": "Designed to keep your little one close while giving your arms, back and wrists the relief they deserve."
+   },
+   "linkUrl": "https://example.com",
+   "images": [
+    {
+     "originalImageUrl": "file:///C:/Users/hp/claude-setup/work/ads-library-dmca-monitor/tests/unrelated.jpg"
+    }
+   ],
+   "videos": [],
+   "cards": []
+  }
+ },
+ {
+  "inputUrl": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=baby+sling+carrier&search_type=keyword_unordered",
+  "pageID": "999003",
+  "adArchiveID": "1004",
+  "pageName": "Mama Finds",
+  "startDateFormatted": "2026-09-01T07:00:00.000Z",
+  "isActive": true,
+  "publisherPlatform": [
+   "FACEBOOK",
+   "INSTAGRAM"
+  ],
+  "snapshot": {
+   "pageId": "999003",
+   "pageName": "Mama Finds",
+   "pageProfileUri": "https://www.facebook.com/999003",
+   "title": "Best baby sling 2026",
+   "body": {
+    "text": "Hands free hip carry for toddlers"
+   },
+   "linkUrl": "https://example.com",
+   "images": [
+    {
+     "originalImageUrl": "file:///C:/Users/hp/claude-setup/work/ads-library-dmca-monitor/tests/stolen_creative.jpg"
+    }
+   ],
+   "videos": [],
+   "cards": []
+  }
+ },
+ {
+  "inputUrl": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=baby+sling+carrier&search_type=keyword_unordered",
+  "pageID": "999004",
+  "adArchiveID": "1005",
+  "pageName": "Honest Shop",
+  "startDateFormatted": "2026-09-01T07:00:00.000Z",
+  "isActive": true,
+  "publisherPlatform": [
+   "FACEBOOK",
+   "INSTAGRAM"
+  ],
+  "snapshot": {
+   "pageId": "999004",
+   "pageName": "Honest Shop",
+   "pageProfileUri": "https://www.facebook.com/999004",
+   "title": "Baby sling carrier",
+   "body": {
+    "text": "A totally different product with its own creative"
+   },
+   "linkUrl": "https://example.com",
+   "images": [
+    {
+     "originalImageUrl": "file:///C:/Users/hp/claude-setup/work/ads-library-dmca-monitor/tests/unrelated.jpg"
+    }
+   ],
+   "videos": [],
+   "cards": []
+  }
+ },
+ {
+  "inputUrl": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=bambora&search_type=keyword_exact_phrase",
+  "pageID": "999005",
+  "adArchiveID": "1006",
+  "pageName": "Bambora Official Outlet",
+  "startDateFormatted": "2026-09-01T07:00:00.000Z",
+  "isActive": true,
+  "publisherPlatform": [
+   "FACEBOOK",
+   "INSTAGRAM"
+  ],
+  "snapshot": {
+   "pageId": "999005",
+   "pageName": "Bambora Official Outlet",
+   "pageProfileUri": "https://www.facebook.com/999005",
+   "title": "Clearance",
+   "body": {
+    "text": "fake own-name page"
+   },
+   "linkUrl": "https://example.com",
+   "images": [
+    {
+     "originalImageUrl": "file:///C:/Users/hp/claude-setup/work/ads-library-dmca-monitor/tests/unrelated.jpg"
+    }
+   ],
+   "videos": [],
+   "cards": []
+  }
+ }
+]

@@ -1,0 +1,10 @@
+__pycache__/
+*_watch/
+watch_downloads/
+*.wav
+*.mp4
+*.mov
+bin/
+.venv/
+python/
+.cache/

@@ -1,0 +1,118 @@
+{
+  "_note": "Mirrors the Monthly Concepts database in Notion (Creative Engine). Formats that creators cannot shoot themselves (AI UGC, Cartoon, AI-Musical) are left out on purpose.",
+  "formats": {
+    "Talking Head": "Creator speaks straight to camera. Hook is the first spoken line, said mid-thought as if the viewer walked in on it. One clear emotion on the face in second one.",
+    "Yapper": "Fast, unfiltered rant energy, often walking or in the car seat before driving. Hook is a blurted opinion or confession. Sentences are short and a little messy on purpose.",
+    "Founder": "The founder speaks in first person. Hook comes from the origin: the moment that made them build it, a mistake they made, or something they refuse to do. Calm, specific and credible. Never salesy, never 'hey guys'.",
+    "Green Screen": "Creator stands in front of a screenshot: a comment, a review, a listing, a text message. Hook reacts to what is on the screen, so the screenshot must be named in the visual.",
+    "Unboxing": "Hook sells curiosity about the package or the first impression. Open on the hands and the parcel, with an expectation that is about to be confirmed or broken.",
+    "Table View": "Top-down or across-the-table shot of hands and product. Hook is a visual demonstration or a side-by-side laid out on the table, with on-screen text doing the talking.",
+    "Interview": "Street or at-home interview feel, a question asked off camera. Hook is the question or a surprising first answer, cold open with no intro.",
+    "Podcast": "Two-mic conversation look. Hook is a quotable line lifted from the middle of a conversation, so it starts mid-sentence energy with no setup.",
+    "Screen Recording": "Notes app, text thread, search bar or comment section recorded on the phone. Hook is what is being typed or read, and it must be readable in under two seconds.",
+    "No-Voiceover": "No talking. Hook is on-screen text plus one strong visual action. Text is eight words or fewer and the action starts in the first second.",
+    "Mashup": "Quick cuts of several moments or several moms with a voiceover. Hook is a voiceover line that names the shared situation while the clips prove it is universal."
+  },
+  "frameworks": {
+    "PAS": "Problem, agitate, solve. Hook names the problem in the viewer's own words. It never mentions the product.",
+    "Comparison": "This versus that. Hook sets up the two sides within the first three seconds and hints there is a clear winner, without naming a competitor brand.",
+    "Testimonial": "A lived experience. Hook is a specific moment from before the product, told in past tense, with a concrete detail (a place, a time, a number of minutes).",
+    "Objection Handling": "Hook voices the viewer's doubt out loud, ideally as something the creator believed too, then the video answers it.",
+    "Transformation": "Before and after. Hook shows or states the 'before' at its worst, or teases the contrast.",
+    "Unique Mechanism": "Why it works when other things did not. Hook teases the one design detail that changes things without explaining it yet.",
+    "How It Works": "Demonstration. Hook promises a quick show-me, often timed ('this takes ten seconds').",
+    "Features & Benefits": "Hook leads with the single most surprising benefit, not a list.",
+    "Listicle": "Hook promises a numbered list the viewer wants to finish, and the product is one natural item in it.",
+    "Top 3": "Hook promises three things, ranked or not, with the product as one of them.",
+    "Top 5": "Hook promises five things, with the product as one of them.",
+    "Native": "Looks like normal content, not an ad. Hook is a day-in-the-life or relatable moment. The product appears without being announced.",
+    "Headline": "One bold on-screen statement carries the ad. Hook is that headline, written like a news line or a meme caption.",
+    "Offer": "Hook leads with the deal or the guarantee. Only usable when the creator has been given an approved offer."
+  },
+  "hook_patterns": {
+    "Callout": "Names the exact person it is for ('If your toddler...').",
+    "Confession": "Admits something slightly embarrassing or unpopular.",
+    "Contrarian": "Disagrees with common advice or a common purchase.",
+    "Question they already ask": "Says out loud the question the viewer has typed into a search bar.",
+    "Mid-story cold open": "Starts in the middle of a specific moment with no setup.",
+    "Visual pattern interrupt": "An unexpected action or framing in the first second, words come second.",
+    "Mistake warning": "Warns about something the creator got wrong first.",
+    "Overheard": "Quotes what someone else said (a stranger, partner, mother-in-law, the toddler).",
+    "Timed dare": "Promises to show something within a stated number of seconds.",
+    "Number promise": "Promises a specific count of things.",
+    "Before and after tease": "Shows the ending first or contrasts two states.",
+    "Reaction to a comment": "Replies to a real-sounding comment or review."
+  },
+  "angles": {
+    "Velcro Baby": [
+      "Mom with a clingy toddler who cries whenever she puts them down",
+      "Mom whose toddler constantly asks \"up\" while she is trying to get things done",
+      "Mom with a toddler who is getting too heavy to carry normally",
+      "Mom whose child refuses the stroller and only wants to be carried",
+      "Mom who loves the closeness but physically cannot keep carrying her toddler all day"
+    ],
+    "Amazon Knockoff Carriers": [
+      "Mom who bought a cheap sling online and immediately regretted it",
+      "Mom who is skeptical because she has already wasted money on baby products",
+      "First-time mom comparing dozens of carriers before purchasing",
+      "Budget-conscious mom who normally chooses the cheapest option",
+      "Mom who owns a cheap carrier but finds it uncomfortable or flimsy or poorly made"
+    ],
+    "Bulky Carriers": [
+      "Mom who hates straps and buckles and complicated baby carriers",
+      "Mom who only needs something for quick errands or short walks",
+      "Mom who leaves her structured carrier at home because it is too annoying to use",
+      "Mom who wants something small enough to keep in her handbag or car",
+      "Mom whose toddler constantly wants up and down, making structured carriers inconvenient"
+    ],
+    "Shoulder Pain": [
+      "Mom who always carries her toddler on the same hip",
+      "Mom whose shoulder starts aching after a few minutes of carrying",
+      "Mom already experiencing neck or shoulder or upper-back tension",
+      "Mom who switches arms constantly because carrying becomes uncomfortable",
+      "Mom whose toddler is getting heavier but still wants to be carried just as much"
+    ],
+    "Heavy Toddler": [
+      "Mom with a big toddler who still constantly asks to be picked up",
+      "Mom whose toddler has outgrown traditional baby carriers",
+      "Mom who physically struggles to carry her child for more than a few minutes",
+      "Mom with an older toddler who still needs comfort and closeness",
+      "Mom who thought the carrying stage would be over by now"
+    ],
+    "Weight Distribution": [
+      "Mom who naturally sticks one hip out while carrying her toddler",
+      "Mom who feels all of her toddler's weight concentrated on one side",
+      "Mom who wants additional support without wearing a full structured carrier",
+      "Mom who notices her posture getting worse from carrying",
+      "Mom looking for a more comfortable way to carry a heavier toddler"
+    ],
+    "Chores Around the House": [
+      "Stay-at-home mom trying to tidy with a clingy toddler",
+      "Work-from-home mom juggling her child and household tasks",
+      "Mom who cannot tidy or do laundry because her toddler constantly wants up",
+      "Mom whose toddler follows her from room to room asking to be carried",
+      "Mom who waits until nap time to get everything done"
+    ],
+    "Toddler Tantrums": [
+      "Mom dealing with public meltdowns when her toddler wants to be picked up",
+      "Mom whose toddler suddenly refuses to walk during outings",
+      "Mom who ends up carrying her toddler while pushing an empty stroller",
+      "Mom who gets stressed taking her toddler shopping alone",
+      "Mom who needs a fast way to calm an overwhelmed or tired toddler"
+    ],
+    "Errands": [
+      "Mom running into the grocery store with her toddler",
+      "Mom doing school drop-offs with multiple children",
+      "Mom making quick coffee or pharmacy or Target runs",
+      "Mom who does not want to bring a stroller everywhere",
+      "Mom whose toddler starts walking but eventually asks to be carried"
+    ],
+    "Travel": [
+      "Mom traveling through airports with a tired toddler",
+      "Mom going on vacation without wanting to bring a bulky carrier",
+      "Mom sightseeing with a toddler who gets tired halfway through the day",
+      "Mom dealing with long airport queues while holding her child",
+      "Mom who wants a lightweight backup carrier that fits in luggage"
+    ]
+  }
+}

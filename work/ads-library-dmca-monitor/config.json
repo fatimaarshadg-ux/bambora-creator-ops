@@ -1,0 +1,64 @@
+{
+  "actor": "apify~facebook-ads-scraper",
+  "countries": [
+    "ALL"
+  ],
+  "active_status": "all",
+  "results_limit_per_search": 60,
+  "category_results_limit": 40,
+  "only_ads_newer_than": "8 days",
+  "own_page_ids": [
+    "253532267844120",
+    "61557300960466"
+  ],
+  "own_domains": [
+    "bamboraco.com"
+  ],
+  "own_page_name_patterns": [],
+  "brand_terms": [
+    "bambora",
+    "bamboraco",
+    "bambora sling",
+    "bambora carrier",
+    "bambora baby",
+    "bomboraco",
+    "bambora co"
+  ],
+  "copy_phrases": [
+    "arms, back and wrists the relief they deserve",
+    "giving your arms, back and wrists",
+    "keep your little one close while giving",
+    "newborn snuggles to active toddler days",
+    "join the bambora family",
+    "lifetime warranty (we replace if it breaks",
+    "we replace if it breaks"
+  ],
+  "category_searches": [
+    "velcro baby",
+    "baby sling carrier",
+    "hip carry sling",
+    "hip seat carrier",
+    "toddler hip carrier",
+    "baby sling padded straps"
+  ],
+  "visual": {
+    "enabled": true,
+    "reference_page_ids": [
+      "253532267844120"
+    ],
+    "reference_results_limit": 200,
+    "max_distance": 6
+  },
+  "slack": {
+    "enabled": true,
+    "notify": "new",
+    "digest": true
+  },
+  "ignore_page_ids": [
+    "100086208646686"
+  ],
+  "ignore_domains": [
+    "bambora.cl"
+  ],
+  "_ignore_note": "Known unrelated businesses that share the name (Bambora bamboo towels, Chile). Not copycats."
+}

@@ -1,0 +1,36 @@
+# Secrets never go in this repo. The Trybe key lives in Windows DPAPI (%USERPROFILE%\.claude\secrets).
+secrets/
+*.dpapi
+.credentials.json
+.env
+.env.*
+*.pem
+*.key
+cookies*
+*.cookies
+
+# Per-PC state (recreated on each machine)
+.project-slug
+work/sweep/last_sweep
+work/sweep/streams/
+work/sweep/every/
+work/sweep/keepawake.pid
+work/trybe-drive-filing/drive-folders.json
+
+# Media never goes in the repo: videos and audio stay local or on Drive
+*.mp4
+*.mov
+*.MOV
+*.webm
+*.mkv
+*.m4a
+*.mp3
+*.wav
+
+# Build and scratch
+node_modules/
+__pycache__/
+*.pyc
+*.bak-*
+.DS_Store
+Thumbs.db

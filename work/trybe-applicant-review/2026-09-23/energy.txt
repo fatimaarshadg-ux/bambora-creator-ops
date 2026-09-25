@@ -1,0 +1,59 @@
+Emily Martines         wps 0.5 loud 1.9 pitch 68 sp 2.0 | wps 3.64 loud 3.2 pitch 50 sp 25.0
+Breeann Smith          wps 3.39 loud 4.9 pitch 49 sp 24.8
+Lauren Neuhaus         wps 3.18 loud 4.4 pitch 51 sp 23.3 | wps 2.8 loud 5.3 pitch 48 sp 25.0
+Norma Ramirez          wps 2.65 loud 3.1 pitch 37 sp 15.1
+Cammy Lyons            wps 3.6 loud 3.4 pitch 60 sp 23.9
+Ashley Sanocki         wps 2.0 loud 1.5 pitch 79 sp 2.0
+Elise Lesuma           wps 3.88 loud 2.7 pitch 42 sp 25.0 | wps 4.55 loud 3.4 pitch 46 sp 25.3
+Zelaida almirall       wps 3.5 loud 5.0 pitch 47 sp 18.0
+Amy Haas               wps 4.86 loud 3.0 pitch 35 sp 24.9 | wps 4.68 loud 3.2 pitch 33 sp 23.5
+Briann Hamric          wps 2.53 loud 4.2 pitch 77 sp 24.9 | wps 2.74 loud 2.5 pitch 16 sp 20.8
+Abigail Lucero         wps 3.33 loud 3.3 pitch 55 sp 13.8 | wps 3.48 loud 3.8 pitch 57 sp 24.7
+Kayly Snyder           wps 3.62 loud 5.1 pitch 60 sp 21.8
+Heaven Fenick          wps 3.58 loud 4.7 pitch 51 sp 26.0 | wps 1.88 loud 5.4 pitch 75 sp 21.8
+Ani Samuel             wps 3.64 loud 3.9 pitch 44 sp 19.5 | wps 3.2 loud 3.3 pitch 38 sp 21.9
+Hazel Vargas           wps 3.39 loud 3.0 pitch 34 sp 19.2
+Taylor Ciulla          wps 4.41 loud 3.3 pitch 40 sp 23.6 | wps 2.0 loud 2.0 pitch 75 sp 3.0
+Brittney Burris        wps 2.34 loud 5.2 pitch 58 sp 19.2 | wps 2.0 loud 2.0 pitch 50 sp 0.9
+Hailey Mullins         wps 3.84 loud 4.8 pitch 51 sp 24.5 | wps 1.79 loud 8.9 pitch 54 sp 25.2
+Kali Severn            wps 2.91 loud 2.4 pitch 50 sp 25.1
+Scarlet Jeppson        wps 4.02 loud 3.8 pitch 47 sp 25.1 | wps 3.43 loud 4.3 pitch 40 sp 26.5
+Rebekah Gentry         wps 2.32 loud 1.8 pitch 109 sp 14.2 | wps 2.88 loud 10.5 pitch 68 sp 6.6
+Precious Brown         wps 3.38 loud 3.2 pitch 58 sp 20.4 | wps 2.97 loud 2.9 pitch 55 sp 24.9
+Alyssa Kell            wps 0.48 loud 1.8 pitch 76 sp 2.1
+Chanel Bodine          wps 2.98 loud 3.8 pitch 44 sp 25.5 | wps 4.09 loud 3.9 pitch 46 sp 25.2
+Prisca Amarachi        wps 3.0 loud 9.3 pitch 52 sp 4.0 | wps 3.29 loud 4.3 pitch 55 sp 7.0
+Abigail Twitty         wps 2.86 loud 8.9 pitch 43 sp 7.0 | wps 2.45 loud 6.8 pitch 55 sp 26.9
+Crystal Stewart        wps 4.15 loud 5.0 pitch 49 sp 24.1
+katlyn preston         wps 2.41 loud 4.4 pitch 71 sp 8.3 | wps 2.91 loud 3.4 pitch 50 sp 25.4
+Macy Kinney            wps 3.79 loud 4.5 pitch 61 sp 19.8 | wps 2.83 loud 3.7 pitch 48 sp 25.4
+Tabitha Ford           wps 5.19 loud 7.7 pitch 55 sp 12.9 | wps 2.78 loud 3.3 pitch 79 sp 24.8
+Corina                 wps 3.12 loud 4.1 pitch 49 sp 15.4 | wps 2.74 loud 2.7 pitch 33 sp 31.0
+Christine Videna       wps 4.37 loud 3.6 pitch 44 sp 25.2 | wps 4.08 loud 2.2 pitch 57 sp 25.0
+Kayla Taylor           wps 3.95 loud 2.9 pitch 32 sp 24.8 | wps 3.48 loud 4.8 pitch 45 sp 24.7
+Yesenia Wittman        wps 2.22 loud 3.7 pitch 63 sp 3.6 | wps 2.63 loud 5.9 pitch 56 sp 17.9
+Taylor Condidorio      wps 3.26 loud 5.4 pitch 60 sp 17.2
+Kacie Roberts          wps 3.49 loud 3.5 pitch 32 sp 24.9 | wps 3.49 loud 4.7 pitch 73 sp 17.2
+Meagan Hampton         wps 3.38 loud 2.9 pitch 99 sp 14.2 | wps 2.82 loud 3.8 pitch 70 sp 17.0
+Alexandra Krzemieniesw wps 2.99 loud 3.4 pitch 55 sp 12.7
+Casey Muniz            wps 3.62 loud 3.2 pitch 38 sp 12.7
+Brianna Walker         wps 3.53 loud 4.8 pitch 49 sp 23.5 | wps 3.24 loud 4.1 pitch 56 sp 14.8
+Meghin Furniss         wps 2.87 loud 5.0 pitch 55 sp 24.7 | wps 4.27 loud 4.0 pitch 51 sp 26.0
+Maddie Tesimale        wps 4.12 loud 2.7 pitch 44 sp 24.3
+Chelsea Debruin        wps 3.52 loud 3.6 pitch 56 sp 25.0 | wps 2.73 loud 3.7 pitch 43 sp 24.9
+Kayla Wright           wps 0.5 loud 2.5 pitch 77 sp 2.0 | wps 1.65 loud 2.4 pitch 70 sp 9.7
+Melissa Otero Abugazal wps 3.92 loud 3.7 pitch 50 sp 25.0
+Megan Chronister       wps 3.35 loud 5.7 pitch 49 sp 21.2 | wps 3.19 loud 5.4 pitch 71 sp 20.7
+Dallyce Holm           wps 3.48 loud 3.4 pitch 53 sp 25.0 | wps 4.62 loud 3.0 pitch 41 sp 13.2
+Sarah Jones            wps 2.0 loud 3.6 pitch 92 sp 22.0
+Kenzie Thomas          wps 2.73 loud 4.0 pitch 44 sp 24.5 | wps 3.83 loud 3.3 pitch 42 sp 24.8
+Samantha bumstead      wps 2.68 loud 6.4 pitch 43 sp 17.9 | wps 3.13 loud 4.3 pitch 28 sp 27.8
+Leila Hernandez        wps 5.08 loud 4.6 pitch 79 sp 6.3 | wps 1.63 loud 2.7 pitch 111 sp 9.8
+Rachel Sagastume       wps 2.93 loud 4.6 pitch 54 sp 23.2 | wps 4.06 loud 4.0 pitch 49 sp 19.7
+Flor Batista           wps 1.71 loud 5.8 pitch 86 sp 25.1
+Yaritzacruz            wps 0.48 loud 4.0 pitch 111 sp 2.1
+Kayla M DeBoard        wps 3.15 loud 4.4 pitch 59 sp 25.4 | wps 3.08 loud 3.0 pitch 60 sp 25.0
+Cassie Burris          wps 0.5 loud 1.3 pitch 82 sp 2.0 | wps 3.1 loud 5.1 pitch 33 sp 24.2
+Carolay Perez          wps 4.28 loud 3.0 pitch 34 sp 21.5 | wps 4.11 loud 1.8 pitch 41 sp 21.4
+Madison green          wps 3.47 loud 6.3 pitch 47 sp 19.9
+Jemyah Brasfield       wps 2.32 loud 3.9 pitch 64 sp 25.0 | wps 3.65 loud 3.0 pitch 46 sp 24.9

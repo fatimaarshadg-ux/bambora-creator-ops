@@ -1,0 +1,9 @@
+reports/
+state/last_dataset.json
+state/last_run.log
+tests/state/
+tests/reports/
+__pycache__/
+state/*.log
+state/reference_hashes.json
+state/seen.json

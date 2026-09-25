@@ -1,0 +1,4 @@
+#!/bin/sh
+# Convenience wrapper so you can run `voc ...` instead of the full python path.
+# Add to ~/.zshrc:  alias voc="$HOME/.claude/skills/voc-miner/voc"
+exec python3 "$(dirname "$0")/scripts/voc.py" "$@"
