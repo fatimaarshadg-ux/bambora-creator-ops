@@ -45,15 +45,15 @@ When it finishes, **close PowerShell and open it again** (Step 1), so Windows no
 
 ## Step 3. Download this repo to the right place
 
-First, accept the invitation: GitHub emails you "invited you to collaborate" (or open https://github.com/notifications). Click **View invitation**, then **Accept invitation**. Without this, the download below says "Repository not found".
+The repo lives on Fatima's GitHub account (`fatimaarshadg-ux`, signed up with fatima@bamboraco.com). You use that same account, so there is no invitation to accept.
 
-Paste this, replacing `fatimaarshadg-ux/bambora-creator-ops` with the repo's name from its GitHub page (for example `fatimaarshadg-ux/bambora-ops-handover`):
+Paste this:
 
 ```powershell
 git clone https://github.com/fatimaarshadg-ux/bambora-creator-ops.git "$env:USERPROFILE\claude-setup"
 ```
 
-- A GitHub sign-in window pops up the first time. Sign in with **your** GitHub account and click **Authorize**.
+- A GitHub sign-in window pops up the first time. Sign in with Fatima's GitHub account (fatima@bamboraco.com) and click **Authorize**. Google or GitHub may ask Fatima to approve the sign-in on her phone, so have her reachable.
 - It must go to `C:\Users\<you>\claude-setup` exactly, because every note and script points there. The command above does that.
 
 ## Step 4. Run the installer (one command)
