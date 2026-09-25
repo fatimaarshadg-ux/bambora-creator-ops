@@ -2888,5 +2888,21 @@
     "note": "HOLD (Fatima 9/25): talk about her tomorrow. Adelaide AU, V3, confident talker but possible heavy accent + no sign of a baby. Fatima to listen ~10s of her Trybe video; if clear, ask if she has a baby/toddler to film with",
     "status": "open",
     "created": "2026-09-25"
+  },
+  {
+    "creator": "Elizabeth Albee",
+    "type": "fatima_decision",
+    "due": "2026-09-26",
+    "note": "Fatima: decide later. V3, Illinois, talks to camera in all 4 Trybe videos but flat delivery (best: dog-chew video). Options: accept / reject / ask for a higher-energy video. Nothing sent to her yet",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Cammy Lyons",
+    "type": "sample_checkin",
+    "due": "2026-10-09",
+    "note": "sample (Black) approved + messaged 9/25 06:55; check it arrived, share ideas",
+    "status": "open",
+    "created": "2026-09-25"
   }
 ]
