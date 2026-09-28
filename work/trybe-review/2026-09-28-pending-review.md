@@ -1,4 +1,39 @@
-# Submission review, 2026-09-28 (first sweep on the Windows PC)
+# Submission review, 2026-09-28
+
+## LATE ARRIVAL: Aubrie Martinez, trybe_id 5816daa9 (V3), submitted 3:20 PM ET
+
+**The best submission of the day by a distance, and the only one close to an approval.**
+
+Five of the six points pass clearly:
+
+- **Point 1, seat under the bottom:** her toddler sits on the hip with her bottom in the fabric,
+  legs out either side. Knee-to-knee spread is not there, but the checklist says M is less critical
+  for toddlers and the seat under the bottom is what matters, and it is.
+- **Point 2, one hand in every frame:** checked the two riskiest frames at 0:02 and 0:04 full size.
+  Her left hand is on the child in both while she gestures with the right. From 0:16 to 0:26 the
+  child is out of the sling entirely and she is demonstrating it folded, so the rule does not apply
+  there.
+- **Point 4, face visible, close enough to kiss:** yes throughout.
+- **Point 5, vertical:** 1080x1920, full quality, camera-roll original.
+- **Point 6, no watermarks:** completely clean. No burned-in captions, no app logos, nothing.
+- **Not sale-led:** the transcript never mentions a sale at all.
+
+**The one thing I cannot confirm is point 3, the buckle and safety loop.** I cropped and enlarged the
+shoulder at 0:02 (saved as `~/Bombara/trybe-review/tmp/buckle_02.jpg`). The buckle is clearly done
+up, and the checked fabric does appear folded over the hardware, which is what the safety loop
+looks like when it is used. I cannot say for certain that it is closed over the clip rather than
+resting on it, which is exactly the miss the checklist warns about.
+
+Under the rule that a clear-cut approval means "nothing you are unsure of", that one doubt is enough
+to stop me approving it on my own. **Recommendation: approve.** It needs one person to glance at
+that single cropped frame and confirm the loop, then it can go.
+
+Her chat message: "Good morning and happy Monday! I just submitted a submission! I think it's a good
+one. Please check it out when you have some time!" She is right to be pleased with it.
+
+---
+
+# The seven from earlier in the day (first sweep on the Windows PC)
 
 All 7 pending submissions watched frame by frame with the media watcher (timestamped frames plus
 transcript), then checked against the 6-point content checklist.

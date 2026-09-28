@@ -68,3 +68,4 @@
 - [Play the routines](play-the-routines.md): "play the routines" means start the routines; every start tells her to plug in the laptop and keep the lid open
 - [Which Chrome to use](chrome-browser-to-use.md): two browsers connected; only the fatima@bamboraco.com one, never the goraya one; verify by reading the account email
 - [Trybe portal tab clicks](trybe-portal-tab-clicks.md): Discovery/Creators tabs need a real extension click, often twice; a synthetic JS click silently fails and looks like an empty list
+- [Partnership ads: the accept path](partnership-ads-accept-path.md): the Instagram DM button often does nothing; send them profile > Professional dashboard > Partnership ads > Ad partners > Pending requests
