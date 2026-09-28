@@ -5309,8 +5309,10 @@
     "type": "fatima_decision",
     "due": "2026-09-28",
     "note": "SUBMISSION 5816daa9 (new today 3:20 PM ET). BEST of the day: 5 of 6 points pass clearly, 1080x1920, no watermarks, no captions, no sale mention, hand on child confirmed at 0:02 and 0:04. ONLY doubt: safety loop over the buckle, cropped frame at ~/Bombara/trybe-review/tmp/buckle_02.jpg. RECOMMEND APPROVE once someone confirms that one frame. Reply queued.",
-    "status": "open",
-    "created": "2026-09-28"
+    "status": "done",
+    "created": "2026-09-28",
+    "closed": "2026-09-28",
+    "outcome": "APPROVED by Fatima on her Mac at ~16:35 UTC, not by me. My review said recommend approve, so the call matched."
   },
   {
     "creator": "Payton Hoerbert",
@@ -5327,8 +5329,10 @@
     "type": "reply_owed",
     "due": "2026-09-28",
     "note": "SENT 12:17 ET holding reply (watched it, coming back today). MUST follow up with the real verdict once the buckle frame is confirmed: approve + approval message + Drive filing.",
-    "status": "open",
-    "created": "2026-09-28"
+    "status": "done",
+    "created": "2026-09-28",
+    "closed": "2026-09-28",
+    "outcome": "Her submission was approved by Fatima. My holding reply already went. The approval message and Drive filing are now Fatima's side, or ours once we know who is driving."
   },
   {
     "creator": "Yvette Borojerdi",
@@ -5351,6 +5355,14 @@
     "type": "reply_owed",
     "due": "2026-09-28",
     "note": "SENT: explained how the videos are used. Still conditional on faces + volume below 3, so accept waits.",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "SENDING PAUSED",
+    "type": "note",
+    "due": "2026-09-28",
+    "note": "STOP: at 16:39 UTC (12:39 ET) Aubrie Martinez submission 5816daa9 changed to approved without me doing it, and a macOS browser appeared on the Claude account while the Windows Chrome dropped. Fatima appears to be running the routine on her Mac. One machine at a time. The 30-minute sweep timer has been DELETED so nothing auto-sends. 10 messages had already gone out 12:15-12:40 ET (list in work/send-queue/2026-09-28.md). Do not send anything else until Ikra confirms Fatima has stopped.",
     "status": "open",
     "created": "2026-09-28"
   }
