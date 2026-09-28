@@ -39,6 +39,22 @@ already covers. First message now, move to V3 at acceptance.
   video**, so she still counts as having sent nothing on camera.
 - **Valerie Llopis**, US, mom of a two year old son and a five month old daughter.
 
+## Arrived later on 2026-09-28 (1)
+
+**Jo Bebbington**, Canada, Grandparents Program, TikTok @jomamalife, sample video attached.
+
+Her pitch: "a Canadian UGC creator, mom, and former educator with a background in journalism".
+Watched her sample: 29 seconds, 123 words, **4.2 w/s**, a proper UGC showreel. She talks to camera
+throughout, warm and expressive, well framed, varied settings, nothing burned in. Delivery is
+accept-grade, among the best in the whole batch.
+
+Canada is in scope. She is another Grandparents mix-up, since she is a mother rather than a
+grandparent, so she moves to V3 at acceptance.
+
+**The one open question is her baby's weight.** She calls herself a "first time mama" and the baby
+who appears at 0:10 to 0:14 looks only a few months old, which could be under the 10 lb floor.
+Question 1 of the first message settles it, so send that as normal.
+
 ## Three that do not fit the standing rules
 
 These need a decision, because no existing rule answers them.
