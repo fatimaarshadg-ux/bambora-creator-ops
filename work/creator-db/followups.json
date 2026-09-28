@@ -5233,5 +5233,53 @@
     "note": "New applicant, Netherlands (NL), Grandparents, no pitch, no sample, IG only. Criteria are English-speaking countries only, so NL is out of scope. Recommend reject. Not messaged.",
     "status": "open",
     "created": "2026-09-28"
+  },
+  {
+    "creator": "Brandilynn Elbek",
+    "type": "fatima_decision",
+    "due": "2026-09-28",
+    "note": "Answered: 2 boys (2 months, 2 years), posts 1-2x daily, but does NOT show her son's faces. Conditional per the standing rule. She asked directly if that is a deal breaker.",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Sharmeen Kazmi",
+    "type": "reply_owed",
+    "due": "2026-09-28",
+    "note": "Asked whether 'posting' means her own socials or videos sent to the brand. Answer, then get her Q3. Faces: side profile only, so conditional.",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Lillian Gutierrez",
+    "type": "reply_owed",
+    "due": "2026-09-28",
+    "note": "Asked how long the 3 to 5 a week commitment runs; says long term would not be doable. Answer: no contract, no deadline, it is per video commission.",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Yvette Borojerdi",
+    "type": "reply_owed",
+    "due": "2026-09-28",
+    "note": "Followed up asking for clarity and a response on joining the campaign. Read her earlier message and answer.",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "ALL (5 attachments)",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "Sent attachments not yet opened: Yaritzacruz (TikTok link), Janessa Domingo, Sadie Harris, Mia Hankieson, Asya jihad. Review for talking-to-camera delivery.",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "ALL (applicant answers 9/28)",
+    "type": "note",
+    "due": "2026-09-28",
+    "note": "ANSWERS ARE IN for 12 applicants who already had open items with stale notes. Read work/trybe-applicant-review/2026-09-28-answers.md before acting on any of: Michelle Padilla (SAFETY: expecting a baby this week, wants to film from the newborn stage; sling is 10-50 lbs), Hailey Skolout / Taylor Matlock / Kristian Renee Henry (all three MEET the standing accept, pending talking-video check), Brandilynn Elbek / Lee McCreary / Kristi Sgambato / Sharmeen Kazmi / Kathia Martinez (conditional, faces or volume), Elizabeth Parker (retainer, Fatima), Lillian Gutierrez / Yvette Borojerdi (questions owed). Volume commitments for all 9 who answered are recorded in commitments.json.",
+    "status": "open",
+    "created": "2026-09-28"
   }
 ]
