@@ -214,8 +214,14 @@ foreach ($f in Get-ChildItem (Join-Path $repo "memory") -Filter *.md -File) {
     $r = Install-Text $f.FullName (Join-Path $memDir $f.Name)
     if ($r -eq "kept") { $kept++ } elseif ($r -eq "written") { $written++ }
 }
-# The memory index: add missing lines, never overwrite
+# The memory index: add missing lines, never overwrite (with -Refresh: replace it with the repo's, backup kept,
+# so lines that were fixed or removed in the repo don't linger on this PC)
 $idx = Join-Path $memDir "MEMORY.md"
+if ($Refresh -and (Test-Path $idx)) {
+    Copy-Item $idx "$idx.bak-$stamp" -Force
+    [IO.File]::WriteAllText($idx, [IO.File]::ReadAllText((Join-Path $repo "memory\MEMORY.md")).Replace("<PROJECT>", $slug), $utf8)
+    Say "memory index replaced with the repo's (backup: MEMORY.md.bak-$stamp)"
+}
 $haveLines = @(); if (Test-Path $idx) { $haveLines = [IO.File]::ReadAllLines($idx) }
 $add = @()
 foreach ($l in [IO.File]::ReadAllLines((Join-Path $repo "memory\MEMORY.md"))) {

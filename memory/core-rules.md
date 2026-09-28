@@ -8,6 +8,19 @@ metadata:
   modified: 2026-09-23T17:07:13.342Z
 ---
 
+**NEWEST RULES (Fatima, 2026-09-25 to 09-28). These override any older line in the skills, memory, routines or docs that says otherwise.**
+1. **Send window:** no creator message, accept, approval or rejection before 12 PM US Eastern. Check `powershell -NoProfile -ExecutionPolicy Bypass -File "$USERPROFILE/claude-setup/work/common/us-time.ps1"` before sending anything. Before 12 PM ET: read, review and write what you would send into `work/send-queue/<date>.md`; the first sweep after 12 PM ET sends the queue.
+2. **Nothing goes to Liam.** Approved videos only go into Drive, Main Media > Trybe (`file_approved.py`). No Liam sheet, no Liam folder, no Liam links, no Slack to Liam.
+3. **Applicants, standing go:** every fit question answered yes (baby or toddler 10 to 50 lbs to film with, OK showing faces, 3 to 5 videos a week) + confident talking-to-camera videos + lives in the US, Canada, UK, Australia, New Zealand or Ireland = ACCEPT without asking, then onboarding (move to V3 if Grandparents, welcome note in the thread, partnership ads request or connect-Instagram ask, sample nudge next day). Asked for a talking video, answers were yes, never sent it (after one follow-up) = REJECT without asking. Conditional answers, borderline delivery and anything else still wait for a go.
+4. **Existing creators' submissions (Fatima, 2026-09-28):** a CLEAR-CUT approval (all 6 checklist points pass in every frame, not sale-led, nothing you are unsure of) goes ahead WITHOUT anyone's review: approve, message (inside the send window), file in Drive, and list it under Done. Anything you are not sure about goes to the operator. **Revisions and rejections always wait until FATIMA herself has watched the videos**; the operator's yes is not enough for those, so list them as "for Fatima to watch".
+10. **What else runs without review when you're sure:** the standing applicant accepts and rejects (item 3), eligible sample approvals, partnership ads requests and nudges, due follow-ups, and Drive filing.
+5. **Sweeps keep running** past any stated end time until the operator types "stop the routines" (then follow the Stop section of routines/START.md). Keep-awake starts with start.ps1; never ask the operator to start it.
+6. **Volume ask is 3 to 5 videos a week** (not 4 to 5). Never excuse it; add one natural line about the support they get.
+7. **Cooking and stairs are fine** with one hand on the baby. Straps being chewed is fine. Only flag what the checklist says.
+8. **No double follow-ups:** never nudge when our last message is unanswered and under about 48 hours old. Exceptions: sample and Meta access nudges go 15 to 20 hours after our last message about it; applicants asked for a talking video get their one follow-up after a full day. Always `ctx(name)` first and write the next line of that conversation.
+9. **Creators who want to post their videos on their own page too:** fine; the program is sharing videos on Trybe so we can run them as ads; kindly ask what they had in mind.
+
+
 Fatima's non-negotiables (collected 2026-09-23). Each links to its full memory.
 
 **Safety**

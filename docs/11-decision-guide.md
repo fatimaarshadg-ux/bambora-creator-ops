@@ -5,7 +5,7 @@ Use this page whenever you are not sure who decides. It comes from Fatima's own 
 ## The four rules behind every answer
 
 1. **A rule covers it and it can be undone:** Claude does it in this sweep and tells you after. You don't need to say anything.
-2. **It cannot be undone** (approve or reject a video, accept or reject an applicant, a first-time DM that needs a go): Claude brings it to you with a recommendation. **You** say yes or no.
+2. **It cannot be undone** (approve or reject a video, accept or reject an applicant, a first-time DM that needs a go): Claude brings it to you with a recommendation and **you** say yes or no. Exceptions Claude does on its own when it is sure: clear-cut video approvals and the standing applicant accepts and rejects. Video revisions and rejections always wait for Fatima to watch.
 3. **Money, the 10 protected creators, program settings, a new Trybe key:** check with **Fatima** before you say yes. Claude gives you a ready draft to show her.
 4. **Not sure?** Say **"hold 3"** (or whichever number). Nothing breaks by waiting one sweep. Ask Claude "why?" or "show me" as often as you like.
 
@@ -40,16 +40,16 @@ Answering tip: "yes 1 and 3, no 2, hold 4". Claude acts on the yeses straight aw
 | 14 | Same, but she asked for 2 or 3 items | Claude | Fine to approve (Fatima's rule, the Victoria case). |
 | 15 | A sample request dated before 2026-09-17 (Jasmyn, Kayse, Kristen, Aurora, Megan Devine, Autumn Bailey, Sara, Skyler) | Nobody | Never approve. Leave it exactly as it is, and don't ask. |
 | 16 | An odd request: an older creator, a strange note, a non-English-speaking country, or two accounts with the same name | You | Claude shows you the request and its recommendation. Approving ships real product. |
-| 17 | A creator accepted 20+ hours ago hasn't requested a sample | Claude | One friendly nudge, after checking her real sample status first (the SAMPLE GATE). |
+| 17 | A creator accepted 15 to 20+ hours ago hasn't requested a sample | Claude | One friendly nudge, after checking her real sample status first (the SAMPLE GATE). |
 | 18 | A creator already owns a Bambora | Claude | No sample nudge. Tells her she can start filming with hers. |
 
 ### Videos (submissions)
 
 | # | Situation | Who | What happens |
 |---|---|---|---|
-| 19 | A video passes the 6-point checklist | You | Claude recommends approve. You say yes; Claude approves, messages her, files it in Drive right away. |
-| 20 | The video opens with the sale, is built around it, or repeats it ("40% off today!") | You | Claude recommends revise (or reject). A short sale mention at the very end is fine. |
-| 21 | Safety problem: the seat isn't under baby's bottom, no M position for a small baby, a hand off baby ("hands free"), buckle or safety loop unused | You | Claude recommends revise with the fix and the checklist link. Never approve an unsafe video. |
+| 19 | A video clearly passes the 6-point checklist and isn't sale-led | Claude | Approves on its own, messages her (inside the send window), files it in Drive right away, lists it under Done. If Claude is unsure about anything, it comes to you instead. |
+| 20 | The video opens with the sale, is built around it, or repeats it ("40% off today!") | Fatima | Claude recommends revise (or reject). Revisions and rejections wait until Fatima has watched the video herself: pass it to her. A short sale mention at the very end is fine. |
+| 21 | Safety problem: the seat isn't under baby's bottom, no M position for a small baby, a hand off baby ("hands free"), buckle or safety loop unused | Fatima | Claude recommends revise with the fix and the checklist link, and it waits until Fatima has watched it. Never approve an unsafe video. |
 | 22 | You aren't sure about a video | You | Say "show me the frames for 2" or "hold 2". Compare with the checklist at https://bamborachecklist.netlify.app/ |
 
 ### New applicants (Discovery)

@@ -12,7 +12,7 @@ Every routine that runs the operation, so this whole system can be set up on a n
 | Full cycle | Scheduled task `bambora-full-cycle-every-4h` | every 4 hours | Refreshes the creator DB (which runs the quiet-creator check), reviews submissions, applicants and samples, and drafts everything into the tracker. Sends nothing | `scheduled-tasks/bambora-full-cycle-every-4h/SKILL.md` |
 | Messages drafts | Scheduled task `bambora-messages-every-2h` | PAUSED since 2026-09-23 (the live sweep replaced it) | Drafts replies only; re-enable for days with no live session | `scheduled-tasks/bambora-messages-every-2h/SKILL.md` |
 | Inspo research | Scheduled task `bambora-inspo-research-every-3-days` | every 3 days | Builds the Atria, YouTube, TikTok and IG inspo pack, puts it in Drive, and TAGS every item (baby in shot, format, who) | `scheduled-tasks/bambora-inspo-research-every-3-days/SKILL.md` |
-| End of day | Scheduled task `bambora-end-of-day-wrapup` | daily 04:15 (end of her 5 PM to 5 AM day) | Session log, tracker tidy, push to GitHub, repo zip to Drive | `scheduled-tasks/bambora-end-of-day-wrapup/SKILL.md` |
+| End of day | Fatima's Mac only: scheduled task `bambora-end-of-day-wrapup`. **On the Windows PC the end-of-day session timer in START.md does this instead; don't create the task.** | daily 04:15 (end of her 5 PM to 5 AM day) | Session log, tracker tidy, push to GitHub, repo zip to Drive | `scheduled-tasks/bambora-end-of-day-wrapup/SKILL.md` |
 
 The brain behind all of them is the `creator-ops-daily` skill (`skills/creator-ops-daily/SKILL.md`). The memory of everything owed is the follow-up ledger (`work/creator-db/followups.py` and `followups.json`).
 

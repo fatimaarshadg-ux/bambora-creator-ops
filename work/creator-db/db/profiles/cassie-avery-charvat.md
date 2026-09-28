@@ -4,11 +4,12 @@
 - Group: PROTECTED (keeps her old commission; never message about commission)
 - Joined Trybe: 2026-08-16
 - Programs: The Bambora Affiliate Program! since 2026-08-16
-- Videos: 1 submitted, 1 approved, 0 rejected, last 2026-09-02
-- Videos run as ads: 1
-- Performance since Jun 2026: earnings $881, Trybe GMV $7,343, conversions 132, ads 4, ad spend $7,895, purchases 235 ($13,997), ROAS 1.77
+- Videos: 2 submitted, 2 approved, 0 rejected, last 2026-09-25
+- Videos run as ads: 2
+- Performance since Jun 2026: earnings $1,544, Trybe GMV $12,870, conversions 210, ads 5, ad spend $13,905, purchases 370 ($23,590), ROAS 1.7
 
 ### Videos (newest first)
+- 2026-09-25 approved (trybe=c055780e, ads 1): "If you have one of these, you need one of these. This is a baby sling carrier and we've done the baby wraps, we've done all of those, but for some reason we just like a baby sling better. It's so simple to put on. I just"
 - 2026-09-02 approved (trybe=9a6e2ff5, ads 4): "Clearly, a mom invented this because watch this. We are in that awkward phase right now where we still want to baby wear, but not really. Like, she likes it, but I don't think I like it. We're kind of more of a hip baby,"
 <!-- /facts -->
 

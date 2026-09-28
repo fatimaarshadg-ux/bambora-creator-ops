@@ -69,7 +69,7 @@ For any ad (competitor ads, creator submissions, our own ads), use `adwatch` ins
 
 ```
 ~/claude-media-watcher/adwatch "<file or url>" --out <dir>          (Mac)
-%USERPROFILE%\claude-media-watcher\adwatch.cmd "<file or url>" --out <dir>   (Windows)
+~/claude-media-watcher/adwatch "<file or url>" --out <dir>   (Windows too, from Claude's Git Bash; in PowerShell use %USERPROFILE%\claude-media-watcher\adwatch.cmd)
 ```
 
 It runs the normal watch at a frame every 0.5 seconds, then adds:

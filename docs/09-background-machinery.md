@@ -181,4 +181,4 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "$env:USERPROFILE\claude-set
 
 ## 11. Scheduled tasks (outside the session)
 
-A few jobs run as **scheduled tasks** in the Claude app instead of the session timer: the inspo research every 3 days, the end-of-day wrap-up, and optionally the 4-hourly full-cycle prep. They survive closing the chat, but need **the PC awake, the Claude app open, and Chrome signed in**. **They cannot send messages or approve anything** (the permission layer refuses unattended sends), so they only prepare drafts and reports; sending always happens in the live session. How to create them: `07-scheduled-tasks.md`.
+A few jobs run as **scheduled tasks** in the Claude app instead of the session timer: the inspo research every 3 days and optionally the 4-hourly full-cycle prep. They survive closing the chat, but need **the PC awake, the Claude app open, and Chrome signed in**. **They cannot send messages or approve anything** (the permission layer refuses unattended sends), so they only prepare drafts and reports; sending always happens in the live session. How to create them: `07-scheduled-tasks.md`.

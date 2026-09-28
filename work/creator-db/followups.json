@@ -5085,5 +5085,37 @@
     "note": "doesn't use Instagram; told her a Facebook page works or a quick public IG. When roster shows Request: click + tiny note",
     "status": "open",
     "created": "2026-09-28"
+  },
+  {
+    "creator": "Kaylie Russell",
+    "type": "quiet_checkin",
+    "due": "2026-09-28",
+    "note": "no video for 33 days (last 2026-08-26), GMV $0, group v3; check-in with the 20 to 30 videos a month point plus fitting inspo",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Nina Pleshe",
+    "type": "quiet_checkin",
+    "due": "2026-09-28",
+    "note": "no video for 36 days (last 2026-08-23), GMV $153, group v3; check-in with the 20 to 30 videos a month point plus fitting inspo",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Myrka Bustillo",
+    "type": "quiet_checkin",
+    "due": "2026-09-28",
+    "note": "no video for 49 days (last 2026-08-10), GMV $2739, group protected; check-in with the 20 to 30 videos a month point plus fitting inspo",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Mary Saggau",
+    "type": "quiet_checkin",
+    "due": "2026-09-28",
+    "note": "no video for 60 days (last 2026-07-30), GMV $3641, group protected; check-in with the 20 to 30 videos a month point plus fitting inspo",
+    "status": "open",
+    "created": "2026-09-28"
   }
 ]

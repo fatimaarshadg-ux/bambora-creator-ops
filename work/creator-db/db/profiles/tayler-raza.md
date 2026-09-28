@@ -6,7 +6,7 @@
 - Programs: Bambora Affiliates v1 since 2026-07-24
 - Videos: 6 submitted, 6 approved, 0 rejected, last 2026-09-16
 - Videos run as ads: 6
-- Performance since Jun 2026: earnings $367, Trybe GMV $4,370, conversions 70, ads 9, ad spend $5,767, purchases 149 ($9,071), ROAS 1.57
+- Performance since Jun 2026: earnings $367, Trybe GMV $4,370, conversions 70, ads 9, ad spend $5,774, purchases 149 ($9,071), ROAS 1.57
 
 ### Videos (newest first)
 - 2026-09-16 approved (trybe=ef5d0847, ads 1): "Before finding Bambora, my family used to have to wait a solid five minutes for me to put on my wrap and make sure it was tied the right way. Sometimes I had to tie it again. Now though, we all can get out at the same ti"

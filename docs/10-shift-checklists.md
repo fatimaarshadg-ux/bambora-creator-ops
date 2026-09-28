@@ -24,7 +24,7 @@ Print this page or keep it open. Times below use Fatima's day (about 5 PM to 5 A
 
 - Every ~30 minutes, one message from Claude: **Done**, **Needs your go** (numbered, with recommendations), **Questions**. Answer like "yes 1 and 3, no 2 because ...".
 - Money, retainers, protected creators, program settings, new Trybe key → check with Fatima before you say yes.
-- Before 12 PM US Eastern (9 PM Pakistan time), sweeps prepare but send nothing to creators. That's normal: the queue goes out at 12 PM ET.
+- Before 12 PM US Eastern (9 PM Pakistan time; 10 PM after the US clocks change on Nov 1), sweeps prepare but send nothing to creators. That's normal: the queue goes out at 12 PM ET.
 - Claude asks for permission? Answer it (what to allow and what to deny: `08-troubleshooting.md`). Not sure whether something is yours to decide? `11-decision-guide.md`.
 - The PC restarted, a Trybe tab closed, the screen locked, Claude hit a usage limit: `08-troubleshooting.md`, "Things that go wrong during a shift".
 - If you step away: leave everything open. The keep-awake keeps the PC on.

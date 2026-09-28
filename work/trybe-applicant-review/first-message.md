@@ -1,5 +1,5 @@
 # First message to every new applicant (Fatima approved 2026-09-26)
-Send from Discovery (profile > Open chat) to every NEW applicant whose card shows "5% commission" (V3 or Grandparents), before any accept. Only accept after they answer, and accept only on Fatima's go.
+Send from Discovery (profile > Open chat) to every NEW applicant whose card shows "5% commission" (V3 or Grandparents), before any accept. Only accept after they answer. Then follow the standing rule (memory feedback-auto-accept-applicants and applicant-accept-reject-rule-0927): all yes + confident talking-to-camera + English-speaking country = accept without asking; anything conditional or borderline waits for a go.
 
 hey {first}! thank you so much for applying, I'd love to have you 💗 I invest a lot in my creators (weekly inspo, feedback on every video, and putting real ad spend behind the ones that work), so before I accept, I want to make sure it's a good fit for you too:
 1. do you have a baby or toddler (10 to 50 lbs) you could film with in the sling?

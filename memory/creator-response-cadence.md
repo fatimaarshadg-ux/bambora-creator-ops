@@ -1,6 +1,6 @@
 ---
 name: creator-response-cadence
-description: Fatima's rules for how fast and how often to respond to creators. Check chat every 2 hours in a work day, positive replies always get a 💙 reaction plus a warm line, 1-working-day follow-ups, sample check-in about 2 weeks after approval
+description: Fatima's rules for how fast and how often to respond to creators. Check chat every 2 hours in a work day, positive replies always get a 💙 reaction plus a warm line, follow-ups never within ~48h of our last unanswered message (sample and Meta nudges 15 to 20h), sample check-in about 2 weeks after approval
 metadata:
   type: feedback
 ---

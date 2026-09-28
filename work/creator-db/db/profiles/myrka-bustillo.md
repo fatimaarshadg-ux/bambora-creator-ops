@@ -6,7 +6,7 @@
 - Programs: Bambora Affiliates v1 since 2026-08-04
 - Videos: 2 submitted, 2 approved, 0 rejected, last 2026-08-10
 - Videos run as ads: 2
-- Performance since Jun 2026: earnings $265, Trybe GMV $2,649, conversions 43, ads 4, ad spend $2,777, purchases 71 ($4,384), ROAS 1.58
+- Performance since Jun 2026: earnings $274, Trybe GMV $2,739, conversions 44, ads 4, ad spend $2,777, purchases 71 ($4,384), ROAS 1.58
 
 ### Videos (newest first)
 - 2026-08-10 approved (trybe=f44d3c9b, ads 1): "5 things that are worth your money as a first-time mom. Bambora Sling Carrier, Nanny Camera, Owlet Sock, Phillips Event, Water Warmer, Spectra Pump."

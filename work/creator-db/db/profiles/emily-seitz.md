@@ -6,7 +6,7 @@
 - Programs: Bambora Affiliates V3 since 2026-09-21
 - Videos: 2 submitted, 1 approved, 1 rejected, last 2026-09-22
 - Videos run as ads: 1
-- Performance since Jun 2026: earnings $0, Trybe GMV $0, conversions 0, ads 0, ad spend $0, purchases 0 ($0), ROAS None
+- Performance since Jun 2026: earnings $10, Trybe GMV $104, conversions 1, ads 1, ad spend $254, purchases 1 ($104), ROAS 0.41
 
 ### Videos (newest first)
 - 2026-09-22 approved (trybe=25f526ff, ads 1): "If your toddler still wants to be carried everywhere, but your arms and back are done, this has been a game-changer. My three-and-a-half-year-old is around 35 pounds and the Bambora Sling has made carrying him so much ea"

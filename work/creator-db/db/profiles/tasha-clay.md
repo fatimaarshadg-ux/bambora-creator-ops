@@ -6,7 +6,7 @@
 - Programs: Ambassador Program! since 2026-09-24
 - Videos: 2 submitted, 2 approved, 0 rejected, last 2026-09-08
 - Videos run as ads: 2
-- Performance since Jun 2026: earnings $817, Trybe GMV $6,813, conversions 116, ads 5, ad spend $7,499, purchases 204 ($12,202), ROAS 1.63
+- Performance since Jun 2026: earnings $1,172, Trybe GMV $9,770, conversions 157, ads 5, ad spend $9,979, purchases 268 ($16,604), ROAS 1.66
 
 ### Videos (newest first)
 - 2026-09-08 approved (trybe=efe9f7f6, ads 4): "This is for the moms that don't want to wear one of those big, bulky baby carriers. It comes in so many aesthetic prints and the fact that it can fold up so small it fits right into my purse. It has a padded strap for ex"

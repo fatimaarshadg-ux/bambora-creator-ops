@@ -6,7 +6,7 @@
 - Programs: Bambora Affiliates V3 since 2026-09-21
 - Videos: 6 submitted, 3 approved, 3 rejected, last 2026-09-22
 - Videos run as ads: 3
-- Performance since Jun 2026: earnings $51, Trybe GMV $509, conversions 8, ads 3, ad spend $917, purchases 17 ($1,145), ROAS 1.25
+- Performance since Jun 2026: earnings $54, Trybe GMV $573, conversions 9, ads 3, ad spend $1,069, purchases 19 ($1,273), ROAS 1.19
 
 ### Videos (newest first)
 - 2026-09-22 approved (trybe=9f09d43f, ads 1): "I'm still obsessed with this sling, like I still use it even now when I'm nipping to the shops, if I'm going to Sano's, if I'm going to Tesco's, if I'm going to Aldi, wherever I'm going, I will have this sling in the boo"

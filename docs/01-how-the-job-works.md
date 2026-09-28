@@ -20,7 +20,7 @@ Fatima's day ran from about **5 PM to 5 AM Pakistan time**, which matches US day
 4. **Every ~5 hours:** the Meta (partnership ads) access check.
 5. **End of day** (about 45 minutes before you stop): file any approved videos not yet in Drive, write the session log, push to GitHub. The sweeps keep going until you type `stop the routines`; then tell Fatima you've stopped.
 
-**Send window:** nothing goes out to creators before **12 PM US Eastern** (9 PM Pakistan time). Earlier sweeps still read, review and prepare everything into a send queue; the first sweep after 12 PM ET sends it.
+**Send window:** nothing goes out to creators before **12 PM US Eastern** (9 PM Pakistan time; 10 PM after the US clocks change on Nov 1). Earlier sweeps still read, review and prepare everything into a send queue; the first sweep after 12 PM ET sends it.
 
 ## The six streams (every sweep, in this order)
 
@@ -43,7 +43,7 @@ Fatima's day ran from about **5 PM to 5 AM Pakistan time**, which matches US day
 
 ### 4. Submissions (videos)
 - Claude pulls pending videos from the Trybe API, watches each (frames plus transcript) against the 6-point checklist and the no-sale-led rule, and brings you a verdict: approve, revise or reject, with the reason.
-- **Nothing is approved or rejected without your yes.** After your yes: it acts, messages the creator, and files the video in Google Drive straight away.
+- **Clear-cut approvals go ahead on their own** (all 6 checklist points, not sale-led, nothing Claude is unsure of): it approves, messages the creator and files the video in Google Drive straight away, then lists it under Done. Unsure ones wait for your yes.
 - **Revisions and rejections of existing creators' videos wait until Fatima has watched them herself** (2026-09-27).
 
 ### 5. Discovery (new applicants)
@@ -71,7 +71,7 @@ Fatima's day ran from about **5 PM to 5 AM Pakistan time**, which matches US day
 
 | Claude does it on its own | Claude asks you first |
 |---|---|
-| Replies to creators under the voice rules | Approve, reject or request revision on a video |
+| Replies to creators under the voice rules; clear-cut video approvals | Unsure video approvals (revisions and rejections wait for Fatima to watch) |
 | Approving eligible sample requests, then the message | Accept or reject an applicant the standing rule doesn't cover |
 | Partnership ads requests, connect-Instagram asks, nudges | Anything about money, retainers or commission |
 | Every due follow-up, quiet check-in, sample check-in | Anything about the 10 protected creators' programs |

@@ -6,7 +6,7 @@
 - Programs: Bambora Affiliates V3 since 2026-09-21
 - Videos: 2 submitted, 2 approved, 0 rejected, last 2026-09-02
 - Videos run as ads: 2
-- Performance since Jun 2026: earnings $124, Trybe GMV $1,035, conversions 17, ads 4, ad spend $1,060, purchases 31 ($1,922), ROAS 1.81
+- Performance since Jun 2026: earnings $132, Trybe GMV $1,104, conversions 18, ads 4, ad spend $1,060, purchases 31 ($1,922), ROAS 1.81
 
 ### Videos (newest first)
 - 2026-09-02 approved (trybe=6d0e1b61, ads 1): ""

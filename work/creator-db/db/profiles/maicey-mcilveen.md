@@ -4,11 +4,12 @@
 - Group: 5% program (V3)
 - Joined Trybe: 2026-09-19
 - Programs: Bambora Affiliates V3 since 2026-09-19
-- Videos: 0 submitted, 0 approved, 0 rejected, last never
+- Videos: 1 submitted, 0 approved, 0 rejected, last 2026-09-28
 - Videos run as ads: 0
 - Performance since Jun 2026: earnings $0, Trybe GMV $0, conversions 0, ads 0, ad spend $0, purchases 0 ($0), ROAS None
 
 ### Videos (newest first)
+- 2026-09-28 pending (trybe=d4d1cf07): "If your baby lives in your arms like mine does, pay attention. This is a baby sling carrier from Bambora and it's saving my life right now. There's only one strap that goes over your shoulder and it's padded. It's probab"
 <!-- /facts -->
 
 ## Notes

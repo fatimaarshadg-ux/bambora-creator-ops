@@ -4,11 +4,12 @@
 - Group: 5% program (V3)
 - Joined Trybe: 2026-07-25
 - Programs: Bambora Affiliates V3 since 2026-09-21
-- Videos: 4 submitted, 3 approved, 0 rejected, last 2026-08-17
-- Videos run as ads: 3
-- Performance since Jun 2026: earnings $78, Trybe GMV $700, conversions 10, ads 6, ad spend $1,058, purchases 26 ($1,617), ROAS 1.53
+- Videos: 5 submitted, 4 approved, 0 rejected, last 2026-09-25
+- Videos run as ads: 4
+- Performance since Jun 2026: earnings $86, Trybe GMV $856, conversions 12, ads 7, ad spend $1,341, purchases 30 ($1,902), ROAS 1.42
 
 ### Videos (newest first)
+- 2026-09-25 approved (trybe=f81204a3, ads 1): "I've had a few moms asking if the Bambora Sling Carrier is also toddler-friendly. I use this with my 3-year-old and my 9-month-old. For toddlers, it's all about the quick scoop. I pop him in right over the sling, adjust "
 - 2026-08-17 approved (trybe=0707740f, ads 3): "Convenience is kind of what we strive for as moms and as a mom of three I'm always looking for convenient ways to make our lives easier and so this Bambora Sling Carrier is one that we've recently tried and it's it's kin"
 - 2026-08-17 approved (trybe=5b3e173c, ads 1): "This one's for all of my fellow mamas out there who need a convenient carrier for when they're out with their clingy baby or clingy toddler. This is the Bambora Sling Carrier. It is by far the best of all that I have tri"
 - 2026-07-26 approved (trybe=c2bd4170, ads 2): "If your baby or toddler is going through the velcro phase and your arms are literally about to fall off, then you need to stop scrolling. I finally tried the Bambora Sling Carrier. My back and my wrists have never been h"

@@ -49,7 +49,7 @@ Feedback to creators is gentle coaching; findings to you are direct.
 - **Positive replies always get a heart reaction plus a warm line.**
 - **Unsure what a creator means about something of Fatima's?** Ask in one line first (the Danielle wrong-links lesson). (2026-09-23)
 - **Never "no rush"**, never pushy, never "just following up".
-- **SEND WINDOW (2026-09-27): nothing goes to a creator before 12 PM US Eastern time** (9 PM in Pakistan). That covers messages, accepts, approvals and rejections, because all of them notify the creator. Before 12 PM ET Claude only reads, reviews and writes what it would send into `work/send-queue/<date>.md`; at 12 PM ET it sends the queue. Claude checks the US time itself, not this PC's clock.
+- **SEND WINDOW (2026-09-27): nothing goes to a creator before 12 PM US Eastern time** (9 PM in Pakistan; 10 PM after the US clocks change on Nov 1). That covers messages, accepts, approvals and rejections, because all of them notify the creator. Before 12 PM ET Claude only reads, reviews and writes what it would send into `work/send-queue/<date>.md`; at 12 PM ET it sends the queue. Claude checks the US time itself, not this PC's clock.
 - **Follow-ups must read as follow-ups (2026-09-26).** Before any nudge Claude runs `ctx(name)` and reads the last 3 messages; the chat helper refuses to send until it has. The nudge is the next line of THAT conversation ("did you get a chance to..."), never a fresh opener plus a list of asks.
 - **No double follow-ups (2026-09-25).** If our last message is unanswered and under about 48 hours old, don't nudge again. New moms, moves, pregnancies: give it a week. Exception: sample-request and Meta access nudges can go 15 to 20 hours after our last message about it.
 - **Polite but firm (2026-09-26).** Please, thank you, "feel free", "or put your own spin on it". Never bare orders.
@@ -89,7 +89,15 @@ Also:
 - A big Trybe portfolio of talking-head videos overrides weak TikTok numbers (leaning accept, never auto-reject).
 - Bilingual never counts against anyone. Their other content never counts against them. GMV is ignored. Existing Bambora customers are a strong plus.
 - Accept into **Bambora Affiliates V3 (5%) only.**
-- Every new applicant first gets the fit-questions message (`work/trybe-applicant-review/first-message.md`).
+- Every new applicant first gets the screening questions (`work/trybe-applicant-review/first-message.md`), sent from Discovery (profile > Open chat), before any accept. Word for word:
+
+  > hey {first}! thank you so much for applying, I'd love to have you 💗 I invest a lot in my creators (weekly inspo, feedback on every video, and putting real ad spend behind the ones that work), so before I accept, I want to make sure it's a good fit for you too:
+  > 1. do you have a baby or toddler (10 to 50 lbs) you could film with in the sling?
+  > 2. are you comfortable having them on camera? videos where baby's face shows tend to do best
+  > 3. my top creators usually post 3 to 5 videos a week, and that's where the commissions really add up. would that work for you?
+  > no pressure at all, just let me know and I'll take it from there 🥰
+
+  Their answers decide the standing accept below.
 - Never ask for socials from someone whose Trybe videos already show them talking.
 - Before any reject, show what each person sent (pitch plus what's on their videos) unless you've seen it.
 - Applicants we asked for a talking video: one follow-up after a full day; still nothing 3 days later → reject or hold (your call).
@@ -136,7 +144,7 @@ Cambria Reau, Sophia Lease, Ciara Burnett, Carissa Lyman, Cassie Avery Charvat, 
 ## 10. Autonomy and irreversible actions
 
 - Approve, reject and accept **only on your go**, per creator, even clear-cut ones. Exception: the standing accept and reject goes for applicants in section 5.
-- **Existing creators' submissions: revisions and rejections HOLD until Fatima has watched the videos herself** (2026-09-27). Bring them to her; don't send them on your own yes alone.
+- **Existing creators' submissions (2026-09-27/28):** clear-cut approvals (all 6 checklist points, not sale-led, nothing Claude is unsure of) go ahead without anyone's review; Claude lists them under Done. Unsure ones come to you. **Revisions and rejections HOLD until Fatima has watched the videos herself**: bring them to her; don't send them on your own yes alone.
 - **Sweeps keep running when you're silent** (2026-09-25): past any stated end time, until you type `stop the routines`. So always type it at the end of your shift, then tell Fatima (one computer at a time).
 - Except: eligible samples (section 4), which Claude approves and then tells you.
 - **If your words could mean "discuss" instead of "act", Claude asks one line first** ("let's do the 8" was once read as "reject the 8"). (2026-09-24)

@@ -4,11 +4,18 @@
 - Group: 5% program (V3)
 - Joined Trybe: 2026-07-28
 - Programs: Bambora Affiliates V3 since 2026-09-21
-- Videos: 3 submitted, 2 approved, 1 rejected, last 2026-09-01
-- Videos run as ads: 2
-- Performance since Jun 2026: earnings $29, Trybe GMV $244, conversions 4, ads 2, ad spend $346, purchases 5 ($323), ROAS 0.93
+- Videos: 10 submitted, 7 approved, 1 rejected, last 2026-09-26
+- Videos run as ads: 7
+- Performance since Jun 2026: earnings $41, Trybe GMV $482, conversions 8, ads 7, ad spend $667, purchases 12 ($822), ROAS 1.23
 
 ### Videos (newest first)
+- 2026-09-26 pending (trybe=41157045): "Come with me as I run a little errand and use my Bambora Sling. It's so easy to just throw them in the sling, run into the store, and grab what I need. Also, I saw a Bambora Sling in the wild, so cool people wear Bambora"
+- 2026-09-26 pending (trybe=e7a77c8f): "Come with me as I run a little errand and use my Bambora Sling. It's so easy to just throw them in the sling, run into the store, and grab what I need. Also, I saw Bambora Sling in the wild, so cool people wear Bambora S"
+- 2026-09-25 approved (trybe=54050392, ads 1): "I have about 10 seconds to tell you why I love this Bambora Sling. It holds up to 50 pounds, it's adjustable in the front and the back, it's padded, it's adorable, and it's on sale. How'd I do?"
+- 2026-09-25 approved (trybe=b4c710ee, ads 1): "I'm going to give you my honest review of this Bambora Sling and you're not going to like what I have to say. I don't have a single bad thing to say about this product. I'm so serious. I constantly reach for it. It makes"
+- 2026-09-25 approved (trybe=19a59e39, ads 1): "If you're looking for a baby shower gift that an expecting mom will actually use, let me introduce you to the Bambora Sling. This is my favorite gift to give expecting mothers. It's not like your usual baby carrier. It's"
+- 2026-09-25 approved (trybe=86527552, ads 1): "One of us is teething right now and wants to be attached to my hip 24-7. Luckily I have this Bambora Sling that keeps him nice and secure at my side. He loves it. He just told you that he feels so snug and secure next to"
+- 2026-09-25 approved (trybe=79e81e73, ads 1): "One of us is teething right now and wants to be attached to me 24-7. Luckily, I have this Bambora Sling which has been a lifesaver in times like this. He gets to still be snugly attached to my side, but I also have a lit"
 - 2026-09-01 rejected (trybe=e124314c): ""
 - 2026-09-01 approved (trybe=13c488ae, ads 1): "There's three reasons why you need the Bambora Sling. Number one, it's so simple. No need for those complex wraps or baby carriers. You really just pop them in here, tighten the strap, and you're good to go. Number two, "
 - 2026-09-01 approved (trybe=d5f2ca9f, ads 1): "Here's three reasons why you need this Bambora Sling. Reason number one, it's so simple. You don't have to deal with those complicated carriers or wraps. You really just pop them in like a little hammock and tighten the "

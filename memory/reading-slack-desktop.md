@@ -10,6 +10,6 @@ No Slack connector is set up. On Fatima's Mac, Claude drove the Slack desktop ap
 **On this PC:** the operator signs in to Slack in Chrome (app.slack.com) with the Bambora account herself. Then read it with the Claude in Chrome tools (get_page_text, find, read_page), like any other logged-in site. Rules that still apply:
 - Never type a password or sign in for her.
 - Never press Enter in a message composer (drafts may be sitting there), and never post, react or send in Slack unless the operator asks for that exact message.
-- Liam (the media buyer) gets the Drive links for approved videos through Slack; the operator forwards them. Claude prepares the text (see [[routine-liam-batches-and-meta-access]]).
+- Nothing is sent to Liam (the media buyer) anymore (Fatima, 2026-09-27): approved videos only go into Drive, Main Media > Trybe.
 
 Related: [[claude-in-chrome-standing-permission]].

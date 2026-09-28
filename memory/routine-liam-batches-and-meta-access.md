@@ -1,6 +1,6 @@
 ---
 name: routine-liam-batches-and-meta-access
-description: "Approved videos go straight into Liam's ad-launcher sheet + Drive folder (2026-09-25, replaced the Liam links/batches); plus a Meta (partnership ads) access check every ~5 hours"
+description: "Liam part RETIRED 2026-09-27 (nothing goes to Liam); the Meta (partnership ads) access check every ~5 hours"
 metadata:
   node_type: memory
   type: feedback
@@ -14,4 +14,4 @@ metadata:
 2. **Meta access check every ~5 hours:** `work/sweep/every.sh due metaaccess 300`; when due, roster scan V3 creators needing partnership ads access (Request available, no Instagram connected, Pending 3+ days) and ask them, per the partnership rules in routines/full-run.md.
 
 **Why:** Liam asked for ready creatives in his drive + sheet instead of Slack links, and Fatima said to build it so it happens automatically.
-**How to apply:** both are steps in routines/full-run.md; check them every sweep. First batch (Ellie, Aubrie, Jodi, Cambria) added 2026-09-25, rows 301-304. Sheet writes: insert rows below the last row, then a REAL Cmd+V of the TSV (synthetic paste not used), then verify via CSV export. Related: [[core-rules]], [[bambora-drive-approved-videos]], [[macos-drive-upload-technique]].
+**How to apply:** both are steps in routines/full-run.md; check them every sweep. First batch (Ellie, Aubrie, Jodi, Cambria) added 2026-09-25, rows 301-304. Sheet writes: insert rows below the last row, then a real paste of the TSV (synthetic paste not used), then verify via CSV export. Related: [[core-rules]], [[bambora-drive-approved-videos]].

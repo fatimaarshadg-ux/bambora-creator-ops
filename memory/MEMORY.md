@@ -1,8 +1,8 @@
 - [OPERATOR, read before anything](operator-handover.md): you now work with Fatima's sister (name, hours, timezone in ~/claude-setup/OPERATOR.md); "her go" means the operator's go; messages still go out as Fatima
 - [Windows machine](windows-machine.md): this is a Windows PC; paths, `py -3`, PowerShell ports of the Mac scripts, Git Bash as Claude's shell
 - [CORE RULES, read first](core-rules.md): the essential safety, messaging, inspo, applicant, ignore-list, autonomy and system rules on one page
-- [OPEN WORK, read second](open-work-2026-09-23-night.md): unfinished partnership-ads notes (19 left), 20h sample nudge, Drive links for Liam, Discovery verdicts
-- [Work day hours](work-day-hours.md): about 5 PM to 5 AM PKT; end-of-day filing, Liam links and wrap-up at about 4:15 AM
+- [OPEN WORK, read second](open-work-2026-09-23-night.md): unfinished partnership-ads notes (19 left), sample nudge, Discovery verdicts (Liam items there are retired)
+- [Work day hours](work-day-hours.md): about 5 PM to 5 AM PKT; end-of-day filing and wrap-up at about 4:15 AM (the operator's hours are in OPERATOR.md)
 - [Use Chrome extension for logged-in sites](feedback_use_chrome_extension_for_logged_in_sites.md): prefer Claude in Chrome over sandboxed Browser when a site needs login; open it yourself without asking
 - [Bambora brand basics](bambora_brand_basics.md): Bambora ≠ "Bombara" folder name; site, palette, Trybe
 - [Trybe API capabilities](trybe-api-capabilities.md): creator-performance endpoint + on-screen-text search; local MCP server was wrong
@@ -49,7 +49,7 @@
 - [New work becomes a routine](feedback-new-work-becomes-routine.md): every new task or rule gets built into routines, skill and ledger the same turn, then pushed
 - [Casting mindset](creator-casting-mindset.md): see each creator as roles they can play (pediatrician = must-haves list, mom of many = ranking videos); several varied formats each
 - [Base retainer offer](creator-base-retainer-offer.md): $400/month base for 20 to 30 videos a month after 30 to 60 days of consistency; commissions are the real money; no deadline
-- [Liam batches + Meta access check](routine-liam-batches-and-meta-access.md): forward-ready Liam message at 5+ new videos; partnership-ads access check every ~5 hours
+- [Meta access check (Liam part retired)](routine-liam-batches-and-meta-access.md): partnership-ads access check every ~5 hours; nothing goes to Liam since 2026-09-27
 - [Take ownership](feedback-take-ownership.md): send due follow-ups in the sweep, live state only, never re-raise settled decisions, ask only irreversible/money/unknowns
 - [Claude media watcher](claude-media-watcher.md): public repo fatimaarshadg-ux/claude-media-watcher (vendored in tools/); drop a video/audio file or link and Claude watches it; skill `media-watcher`
 - [Ads Library DMCA monitor](ads-library-dmca-monitor.md): weekly Task Scheduler job live (Mon 09:00) with Slack digest; explicitn.com theft confirmed 2026-09-22; Slack webhook still not stored
@@ -63,3 +63,4 @@
 - [Chrome extension browser switch](chrome-extension-browser-switch.md): tabs vanish / localhost fails / page hidden = extension switched to the other computer; select the browser on this computer
 - [Send window: US noon](send-window-us-noon.md): no creator messages before 12 PM ET (9 PM PKT); queue until then
 - [Applicant accept/reject rule](applicant-accept-reject-rule-0927.md): yes + good yapper = accept; asked for yapper, never sent = reject
+- [Clear-cut approvals go without review](feedback-clear-cut-approvals.md): sure approvals, standing applicant rules and routine actions need no review; revisions and rejects wait for Fatima to watch

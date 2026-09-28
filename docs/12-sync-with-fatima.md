@@ -4,7 +4,7 @@ This page settles one question: when you and Fatima both do this job, which copy
 
 ## The decision
 
-- **This repo is the one live copy of the shift work** from handover day on: `fatimaarshadg-ux/bambora-creator-ops`, cloned on your PC at `C:\Users\<you>\claude-setup`. The follow-up ledger, the "already seen" lists, the Drive filing record, the Liam record, the session logs and the creator database all live here.
+- **This repo is the one live copy of the shift work** from handover day on: `fatimaarshadg-ux/bambora-creator-ops`, cloned on your PC at `C:\Users\<you>\claude-setup`. The follow-up ledger, the "already seen" lists, the Drive filing record, the session logs and the creator database all live here.
 - **Fatima's own repo (`fatimaarshadg-ux/claude-setup`) stays hers.** It holds the Mac versions of the skills and scripts. It is not used on your PC, and you never push to it.
 - **One machine at a time.** Only one computer runs "start the routines" at any moment. Whoever is on shift owns the ledger. Switching is a handoff, below.
 
@@ -34,7 +34,7 @@ If Fatima says she is on shift and did not run `give`, **do not start**. Ask her
 | `work/creator-db/followups.json` (the ledger) | skills (Mac and Windows versions differ) |
 | `work/creator-db/db/` (creator database) | memory files (paths differ) |
 | `work/trybe-applicant-review/seen.txt` and the dated verdict notes | scripts |
-| `work/trybe-drive-filing/filed.json`, `liam-sent.json`, `liam-links-*.md` | `CLAUDE.md`, settings |
+| `work/trybe-drive-filing/filed.json` | `CLAUDE.md`, settings |
 | `work/inspo/seen.txt` | |
 | `work/session-logs/*.md` | |
 | `skills/fatima-creator-voice/lessons.md` (voice corrections) | |

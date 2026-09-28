@@ -15,7 +15,8 @@ You need about **1 hour** for the setup below. After that, starting a work day t
 | What | Where you get it |
 |---|---|
 | A Windows 10 or 11 PC, with internet | yours |
-| Fatima's Bambora Google login (fatima@bamboraco.com) | Fatima gives it to you. This gets you into Trybe, Google Drive, Notion and Slack as her. |
+| Fatima's Bambora Google login (fatima@bamboraco.com) | Fatima gives it to you. This gets you into Google Drive, Gmail, Notion and Slack as her. |
+| Fatima's **Trybe password** | Fatima sends it to you privately. Trybe uses email + password (same email). |
 | The **Trybe API key** | Fatima sends it to you privately. You paste it once into a hidden box. **Never paste it into the Claude chat.** |
 | Fatima's **GitHub** login | The same email, fatima@bamboraco.com. The repo is on her account (`fatimaarshadg-ux`), so there is no invitation to accept. |
 | Fatima's **Claude** login | The same email again. You use her Claude account, so the Creator Tracker, Google Drive, Notion and Atria connections are already there. Her own Claude use on the Mac shares the same usage limit. |
@@ -105,11 +106,11 @@ Install these by hand (click Next through each installer; defaults are fine), th
 2. Go to the **Chrome Web Store** (https://chromewebstore.google.com), search **Claude**, open **Claude** by **Anthropic**, click **Add to Chrome**, then **Add extension**.
 3. Click the puzzle-piece icon at the top right of Chrome, then the pin next to **Claude**, so its icon stays visible. Click it and sign in with Fatima's Claude account (fatima@bamboraco.com).
 4. In this same Chrome, open and sign in to each of these (keep them signed in):
-   - Trybe brand portal: https://jointrybe.com/brand?b=a8bedbc3-3b30-410d-a09e-2aa3aeb3a8e9 (use the same sign-in Fatima uses for Trybe; if you see a **Continue with Google** button, click it and pick fatima@bamboraco.com. If you are not sure, ask her before trying passwords.)
+   - Trybe brand portal: https://jointrybe.com/brand?b=a8bedbc3-3b30-410d-a09e-2aa3aeb3a8e9 . It shows a **Sign in** page with email and password (no Google button). Email: **fatima@bamboraco.com**. Password: the **Trybe password Fatima sends you privately**. **Never click "Forgot your password?"**: that would reset Fatima's password and log her Mac out.
    - Google Drive: https://drive.google.com
    - Notion: https://www.notion.so
    - Slack: https://app.slack.com
-5. **Let Claude work in these sites without asking every click.** The first time Claude uses a site, the Claude extension asks whether it may act there. Pick the option that allows it **always for that site** (not "once") for: `jointrybe.com`, `drive.google.com`, `docs.google.com`, `tiktok.com`, `instagram.com`, `youtube.com`, `notion.so`. For any other site, choose **once**, and ask Fatima if you're unsure. Never allow a site that asks for a password or payment.
+5. **Let Claude work in these sites without asking every click.** The first time Claude uses a site, the Claude extension asks whether it may act there. Pick the option that allows it **always for that site** (not "once") for: `jointrybe.com`, `drive.google.com`, `docs.google.com`, `tiktok.com`, `instagram.com`, `youtube.com`, `notion.so`, `app.slack.com`, `app.tryatria.com`. For any other site, choose **once**, and ask Fatima if you're unsure. Never allow a site that asks for a password or payment.
 
 ## Step 6. Google Drive for desktop
 
@@ -140,7 +141,7 @@ A sleeping PC means missed sweeps (Claude, Chrome and the timers all freeze). Cl
 6. Check the tools Claude uses. Because this is Fatima's Claude account, most are probably connected already. In the Claude app go to **Settings**, then **Connectors**, and make sure each of these says connected (if not, click **Connect** and sign in with fatima@bamboraco.com):
    - **Google Drive**
    - **Notion**
-   - **Claude in Chrome** (so Claude can use the Chrome you signed in above)
+   - **Claude in Chrome** (so Claude can use the Chrome you signed in above). If it isn't in the Connectors list, look for a **Claude in Chrome** or **Browser** section in Settings and turn it on; the extension from Step 5 must be signed in.
    - **Atria** (the ad library): **Add custom connector**, URL `https://api.tryatria.com/mcp`, then sign in
    - The **Claude Docs** connector, if it is not already there (the Creator Tracker lives in it)
 
@@ -162,7 +163,7 @@ start the routines
 
 That's it. Claude does the rest by itself, including **keeping the PC awake** (it turns keep-awake on as part of starting; you never run it yourself). Its first message confirms in one line: keep-awake RUNNING, timers set, watchdog on, and the US time with the **send window** OPEN or CLOSED.
 
-- **Send window:** nothing goes to creators before **12 PM US Eastern** (9 PM Pakistan time). Before that, Claude still checks everything and prepares messages in a queue; the first sweep after 12 PM ET sends them. So a quiet start is normal.
+- **Send window:** nothing goes to creators before **12 PM US Eastern** (9 PM Pakistan time; 10 PM after the US clocks change on Nov 1). Before that, Claude still checks everything and prepares messages in a queue; the first sweep after 12 PM ET sends them. So a quiet start is normal.
 - Every 30 minutes you get ONE message: **Done**, **Needs your go** (numbered, each with a recommendation), **Questions**. Answer like "yes 1 and 3, no 2 because ...".
 - Not sure whether something is yours to decide? `docs/11-decision-guide.md`. Something broke? `docs/08-troubleshooting.md`.
 

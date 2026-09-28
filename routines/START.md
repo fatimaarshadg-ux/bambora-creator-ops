@@ -24,7 +24,7 @@ Her work day runs from about 5 PM to 5 AM PKT. From "start the routines", everyt
 
 ## 2. Every sweep (full-run.md, in this order)
 1. **Chat:** the `convoScan()` needsUs list (their message is last), oldest first. Read, then reply per the cheat sheet. `qCheck()` flags unanswered questions. Don't touch threads Fatima is handling.
-2. **Samples:** approve eligible requests (V3, requested on or after 2026-09-17, shipping to an English-speaking country such as the US, Canada, UK, Australia, New Zealand or Ireland; multiple items are fine), then send the approval message. Nudge anyone 20+ hours without a request, except Bambora owners, who are told to start filming.
+2. **Samples:** approve eligible requests (V3, requested on or after 2026-09-17, shipping to an English-speaking country such as the US, Canada, UK, Australia, New Zealand or Ireland; multiple items are fine), then send the approval message. Nudge anyone without a request 15 to 20 hours after our last message, except Bambora owners, who are told to start filming.
 3. **Partnership ads:** request everyone the roster shows as requestable, ask "--" creators to connect a public Instagram or Facebook, and nudge requests still pending after 3 days.
 4. **Submissions:** review, then bring verdicts. After her go: approve and message the creator, then file the video in Drive (Main Media > Trybe) right away. Nothing goes to Liam.
 5. **Discovery:** new names (not in seen.txt) get reviewed in a background agent, and the verdicts come to her. After her go: accept, request partnership ads, schedule the sample nudge.

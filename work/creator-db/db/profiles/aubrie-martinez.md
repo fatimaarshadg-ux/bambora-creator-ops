@@ -4,12 +4,14 @@
 - Group: 5% program (V3)
 - Joined Trybe: 2026-09-04
 - Programs: Bambora Affiliates V3 since 2026-09-21
-- Videos: 2 submitted, 2 approved, 0 rejected, last 2026-09-24
-- Videos run as ads: 1
-- Performance since Jun 2026: earnings $0, Trybe GMV $0, conversions 0, ads 1, ad spend $292, purchases 3 ($203), ROAS 0.7
+- Videos: 4 submitted, 4 approved, 0 rejected, last 2026-09-26
+- Videos run as ads: 2
+- Performance since Jun 2026: earnings $17, Trybe GMV $245, conversions 3, ads 2, ad spend $605, purchases 5 ($380), ROAS 0.63
 
 ### Videos (newest first)
-- 2026-09-24 approved (trybe=5fbaf5ba): ""
+- 2026-09-26 approved (trybe=9e18c53d): "This one's for the moms with velcro babies that don't like wearing those big, bulky baby carriers. This is a crossbody baby sling by Bambora and it is so incredibly comfortable, lightweight, and so small that you can fol"
+- 2026-09-26 approved (trybe=ff2707ac): "Clearly a mom with a velcro baby invented this. This is a sling that your baby is inside of basically sitting on your hip. This is by Bambora. I'm living for like the denim checkered print. It has this beautiful strap th"
+- 2026-09-24 approved (trybe=5fbaf5ba, ads 1): ""
 - 2026-09-16 approved (trybe=b2544736, ads 1): "Clearly a mom with a velcro baby invented this. This one's by Bambora. It is a sling that your baby sits in and this is completely padded so you don't feel a ton of pressure on your shoulder. But look, she's just chillin"
 <!-- /facts -->
 

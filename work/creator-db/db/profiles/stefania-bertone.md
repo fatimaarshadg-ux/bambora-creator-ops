@@ -4,11 +4,12 @@
 - Group: 5% program (V3)
 - Joined Trybe: 2026-08-18
 - Programs: Bambora Affiliates V3 since 2026-09-23
-- Videos: 2 submitted, 2 approved, 0 rejected, last 2026-09-15
+- Videos: 3 submitted, 2 approved, 0 rejected, last 2026-09-26
 - Videos run as ads: 2
 - Performance since Jun 2026: earnings $29, Trybe GMV $240, conversions 3, ads 2, ad spend $297, purchases 3 ($240), ROAS 0.81
 
 ### Videos (newest first)
+- 2026-09-26 pending (trybe=e454d6d2): "Mom's doing everything with one hand because the baby refused to be put down. This is for you. I love this Bambora baby carrier because I'm a mama for it and I've been through every single baby carrier that you can possi"
 - 2026-09-15 approved (trybe=7201ef4b, ads 1): "If you have a Velcro baby or a toddler baby, then I highly suggest you get yourself a good baby carrier. This Bambora sling is the only type of sling my son will actually let me carry him in because it's not him being st"
 - 2026-09-15 approved (trybe=3dc7f374, ads 1): "If your baby carrier does not allow you to be hands-free, then you need to invest on a new one. Super thick van and have two different buckles on each different side. It comes with a couple of different colors that you c"
 <!-- /facts -->

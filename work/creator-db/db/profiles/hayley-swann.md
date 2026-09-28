@@ -4,12 +4,13 @@
 - Group: 5% program (V3)
 - Joined Trybe: 2026-07-23
 - Programs: Bambora Affiliates V3 since 2026-09-21
-- Videos: 3 submitted, 2 approved, 1 rejected, last 2026-09-10
-- Videos run as ads: 2
-- Performance since Jun 2026: earnings $35, Trybe GMV $312, conversions 5, ads 4, ad spend $579, purchases 16 ($864), ROAS 1.49
+- Videos: 4 submitted, 2 approved, 1 rejected, last 2026-09-26
+- Videos run as ads: 3
+- Performance since Jun 2026: earnings $35, Trybe GMV $312, conversions 5, ads 5, ad spend $586, purchases 17 ($954), ROAS 1.63
 
 ### Videos (newest first)
-- 2026-09-10 rejected (trybe=c496d108): "This is the sling that I need. I have two other toddlers and everyone wants to be carried. I love the Bambora sling because I can use this for my youngest baby. You can have them cradled in here and then it goes all the "
+- 2026-09-26 pending (trybe=c61d9574): "My third baby soon and this is the sling that I need. I have two other toddlers and everyone wants to be carried. I love the Bambora sling because I can use this for my youngest baby. You can have them cradled in here an"
+- 2026-09-10 rejected (trybe=c496d108, ads 1): "This is the sling that I need. I have two other toddlers and everyone wants to be carried. I love the Bambora sling because I can use this for my youngest baby. You can have them cradled in here and then it goes all the "
 - 2026-07-31 approved (trybe=78512b7e, ads 2): ""
 - 2026-07-23 approved (trybe=f9d74e16, ads 2): "I'm pregnant with my third and let me show you the one baby item I suggest to everyone. Some type of carrier. Now when your kids get a little bit older it's kind of hard to carry them in a traditional carrier sometimes. "
 <!-- /facts -->

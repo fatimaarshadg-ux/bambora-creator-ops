@@ -5,12 +5,12 @@
 - Joined Trybe: 2026-08-04
 - Programs: Bambora Affiliates V3 since 2026-09-21
 - Videos: 7 submitted, 4 approved, 3 rejected, last 2026-09-23
-- Videos run as ads: 2
-- Performance since Jun 2026: earnings $266, Trybe GMV $2,220, conversions 32, ads 2, ad spend $2,285, purchases 49 ($3,167), ROAS 1.39
+- Videos run as ads: 4
+- Performance since Jun 2026: earnings $274, Trybe GMV $2,284, conversions 33, ads 4, ad spend $2,528, purchases 50 ($3,226), ROAS 1.28
 
 ### Videos (newest first)
-- 2026-09-23 approved (trybe=99b2e47d): "Thank you to all the moms that are showcasing this baby sling especially if you're an age gap mom because as a mom that's going to have a newborn soon and then an older son this is going to come in so handy when i am coo"
-- 2026-09-23 approved (trybe=146a6139): "Your baby that's in your tummy right now might want to be carried all the stinking time. The truth of the matter is, is we don't know what type of baby we're gonna have. And so that's why I come prepared, especially as a"
+- 2026-09-23 approved (trybe=99b2e47d, ads 1): "Thank you to all the moms that are showcasing this baby sling especially if you're an age gap mom because as a mom that's going to have a newborn soon and then an older son this is going to come in so handy when i am coo"
+- 2026-09-23 approved (trybe=146a6139, ads 1): "Your baby that's in your tummy right now might want to be carried all the stinking time. The truth of the matter is, is we don't know what type of baby we're gonna have. And so that's why I come prepared, especially as a"
 - 2026-09-14 rejected (trybe=5b2e8e92): "0 to 4 months. It holds up to 50 pounds and it's on sale right now. So whether you're an expecting mom like me or you already have a little one, this is the baby sling that you're probably going to want to have. Now the "
 - 2026-09-01 approved (trybe=14a5745d, ads 1): "Proven fact that things are better on sale, especially if you've been waiting for them. And when you're an expecting mom, things can get a little expensive. That's why when I saw this baby sling was on sale for the back-"
 - 2026-08-31 approved (trybe=8e526443, ads 1): "The Bambora Sling, they're having a back-to-school special right now, so if you've been waiting to get your hands on this, it's a padded baby sling with all the cute patterns, now is the time you should probably do it. I"

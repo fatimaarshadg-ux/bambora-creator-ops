@@ -4,12 +4,13 @@
 - Group: PROTECTED (keeps her old commission; never message about commission)
 - Joined Trybe: 2026-08-01
 - Programs: The Bambora Affiliate Program! since 2026-08-01
-- Videos: 44 submitted, 44 approved, 0 rejected, last 2026-09-25
-- Videos run as ads: 43
-- Performance since Jun 2026: earnings $2,390, Trybe GMV $19,929, conversions 330, ads 67, ad spend $20,542, purchases 617 ($36,635), ROAS 1.78
+- Videos: 45 submitted, 44 approved, 0 rejected, last 2026-09-27
+- Videos run as ads: 44
+- Performance since Jun 2026: earnings $2,728, Trybe GMV $22,747, conversions 369, ads 75, ad spend $23,929, purchases 698 ($42,155), ROAS 1.76
 
 ### Videos (newest first)
-- 2026-09-25 approved (trybe=27728e30): ""
+- 2026-09-27 pending (trybe=d4464514): "I just know a mom with a clingy baby invented this because this has saved my back and my Sandy more than once. More than a hundred times actually. The Bambora Sling Carrier and it's basically like putting your baby on yo"
+- 2026-09-25 approved (trybe=27728e30, ads 1): ""
 - 2026-09-17 approved (trybe=3e2e8a17, ads 1): "Look at her, she's a bad mamma jamma just as fine as she can be hey she's a bad mamma jamma just as fine as she can be"
 - 2026-09-16 approved (trybe=77a51f79, ads 1): "I just know a mom created this sling carrier because I wouldn't make it through my day if I didn't have it. I have four kids, I need to get things done. This guy would climb back into the womb if I let him, so this is wh"
 - 2026-09-11 approved (trybe=a411f233, ads 1): "This video is a derivative work of the Touhou Project. It has no relation to the original work. Please be careful when using this video. Thank you for watching."
@@ -17,14 +18,13 @@
 - 2026-09-10 approved (trybe=f556156c, ads 1): "I know our days are heaven sent Lord knows I know not where to bend Shake my head and I wonder how I'll ever get to heaven now An angel came one winter dawn You should have seen what she had"
 - 2026-09-10 approved (trybe=b9bb986c, ads 1): ""
 - 2026-09-08 approved (trybe=fd628af9, ads 1): "If this baby could climb back into my womb, he would. He's my little stage 5 clinger. I'm always lugging him around. Recently got this hip sling carrier and it is a game changer. Not only does it save on my back, but I f"
-- 2026-09-07 approved (trybe=c148446e, ads 1): "Your baby is sick, stage 5 clinger, and you just get tired of carrying them on your hip all the time, you need to get this Sling Carrier. It is a game changer. It can hold up to 50 pounds, and I just sling him on me, and"
+- 2026-09-07 approved (trybe=c148446e, ads 2): "Your baby is sick, stage 5 clinger, and you just get tired of carrying them on your hip all the time, you need to get this Sling Carrier. It is a game changer. It can hold up to 50 pounds, and I just sling him on me, and"
 - 2026-09-05 approved (trybe=0934181e, ads 1): ""
 - 2026-09-03 approved (trybe=d00b9520, ads 1): "If you have a baby that would climb back into the womb if they had the option, then I'm going to save your life. He is my little stage 5 clinger, and when I got this hip sling carrier thing, it literally saved my sanity."
 - 2026-09-02 approved (trybe=9956d2ef, ads 1): ""
 - 2026-08-31 approved (trybe=382783e1, ads 1): ""
 - 2026-08-30 approved (trybe=7af36605, ads 1): ""
-- 2026-08-28 approved (trybe=dc964d57, ads 1): ""
-- ...and 29 older (see creators.json)
+- ...and 30 older (see creators.json)
 <!-- /facts -->
 
 ## Notes

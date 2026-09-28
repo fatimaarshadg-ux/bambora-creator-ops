@@ -17,6 +17,6 @@ Shift of 2026-09-23 5 PM to 2026-09-24 ~3:45 AM PKT closed by Fatima ("let's wra
 - Cheylene: quiet check-in sent 9/24, reply owed if she answers.
 - 5% migration: Shelby Pinedo and Harley Haas never replied to the Sep 21 migration message. Fatima (9/24): leave them for now, no follow-up until she says.
 - Abbey Way: ignore (Fatima).
-- Links for Liam from this shift were sent to Fatima at wrap-up (Katherine 146a6139, 99b2e47d).
+- (Liam links: retired 2026-09-27, nothing goes to Liam anymore.)
 
 Related: [[core-rules]], [[creator-response-cadence]]

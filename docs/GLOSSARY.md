@@ -52,7 +52,7 @@
 
 **SAMPLE GATE** The hard rule: check a creator's real sample status in the Samples tab (this sweep) before saying anything about her sample.
 
-**20-hour nudge** One reminder to request a sample, 20+ hours after acceptance.
+**Sample nudge** One reminder to request the free sample, 15 to 20 hours after our last message.
 
 **Applicant / join request** Someone asking to join a program, in Discovery > Inbox.
 
