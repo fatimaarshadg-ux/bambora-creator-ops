@@ -241,7 +241,7 @@
     "new_submissions": 2,
     "active_submissions": 1,
     "ads": 1,
-    "spend_cents": 29727,
+    "spend_cents": 29835,
     "purchases": 2,
     "purchase_value_cents": 13385,
     "roas": 0.45
@@ -311,81 +311,6 @@
    }
   },
   "submissions": []
- },
- "creator_0a126f27-4f7d-493b-99c0-2251a90a62dd": {
-  "name": "Sirat kaur",
-  "slug": "sirat-kaur",
-  "id": "creator_0a126f27-4f7d-493b-99c0-2251a90a62dd",
-  "group": "v3",
-  "joined_at": "2026-07-30",
-  "programs": [
-   {
-    "name": "Bambora Affiliates V3",
-    "since": "2026-09-21",
-    "commission": "5% of GMV (max $100000.00 per submission, Videos only)"
-   }
-  ],
-  "performance": {
-   "object": "creator_performance",
-   "creator": {
-    "object": "creator",
-    "id": "creator_0a126f27-4f7d-493b-99c0-2251a90a62dd",
-    "name": "Sirat kaur",
-    "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/0a126f27-4f7d-493b-99c0-2251a90a62dd/1785421984668_516d3970.jpeg",
-    "joined_at": "2026-07-30T14:35:44.938Z"
-   },
-   "programs": [
-    {
-     "id": "creator_program_f7523ebb-8206-4da5-9997-4464f77aec58",
-     "name": "Bambora Affiliates V3"
-    }
-   ],
-   "activity": {
-    "last_submission_at": "2026-07-30T23:40:52.005Z",
-    "last_ad_day": "2026-09-22"
-   },
-   "performance": {
-    "start_date": "2026-06-01",
-    "end_date": "2026-09-27",
-    "currency": "USD",
-    "earnings_cents": 0,
-    "trybe_conversions": 0,
-    "trybe_gmv_cents": 0,
-    "new_submissions": 15,
-    "active_submissions": 1,
-    "ads": 1,
-    "spend_cents": 159,
-    "purchases": 0,
-    "purchase_value_cents": 0,
-    "roas": 0
-   }
-  },
-  "submissions": [
-   {
-    "trybe_id": "a8de429f",
-    "id": "submission_6915d1b2-b071-43e1-93ee-630ba8de429f",
-    "date": "2026-07-30",
-    "status": "rejected",
-    "program": "Bambora Affiliates v1",
-    "ads": 0,
-    "angles": [],
-    "review_comment": null,
-    "creator_comment": "\nHonestly, I can't believe I waited this long to try a sling. The @bamboraco wrap is so easy to use, so soft, and my baby falls asleep every single time.\n\nIt's made walks, errands, and life in general so much easier. Hands-free + happy baby = winning.\n\nUse my code [https://www.bamboraco.com/BALPREET13489] for a discount!\n\nThank you @bamboraco for sending this — we're obsessed! 💛",
-    "transcript": ""
-   },
-   {
-    "trybe_id": "19ea2269",
-    "id": "submission_0397c892-44fb-4aa5-906f-e82619ea2269",
-    "date": "2026-07-30",
-    "status": "approved",
-    "program": "Bambora Affiliates v1",
-    "ads": 1,
-    "angles": [],
-    "review_comment": null,
-    "creator_comment": "\nHonestly, I can't believe I waited this long to try a sling. The @bamboraco wrap is so easy to use, so soft, and my baby falls asleep every single time.\n\nIt's made walks, errands, and life in general so much easier. Hands-free + happy baby = winning.\n\nUse my code [https://www.bamboraco.com/BALPREET13489] for a discount!\n\nThank you @bamboraco for sending this — we're obsessed! 💛",
-    "transcript": "I get so many questions about how to use this carrier, so let's get into it. So this is what we're working with here. I like to always extend the front. The baby's butt should be going there in the little pooch, and then we make sure that we have the front by making sure we have that safety loop in the front. Grab your baby, give her kisses, get her ready, and then again the butt is going to be in the middle of that little pouch. That's going to make sure that she's in there good. Once you have her in there, then you can go ahead and start tightening. I like to have my back strap already tightened as much as possible, so that way I can just easily pull from the front, and then you're going to"
-   }
-  ]
  },
  "creator_0d2174b7-0312-47e4-9b35-d701bbf3cc4c": {
   "name": "Mackenzie Perez",
@@ -1093,106 +1018,6 @@
   },
   "submissions": []
  },
- "creator_1aed3b90-30e7-4920-9e06-a3fba498bb26": {
-  "name": "Bena De Los Angeles",
-  "slug": "bena-de-los-angeles",
-  "id": "creator_1aed3b90-30e7-4920-9e06-a3fba498bb26",
-  "group": "v3",
-  "joined_at": "2026-09-23",
-  "programs": [
-   {
-    "name": "Bambora Affiliates V3",
-    "since": "2026-09-23",
-    "commission": "5% of GMV (max $100000.00 per submission, Videos only)"
-   }
-  ],
-  "performance": {
-   "object": "creator_performance",
-   "creator": {
-    "object": "creator",
-    "id": "creator_1aed3b90-30e7-4920-9e06-a3fba498bb26",
-    "name": "Bena De Los Angeles",
-    "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/1aed3b90-30e7-4920-9e06-a3fba498bb26/1789666836721_b8a40414.png",
-    "joined_at": "2026-09-23T22:22:30.748Z"
-   },
-   "programs": [
-    {
-     "id": "creator_program_f7523ebb-8206-4da5-9997-4464f77aec58",
-     "name": "Bambora Affiliates V3"
-    }
-   ],
-   "activity": {
-    "last_submission_at": null,
-    "last_ad_day": null
-   },
-   "performance": {
-    "start_date": "2026-06-01",
-    "end_date": "2026-09-27",
-    "currency": "USD",
-    "earnings_cents": 0,
-    "trybe_conversions": 0,
-    "trybe_gmv_cents": 0,
-    "new_submissions": 0,
-    "active_submissions": 0,
-    "ads": 0,
-    "spend_cents": 0,
-    "purchases": 0,
-    "purchase_value_cents": 0,
-    "roas": null
-   }
-  },
-  "submissions": []
- },
- "creator_1b90e632-7f2f-411d-8bcc-b1fb2e88de49": {
-  "name": "Lauren White",
-  "slug": "lauren-white",
-  "id": "creator_1b90e632-7f2f-411d-8bcc-b1fb2e88de49",
-  "group": "v3",
-  "joined_at": "2026-09-19",
-  "programs": [
-   {
-    "name": "Bambora Affiliates V3",
-    "since": "2026-09-19",
-    "commission": "5% of GMV (max $100000.00 per submission, Videos only)"
-   }
-  ],
-  "performance": {
-   "object": "creator_performance",
-   "creator": {
-    "object": "creator",
-    "id": "creator_1b90e632-7f2f-411d-8bcc-b1fb2e88de49",
-    "name": "Lauren White",
-    "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/1b90e632-7f2f-411d-8bcc-b1fb2e88de49/1787259940456_72ac8ab9.jpg",
-    "joined_at": "2026-09-19T02:33:02.868Z"
-   },
-   "programs": [
-    {
-     "id": "creator_program_f7523ebb-8206-4da5-9997-4464f77aec58",
-     "name": "Bambora Affiliates V3"
-    }
-   ],
-   "activity": {
-    "last_submission_at": null,
-    "last_ad_day": null
-   },
-   "performance": {
-    "start_date": "2026-06-01",
-    "end_date": "2026-09-27",
-    "currency": "USD",
-    "earnings_cents": 0,
-    "trybe_conversions": 0,
-    "trybe_gmv_cents": 0,
-    "new_submissions": 0,
-    "active_submissions": 0,
-    "ads": 0,
-    "spend_cents": 0,
-    "purchases": 0,
-    "purchase_value_cents": 0,
-    "roas": null
-   }
-  },
-  "submissions": []
- },
  "creator_1d5a71cc-6206-48cd-82c5-12605bbdca17": {
   "name": "Aubri Tranel",
   "slug": "aubri-tranel",
@@ -1264,6 +1089,56 @@
     "name": "Abbey Way",
     "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/1f58aaf5-994d-438d-bd30-9f8b6f573c02/1789757162558_17e489f8.jpg",
     "joined_at": "2026-09-19T05:47:55.187Z"
+   },
+   "programs": [
+    {
+     "id": "creator_program_f7523ebb-8206-4da5-9997-4464f77aec58",
+     "name": "Bambora Affiliates V3"
+    }
+   ],
+   "activity": {
+    "last_submission_at": null,
+    "last_ad_day": null
+   },
+   "performance": {
+    "start_date": "2026-06-01",
+    "end_date": "2026-09-27",
+    "currency": "USD",
+    "earnings_cents": 0,
+    "trybe_conversions": 0,
+    "trybe_gmv_cents": 0,
+    "new_submissions": 0,
+    "active_submissions": 0,
+    "ads": 0,
+    "spend_cents": 0,
+    "purchases": 0,
+    "purchase_value_cents": 0,
+    "roas": null
+   }
+  },
+  "submissions": []
+ },
+ "creator_217d7698-401c-49fe-874f-7b6a40f3e6d3": {
+  "name": "Abbi Purvis",
+  "slug": "abbi-purvis",
+  "id": "creator_217d7698-401c-49fe-874f-7b6a40f3e6d3",
+  "group": "v3",
+  "joined_at": "2026-09-22",
+  "programs": [
+   {
+    "name": "Bambora Affiliates V3",
+    "since": "2026-09-22",
+    "commission": "5% of GMV (max $100000.00 per submission, Videos only)"
+   }
+  ],
+  "performance": {
+   "object": "creator_performance",
+   "creator": {
+    "object": "creator",
+    "id": "creator_217d7698-401c-49fe-874f-7b6a40f3e6d3",
+    "name": "Abbi Purvis",
+    "avatar_url": null,
+    "joined_at": "2026-09-22T21:45:13.890Z"
    },
    "programs": [
     {
@@ -1457,8 +1332,8 @@
   ]
  },
  "creator_2583d6a3-651d-4c63-b25e-8f4f1a0a91fe": {
-  "name": "Retired Athlete Turned Mom",
-  "slug": "retired-athlete-turned-mom",
+  "name": "Ashley Sterling | UGC Creator & Mom Unfiltered",
+  "slug": "ashley-sterling-ugc-creator-mom-unfiltered",
   "id": "creator_2583d6a3-651d-4c63-b25e-8f4f1a0a91fe",
   "group": "v3",
   "joined_at": "2026-09-26",
@@ -1474,8 +1349,8 @@
    "creator": {
     "object": "creator",
     "id": "creator_2583d6a3-651d-4c63-b25e-8f4f1a0a91fe",
-    "name": "Retired Athlete Turned Mom",
-    "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/2583d6a3-651d-4c63-b25e-8f4f1a0a91fe/1790184282637_4837e492.png",
+    "name": "Ashley Sterling | UGC Creator & Mom Unfiltered",
+    "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/2583d6a3-651d-4c63-b25e-8f4f1a0a91fe/1790594341337_160247c6.jpg",
     "joined_at": "2026-09-26T16:17:35.230Z"
    },
    "programs": [
@@ -1752,56 +1627,6 @@
     "name": "Jordan Murray",
     "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/2cc85d73-eab4-4f0d-b62c-074cfe7bf593/1789573295814_71e9c346.jpg",
     "joined_at": "2026-09-23T16:37:41.405Z"
-   },
-   "programs": [
-    {
-     "id": "creator_program_f7523ebb-8206-4da5-9997-4464f77aec58",
-     "name": "Bambora Affiliates V3"
-    }
-   ],
-   "activity": {
-    "last_submission_at": null,
-    "last_ad_day": null
-   },
-   "performance": {
-    "start_date": "2026-06-01",
-    "end_date": "2026-09-27",
-    "currency": "USD",
-    "earnings_cents": 0,
-    "trybe_conversions": 0,
-    "trybe_gmv_cents": 0,
-    "new_submissions": 0,
-    "active_submissions": 0,
-    "ads": 0,
-    "spend_cents": 0,
-    "purchases": 0,
-    "purchase_value_cents": 0,
-    "roas": null
-   }
-  },
-  "submissions": []
- },
- "creator_2d3afbe6-9b9e-43d3-bcd2-e07d2c369ca1": {
-  "name": "Labourgeoise Bynum",
-  "slug": "labourgeoise-bynum",
-  "id": "creator_2d3afbe6-9b9e-43d3-bcd2-e07d2c369ca1",
-  "group": "v3",
-  "joined_at": "2026-09-24",
-  "programs": [
-   {
-    "name": "Bambora Affiliates V3",
-    "since": "2026-09-24",
-    "commission": "5% of GMV (max $100000.00 per submission, Videos only)"
-   }
-  ],
-  "performance": {
-   "object": "creator_performance",
-   "creator": {
-    "object": "creator",
-    "id": "creator_2d3afbe6-9b9e-43d3-bcd2-e07d2c369ca1",
-    "name": "Labourgeoise Bynum",
-    "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/2d3afbe6-9b9e-43d3-bcd2-e07d2c369ca1/1790144752165_6f89de29.jpeg",
-    "joined_at": "2026-09-24T21:04:49.453Z"
    },
    "programs": [
     {
@@ -2186,7 +2011,7 @@
     "new_submissions": 6,
     "active_submissions": 2,
     "ads": 2,
-    "spend_cents": 60478,
+    "spend_cents": 60480,
     "purchases": 5,
     "purchase_value_cents": 37969,
     "roas": 0.63
@@ -2468,106 +2293,6 @@
    }
   ]
  },
- "creator_45c65b12-d8ca-48a8-a503-a69271ce1c8a": {
-  "name": "Abigail Lucero",
-  "slug": "abigail-lucero",
-  "id": "creator_45c65b12-d8ca-48a8-a503-a69271ce1c8a",
-  "group": "v3",
-  "joined_at": "2026-09-22",
-  "programs": [
-   {
-    "name": "Bambora Affiliates V3",
-    "since": "2026-09-22",
-    "commission": "5% of GMV (max $100000.00 per submission, Videos only)"
-   }
-  ],
-  "performance": {
-   "object": "creator_performance",
-   "creator": {
-    "object": "creator",
-    "id": "creator_45c65b12-d8ca-48a8-a503-a69271ce1c8a",
-    "name": "Abigail Lucero",
-    "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/45c65b12-d8ca-48a8-a503-a69271ce1c8a/1784896321222_62fc9f0c.jpg",
-    "joined_at": "2026-09-22T21:48:47.136Z"
-   },
-   "programs": [
-    {
-     "id": "creator_program_f7523ebb-8206-4da5-9997-4464f77aec58",
-     "name": "Bambora Affiliates V3"
-    }
-   ],
-   "activity": {
-    "last_submission_at": null,
-    "last_ad_day": null
-   },
-   "performance": {
-    "start_date": "2026-06-01",
-    "end_date": "2026-09-27",
-    "currency": "USD",
-    "earnings_cents": 0,
-    "trybe_conversions": 0,
-    "trybe_gmv_cents": 0,
-    "new_submissions": 0,
-    "active_submissions": 0,
-    "ads": 0,
-    "spend_cents": 0,
-    "purchases": 0,
-    "purchase_value_cents": 0,
-    "roas": null
-   }
-  },
-  "submissions": []
- },
- "creator_46d14b0b-89f2-4031-ac30-b8eddfc02d80": {
-  "name": "Chanel Bodine",
-  "slug": "chanel-bodine",
-  "id": "creator_46d14b0b-89f2-4031-ac30-b8eddfc02d80",
-  "group": "v3",
-  "joined_at": "2026-09-22",
-  "programs": [
-   {
-    "name": "Bambora Affiliates V3",
-    "since": "2026-09-22",
-    "commission": "5% of GMV (max $100000.00 per submission, Videos only)"
-   }
-  ],
-  "performance": {
-   "object": "creator_performance",
-   "creator": {
-    "object": "creator",
-    "id": "creator_46d14b0b-89f2-4031-ac30-b8eddfc02d80",
-    "name": "Chanel Bodine",
-    "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/46d14b0b-89f2-4031-ac30-b8eddfc02d80/1789927525845_3f244437.jpg",
-    "joined_at": "2026-09-22T21:54:53.254Z"
-   },
-   "programs": [
-    {
-     "id": "creator_program_f7523ebb-8206-4da5-9997-4464f77aec58",
-     "name": "Bambora Affiliates V3"
-    }
-   ],
-   "activity": {
-    "last_submission_at": null,
-    "last_ad_day": null
-   },
-   "performance": {
-    "start_date": "2026-06-01",
-    "end_date": "2026-09-27",
-    "currency": "USD",
-    "earnings_cents": 0,
-    "trybe_conversions": 0,
-    "trybe_gmv_cents": 0,
-    "new_submissions": 0,
-    "active_submissions": 0,
-    "ads": 0,
-    "spend_cents": 0,
-    "purchases": 0,
-    "purchase_value_cents": 0,
-    "roas": null
-   }
-  },
-  "submissions": []
- },
  "creator_478b2e57-49f0-4216-a26a-9e689de84f27": {
   "name": "Kyara Vinales",
   "slug": "kyara-vinales",
@@ -2589,6 +2314,156 @@
     "name": "Kyara Vinales",
     "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/478b2e57-49f0-4216-a26a-9e689de84f27/1789828078528_dd57efd3.jpg",
     "joined_at": "2026-09-19T14:22:02.339Z"
+   },
+   "programs": [
+    {
+     "id": "creator_program_f7523ebb-8206-4da5-9997-4464f77aec58",
+     "name": "Bambora Affiliates V3"
+    }
+   ],
+   "activity": {
+    "last_submission_at": null,
+    "last_ad_day": null
+   },
+   "performance": {
+    "start_date": "2026-06-01",
+    "end_date": "2026-09-27",
+    "currency": "USD",
+    "earnings_cents": 0,
+    "trybe_conversions": 0,
+    "trybe_gmv_cents": 0,
+    "new_submissions": 0,
+    "active_submissions": 0,
+    "ads": 0,
+    "spend_cents": 0,
+    "purchases": 0,
+    "purchase_value_cents": 0,
+    "roas": null
+   }
+  },
+  "submissions": []
+ },
+ "creator_4834dd47-5e2e-4cc2-8483-ada60853e87a": {
+  "name": "Kaitlyn Cunningham",
+  "slug": "kaitlyn-cunningham",
+  "id": "creator_4834dd47-5e2e-4cc2-8483-ada60853e87a",
+  "group": "v3",
+  "joined_at": "2026-09-26",
+  "programs": [
+   {
+    "name": "Bambora Affiliates V3",
+    "since": "2026-09-26",
+    "commission": "5% of GMV (max $100000.00 per submission, Videos only)"
+   }
+  ],
+  "performance": {
+   "object": "creator_performance",
+   "creator": {
+    "object": "creator",
+    "id": "creator_4834dd47-5e2e-4cc2-8483-ada60853e87a",
+    "name": "Kaitlyn Cunningham",
+    "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/4834dd47-5e2e-4cc2-8483-ada60853e87a/1790293292493_31ad71f2.jpg",
+    "joined_at": "2026-09-26T16:18:19.023Z"
+   },
+   "programs": [
+    {
+     "id": "creator_program_f7523ebb-8206-4da5-9997-4464f77aec58",
+     "name": "Bambora Affiliates V3"
+    }
+   ],
+   "activity": {
+    "last_submission_at": null,
+    "last_ad_day": null
+   },
+   "performance": {
+    "start_date": "2026-06-01",
+    "end_date": "2026-09-27",
+    "currency": "USD",
+    "earnings_cents": 0,
+    "trybe_conversions": 0,
+    "trybe_gmv_cents": 0,
+    "new_submissions": 0,
+    "active_submissions": 0,
+    "ads": 0,
+    "spend_cents": 0,
+    "purchases": 0,
+    "purchase_value_cents": 0,
+    "roas": null
+   }
+  },
+  "submissions": []
+ },
+ "creator_489e811f-c992-4449-a16f-0f43e3721841": {
+  "name": "Bianca Sotrea",
+  "slug": "bianca-sotrea",
+  "id": "creator_489e811f-c992-4449-a16f-0f43e3721841",
+  "group": "v3",
+  "joined_at": "2026-09-27",
+  "programs": [
+   {
+    "name": "Bambora Affiliates V3",
+    "since": "2026-09-27",
+    "commission": "5% of GMV (max $100000.00 per submission, Videos only)"
+   }
+  ],
+  "performance": {
+   "object": "creator_performance",
+   "creator": {
+    "object": "creator",
+    "id": "creator_489e811f-c992-4449-a16f-0f43e3721841",
+    "name": "Bianca Sotrea",
+    "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/489e811f-c992-4449-a16f-0f43e3721841/1790363984866_2d12361c.jpg",
+    "joined_at": "2026-09-27T18:54:14.782Z"
+   },
+   "programs": [
+    {
+     "id": "creator_program_f7523ebb-8206-4da5-9997-4464f77aec58",
+     "name": "Bambora Affiliates V3"
+    }
+   ],
+   "activity": {
+    "last_submission_at": null,
+    "last_ad_day": null
+   },
+   "performance": {
+    "start_date": "2026-06-01",
+    "end_date": "2026-09-27",
+    "currency": "USD",
+    "earnings_cents": 0,
+    "trybe_conversions": 0,
+    "trybe_gmv_cents": 0,
+    "new_submissions": 0,
+    "active_submissions": 0,
+    "ads": 0,
+    "spend_cents": 0,
+    "purchases": 0,
+    "purchase_value_cents": 0,
+    "roas": null
+   }
+  },
+  "submissions": []
+ },
+ "creator_4b8c5f52-75df-40a2-aa2f-55babd56e1f8": {
+  "name": "Melissa Otero Abugazaleh",
+  "slug": "melissa-otero-abugazaleh",
+  "id": "creator_4b8c5f52-75df-40a2-aa2f-55babd56e1f8",
+  "group": "v3",
+  "joined_at": "2026-09-22",
+  "programs": [
+   {
+    "name": "Bambora Affiliates V3",
+    "since": "2026-09-22",
+    "commission": "5% of GMV (max $100000.00 per submission, Videos only)"
+   }
+  ],
+  "performance": {
+   "object": "creator_performance",
+   "creator": {
+    "object": "creator",
+    "id": "creator_4b8c5f52-75df-40a2-aa2f-55babd56e1f8",
+    "name": "Melissa Otero Abugazaleh",
+    "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/4b8c5f52-75df-40a2-aa2f-55babd56e1f8/1785263812589_5d6b2453.jpg",
+    "joined_at": "2026-09-22T21:45:24.391Z"
    },
    "programs": [
     {
@@ -2810,7 +2685,7 @@
     "new_submissions": 2,
     "active_submissions": 2,
     "ads": 5,
-    "spend_cents": 997911,
+    "spend_cents": 998065,
     "purchases": 268,
     "purchase_value_cents": 1660396,
     "roas": 1.66
@@ -2885,7 +2760,7 @@
     "new_submissions": 8,
     "active_submissions": 4,
     "ads": 4,
-    "spend_cents": 252753,
+    "spend_cents": 252756,
     "purchases": 50,
     "purchase_value_cents": 322590,
     "roas": 1.28
@@ -3411,56 +3286,6 @@
   },
   "submissions": []
  },
- "creator_5ac89db4-1709-4d3e-8e0b-90fe829122c4": {
-  "name": "Victoria Ranaudo",
-  "slug": "victoria-ranaudo",
-  "id": "creator_5ac89db4-1709-4d3e-8e0b-90fe829122c4",
-  "group": "v3",
-  "joined_at": "2026-09-23",
-  "programs": [
-   {
-    "name": "Bambora Affiliates V3",
-    "since": "2026-09-23",
-    "commission": "5% of GMV (max $100000.00 per submission, Videos only)"
-   }
-  ],
-  "performance": {
-   "object": "creator_performance",
-   "creator": {
-    "object": "creator",
-    "id": "creator_5ac89db4-1709-4d3e-8e0b-90fe829122c4",
-    "name": "Victoria Ranaudo",
-    "avatar_url": null,
-    "joined_at": "2026-09-23T20:32:06.769Z"
-   },
-   "programs": [
-    {
-     "id": "creator_program_f7523ebb-8206-4da5-9997-4464f77aec58",
-     "name": "Bambora Affiliates V3"
-    }
-   ],
-   "activity": {
-    "last_submission_at": null,
-    "last_ad_day": null
-   },
-   "performance": {
-    "start_date": "2026-06-01",
-    "end_date": "2026-09-27",
-    "currency": "USD",
-    "earnings_cents": 0,
-    "trybe_conversions": 0,
-    "trybe_gmv_cents": 0,
-    "new_submissions": 0,
-    "active_submissions": 0,
-    "ads": 0,
-    "spend_cents": 0,
-    "purchases": 0,
-    "purchase_value_cents": 0,
-    "roas": null
-   }
-  },
-  "submissions": []
- },
  "creator_5ee09d4c-bef1-423e-ae2b-4c601ed082af": {
   "name": "Nina Pleshe",
   "slug": "nina-pleshe",
@@ -3740,7 +3565,7 @@
     "new_submissions": 45,
     "active_submissions": 44,
     "ads": 75,
-    "spend_cents": 2392907,
+    "spend_cents": 2393190,
     "purchases": 698,
     "purchase_value_cents": 4215503,
     "roas": 1.76
@@ -4964,6 +4789,56 @@
    }
   ]
  },
+ "creator_75eada6b-f4fd-441e-89cb-bbda0ed9b781": {
+  "name": "Jenasa Prudhomme",
+  "slug": "jenasa-prudhomme-75eada",
+  "id": "creator_75eada6b-f4fd-441e-89cb-bbda0ed9b781",
+  "group": "v3",
+  "joined_at": "2026-09-19",
+  "programs": [
+   {
+    "name": "Bambora Affiliates V3",
+    "since": "2026-09-19",
+    "commission": "5% of GMV (max $100000.00 per submission, Videos only)"
+   }
+  ],
+  "performance": {
+   "object": "creator_performance",
+   "creator": {
+    "object": "creator",
+    "id": "creator_75eada6b-f4fd-441e-89cb-bbda0ed9b781",
+    "name": "Jenasa Prudhomme",
+    "avatar_url": null,
+    "joined_at": "2026-09-19T11:33:39.526Z"
+   },
+   "programs": [
+    {
+     "id": "creator_program_f7523ebb-8206-4da5-9997-4464f77aec58",
+     "name": "Bambora Affiliates V3"
+    }
+   ],
+   "activity": {
+    "last_submission_at": null,
+    "last_ad_day": null
+   },
+   "performance": {
+    "start_date": "2026-06-01",
+    "end_date": "2026-09-27",
+    "currency": "USD",
+    "earnings_cents": 0,
+    "trybe_conversions": 0,
+    "trybe_gmv_cents": 0,
+    "new_submissions": 0,
+    "active_submissions": 0,
+    "ads": 0,
+    "spend_cents": 0,
+    "purchases": 0,
+    "purchase_value_cents": 0,
+    "roas": null
+   }
+  },
+  "submissions": []
+ },
  "creator_76eb3a81-e729-45e4-a031-0b87ac091ab4": {
   "name": "Corina",
   "slug": "corina",
@@ -5497,153 +5372,6 @@
     "review_comment": null,
     "creator_comment": null,
     "transcript": "I'm pregnant with my third and let me show you the one baby item I suggest to everyone. Some type of carrier. Now when your kids get a little bit older it's kind of hard to carry them in a traditional carrier sometimes. This one's two and a half and she's about 25-26 pounds and so I love that the Bambora Sling you can kind of carry her on your hip. So you're not carrying her on your front or your back and aching your back. And it has a thick strap on here so it's not pulling really on my neck and you can kind of adjust that over. It has a strap here to tighten and a strap in the back to tighten so you can adjust according to their size. And the best part is that you can also use this for a newborn. You just have them cradled in it and they have to be about 10 pounds to start using it and it goes all the way up to 50 pounds so it's going to grow with them so much. And if your baby is clingy and loves to be on your hip maybe and not on your back or on your front side this one is perfect. It's definitely giving her support while not hurting her hips or her legs or anything. And we're about to go on vacation and I know she's going to want to be held at the amusement park and the aquarium so this thing is going to be my saving grace."
-   }
-  ]
- },
- "creator_8700939e-a12e-4187-afce-b122322b3aa2": {
-  "name": "Lauren Leneave",
-  "slug": "lauren-leneave",
-  "id": "creator_8700939e-a12e-4187-afce-b122322b3aa2",
-  "group": "v3",
-  "joined_at": "2026-07-25",
-  "programs": [
-   {
-    "name": "Bambora Affiliates V3",
-    "since": "2026-09-21",
-    "commission": "5% of GMV (max $100000.00 per submission, Videos only)"
-   }
-  ],
-  "performance": {
-   "object": "creator_performance",
-   "creator": {
-    "object": "creator",
-    "id": "creator_8700939e-a12e-4187-afce-b122322b3aa2",
-    "name": "Lauren Leneave",
-    "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/8700939e-a12e-4187-afce-b122322b3aa2/1784985861025_7ceda261.jpeg",
-    "joined_at": "2026-07-25T13:28:06.165Z"
-   },
-   "programs": [
-    {
-     "id": "creator_program_f7523ebb-8206-4da5-9997-4464f77aec58",
-     "name": "Bambora Affiliates V3"
-    }
-   ],
-   "activity": {
-    "last_submission_at": "2026-09-01T01:36:59.635Z",
-    "last_ad_day": "2026-09-23"
-   },
-   "performance": {
-    "start_date": "2026-06-01",
-    "end_date": "2026-09-27",
-    "currency": "USD",
-    "earnings_cents": 15583,
-    "trybe_conversions": 26,
-    "trybe_gmv_cents": 155790,
-    "new_submissions": 9,
-    "active_submissions": 4,
-    "ads": 6,
-    "spend_cents": 183718,
-    "purchases": 52,
-    "purchase_value_cents": 312920,
-    "roas": 1.7
-   }
-  },
-  "submissions": [
-   {
-    "trybe_id": "1d8e55d5",
-    "id": "submission_63bc6b45-ebce-496a-8d8b-01121d8e55d5",
-    "date": "2026-09-01",
-    "status": "rejected",
-    "program": "Ambassador Program!",
-    "ads": 0,
-    "angles": [],
-    "review_comment": "Video duration too short",
-    "creator_comment": null,
-    "transcript": ""
-   },
-   {
-    "trybe_id": "5b57cbdf",
-    "id": "submission_60feb6ab-fd87-4625-8ff1-e0095b57cbdf",
-    "date": "2026-08-10",
-    "status": "rejected",
-    "program": "Ambassador Program!",
-    "ads": 0,
-    "angles": [],
-    "review_comment": null,
-    "creator_comment": null,
-    "transcript": ""
-   },
-   {
-    "trybe_id": "92c63b16",
-    "id": "submission_698cd9ad-273d-4079-b13b-1f7e92c63b16",
-    "date": "2026-08-10",
-    "status": "rejected",
-    "program": "Ambassador Program!",
-    "ads": 0,
-    "angles": [],
-    "review_comment": "Hello! Sorry we won't be able to run images as ads, our program is specific to videos. :)",
-    "creator_comment": null,
-    "transcript": ""
-   },
-   {
-    "trybe_id": "edcf0a46",
-    "id": "submission_67f48cb2-fa85-4d81-83c9-f840edcf0a46",
-    "date": "2026-08-07",
-    "status": "approved",
-    "program": "Ambassador Program!",
-    "ads": 3,
-    "angles": [],
-    "review_comment": null,
-    "creator_comment": null,
-    "transcript": "5 things worth the money as a stay-at-home mom. 1. Costco Membership. 2. Romp and Roll Membership. 3. Bog Bag. 4. Day Styling Cream for my curly hair. 5. The Bambora Sling. This sling is a game-changer for our days together. Now she can be up with me and see everything I'm doing."
-   },
-   {
-    "trybe_id": "ca03f10f",
-    "id": "submission_c6a55df7-0dd7-4ee8-aa97-307fca03f10f",
-    "date": "2026-08-07",
-    "status": "rejected",
-    "program": "Ambassador Program!",
-    "ads": 0,
-    "angles": [],
-    "review_comment": "duplicate",
-    "creator_comment": "I like it with this song better! Honey bee says baby boy at the beginning and she’s a baby girl. :)\n \n",
-    "transcript": ""
-   },
-   {
-    "trybe_id": "8f0f24f5",
-    "id": "submission_9ea1d30a-06ad-4bbc-a552-6a7e8f0f24f5",
-    "date": "2026-08-07",
-    "status": "approved",
-    "program": "Ambassador Program!",
-    "ads": 1,
-    "angles": [],
-    "review_comment": null,
-    "creator_comment": "Let me know if I can revise the song choice!",
-    "transcript": ""
-   },
-   {
-    "trybe_id": "51e4ad26",
-    "id": "submission_3af91fb6-c28b-43d3-b1e4-0cb351e4ad26",
-    "date": "2026-08-05",
-    "status": "approved",
-    "program": "Ambassador Program!",
-    "ads": 1,
-    "angles": [],
-    "review_comment": null,
-    "creator_comment": "I posted two very similar reels but I think I like this one better! Feel free to use both though. :)",
-    "transcript": "My toddler will not let me put her down, but thanks to Bambora Sling, I'm actually able to get things done. Bambora Slings are perfect for toddlers that want to see everything you're doing."
-   },
-   {
-    "trybe_id": "20694800",
-    "id": "submission_89411e3f-a598-4729-93a1-c9e220694800",
-    "date": "2026-08-05",
-    "status": "approved",
-    "program": "Ambassador Program!",
-    "ads": 1,
-    "angles": [],
-    "review_comment": null,
-    "creator_comment": null,
-    "transcript": "My toddler will not let me put her down, but thanks to Bambora Sling, I'm actually able to get things done. Bambora Slings are perfect for toddlers that want to see everything you're doing."
    }
   ]
  },
@@ -6214,7 +5942,7 @@
     "new_submissions": 5,
     "active_submissions": 4,
     "ads": 7,
-    "spend_cents": 134105,
+    "spend_cents": 134110,
     "purchases": 30,
     "purchase_value_cents": 190203,
     "roas": 1.42
@@ -6282,6 +6010,56 @@
     "transcript": "Do you have a baby or toddler that's a velcro baby and your arms are literally able to fall off and stop scrolling? This is the Bambora Sling Carrier. It is amazing! They have so many cute designs, stuff to support their back, but the carrier itself literally weighs nothing and it's so easy to slip on. It takes two seconds and we're on our on the go! Check it out! Bambora is selling them one buy one get one free right now. Check the link in the bio. Thank me later!"
    }
   ]
+ },
+ "creator_a5b4f50a-57ec-4dbd-981f-3d385bf6a449": {
+  "name": "Turner Schumpf",
+  "slug": "turner-schumpf",
+  "id": "creator_a5b4f50a-57ec-4dbd-981f-3d385bf6a449",
+  "group": "v3",
+  "joined_at": "2026-09-27",
+  "programs": [
+   {
+    "name": "Bambora Affiliates V3",
+    "since": "2026-09-27",
+    "commission": "5% of GMV (max $100000.00 per submission, Videos only)"
+   }
+  ],
+  "performance": {
+   "object": "creator_performance",
+   "creator": {
+    "object": "creator",
+    "id": "creator_a5b4f50a-57ec-4dbd-981f-3d385bf6a449",
+    "name": "Turner Schumpf",
+    "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/a5b4f50a-57ec-4dbd-981f-3d385bf6a449/1789763346658_355e6bc2.jpg",
+    "joined_at": "2026-09-27T18:09:38.727Z"
+   },
+   "programs": [
+    {
+     "id": "creator_program_f7523ebb-8206-4da5-9997-4464f77aec58",
+     "name": "Bambora Affiliates V3"
+    }
+   ],
+   "activity": {
+    "last_submission_at": null,
+    "last_ad_day": null
+   },
+   "performance": {
+    "start_date": "2026-06-01",
+    "end_date": "2026-09-27",
+    "currency": "USD",
+    "earnings_cents": 0,
+    "trybe_conversions": 0,
+    "trybe_gmv_cents": 0,
+    "new_submissions": 0,
+    "active_submissions": 0,
+    "ads": 0,
+    "spend_cents": 0,
+    "purchases": 0,
+    "purchase_value_cents": 0,
+    "roas": null
+   }
+  },
+  "submissions": []
  },
  "creator_a74033b4-7840-4e4d-8d91-25bfb2674d11": {
   "name": "Savanna Kessinger",
@@ -6787,7 +6565,7 @@
     "new_submissions": 10,
     "active_submissions": 7,
     "ads": 7,
-    "spend_cents": 66652,
+    "spend_cents": 66656,
     "purchases": 12,
     "purchase_value_cents": 82165,
     "roas": 1.23
@@ -7220,119 +6998,6 @@
     "transcript": "I swear, toddlers have a sixth sense for when you need both hands. This sling gives me a way to keep my little one close without completely sacrificing my hands. It's quick to put on, easy to adjust, and honestly makes those clingy moments a whole lot easier. If you're in your I-need-both-hands era, they're running a huge sell right now, and now's the time to grab one for home and on the go."
    }
   ]
- },
- "creator_b4892198-9ac6-42b1-877e-c192e9068929": {
-  "name": "Brianna Whiteman",
-  "slug": "brianna-whiteman",
-  "id": "creator_b4892198-9ac6-42b1-877e-c192e9068929",
-  "group": "v3",
-  "joined_at": "2026-07-20",
-  "programs": [
-   {
-    "name": "Bambora Affiliates V3",
-    "since": "2026-09-21",
-    "commission": "5% of GMV (max $100000.00 per submission, Videos only)"
-   }
-  ],
-  "performance": {
-   "object": "creator_performance",
-   "creator": {
-    "object": "creator",
-    "id": "creator_b4892198-9ac6-42b1-877e-c192e9068929",
-    "name": "Brianna Whiteman",
-    "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/b4892198-9ac6-42b1-877e-c192e9068929/1776438436642_18e0231f.jpeg",
-    "joined_at": "2026-07-20T14:50:28.616Z"
-   },
-   "programs": [
-    {
-     "id": "creator_program_f7523ebb-8206-4da5-9997-4464f77aec58",
-     "name": "Bambora Affiliates V3"
-    }
-   ],
-   "activity": {
-    "last_submission_at": "2026-08-24T19:15:21.358Z",
-    "last_ad_day": "2026-09-23"
-   },
-   "performance": {
-    "start_date": "2026-06-01",
-    "end_date": "2026-09-27",
-    "currency": "USD",
-    "earnings_cents": 0,
-    "trybe_conversions": 0,
-    "trybe_gmv_cents": 0,
-    "new_submissions": 2,
-    "active_submissions": 1,
-    "ads": 1,
-    "spend_cents": 1508,
-    "purchases": 0,
-    "purchase_value_cents": 0,
-    "roas": 0
-   }
-  },
-  "submissions": [
-   {
-    "trybe_id": "2505f7c6",
-    "id": "submission_fd8b9cd3-6a95-42db-9190-230b2505f7c6",
-    "date": "2026-08-24",
-    "status": "approved",
-    "program": "The Bambora Affiliate Program!",
-    "ads": 1,
-    "angles": [],
-    "review_comment": null,
-    "creator_comment": "I hope this is better! 💖",
-    "transcript": "I've been carrying my toddler around like it's an arm day and apparently that's just not normal. I finally caved and I got this Bambora Sling Carrier and I genuinely don't know why I waited this long. The padding is actually thick so it doesn't dig into your shoulder and my hands are just free, which is a wild concept with a toddler. Here's the thing, they're having a sale, so I might grab a second pattern. I'll be linking them below so you can try it for yourself and you can go hands-free."
-   }
-  ]
- },
- "creator_b8b2865e-04af-493b-bf1c-14d4b4a91a16": {
-  "name": "Caitlin Smith",
-  "slug": "caitlin-smith",
-  "id": "creator_b8b2865e-04af-493b-bf1c-14d4b4a91a16",
-  "group": "v3",
-  "joined_at": "2026-09-26",
-  "programs": [
-   {
-    "name": "Bambora Affiliates V3",
-    "since": "2026-09-26",
-    "commission": "5% of GMV (max $100000.00 per submission, Videos only)"
-   }
-  ],
-  "performance": {
-   "object": "creator_performance",
-   "creator": {
-    "object": "creator",
-    "id": "creator_b8b2865e-04af-493b-bf1c-14d4b4a91a16",
-    "name": "Caitlin Smith",
-    "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/b8b2865e-04af-493b-bf1c-14d4b4a91a16/1790101984869_e73364ff.jpg",
-    "joined_at": "2026-09-26T03:33:38.791Z"
-   },
-   "programs": [
-    {
-     "id": "creator_program_f7523ebb-8206-4da5-9997-4464f77aec58",
-     "name": "Bambora Affiliates V3"
-    }
-   ],
-   "activity": {
-    "last_submission_at": null,
-    "last_ad_day": null
-   },
-   "performance": {
-    "start_date": "2026-06-01",
-    "end_date": "2026-09-27",
-    "currency": "USD",
-    "earnings_cents": 0,
-    "trybe_conversions": 0,
-    "trybe_gmv_cents": 0,
-    "new_submissions": 0,
-    "active_submissions": 0,
-    "ads": 0,
-    "spend_cents": 0,
-    "purchases": 0,
-    "purchase_value_cents": 0,
-    "roas": null
-   }
-  },
-  "submissions": []
  },
  "creator_c758239e-be66-4c61-92ff-4724274c8e21": {
   "name": "Megan Chronister",
@@ -7836,7 +7501,7 @@
     "new_submissions": 64,
     "active_submissions": 62,
     "ads": 88,
-    "spend_cents": 1170274,
+    "spend_cents": 1170355,
     "purchases": 303,
     "purchase_value_cents": 1837123,
     "roas": 1.57
@@ -8589,6 +8254,56 @@
    }
   ]
  },
+ "creator_d9c52317-4e4e-4bd2-bde2-fd8406ce1339": {
+  "name": "Katie Willmer",
+  "slug": "katie-willmer",
+  "id": "creator_d9c52317-4e4e-4bd2-bde2-fd8406ce1339",
+  "group": "v3",
+  "joined_at": "2026-09-27",
+  "programs": [
+   {
+    "name": "Bambora Affiliates V3",
+    "since": "2026-09-27",
+    "commission": "5% of GMV (max $100000.00 per submission, Videos only)"
+   }
+  ],
+  "performance": {
+   "object": "creator_performance",
+   "creator": {
+    "object": "creator",
+    "id": "creator_d9c52317-4e4e-4bd2-bde2-fd8406ce1339",
+    "name": "Katie Willmer",
+    "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/d9c52317-4e4e-4bd2-bde2-fd8406ce1339/1783719609237_e3f0e74c.jpg",
+    "joined_at": "2026-09-27T16:58:52.283Z"
+   },
+   "programs": [
+    {
+     "id": "creator_program_f7523ebb-8206-4da5-9997-4464f77aec58",
+     "name": "Bambora Affiliates V3"
+    }
+   ],
+   "activity": {
+    "last_submission_at": null,
+    "last_ad_day": null
+   },
+   "performance": {
+    "start_date": "2026-06-01",
+    "end_date": "2026-09-27",
+    "currency": "USD",
+    "earnings_cents": 0,
+    "trybe_conversions": 0,
+    "trybe_gmv_cents": 0,
+    "new_submissions": 0,
+    "active_submissions": 0,
+    "ads": 0,
+    "spend_cents": 0,
+    "purchases": 0,
+    "purchase_value_cents": 0,
+    "roas": null
+   }
+  },
+  "submissions": []
+ },
  "creator_db51979a-62b2-432d-a016-1222caed5646": {
   "name": "Maddie Tesimale",
   "slug": "maddie-tesimale",
@@ -8610,6 +8325,106 @@
     "name": "Maddie Tesimale",
     "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/db51979a-62b2-432d-a016-1222caed5646/1789164810111_88e6dd1f.JPG",
     "joined_at": "2026-09-23T20:31:07.172Z"
+   },
+   "programs": [
+    {
+     "id": "creator_program_f7523ebb-8206-4da5-9997-4464f77aec58",
+     "name": "Bambora Affiliates V3"
+    }
+   ],
+   "activity": {
+    "last_submission_at": null,
+    "last_ad_day": null
+   },
+   "performance": {
+    "start_date": "2026-06-01",
+    "end_date": "2026-09-27",
+    "currency": "USD",
+    "earnings_cents": 0,
+    "trybe_conversions": 0,
+    "trybe_gmv_cents": 0,
+    "new_submissions": 0,
+    "active_submissions": 0,
+    "ads": 0,
+    "spend_cents": 0,
+    "purchases": 0,
+    "purchase_value_cents": 0,
+    "roas": null
+   }
+  },
+  "submissions": []
+ },
+ "creator_dc843d46-ab65-4d5c-8710-62d26f0e2e53": {
+  "name": "Nicole Jones",
+  "slug": "nicole-jones",
+  "id": "creator_dc843d46-ab65-4d5c-8710-62d26f0e2e53",
+  "group": "v3",
+  "joined_at": "2026-09-24",
+  "programs": [
+   {
+    "name": "Bambora Affiliates V3",
+    "since": "2026-09-24",
+    "commission": "5% of GMV (max $100000.00 per submission, Videos only)"
+   }
+  ],
+  "performance": {
+   "object": "creator_performance",
+   "creator": {
+    "object": "creator",
+    "id": "creator_dc843d46-ab65-4d5c-8710-62d26f0e2e53",
+    "name": "Nicole Jones",
+    "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/dc843d46-ab65-4d5c-8710-62d26f0e2e53/1790085873111_af0cbecb.jpg",
+    "joined_at": "2026-09-24T15:48:43.862Z"
+   },
+   "programs": [
+    {
+     "id": "creator_program_f7523ebb-8206-4da5-9997-4464f77aec58",
+     "name": "Bambora Affiliates V3"
+    }
+   ],
+   "activity": {
+    "last_submission_at": null,
+    "last_ad_day": null
+   },
+   "performance": {
+    "start_date": "2026-06-01",
+    "end_date": "2026-09-27",
+    "currency": "USD",
+    "earnings_cents": 0,
+    "trybe_conversions": 0,
+    "trybe_gmv_cents": 0,
+    "new_submissions": 0,
+    "active_submissions": 0,
+    "ads": 0,
+    "spend_cents": 0,
+    "purchases": 0,
+    "purchase_value_cents": 0,
+    "roas": null
+   }
+  },
+  "submissions": []
+ },
+ "creator_df6e2a2b-5343-421b-ab29-14ebda2716b3": {
+  "name": "Heaven Fenick",
+  "slug": "heaven-fenick",
+  "id": "creator_df6e2a2b-5343-421b-ab29-14ebda2716b3",
+  "group": "v3",
+  "joined_at": "2026-09-22",
+  "programs": [
+   {
+    "name": "Bambora Affiliates V3",
+    "since": "2026-09-22",
+    "commission": "5% of GMV (max $100000.00 per submission, Videos only)"
+   }
+  ],
+  "performance": {
+   "object": "creator_performance",
+   "creator": {
+    "object": "creator",
+    "id": "creator_df6e2a2b-5343-421b-ab29-14ebda2716b3",
+    "name": "Heaven Fenick",
+    "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/df6e2a2b-5343-421b-ab29-14ebda2716b3/1789800576358_51afc0d1.jpg",
+    "joined_at": "2026-09-22T21:45:19.512Z"
    },
    "programs": [
     {
@@ -9289,7 +9104,7 @@
     "new_submissions": 2,
     "active_submissions": 2,
     "ads": 5,
-    "spend_cents": 1390479,
+    "spend_cents": 1390672,
     "purchases": 370,
     "purchase_value_cents": 2358958,
     "roas": 1.7
@@ -9371,69 +9186,6 @@
    }
   },
   "submissions": []
- },
- "creator_eda303f1-15f9-4d1f-b594-f3335fa5cfb6": {
-  "name": "Madison Grove",
-  "slug": "madison-grove",
-  "id": "creator_eda303f1-15f9-4d1f-b594-f3335fa5cfb6",
-  "group": "v3",
-  "joined_at": "2026-07-28",
-  "programs": [
-   {
-    "name": "Bambora Affiliates V3",
-    "since": "2026-09-21",
-    "commission": "5% of GMV (max $100000.00 per submission, Videos only)"
-   }
-  ],
-  "performance": {
-   "object": "creator_performance",
-   "creator": {
-    "object": "creator",
-    "id": "creator_eda303f1-15f9-4d1f-b594-f3335fa5cfb6",
-    "name": "Madison Grove",
-    "avatar_url": "https://cdn.jointrybe.com/cdn-cgi/image/width=320,height=320,fit=cover,gravity=0.5x0.5,format=auto,quality=80,onerror=redirect/users/eda303f1-15f9-4d1f-b594-f3335fa5cfb6/1780749908342_8ca208c4.jpg",
-    "joined_at": "2026-07-28T13:12:10.080Z"
-   },
-   "programs": [
-    {
-     "id": "creator_program_f7523ebb-8206-4da5-9997-4464f77aec58",
-     "name": "Bambora Affiliates V3"
-    }
-   ],
-   "activity": {
-    "last_submission_at": "2026-09-04T16:32:39.871Z",
-    "last_ad_day": "2026-09-23"
-   },
-   "performance": {
-    "start_date": "2026-06-01",
-    "end_date": "2026-09-27",
-    "currency": "USD",
-    "earnings_cents": 0,
-    "trybe_conversions": 0,
-    "trybe_gmv_cents": 0,
-    "new_submissions": 1,
-    "active_submissions": 1,
-    "ads": 1,
-    "spend_cents": 29,
-    "purchases": 0,
-    "purchase_value_cents": 0,
-    "roas": 0
-   }
-  },
-  "submissions": [
-   {
-    "trybe_id": "13b2ee9c",
-    "id": "submission_7db0febf-7f68-4177-b6cb-450013b2ee9c",
-    "date": "2026-09-04",
-    "status": "approved",
-    "program": "The Bambora Affiliate Program!",
-    "ads": 1,
-    "angles": [],
-    "review_comment": null,
-    "creator_comment": null,
-    "transcript": "This is for the mamas whose baby thinks being put down is absolutely not an option. The Bambora Baby Sling has been such a sweet little mom hack for those extra clingy days. I can keep my baby snuggled up close while still having my hands free to actually get things done. And honestly, these days where they want to be held non-stop, they don't last forever. So if I can keep him close and keep moving, I'm taking it. If you're in your Hold Me Mama era too, this is so worth checking out."
-   }
-  ]
  },
  "creator_eda5a00e-11f9-4292-bfde-fdf71618ba9f": {
   "name": "Kaitlin Duncan",

@@ -6,7 +6,7 @@
 - Programs: The Bambora Affiliate Program! since 2026-08-01
 - Videos: 45 submitted, 44 approved, 0 rejected, last 2026-09-27
 - Videos run as ads: 44
-- Performance since Jun 2026: earnings $2,728, Trybe GMV $22,747, conversions 369, ads 75, ad spend $23,929, purchases 698 ($42,155), ROAS 1.76
+- Performance since Jun 2026: earnings $2,728, Trybe GMV $22,747, conversions 369, ads 75, ad spend $23,932, purchases 698 ($42,155), ROAS 1.76
 
 ### Videos (newest first)
 - 2026-09-27 pending (trybe=d4464514): "I just know a mom with a clingy baby invented this because this has saved my back and my Sandy more than once. More than a hundred times actually. The Bambora Sling Carrier and it's basically like putting your baby on yo"

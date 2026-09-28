@@ -5181,8 +5181,10 @@
     "type": "applicant_followup",
     "due": "2026-09-28",
     "note": "NEW in Discovery Inbox 2026-09-28, not yet reviewed, NOT yet in seen.txt: Ripsime Vardumyan, Kimberly Wagaman, Lorine Rivas, Asya jihad, Brittany Bowyer, Robert James, Claudia Santos, Katelyn Andrew, Sky Butterworth, Prescilla Randazzo, Kristen Beaupre, Sarah Stroemple, Kayla Abbey, Valerie Llopis, Jadon lee, Katarina Zlatanovic, Samantha Saksa, Maria Beck. Review each with skill trybe-applicant-review, then send the first message (queued until 12 PM ET), then add to seen.txt.",
-    "status": "open",
-    "created": "2026-09-28"
+    "status": "done",
+    "created": "2026-09-28",
+    "closed": "2026-09-28",
+    "outcome": "reviewed 2026-09-28; 17 queued for the first message, Kimberly Wagaman needs reworded wording, Katarina Zlatanovic NL goes to the list"
   },
   {
     "creator": "ALL (partnership ads)",
@@ -5213,6 +5215,22 @@
     "type": "fatima_decision",
     "due": "2026-09-28",
     "note": "SUBMISSION d4d1cf07 for Fatima to watch. Point 2 fails: both hands on the bottle 0:36-0:46 and she says 'both hands free'. Baby laid horizontal 0:28-0:34. Point 6 auto-captions. She asked for feedback and is very keen. Recommend revision. Notes: work/trybe-review/2026-09-28-pending-review.md",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "ALL (19 new applicants)",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "Reviewed. Notes: work/trybe-applicant-review/2026-09-28-new-applicants.md. 17 queued for the first message in work/send-queue/2026-09-28.md section 5, then add each to seen.txt as its message goes out. Kimberly Wagaman is Ambassador Program (reword). Katarina Zlatanovic is NL, recommend reject, needs a go.",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Katarina Zlatanovic",
+    "type": "fatima_decision",
+    "due": "2026-09-28",
+    "note": "New applicant, Netherlands (NL), Grandparents, no pitch, no sample, IG only. Criteria are English-speaking countries only, so NL is out of scope. Recommend reject. Not messaged.",
     "status": "open",
     "created": "2026-09-28"
   }
