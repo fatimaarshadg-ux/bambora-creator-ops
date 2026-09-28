@@ -66,3 +66,4 @@
 - [Clear-cut approvals go without review](feedback-clear-cut-approvals.md): sure approvals, standing applicant rules and routine actions need no review; revisions and rejects wait for Fatima to watch
 - [Creator volume commitments](creator-volume-commitments.md): record what each creator agreed to per week (commitments.py) and use it in every message and inspo
 - [Play the routines](play-the-routines.md): "play the routines" means start the routines; every start tells her to plug in the laptop and keep the lid open
+- [Which Chrome to use](chrome-browser-to-use.md): two browsers connected; only the fatima@bamboraco.com one, never the goraya one; verify by reading the account email

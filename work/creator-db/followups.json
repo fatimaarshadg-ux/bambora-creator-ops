@@ -5125,5 +5125,61 @@
     "note": "Copy the exact volume answers from the Discovery threads for the 11 entries in commitments.py list --verify, then add --verified. Also scan Discovery for anyone else who answered the volume question and add them.",
     "status": "open",
     "created": "2026-09-28"
+  },
+  {
+    "creator": "Stefania bertone",
+    "type": "fatima_decision",
+    "due": "2026-09-28",
+    "note": "SUBMISSION e454d6d2 for Fatima to watch. Point 2 fails: vacuuming with both hands 0:04-0:10, toddler (~40 lbs) on her back with legs dangling 0:18-0:24. Recommend revision. Notes: work/trybe-review/2026-09-28-pending-review.md",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Hayley swann",
+    "type": "fatima_decision",
+    "due": "2026-09-28",
+    "note": "SUBMISSION c61d9574 for Fatima to watch. Point 5 fails: 576x1024 at 511kbps, not the camera-roll original. Point 6 auto-captions. No child in the sling at any point in 53s. Recommend revision.",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Maicey McIlveen",
+    "type": "fatima_decision",
+    "due": "2026-09-28",
+    "note": "SUBMISSION d4d1cf07 for Fatima to watch. Point 2 fails: both hands on the bottle 0:36-0:46 and she says 'both hands free'. Baby laid horizontal 0:28-0:34. Point 6 auto-captions. She asked for feedback. Recommend revision.",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Jena Swapp",
+    "type": "fatima_decision",
+    "due": "2026-09-28",
+    "note": "SUBMISSIONS 41157045 + e7a77c8f (same video, one with music) for Fatima to watch. Point 2: reaching into freezers 0:16-0:22. Filmed a stranger from behind at 0:10 and asked if that is OK. Answer: music not required, only one version needed, stranger = Fatima's call.",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Debbie Struck",
+    "type": "fatima_decision",
+    "due": "2026-09-28",
+    "note": "SUBMISSION 9e0db474 for Fatima to watch. Grandparents. Best quality of the set (1440x2560). Only faults: burned-in auto-captions from 0:18, and one reach at 0:34. Recommend revision on captions only.",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Cambria Reau",
+    "type": "fatima_decision",
+    "due": "2026-09-28",
+    "note": "SUBMISSION d4464514 for Fatima to watch. Cleanest of the set: no captions, no watermark, sale only at the end. Only fault: hands off the baby while gesturing 0:06, 0:10, 0:12. Fatima's call whether that is enough to revise.",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "ALL (18 new applicants)",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "NEW in Discovery Inbox 2026-09-28, not yet reviewed, NOT yet in seen.txt: Ripsime Vardumyan, Kimberly Wagaman, Lorine Rivas, Asya jihad, Brittany Bowyer, Robert James, Claudia Santos, Katelyn Andrew, Sky Butterworth, Prescilla Randazzo, Kristen Beaupre, Sarah Stroemple, Kayla Abbey, Valerie Llopis, Jadon lee, Katarina Zlatanovic, Samantha Saksa, Maria Beck. Review each with skill trybe-applicant-review, then send the first message (queued until 12 PM ET), then add to seen.txt.",
+    "status": "open",
+    "created": "2026-09-28"
   }
 ]
