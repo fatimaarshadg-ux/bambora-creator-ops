@@ -19,7 +19,15 @@
 # Safe to run again: it skips what is done, never deletes your work, and backs up anything it replaces.
 #   -Refresh   also overwrite skills and memory files that differ on this PC (backups are kept)
 #   -NoWinget  skip program installs (if you installed everything by hand from the README links)
-param([switch]$Refresh, [switch]$NoWinget)
+#   -NonInteractive  never stop for a question: the Git name defaults to "Bambora operator", the
+#              permissions in step 9 are added (the recommended answer) and the Trybe key window is
+#              skipped (store it later with work\common\store-trybe-key.ps1)
+#   -Test      for the automated Windows test (.github/workflows/windows-test.yml) only. Implies
+#              -NonInteractive, stores a DUMMY test key through the same DPAPI code instead of opening
+#              the key window, marks what a test machine cannot have (sign-ins, a key that logs in)
+#              as SKIP(CI), and exits with code 1 if anything FAILs. Not for the operator's PC.
+param([switch]$Refresh, [switch]$NoWinget, [switch]$NonInteractive, [switch]$Test)
+if ($Test) { $NonInteractive = $true }
 
 $ErrorActionPreference = "Continue"
 $ProgressPreference = "SilentlyContinue"
@@ -44,6 +52,10 @@ function Run {
 }
 function Check($name, $ok, $hint) {
     [void]$results.Add([pscustomobject]@{ Item = $name; Result = $(if ($ok) { "PASS" } else { "FAIL" }); Fix = $(if ($ok) { "" } else { $hint }) })
+}
+# -Test only: something a test machine cannot have (a sign-in, a real key). Listed, never hidden.
+function SkipCI($name, $why) {
+    [void]$results.Add([pscustomobject]@{ Item = $name; Result = "SKIP(CI)"; Fix = $why })
 }
 function Write-Utf8($path, $text) {
     New-Item -ItemType Directory -Force (Split-Path $path) | Out-Null
@@ -172,15 +184,16 @@ $skillsDir = Join-Path $claude "skills"
 $memDir = Join-Path $claude "projects\$slug\memory"
 New-Item -ItemType Directory -Force $skillsDir, $memDir | Out-Null
 
-function Install-Text($src, $dst) {
+function Install-Text($src, $dst, [switch]$Force) {
     # copies one file, replacing the <PROJECT> placeholder with this PC's project folder name
+    # (-Force: replace a different copy even without -Refresh; a backup is still kept)
     $isText = $src -match '\.(md|txt|py|json|js|ps1|sh)$'
     if ($isText) { $new = [IO.File]::ReadAllText($src).Replace("<PROJECT>", $slug) }
     if (Test-Path $dst) {
         $same = $false
         if ($isText) { $same = ([IO.File]::ReadAllText($dst) -eq $new) } else { $same = ((Get-FileHash $src).Hash -eq (Get-FileHash $dst).Hash) }
         if ($same) { return "same" }
-        if (-not $Refresh) { return "kept" }
+        if (-not ($Refresh -or $Force)) { return "kept" }
         Copy-Item $dst "$dst.bak-$stamp" -Force
     }
     New-Item -ItemType Directory -Force (Split-Path $dst) | Out-Null
@@ -191,9 +204,9 @@ $kept = 0; $written = 0
 foreach ($f in Get-ChildItem (Join-Path $repo "skills") -Recurse -File) {
     $rel = $f.FullName.Substring((Join-Path $repo "skills").Length).TrimStart('\')
     $dst = Join-Path $skillsDir $rel
-    # the media watcher's own installer just wrote its generic skill; always put the Bambora one back
-    if ($rel -like "media-watcher\*" -and (Test-Path $dst)) { Remove-Item $dst -Force }
-    $r = Install-Text $f.FullName $dst
+    # the media watcher's own installer writes its generic skill; always put the Bambora one back
+    # (only when it differs, so a rerun leaves an identical copy alone)
+    $r = Install-Text $f.FullName $dst -Force:($rel -like "media-watcher\*")
     if ($r -eq "kept") { $kept++ } elseif ($r -eq "written") { $written++ }
 }
 foreach ($f in Get-ChildItem (Join-Path $repo "memory") -Filter *.md -File) {
@@ -223,15 +236,18 @@ $ours = [IO.File]::ReadAllText((Join-Path $repo "claude\CLAUDE.md")).Replace("<P
 $block = "<!-- bambora-ops:start (installed by claude-setup\install.ps1; edit claude-setup\claude\CLAUDE.md instead) -->`n" + $ours.TrimEnd() + "`n<!-- bambora-ops:end -->`n"
 if (Test-Path $cm) {
     $old = [IO.File]::ReadAllText($cm)
-    Copy-Item $cm "$cm.bak-$stamp" -Force
     $m = [regex]::Match($old, '(?s)<!-- bambora-ops:start.*?<!-- bambora-ops:end -->\r?\n?')
     if ($m.Success) {
         $new = $old.Substring(0, $m.Index) + $block + $old.Substring($m.Index + $m.Length)
     } else {
         $new = $block + "`n# Earlier instructions on this PC (kept by install.ps1)`n`n" + $old
     }
-    [IO.File]::WriteAllText($cm, $new, $utf8)
-    Say "CLAUDE.md updated (backup: CLAUDE.md.bak-$stamp)"
+    if ($new -eq $old) { Say "CLAUDE.md already up to date" }
+    else {
+        Copy-Item $cm "$cm.bak-$stamp" -Force
+        [IO.File]::WriteAllText($cm, $new, $utf8)
+        Say "CLAUDE.md updated (backup: CLAUDE.md.bak-$stamp)"
+    }
 } else {
     [IO.File]::WriteAllText($cm, $block, $utf8)
     Say "CLAUDE.md written"
@@ -242,7 +258,8 @@ if (Has git) {
     Run git -C $repo config core.hooksPath hooks | Out-Null
     $gname = (& git -C $repo config user.name) 2>$null
     if (-not $gname) {
-        $n = Read-Host "Your first name, for the repo's history (press Enter for 'Bambora operator')"
+        $n = ""
+        if (-not $NonInteractive) { $n = Read-Host "Your first name, for the repo's history (press Enter for 'Bambora operator')" }
         if (-not $n) { $n = "Bambora operator" }
         Run git -C $repo config user.name $n | Out-Null
         Run git -C $repo config user.email "operator@users.noreply.github.com" | Out-Null
@@ -253,6 +270,12 @@ if (Has git) {
 Step 8 "Trybe API key (stored with Windows DPAPI)"
 $keyFile = Join-Path $claude "secrets\trybe_api_key.dpapi"
 if (Test-Path $keyFile) { Say "already stored" }
+elseif ($Test) {
+    & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $repo "work\common\store-trybe-key.ps1") -Test
+}
+elseif ($NonInteractive) {
+    Warn "skipped (-NonInteractive). Store it later: powershell -NoProfile -ExecutionPolicy Bypass -File `"$repo\work\common\store-trybe-key.ps1`""
+}
 else {
     Say "A small window will open. Paste the Trybe key Fatima gave you (Ctrl+V) and click OK."
     Say "No key yet? Click 'Skip for now' and run work\common\store-trybe-key.ps1 later."
@@ -263,7 +286,8 @@ else {
 Step 9 "Claude permissions for the routine (optional, recommended)"
 Say "This lets the unattended routine run its own scripts without stopping for a yes every time."
 Say "It only ADDS entries to %USERPROFILE%\.claude\settings.json and backs the file up first."
-$ans = Read-Host "Add them now? (Y/n)"
+if ($NonInteractive) { $ans = "Y"; Say "adding them (-NonInteractive uses the recommended answer)" }
+else { $ans = Read-Host "Add them now? (Y/n)" }
 if ($ans -eq "" -or $ans -match '^[Yy]') {
     & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $repo "settings\apply-settings.ps1")
 } else { Say "skipped. Run settings\apply-settings.ps1 any time." }
@@ -280,7 +304,12 @@ Check "yt-dlp" (Has yt-dlp) "winget install yt-dlp.yt-dlp"
 Check "Node.js (Trybe MCP server)" ((Has node) -and (Test-Path (Join-Path $mcp "node_modules"))) "winget install OpenJS.NodeJS.LTS, then rerun install.ps1"
 Check "Google Chrome" (& $apps[2].Test) "https://www.google.com/chrome/"
 Check "Google Drive for desktop" (& $apps[6].Test) "winget install Google.GoogleDrive (or https://www.google.com/drive/download/)"
+if ($Test) { SkipCI "Drive for desktop signed in to the Bambora Google account" "needs a person to sign in; check by hand on the PC" }
 Check "Claude desktop app / Claude Code" (& $apps[8].Test) "https://claude.ai/download"
+if ($Test) {
+    SkipCI "Claude app signed in" "needs a person to log in; check by hand on the PC"
+    SkipCI "Chrome signed in + Claude in Chrome extension connected" "needs a person to sign in and install the extension; check by hand on the PC"
+}
 Check "Working folder ~/Bombara" (Test-Path (Join-Path $work "bambora-content-checklist.html")) "rerun install.ps1"
 Check "Trybe MCP server config (Bombara\.mcp.json)" ((Test-Path (Join-Path $work ".mcp.json")) -and (Test-Path (Join-Path $mcp "server.js"))) "rerun install.ps1 (it copies work\bombara-folder, including .mcp.json, into Bombara)"
 $nSkills = @(Get-ChildItem $skillsDir -Directory -ErrorAction SilentlyContinue).Count
@@ -297,8 +326,15 @@ if (Has py) { $lintOk = ((Run py -3 (Join-Path $repo "work\trybe-chat\lint_messa
 Check "Message linter (lint_message.py)" $lintOk "py -3 %USERPROFILE%\claude-setup\work\trybe-chat\lint_message.py test"
 Check "Stream tracker (streams.ps1)" ((Run powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $repo "work\sweep\streams.ps1") status) -eq 0) "see work\sweep\streams.ps1"
 $keyOk = $false
-if ((Has py) -and (Test-Path $keyFile)) { $keyOk = ((Run py -3 (Join-Path $repo "work\common\trybe_key.py") --check) -eq 0) }
-Check "Trybe API key stored and working" $keyOk "powershell -NoProfile -ExecutionPolicy Bypass -File %USERPROFILE%\claude-setup\work\common\store-trybe-key.ps1 -Force (ask Fatima for the key)"
+if ($Test) {
+    # the dummy key cannot log in, so check that it is stored and readable, and list the API call as SKIP(CI)
+    if ((Has py) -and (Test-Path $keyFile)) { $keyOk = ((Run py -3 (Join-Path $repo "work\common\trybe_key.py")) -eq 0) }
+    Check "Trybe API key stored and readable (DPAPI, dummy test key)" $keyOk "store-trybe-key.ps1 -Test did not store a readable key"
+    SkipCI "Trybe API key works against the Trybe API" "the test machine only has a dummy key; the real check is trybe_key.py --check on the PC"
+} else {
+    if ((Has py) -and (Test-Path $keyFile)) { $keyOk = ((Run py -3 (Join-Path $repo "work\common\trybe_key.py") --check) -eq 0) }
+    Check "Trybe API key stored and working" $keyOk "powershell -NoProfile -ExecutionPolicy Bypass -File %USERPROFILE%\claude-setup\work\common\store-trybe-key.ps1 -Force (ask Fatima for the key)"
+}
 Check "PYTHONUTF8 set" ([Environment]::GetEnvironmentVariable("PYTHONUTF8", "User") -eq "1") "rerun install.ps1"
 
 Write-Host ""
@@ -310,3 +346,4 @@ if ($fails -eq 0) {
     Write-Host "$fails item(s) FAILED. Fix each with the hint in the Fix column, then run install.ps1 again (it skips what is done)." -ForegroundColor Yellow
     Write-Host "After installing a program, open a NEW PowerShell window before rerunning, so Windows sees it."
 }
+if ($Test -and $fails -gt 0) { exit 1 }

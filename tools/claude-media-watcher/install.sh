@@ -52,7 +52,7 @@ fi
 step 1 "Copying the tool into $target"
 mkdir -p "$target" "$bin"
 if [ "$here" != "$target" ]; then
-  for f in watch.py watch watch.cmd install.sh install.ps1 README.md; do
+  for f in watch.py watch watch.cmd adwatch.py adwatch adwatch.cmd install.sh install.ps1 README.md; do
     [ -f "$here/$f" ] && cp "$here/$f" "$target/"
   done
   rm -rf "$target/skill"
@@ -111,7 +111,7 @@ step 4 "Setting up a private Python with the speech-to-text engine"
 export UV_PYTHON_INSTALL_DIR="$target/python" UV_CACHE_DIR="$target/.cache/uv" UV_NO_PROGRESS=1
 venv="$target/.venv"
 py="$venv/bin/python"
-packages=(faster-whisper pillow yt-dlp)
+packages=(faster-whisper pillow yt-dlp librosa demucs soundfile matplotlib)
 if [ ! -x "$bin/uv" ]; then
   if [ "$os" = "Darwin" ]; then triple=apple-darwin; else triple=unknown-linux-musl; fi
   if [ "$arch" = "arm64" ]; then triple="aarch64-$triple"; else triple="x86_64-$triple"; fi

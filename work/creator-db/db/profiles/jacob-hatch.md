@@ -5,12 +5,12 @@
 - Joined Trybe: 2026-06-30
 - Programs: Bambora Affiliates V3 since 2026-09-18
 - Videos: 2 submitted, 2 approved, 0 rejected, last 2026-09-20
-- Videos run as ads: 0
-- Performance since Jun 2026: earnings $0, Trybe GMV $0, conversions 0, ads 0, ad spend $0, purchases 0 ($0), ROAS None
+- Videos run as ads: 2
+- Performance since Jun 2026: earnings $3, Trybe GMV $64, conversions 1, ads 2, ad spend $88, purchases 3 ($233), ROAS 2.63
 
 ### Videos (newest first)
-- 2026-09-20 approved (trybe=20187bb6): ""
-- 2026-09-11 approved (trybe=30ffedc1): ""
+- 2026-09-20 approved (trybe=20187bb6, ads 1): ""
+- 2026-09-11 approved (trybe=30ffedc1, ads 1): ""
 <!-- /facts -->
 
 ## Notes

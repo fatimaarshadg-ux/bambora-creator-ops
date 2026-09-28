@@ -116,9 +116,8 @@
 
 **Example videos (Video 1 to 7)** Anonymous example videos from our creators in Drive; the map of whose is whose is private (`work/inspo/example-videos-map.md`). Never name the creator.
 
-**Liam** The media buyer who puts approved videos into Meta ads. Gets Drive links in batches of 5+ via Slack.
+**Liam** A media buyer. You don't send him anything: since 2026-09-27 approved videos only go into the Drive Trybe folder.
 
-**Liam links** The list of Drive links for newly approved videos (`liam-links-<date>.md`, `liam_batch.py`).
 
 **Main Media** The media buyers' shared Drive. Only approved Trybe videos go there (Main Media > Trybe).
 

@@ -29,7 +29,7 @@ Your job: start it each work day ("start the routines"), answer the one message 
 | [02-rules.md](02-rules.md) | Every rule in one place: safety, messages, samples, applicants, who to ignore, autonomy |
 | [03-trybe-map.md](03-trybe-map.md) | Where everything lives in the Trybe portal and API |
 | [04-voice-guide.md](04-voice-guide.md) | How messages must sound (Fatima's voice), with her templates |
-| [05-where-everything-lives.md](05-where-everything-lives.md) | Drive folders and file naming, Liam links, the tracker, Notion, Atria, local folders |
+| [05-where-everything-lives.md](05-where-everything-lives.md) | Drive folders and file naming, the tracker, Notion, Atria, local folders |
 | [06-ledger-and-scripts.md](06-ledger-and-scripts.md) | The follow-up ledger commands and every script |
 | [07-scheduled-tasks.md](07-scheduled-tasks.md) | The timers and scheduled tasks, and how to set them up on Windows |
 | [08-troubleshooting.md](08-troubleshooting.md) | When something breaks (by symptom) |

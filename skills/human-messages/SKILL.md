@@ -50,3 +50,14 @@ Never open with a remark about their family, kids, job or content taken from the
 - Late by 24h+: "sorry for the late reply!". Long excited message: short reaction plus which idea to start with.
 - Style: "!!", stretched words, lowercase starts, emoji (not ":)").
 - **I, never we (2026-09-24):** Fatima is one person. "me too", "I can't wait", "on my end"; never "us too", "we're so excited", "on our side", "our team". lint_message.py blocks these.
+
+## 8. Follow-ups and nudges (Fatima, 2026-09-26: "follow-ups are supposed to look like follow-ups")
+Before ANY follow-up, nudge or reminder:
+1. Run `ctx(name)` (chat-helpers.js) and read the last 3 messages. `g2()` refuses to send until you have.
+2. Write the message as the NEXT LINE of that conversation. Reference the earlier ask: "did you get a chance to...", "any luck with...", "has your sample arrived yet?".
+3. Never a fresh opener ("hope you're having a good week") followed by a list of asks. Never a batch template across creators.
+4. Never contradict or repeat the last message: don't ask for a sample right after "your sample is approved", don't repeat "no need for a sample" to an owner who already heard it.
+4b. Sample nudges (Fatima 2026-09-26): the sample is THEIR free product, never a favor to me. Say "free sample" and the benefit to them: "did you get a chance to request your free sample yet? the sooner it arrives, the sooner you can start making videos".
+5. Check the whole thread for facts that change the ask: owns a Bambora (no sample), no baby, already connected, already asked a question you haven't answered (answer it first).
+6. Polite but firm, always with an easy out: "happy to help if you get stuck".
+7. Replies to applicants always include the next step, never a bare "congrats".

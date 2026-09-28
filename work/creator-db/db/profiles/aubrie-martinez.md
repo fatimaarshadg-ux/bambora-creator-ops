@@ -4,11 +4,12 @@
 - Group: 5% program (V3)
 - Joined Trybe: 2026-09-04
 - Programs: Bambora Affiliates V3 since 2026-09-21
-- Videos: 1 submitted, 1 approved, 0 rejected, last 2026-09-16
+- Videos: 2 submitted, 2 approved, 0 rejected, last 2026-09-24
 - Videos run as ads: 1
-- Performance since Jun 2026: earnings $0, Trybe GMV $0, conversions 0, ads 1, ad spend $145, purchases 1 ($69), ROAS 0.48
+- Performance since Jun 2026: earnings $0, Trybe GMV $0, conversions 0, ads 1, ad spend $292, purchases 3 ($203), ROAS 0.7
 
 ### Videos (newest first)
+- 2026-09-24 approved (trybe=5fbaf5ba): ""
 - 2026-09-16 approved (trybe=b2544736, ads 1): "Clearly a mom with a velcro baby invented this. This one's by Bambora. It is a sling that your baby sits in and this is completely padded so you don't feel a ton of pressure on your shoulder. But look, she's just chillin"
 <!-- /facts -->
 

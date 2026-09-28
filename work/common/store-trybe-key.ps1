@@ -7,7 +7,27 @@
 #
 # Get the key from Fatima privately. Do NOT create a new key in Trybe without asking her first:
 # a new key can replace the old one and break her own setup.
-param([switch]$Force)
+#
+#   -Force  replace a key that is already stored
+#   -Test   for the automated Windows test only (.github/workflows/windows-test.yml): no window opens and a
+#           fixed DUMMY string (not a Trybe key) is stored through the same DPAPI code, so the scripts that
+#           read the key can be tested. Never use it on the operator's PC: it would replace nothing useful
+#           with a key that cannot log in.
+param([switch]$Force, [switch]$Test)
+
+# The dummy value the test stores and then reads back (it is public on purpose; it is not a key).
+$TestKey = "bambora-ci-dummy-key-not-a-real-trybe-key"
+
+function Save-Key($plain) {
+    $len = $plain.Length
+    if ($len -lt 10 -or $plain -match '[\x00-\x1F\s]') {
+        Write-Host "That does not look like a Trybe key (length $len). Nothing saved. Run it again and paste with Ctrl+V."
+        exit 1
+    }
+    $secure = ConvertTo-SecureString $plain -AsPlainText -Force
+    $secure | ConvertFrom-SecureString | Set-Content -LiteralPath $path -Encoding ascii
+    return $len
+}
 
 $dir = Join-Path $env:USERPROFILE ".claude\secrets"
 New-Item -ItemType Directory -Force $dir | Out-Null
@@ -16,6 +36,12 @@ $path = Join-Path $dir "trybe_api_key.dpapi"
 if ((Test-Path $path) -and -not $Force) {
     Write-Host "A Trybe key is already stored at $path"
     Write-Host "To replace it, run this again with -Force."
+    exit 0
+}
+
+if ($Test) {
+    $len = Save-Key $TestKey
+    Write-Host "TEST MODE: stored the dummy test key ($len characters) at $path with DPAPI. It cannot log in to Trybe."
     exit 0
 }
 
@@ -52,13 +78,6 @@ if ($form.ShowDialog() -ne [System.Windows.Forms.DialogResult]::OK) {
     Write-Host "Skipped. No key saved. Run this script again when you have the key."
     exit 2
 }
-$plain = $box.Text.Trim()
-$len = $plain.Length
-if ($len -lt 10 -or $plain -match '[\x00-\x1F\s]') {
-    Write-Host "That does not look like a Trybe key (length $len). Nothing saved. Run it again and paste with Ctrl+V."
-    exit 1
-}
-$secure = ConvertTo-SecureString $plain -AsPlainText -Force
-$plain = $null
-$secure | ConvertFrom-SecureString | Set-Content -LiteralPath $path -Encoding ascii
+$len = Save-Key $box.Text.Trim()
+$box.Text = ""
 Write-Host "Saved the Trybe key ($len characters) at $path. Only your Windows account on this PC can read it."

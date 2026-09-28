@@ -4,11 +4,12 @@
 - Group: 5% program (V3)
 - Joined Trybe: 2026-08-13
 - Programs: Bambora Affiliates V3 since 2026-09-21
-- Videos: 1 submitted, 0 approved, 1 rejected, last 2026-08-24
+- Videos: 2 submitted, 0 approved, 1 rejected, last 2026-09-24
 - Videos run as ads: 0
 - Performance since Jun 2026: earnings $0, Trybe GMV $0, conversions 0, ads 0, ad spend $0, purchases 0 ($0), ROAS None
 
 ### Videos (newest first)
+- 2026-09-24 revision_requested (trybe=987f28c5): "And they said, you seem so much happier, what are you doing differently? And all I told them was I've been using the Bambora Sling. I no longer have back pain, I no longer have hip pain, and I can go hands-free, give me "
 - 2026-08-24 rejected (trybe=2f549b45): "If you have a Velcro baby, stop scrolling. This is the sling that's saving mom's arms right now. No buckles to fight with, no instructions needed, just on and go. Seriously, it took me longer to read the box than to figu"
 <!-- /facts -->
 

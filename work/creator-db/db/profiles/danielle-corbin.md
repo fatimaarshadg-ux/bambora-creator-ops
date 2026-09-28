@@ -5,11 +5,11 @@
 - Joined Trybe: 2026-07-28
 - Programs: Bambora Affiliates V3 since 2026-09-21
 - Videos: 7 submitted, 6 approved, 1 rejected, last 2026-09-22
-- Videos run as ads: 5
+- Videos run as ads: 6
 - Performance since Jun 2026: earnings $231, Trybe GMV $1,926, conversions 31, ads 9, ad spend $2,556, purchases 61 ($3,659), ROAS 1.43
 
 ### Videos (newest first)
-- 2026-09-22 approved (trybe=62f623a0): "I swear motherhood would be so much easier if I had two more arms, but I have the Bambora Sling instead. And what really sold me on this was the safety feature right here. If the clamp were to accidentally come undone or"
+- 2026-09-22 approved (trybe=62f623a0, ads 1): "I swear motherhood would be so much easier if I had two more arms, but I have the Bambora Sling instead. And what really sold me on this was the safety feature right here. If the clamp were to accidentally come undone or"
 - 2026-09-12 rejected (trybe=9a5ff86d): "I swear motherhood would be so much easier if I had two more arms, but I have the Bambora Sling instead. And what really sold me on this was the safety feature right here. If the clamp were to accidentally come undone or"
 - 2026-08-31 approved (trybe=41baccca, ads 1): "The back-to-school sale is still happening, so if you've been wanting this sling and you haven't grabbed it yet, now is your chance to get it at a great deal. It's so easy to use and perfect for the toddlers that just wa"
 - 2026-08-31 approved (trybe=04bcc951, ads 1): ""

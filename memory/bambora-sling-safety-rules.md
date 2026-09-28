@@ -43,3 +43,9 @@ Related: [[bambora-brand-basics]]
 
 **Dolls are a last resort (Fatima, 2026-09-23, Jen Smith):** we want creators filming with their own kids. Only suggest a doll (or a friend's baby) when the creator has NO child in the 10 to 50 lb range (pregnant, newborn under 10 lbs, no kids). If a creator with a child in range asks about a doll or says their kid won't cooperate, reply neutrally and don't bring up the doll.
 When a creator with a child in range asks about using a doll, the answer (her words, 2026-09-23): most of our winners use an actual kid instead of a doll, because viewers form a better connection with a real child. Never volunteer the doll to them.
+
+**Cooking is OK (Fatima, 2026-09-26):** "I think it's okay to cook with the baby." Do not flag cooking or "I cook" lines in reviews or inspo caveats. One hand on baby still applies.
+
+**Chewing straps is fine (Fatima, 2026-09-26):** a baby chewing or mouthing the straps/buckle is NOT a safety issue. Never flag it in reviews or inspo caveats. Only flag what her rules actually say; review-agent opinions beyond the checklist go to her as questions, never straight to creators.
+
+**Stairs and everyday scenes are fine (Fatima, 2026-09-26):** stairs are OK with one hand on the baby (the other can be on the rail). Cooking is OK. The test for any scene is whether the baby is clearly supported. Do not flag stairs in reviews, inspo or scripts when one hand is on the baby.

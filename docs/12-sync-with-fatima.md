@@ -14,7 +14,7 @@ Why this way: the two repos hold different versions of the same scripts (Mac and
 
 ### You stop, Fatima takes over
 
-1. Tell Claude: **"stop the sweep timer and the watchdog, then run sync.ps1"**. (At the normal end of your day the wrap-up does this for you.)
+1. Type **`stop the routines`**. Claude stops the timers and the watchdog, turns keep-awake off, runs sync.ps1 and tells you it pushed.
 2. Wait for Claude to say **Pushed**.
 3. Message Fatima: "I've stopped and pushed."
 4. Fatima, on her Mac: `bash ~/bambora-creator-ops/work/backup/handoff-mac.sh take`, then "start the routines".

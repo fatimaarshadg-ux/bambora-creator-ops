@@ -17,3 +17,8 @@ Sent to Tasha Clay 2026-09-25 05:02 as video 1 to 5 = Video 1, Video 2, Video 5,
 - Video 10 = Jennifer Thomas 906fdd16 (15.8%; product only, no baby, ends "before this color sells out")
 - NOT usable: Jennifer Thomas 482acd47 ("8 things... you wouldn't expect"): hands off baby in several scenes
 Sent to Cambria Reau 2026-09-25 ~06:00 as video 1 to 4 = Video 1, Video 8, Video 9, Video 10 (never her own Video 2).
+Sent to Mackenzie Perez 2026-09-26 ~02:35 as video 1 to 5 = Video 1, Video 2, Video 6, Video 7, Video 9 (Video 5 skipped: hands-off + discount end; Fatima said replicate exactly as they won).
+- Video 9 FULL SAFETY CHECK 2026-09-26: NOT clean to copy exactly. Toddler chews strap/hardware 0:02-0:15 and loop never shown hooked; line 'I cook, I clean, I vacuum... I do everything with her' (cooking + near hands-free); hook text at top edge. Always send with those caveats.
+- 2026-09-26: Fatima says cooking with the baby is OK, so the Video 9 'I cook' line is NOT a caveat. Remaining Video 9 caveats: straps/buckle out of baby's mouth, show the loop hooked.
+Sent to Jena Swapp 2026-09-26 ~02:45 as video 1 to 5 = Video 1, Video 2, Video 6, Video 7, Video 9 (with straps/loop caveat on Video 9).
+Sent to Aubrie Martinez 2026-09-27 as video 1 to 5 = Video 1, Video 2, Video 6, Video 7, Video 9 (with straps caveat on Video 9).

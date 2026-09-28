@@ -3,13 +3,13 @@
 <!-- facts: rebuilt by build_db.py, do not edit -->
 - Group: PROTECTED (keeps her old commission; never message about commission)
 - Joined Trybe: 2026-08-17
-- Programs: The Bambora Affiliate Program! since 2026-08-17
+- Programs: Ambassador Program! since 2026-09-24
 - Videos: 2 submitted, 2 approved, 0 rejected, last 2026-09-08
 - Videos run as ads: 2
-- Performance since Jun 2026: earnings $714, Trybe GMV $5,948, conversions 103, ads 3, ad spend $6,861, purchases 189 ($11,160), ROAS 1.63
+- Performance since Jun 2026: earnings $817, Trybe GMV $6,813, conversions 116, ads 5, ad spend $7,499, purchases 204 ($12,202), ROAS 1.63
 
 ### Videos (newest first)
-- 2026-09-08 approved (trybe=efe9f7f6, ads 2): "This is for the moms that don't want to wear one of those big, bulky baby carriers. It comes in so many aesthetic prints and the fact that it can fold up so small it fits right into my purse. It has a padded strap for ex"
+- 2026-09-08 approved (trybe=efe9f7f6, ads 4): "This is for the moms that don't want to wear one of those big, bulky baby carriers. It comes in so many aesthetic prints and the fact that it can fold up so small it fits right into my purse. It has a padded strap for ex"
 - 2026-09-04 approved (trybe=8ae9bb0e, ads 1): "Moms, if you have a clingy baby but you don't want to wear one of those big bulky baby carriers, I found the Best Sling Carrier by Bambora. It has a padded shoulder strap for extra comfort. It's adjustable to fit your si"
 <!-- /facts -->
 

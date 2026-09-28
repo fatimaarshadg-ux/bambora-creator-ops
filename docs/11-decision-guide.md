@@ -63,13 +63,13 @@ Answering tip: "yes 1 and 3, no 2, hold 4". Claude acts on the yeses straight aw
 | 27 | Your reply could be read two ways ("let's do the 8") | You | Claude must ask one line: "reject all 8 now, or look at them first?" An irreversible action needs an unmistakable yes. |
 | 28 | Someone applies to the 12%, Ambassador or v1 program | You | Claude flags it. New creators go into V3 (5%) only. |
 
-### Partnership ads and Liam
+### Partnership ads
 
 | # | Situation | Who | What happens |
 |---|---|---|---|
 | 29 | The roster shows a Request button for a V3 creator | Claude | Clicks Request and sends a tiny note. |
 | 30 | A creator shows "--" (no Instagram connected) | Claude | Asks her to connect a public Instagram in her Trybe profile. |
-| 31 | 5 or more filed videos haven't gone to Liam yet | You | Claude gives you a ready message ("Now you can send this to Liam:"). You paste it to Liam in Slack (steps in `10-shift-checklists.md`). |
+| 31 | A video was approved | Claude | Files it in Drive (Main Media > Trybe) straight away. That's all: nothing goes to Liam, no sheet, no Slack. |
 
 ### Money, programs and settings
 

@@ -4,11 +4,12 @@
 - Group: PROTECTED (keeps her old commission; never message about commission)
 - Joined Trybe: 2026-08-01
 - Programs: The Bambora Affiliate Program! since 2026-08-01
-- Videos: 43 submitted, 43 approved, 0 rejected, last 2026-09-17
+- Videos: 44 submitted, 44 approved, 0 rejected, last 2026-09-25
 - Videos run as ads: 43
-- Performance since Jun 2026: earnings $2,340, Trybe GMV $19,513, conversions 324, ads 67, ad spend $19,920, purchases 605 ($35,784), ROAS 1.8
+- Performance since Jun 2026: earnings $2,390, Trybe GMV $19,929, conversions 330, ads 67, ad spend $20,542, purchases 617 ($36,635), ROAS 1.78
 
 ### Videos (newest first)
+- 2026-09-25 approved (trybe=27728e30): ""
 - 2026-09-17 approved (trybe=3e2e8a17, ads 1): "Look at her, she's a bad mamma jamma just as fine as she can be hey she's a bad mamma jamma just as fine as she can be"
 - 2026-09-16 approved (trybe=77a51f79, ads 1): "I just know a mom created this sling carrier because I wouldn't make it through my day if I didn't have it. I have four kids, I need to get things done. This guy would climb back into the womb if I let him, so this is wh"
 - 2026-09-11 approved (trybe=a411f233, ads 1): "This video is a derivative work of the Touhou Project. It has no relation to the original work. Please be careful when using this video. Thank you for watching."
@@ -23,8 +24,7 @@
 - 2026-08-31 approved (trybe=382783e1, ads 1): ""
 - 2026-08-30 approved (trybe=7af36605, ads 1): ""
 - 2026-08-28 approved (trybe=dc964d57, ads 1): ""
-- 2026-08-27 approved (trybe=3a7a43aa, ads 1): ""
-- ...and 28 older (see creators.json)
+- ...and 29 older (see creators.json)
 <!-- /facts -->
 
 ## Notes

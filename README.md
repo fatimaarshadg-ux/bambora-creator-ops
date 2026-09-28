@@ -109,6 +109,7 @@ Install these by hand (click Next through each installer; defaults are fine), th
    - Google Drive: https://drive.google.com
    - Notion: https://www.notion.so
    - Slack: https://app.slack.com
+5. **Let Claude work in these sites without asking every click.** The first time Claude uses a site, the Claude extension asks whether it may act there. Pick the option that allows it **always for that site** (not "once") for: `jointrybe.com`, `drive.google.com`, `docs.google.com`, `tiktok.com`, `instagram.com`, `youtube.com`, `notion.so`. For any other site, choose **once**, and ask Fatima if you're unsure. Never allow a site that asks for a password or payment.
 
 ## Step 6. Google Drive for desktop
 
@@ -149,19 +150,48 @@ Open the file `C:\Users\<you>\claude-setup\FIRST-PROMPT.md` (right-click, **Open
 
 Claude reads everything, checks the install, fixes small gaps, asks you a few setup questions (your name, hours, timezone for `OPERATOR.md`), and ends by saying **ready**.
 
-## Step 9. Every work day
+## Step 9. Every work day: start
 
-In the Claude app, Code tab, folder `Bombara`, type:
+1. Message Fatima: "starting now". **One computer at a time**: she must not be running hers.
+2. Charger in, lid open. Open Chrome (Bambora profile) and the Claude app (**Code** tab, folder `Bombara`).
+3. Type:
 
 ```
 start the routines
 ```
 
-Before you type it, make sure Fatima is not running the routine on her Mac right now (one computer at a time, see the box at the top).
+That's it. Claude does the rest by itself, including **keeping the PC awake** (it turns keep-awake on as part of starting; you never run it yourself). Its first message confirms in one line: keep-awake RUNNING, timers set, watchdog on, and the US time with the **send window** OPEN or CLOSED.
 
-That is the whole daily start. The full start and end checklists are in `docs/10-shift-checklists.md`; when you are unsure whether something is yours to decide, look it up in `docs/11-decision-guide.md`. Claude starts its 30-minute sweep, works through chat, samples, partnership ads, video submissions, new applicants and follow-ups, and sends you ONE message per sweep: what it did, what needs your yes (each with a recommendation), and real questions only. Keep the Claude app and Chrome open and the PC awake (lid open, charger in) during your work hours.
+- **Send window:** nothing goes to creators before **12 PM US Eastern** (9 PM Pakistan time). Before that, Claude still checks everything and prepares messages in a queue; the first sweep after 12 PM ET sends them. So a quiet start is normal.
+- Every 30 minutes you get ONE message: **Done**, **Needs your go** (numbered, each with a recommendation), **Questions**. Answer like "yes 1 and 3, no 2 because ...".
+- Not sure whether something is yours to decide? `docs/11-decision-guide.md`. Something broke? `docs/08-troubleshooting.md`.
 
-At the end of your day Claude writes the session log and pushes everything to GitHub by itself.
+## Step 10. Every work day: stop
+
+1. Type:
+
+```
+stop the routines
+```
+
+2. Claude files any leftover approved videos in Drive, writes the session log, stops its timers, turns keep-awake off, pushes everything to GitHub and says **"Stopped and pushed"**.
+3. Message Fatima: "I've stopped", so she can start hers.
+
+The sweeps do **not** stop on their own at the end of your hours (Fatima's rule: if nobody says stop, they keep going). So always type `stop the routines`.
+
+## Already set up from an earlier version? Update in 2 minutes
+
+In PowerShell:
+
+```powershell
+git -C "$env:USERPROFILE\claude-setup" pull
+```
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File "$env:USERPROFILE\claude-setup\install.ps1" -Refresh
+```
+
+Answer **Enter** (yes) to the permissions question. Then in Claude type: `read ~/claude-setup/docs/WHATS-NEW.md and tell me what changed`.
 
 ---
 
@@ -169,11 +199,12 @@ At the end of your day Claude writes the session log and pushes everything to Gi
 
 | File | What it is |
 |---|---|
+| `docs/WHATS-NEW.md` | What changed on 2026-09-28 (send window, no more Liam, auto-accept, follow-up rules) |
 | `docs/README.md` | Start here: ownership, and the index of the manual |
 | `docs/FIRST-DAY.md` | Your first day, hour by hour |
 | `docs/01-how-the-job-works.md` | The daily loop and the six streams |
 | `docs/02-rules.md` | Every rule (safety, messages, samples, applicants, who to ignore) |
-| `docs/GLOSSARY.md` | Every word you will hear (yapper, V3, sample gate, Liam links...) |
+| `docs/GLOSSARY.md` | Every word you will hear (yapper, V3, sample gate, send window...) |
 | `docs/10-shift-checklists.md` | Start-of-shift and end-of-shift checklists, and what runs when |
 | `docs/11-decision-guide.md` | Do I act, or ask Fatima? 38 real examples |
 | `docs/12-sync-with-fatima.md` | Taking turns with Fatima: which copy is the real one, and the handoff |

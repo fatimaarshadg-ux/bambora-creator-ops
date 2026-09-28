@@ -59,7 +59,8 @@ All from Git Bash (Claude's shell). PowerShell ones are run as `powershell -NoPr
 | `work/creator-db/quiet_creators.py` | Adds quiet creators to the ledger (build_db runs it) | `py -3 ~/claude-setup/work/creator-db/quiet_creators.py` |
 | `work/trybe-chat/lint_message.py` | Blocks robotic messages. Exit 1 = rewrite | `py -3 ~/claude-setup/work/trybe-chat/lint_message.py "text"` (or `--file drafts.json`, `--long` for inspo) |
 | `work/trybe-chat/cors_srv.py` | Helper server on 127.0.0.1:8765 | started by start.ps1 |
-| `work/trybe-chat/chat-helpers.js` | In the Trybe chat page: `convoScan()` (who is waiting), `g2(name)` (guarded open and send; refuses while their newest message is unanswered until `ACK[name]=true`), `qCheck()` (unanswered questions), `open2()`, reactions `rx1()`/`rx2()`, `dFill` (refuses robotic text) | loaded in the page from :8765 |
+| `work/trybe-chat/discovery-helpers.js` | In the Discovery Inbox: `dGo()` (message an applicant), `findCard()` (program, country, Approve button), `attVideo()` | loaded in the page from :8765 |
+| `work/trybe-chat/chat-helpers.js` | In the Trybe chat page: `convoScan()` (who is waiting), `g2(name)` (guarded open and send; refuses while their newest message is unanswered until `ACK[name]=true`), `qCheck()` (unanswered questions), `open2()`, reactions `rx1()`/`rx2()`, `dFill` (refuses robotic text), `ctx(name)` (reads the last messages; `g2` refuses to send until it ran) | loaded in the page from :8765 |
 | `work/trybe-chat/roster-scan.js` | In the Creators page: `badges()`, `collectSamples()`, `rosterScan()` (canRequest, noConnect, pendingPA, noSample), `rosterProps()`, `inboxNames()` | loaded in the page |
 | `work/trybe-chat/sample-status.js` | The SAMPLE GATE: `await sampleStatus(['Name'])` in the Samples tab | loaded in the page |
 | `work/trybe-chat/front.ps1` | Bring Chrome and the Trybe tab to the front | before any click or send |
@@ -68,7 +69,6 @@ All from Git Bash (Claude's shell). PowerShell ones are run as `powershell -NoPr
 | `work/social-tools/tt.py` | TikTok creator stats, comments, download (no browser) | `py -3 ~/claude-setup/work/social-tools/tt.py <handle> --videos 6 --comments 15 [--download DIR]` |
 | `work/social-tools/tt_find.py` | Find TikTok videos by topic, ranked by views | `py -3 ... tt_find.py "clingy baby" --shop --min-views 100000 --seen ~/claude-setup/work/inspo/seen.txt` |
 | `work/trybe-drive-filing/file_approved.py` | Approved videos not yet in Drive: `--list`, `--download DIR`, `--mark IDS`, `--seed` | `py -3 ... file_approved.py --list` |
-| `work/trybe-drive-filing/liam_batch.py` | Liam batches: `status`, `message [--any]`, `sent` | `py -3 ... liam_batch.py status` |
 | `work/trybe-drive-filing/drive-upload.ps1` | Copy files into a Drive folder via Google Drive for desktop | `-Source <folder> -Target Trybe` |
 | `work/trybe-drive-filing/sendkeys.ps1` | Real keystrokes for Drive's upload menu and file dialogs (fallback) | `-Keys "{DOWN}{DOWN}{ENTER}"` |
 | `work/sweep/start.ps1` | Start of shift: keep-awake, helper server, pull, ledger, stream ages | no args |

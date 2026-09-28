@@ -6,7 +6,7 @@
 - Programs: Bambora Affiliates V3 since 2026-09-18
 - Videos: 3 submitted, 2 approved, 1 rejected, last 2026-09-18
 - Videos run as ads: 2
-- Performance since Jun 2026: earnings $16, Trybe GMV $137, conversions 2, ads 2, ad spend $299, purchases 5 ($470), ROAS 1.57
+- Performance since Jun 2026: earnings $29, Trybe GMV $241, conversions 3, ads 2, ad spend $302, purchases 5 ($470), ROAS 1.56
 
 ### Videos (newest first)
 - 2026-09-18 approved (trybe=6c916aab, ads 1): "All right moms of velcro babies or toddlers, you're going to want to check out this baby sling. It is a nice padded baby sling by Bambora that you can put around your shoulder. You can slide your baby in it, offer suppor"

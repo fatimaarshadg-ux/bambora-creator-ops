@@ -147,3 +147,27 @@ Never say "strict rules" to a creator. Not her language. Just say the thing plai
 ## 2026-09-25: Labourgeoise (no-baby nurse creator)
 - My draft told her "you film videos with the sling" and pitched "questions new moms ask you on the unit". Wrong: she has no baby and had already said she can't film with a child. Fatima: her strong point is comparing products and sharing her expertise; we help by sending info on different products (like the ring sling comparison inspo). Never tell a no-baby creator to record with the sling.
 - Rule: before drafting, read the WHOLE thread and the video/reel Fatima sent, and build the reply on what was already agreed there.
+
+## 2026-09-26, "little guy"
+Don't call a creator's child "little guy" (or similar nicknames). Say "baby" (or the child's name if the creator used it).
+
+## 2026-09-26, polite but firm
+Fatima: "your message is not very polite... always be polite, without losing firmness." Soften asks with please/thank you/"feel free", and always leave room for the creator: "or put your own spin on them". Never bare instructions like "try to replicate them as closely as you can".
+
+## 2026-09-26, follow-ups must read as follow-ups
+Fatima: "your message shows as if it is a separate message, like you haven't checked what the last message was... follow-ups are supposed to look like follow-ups."
+Before any nudge: read the LAST 2 to 3 messages in the thread and write the nudge as the next line of THAT conversation. Reference what was asked before ("did you get a chance to connect your Instagram?", "any luck with the sample request?"), not a fresh opener ("hope you are having a good week" + a list of asks). Never send a template that repeats or contradicts the previous message (e.g. asking to request a sample right after telling her it was approved). No batch templates for follow-ups: each one is written for its thread.
+
+## 2026-09-26, sample nudges: it's THEIR free product, not a favor to me
+Fatima: "you're positioning it wrong. if they are requesting a sample, it is going to give them the free product. that's not something they are doing us a favor." Her model: "hey Kat, just following up! have you had the chance to request your free sample yet? the sooner you receive it, the sooner you will be able to make videos."
+Sample nudges say "free sample" and give THEIR benefit: "the sooner it arrives, the sooner you can start making videos". Never "would love to get it to you", "any luck with the sample request?", "I'm here if you need a hand" as the whole message, or anything that sounds like I need them to do it. (lint bans "just following up", so open with "hey Kat! did you get a chance to...".)
+
+## 2026-09-26, never excuse the volume; reply in the thread
+Fatima (Breanna): "don't worry about volume... that's not a good thing because you are basically saying that she doesn't need to do that volume. say 'to help you do 4 to 5 videos a week'." Never soften the 4 to 5 a week expectation ("don't worry about the volume", "no pressure on the number"). Frame support as the way to HIT it: "to help you do 4 to 5 videos a week, I'll keep sharing weekly inspo...".
+Also: "respond in the thread, not as a unique message." When answering a creator's specific message (e.g. her answers to the fit questions), use Trybe's "Reply in thread" on THAT message instead of a new standalone message.
+
+## 2026-09-27, volume ask is now 3 to 5 a week
+Fatima: "moving forward lets do 3-5 videos a week rather than 4-5". Every applicant question, welcome note and volume line says 3 to 5 videos a week (the Breanna rule stands: frame support as helping them hit it, e.g. "to help you do 3 to 5 videos a week"). Older lessons that say 4 to 5 are superseded.
+
+## 2026-09-27, reassure with inspo when asking for volume
+Fatima: "give them a humane assurance depending on the context that I will send them inspo etc (make sure it fits the context)". Whenever a message asks for or confirms 3 to 5 videos a week, add one natural line about the support they get, worded for that thread: weekly inspo, hooks and angles, help whenever they're stuck on what to film. Not a pasted template; fit it to what they said (new mom, busy, already posting a lot, etc).

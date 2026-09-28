@@ -6,7 +6,7 @@
 - Programs: Bambora Affiliates V3 since 2026-09-21
 - Videos: 1 submitted, 1 approved, 0 rejected, last 2026-08-24
 - Videos run as ads: 1
-- Performance since Jun 2026: earnings $0, Trybe GMV $0, conversions 0, ads 1, ad spend $13, purchases 0 ($0), ROAS 0
+- Performance since Jun 2026: earnings $0, Trybe GMV $0, conversions 0, ads 1, ad spend $15, purchases 0 ($0), ROAS 0
 
 ### Videos (newest first)
 - 2026-08-24 approved (trybe=2505f7c6, ads 1): "I've been carrying my toddler around like it's an arm day and apparently that's just not normal. I finally caved and I got this Bambora Sling Carrier and I genuinely don't know why I waited this long. The padding is actu"

@@ -3,6 +3,8 @@ name: creator-ops-daily
 description: Fatima's daily creator-management routine for Bambora on Trybe. Run it at the start of every working session ("let's start", "good morning", "what's on today", "start the day") and whenever she asks what needs doing with creators. Covers submission reviews plus approval/rejection messages, Drive filing, new applicants, sample requests, post-sample check-ins, follow-ups on DMs, top-performer monitoring, and weekly personalised inspo.
 ---
 
+**Liam's sheet RETIRED (Fatima, 2026-09-27): approved videos only go into Main Media > Trybe (the Drive "Trybe" folder). Skip every Liam sheet / liam_launch.py step below.**
+
 # Creator ops: the daily loop
 
 Treat this like a full-time job. Nothing a creator was promised gets forgotten, and no message sounds like a robot. Load `fatima-creator-voice` before writing any message, `trybe-portal` for navigation, and `trybe-applicant-review` for step 3.
@@ -129,7 +131,7 @@ Pull the top-performing videos from Trybe, Atria and anything she shares. Then f
 3. Upload that folder to the Drive "Trybe" folder with `powershell -NoProfile -ExecutionPolicy Bypass -File "$USERPROFILE/claude-setup/work/trybe-drive-filing/drive-upload.ps1" -Source <that folder> -Target Trybe` (Google Drive for desktop; the browser fallback is in memory `windows-drive-upload-technique`).
 4. Verify with Drive `search_files parentId = '1kleoyEuzTGxftUvYKwSK3aVUDTKkG53R'`, then rename each file to its manifest `drive_name` (`CreatorName/fatima/trybe=<id>`) with `update_file`.
 5. Only after the rename is verified: `--mark <ids>`, then delete the local download folder.
-6. **Links for Liam (her ask, 2026-09-23):** send Fatima ONE message listing every video filed today, one line each: creator, trybe id, and the individual Drive link (https://drive.google.com/file/d/<id>/view, from search_files on the Trybe folder), so she can forward it to Liam on Slack. Do this every day there are new approvals.
+6. Nothing goes to Liam (Fatima, 2026-09-27): no Liam sheet, no Liam folder copy, no Liam links, no Slack message to Liam. Filing in Main Media > Trybe is the whole job.
 
 Then update the tracker (its follow-up section is a view of followups.py), log voice lessons, and push memory and skills to claude-setup.
 
@@ -158,9 +160,9 @@ Then update the tracker (its follow-up section is a view of followups.py), log v
 - **Replicate every idea for our people (Fatima, 2026-09-24):** for EVERY inspo item, from any source (Atria, TikTok, YouTube, IG, Nivaro, AI-made or real), think it through like a smart human: what makes it work (hook, format, emotion, who is on camera), and how one of OUR creators could film their own version with their real life, kids and setting. Name which creators it fits and why (casting: [[creator-casting-mindset]]), and write the one-line version they would shoot. If an idea can't be replicated safely or believably by anyone on our roster, drop it.
 
 - **Samples (her rules, 2026-09-24):** never approve a request made before 2026-09-17. Creators who already own a Bambora need no sample and get no sample nudge; tell them to start filming with theirs.
-- **Drive filing right after approval (Fatima, 2026-09-24):** file each approved video in the Drive "Trybe" folder as soon as it's approved, not at the end of the day. The Liam links list still goes to her at the end of the day (about 4:15 AM).
+- **Drive filing right after approval (Fatima, 2026-09-24):** file each approved video in the Drive "Trybe" folder as soon as it's approved, not at the end of the day.
 - **Abbey Way (V3, not protected):** Fatima said to ignore her questions (2026-09-24).
 
-## Liam batches and Meta access (Fatima, 2026-09-25)
-- After every Drive filing: `liam_batch.py status`. At 5+ unsent, message Fatima "now you can send this to Liam:" with the output of `liam_batch.py message` ("hey Liam, here are N more videos you can add to Meta:" + links), then `liam_batch.py sent`.
+## Meta access (Fatima, 2026-09-25)
+- Nothing goes to Liam (Fatima, 2026-09-27): no Liam sheet, no Liam folder copy, no Liam links, no Slack message to Liam. Filing in Main Media > Trybe is the whole job.
 - Every ~5 hours (`every.sh due metaaccess 300`): roster scan for V3 creators needing partnership ads access; Request / ask to connect a public Instagram / nudge Pending 3+ days. Details in routines/full-run.md.

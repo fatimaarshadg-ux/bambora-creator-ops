@@ -10,7 +10,7 @@ Drive name: {CreatorNameNoSpaces}/fatima/trybe={trybe_id}. "/" isn't allowed in 
 so files download as {Name}__fatima__trybe={id}.{ext}; rename in Drive after upload.
 Filed ids live in filed.json next to this script (synced via claude-setup).
 """
-import json, os, re, subprocess, sys, urllib.request
+import json, os, re, subprocess, sys, urllib.error, urllib.request
 import sys as _sys
 try:
     _sys.stdout.reconfigure(encoding='utf-8')  # emoji and names print on Windows consoles
@@ -23,7 +23,13 @@ KEY = get_key()
 
 def api(path):
     r = urllib.request.Request('https://api.jointrybe.com/v1' + path, headers={'Authorization': 'Bearer ' + KEY, 'User-Agent': 'curl/8.7.1'})
-    return json.load(urllib.request.urlopen(r, timeout=60))
+    try:
+        return json.load(urllib.request.urlopen(r, timeout=60))
+    except urllib.error.HTTPError as e:
+        hint = ' (the key was rejected: check it with work/common/trybe_key.py --check, ask Fatima whether it was replaced)' if e.code in (401, 403) else ''
+        sys.exit(f'Trybe API: HTTP {e.code} on {path.split("?")[0]}{hint}. Nothing was filed.')
+    except (urllib.error.URLError, TimeoutError, OSError) as e:
+        sys.exit(f'Trybe API: could not connect ({str(e)[:80]}). Check the internet connection and rerun. Nothing was filed.')
 
 def approved():
     out, after = [], None

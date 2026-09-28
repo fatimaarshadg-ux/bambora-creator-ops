@@ -6,7 +6,7 @@
 - Programs: Bambora Affiliates V3 since 2026-09-21
 - Videos: 17 submitted, 10 approved, 7 rejected, last 2026-09-22
 - Videos run as ads: 10
-- Performance since Jun 2026: earnings $109, Trybe GMV $912, conversions 12, ads 7, ad spend $1,046, purchases 20 ($1,358), ROAS 1.3
+- Performance since Jun 2026: earnings $126, Trybe GMV $1,051, conversions 14, ads 10, ad spend $1,327, purchases 20 ($1,358), ROAS 1.02
 
 ### Videos (newest first)
 - 2026-09-22 approved (trybe=97076578, ads 1): "I have things to do, but he just wants to nurse all day. The Bambora Sling is how I'm getting things done. I have at least one hand that I can walk around and do things with, and the other hand is supporting his head whi"

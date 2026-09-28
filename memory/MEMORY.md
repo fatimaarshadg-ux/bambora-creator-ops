@@ -55,3 +55,11 @@
 - [Ads Library DMCA monitor](ads-library-dmca-monitor.md): weekly Task Scheduler job live (Mon 09:00) with Slack digest; explicitn.com theft confirmed 2026-09-22; Slack webhook still not stored
 - [Bambora Grandparents Program](bambora-grandparents-program.md): 5% V3 clone for grandparent creators, live and discoverable since 2026-09-24 (join approval on)
 - [No one-off breakdowns in GitHub](feedback-no-oneoff-breakdowns-in-github.md): vetting lists and task working data stay local; push only reusable things
+
+- [Keep routines running when she's silent](feedback-keep-routines-running.md): never stop at 5 AM or any stated time; sweeps continue until she says stop; the keep-awake (start.ps1) on
+- [No double follow-ups](feedback-no-double-followups.md): never nudge again within ~48h of our last unanswered message; loved ten can get warm check-ins
+- [Trybe partnership ads FAQ + ask Trybe support](trybe-partnership-ads-faq.md): ads don't post to creator profiles; when unsure, check Trybe help guides then Chat Now support
+- [Auto-accept applicants](feedback-auto-accept-applicants.md): accept when all fit questions are yes + yapper + English-speaking country; caveats go to her
+- [Chrome extension browser switch](chrome-extension-browser-switch.md): tabs vanish / localhost fails / page hidden = extension switched to the other computer; select the browser on this computer
+- [Send window: US noon](send-window-us-noon.md): no creator messages before 12 PM ET (9 PM PKT); queue until then
+- [Applicant accept/reject rule](applicant-accept-reject-rule-0927.md): yes + good yapper = accept; asked for yapper, never sent = reject

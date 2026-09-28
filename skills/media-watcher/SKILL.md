@@ -26,7 +26,7 @@ Run the installer with a long timeout (10 minutes); if it is cut off, run it aga
 
 ## Workflow
 
-1. **Get the input.** A dropped or pasted file path is ready to use. A link works directly as the argument: direct file links download as they are, and share pages (YouTube, TikTok, Instagram, Loom, Vimeo, X and many more) are resolved with yt-dlp. Signed or expiring links (cloud storage, some platform APIs) need to be used soon after they are made.
+1. **Get the file locally.** A dropped or pasted path is ready. A URL works directly as the argument: direct file links download as they are, and share pages (Loom, YouTube, TikTok, Instagram, Vimeo) are resolved with yt-dlp. For a Trybe submission, fetch a fresh signed `asset.url` from the Brand API first; they expire in about 20 minutes.
 
 2. **Run it.** Defaults: a frame every 2 seconds (videos over 10 minutes get a wider gap, about 300 frames in total), contact sheets of up to 16 frames, Whisper `small` speech model, language auto-detected. Useful flags:
    - `--every 1` or `--every 0.5` for finer detail, short clips, or fast action. `--every 10` for a quick skim of a long video.
@@ -62,3 +62,23 @@ Run the installer with a long timeout (10 minutes); if it is cut off, run it aga
 - For a Trybe submission, fetch a fresh signed `asset.url` from the Brand API first (`GET /v1/submissions/<id>`, key via `~/claude-setup/work/common/trybe_key.py`); signed links expire in about 20 minutes. Pass the URL straight to the tool.
 - Review against the 6-point content checklist (memory `bambora-content-checklist`): seat under the bottom, one hand on baby in every frame, buckle closed with the safety loop, baby close enough to kiss, vertical 9:16, no watermarks. Read the burned-in captions across the whole video, not only the transcript, for sale-led lines.
 - TikTok videos: download with `py -3 ~/claude-setup/work/social-tools/tt.py <handle> --download <dir>` (never the browser), then watch the file.
+
+## Ads: always use the deep watch (adwatch)
+
+For any ad (competitor ads, creator submissions, our own ads), use `adwatch` instead of `watch`. Fatima asked for this on 2026-09-26: no shortcuts, and music and pacing matter.
+
+```
+~/claude-media-watcher/adwatch "<file or url>" --out <dir>          (Mac)
+%USERPROFILE%\claude-media-watcher\adwatch.cmd "<file or url>" --out <dir>   (Windows)
+```
+
+It runs the normal watch at a frame every 0.5 seconds, then adds:
+- a frame just after **every cut** (`cuts/`), with exact cut times, shot lengths and cuts per 5 seconds
+- a split of **voice and music** (demucs), then music tempo (BPM), how much of the runtime has music, music level against the voice, brightness, and where the music rises or drops
+- word-level speech timing: **words per minute** per 5 seconds, every pause of 0.6s or more, what is said in the first 3 seconds, and how animated the voice is (pitch range)
+- whether cuts land on the beat, compared with chance
+- `timeline.png`: music level, voice level, beats, speech rate and cuts on one picture. Look at it.
+
+Read `pacing.md`, look at `timeline.png`, read every sheet in `watch/sheets/` and every frame in `cuts/`.
+
+Tell the user how you watch before you start: frames plus measured audio, not real-time viewing. Be upfront about limits: it does not name the song or judge taste, and faint music under loud speech can be missed. Never present a quick pass as a full watch.

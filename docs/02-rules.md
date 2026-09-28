@@ -10,7 +10,9 @@ These are Fatima's rules, collected from memory (`core-rules.md` and the files i
 - **The seat under the bottom** is the rule for every size: fabric spread from the back of one knee to the other, weight on the seat. The "M" position (knees above bottom) matters for babies; for toddlers it is less strict.
 - **Buckle fully closed over the clip, safety loop in use.**
 - **Baby close enough to kiss**, face visible, nothing over the face.
-- **No filming while cooking, holding a hot drink, or on stairs** (parents copy what they see).
+- **Cooking and stairs are fine** as long as one hand is on the baby (the other can be on the rail). The test for any scene: is the baby clearly supported? Don't flag cooking or stairs. (2026-09-26)
+- **A baby chewing the straps or buckle is not a safety issue.** Never flag it. Only flag what these rules say; anything else goes to Fatima as a question, never straight to the creator. (2026-09-26)
+- **No filming while holding a hot drink.**
 - **Stand-ins:** a doll or a friend's or sister's baby in the 10 to 50 lb range is only for creators with NO child in range (pregnant, newborn under 10 lbs, no kids). Anyone with a child in range films with their own child and never gets the doll suggestion. If they ask about a doll: "most of our winners use an actual kid instead of a doll, because viewers form a better connection with a real child." (2026-09-23)
 - **Newborn and size questions** are answered directly from the weight rule, without asking.
 - **Nursing content is fine** once the baby is in range.
@@ -47,14 +49,22 @@ Feedback to creators is gentle coaching; findings to you are direct.
 - **Positive replies always get a heart reaction plus a warm line.**
 - **Unsure what a creator means about something of Fatima's?** Ask in one line first (the Danielle wrong-links lesson). (2026-09-23)
 - **Never "no rush"**, never pushy, never "just following up".
+- **SEND WINDOW (2026-09-27): nothing goes to a creator before 12 PM US Eastern time** (9 PM in Pakistan). That covers messages, accepts, approvals and rejections, because all of them notify the creator. Before 12 PM ET Claude only reads, reviews and writes what it would send into `work/send-queue/<date>.md`; at 12 PM ET it sends the queue. Claude checks the US time itself, not this PC's clock.
+- **Follow-ups must read as follow-ups (2026-09-26).** Before any nudge Claude runs `ctx(name)` and reads the last 3 messages; the chat helper refuses to send until it has. The nudge is the next line of THAT conversation ("did you get a chance to..."), never a fresh opener plus a list of asks.
+- **No double follow-ups (2026-09-25).** If our last message is unanswered and under about 48 hours old, don't nudge again. New moms, moves, pregnancies: give it a week. Exception: sample-request and Meta access nudges can go 15 to 20 hours after our last message about it.
+- **Polite but firm (2026-09-26).** Please, thank you, "feel free", "or put your own spin on it". Never bare orders.
+- **Volume is 3 to 5 videos a week (2026-09-27, was 4 to 5).** Never excuse it ("don't worry about volume"); frame support as helping them hit it, with one natural line about the help they get (weekly inspo, hooks, help when stuck).
+- **Reply in the thread** (Trybe's "Reply in thread") when answering a creator's specific message, like her answers to the fit questions. (2026-09-26)
+- **Say "baby"** (or the child's name if the creator used it), never nicknames like "little guy". (2026-09-26)
 
 ## 4. Samples
 
 - Approve on your own (then message): **V3** creators, requested **on or after 2026-09-17**, shipping to an **English-speaking country** (US, Canada, UK, Australia, New Zealand, Ireland). Multi-item requests from new V3 creators are fine. (2026-09-24)
 - **NEVER approve a request made before 2026-09-17.** Old pending ones (Jasmyn, Kayse, Kristen, Aurora, Megan Devine, Autumn Bailey, Sara, Skyler) stay untouched. (2026-09-24)
 - **Approve and message in the same step** (Jordan Murray's approval message was missed once).
+- **Sample nudges sell THEIR benefit (2026-09-26):** it's a free product for them, never a favor to us. "did you get a chance to request your free sample yet? the sooner it arrives, the sooner you can start making videos".
 - Creators who **already own a Bambora** need no sample and get no sample nudge: tell them to start filming with theirs.
-- **20-hour nudge:** accepted 20+ hours ago, no request: one natural nudge. If our last message is unanswered and under ~12 hours old, hold it to the next day.
+- **Sample nudge:** accepted, no request yet: one natural nudge 15 to 20 hours after our last message about it.
 - **2-week check-in** after approval: "hope it arrives soon if it hasn't, let me know when it does so I can share some ideas".
 - **Tracking numbers are not in Trybe.** Trybe only creates the Shopify order number. If a creator asks for tracking, read the order number from the Samples tab and bring it to you (Fatima/Shopify has tracking). Never say "it hasn't shipped" from Trybe's status.
 - Watch for duplicate names (two Kristen Smiths): match by date and account.
@@ -67,6 +77,10 @@ Feedback to creators is gentle coaching; findings to you are direct.
 3. Big numbers (10K+ TikTok likes or followers, or 10K+ Instagram followers) but no on-camera talking → **DM the yapper ask**.
 4. On camera but hesitant, stiff, poorly spoken, or a heavy accent → **REJECT**.
 
+**Standing go to ACCEPT without asking you (2026-09-26 and 2026-09-27):** every fit question answered yes (a baby or toddler 10 to 50 lbs to film with, OK showing faces on camera, 3 to 5 videos a week) AND confident talking-to-camera videos AND lives in the US, Canada, UK, Australia, New Zealand or Ireland. Claude accepts, does the onboarding (move to V3 if they applied to Grandparents, welcome note in the thread, partnership ads request or connect-Instagram ask, sample nudge for the next day) and tells you in the sweep message.
+**Standing go to REJECT:** Claude asked for a talking video, the answers were yes, and they never sent one (after one follow-up).
+**Still yours:** conditional answers (hide faces, fewer videos, pay questions), borderline delivery, and anything no rule covers.
+
 Also:
 - Must speak English and live in an English-speaking country (hard requirements: otherwise reject).
 - Talking to camera but small numbers: accept only with great energy on camera AND 3 to 4 real comments on recent TikToks (real people, not bots or emoji spam). Claude judges this itself and shows the evidence.
@@ -75,6 +89,7 @@ Also:
 - A big Trybe portfolio of talking-head videos overrides weak TikTok numbers (leaning accept, never auto-reject).
 - Bilingual never counts against anyone. Their other content never counts against them. GMV is ignored. Existing Bambora customers are a strong plus.
 - Accept into **Bambora Affiliates V3 (5%) only.**
+- Every new applicant first gets the fit-questions message (`work/trybe-applicant-review/first-message.md`).
 - Never ask for socials from someone whose Trybe videos already show them talking.
 - Before any reject, show what each person sent (pitch plus what's on their videos) unless you've seen it.
 - Applicants we asked for a talking video: one follow-up after a full day; still nothing 3 days later → reject or hold (your call).
@@ -85,6 +100,8 @@ Also:
 - **Retainer askers:** Kia Layton, Krystal Camacho, Andrew Pagliara, Madison Grove. Kia is the #1 seller and is still ignored ("drop kia too, just ignore her").
 - Also **Emily Seitz** and **Madison Tanefski**.
 - **Abbey Way:** ignore her questions (2026-09-24).
+- **Labourgeoise Bynum:** ignore completely; never approve her sample request (2026-09-26/27).
+- **Reese** (Discovery inquiry asking $200 a video): ignore (2026-09-27).
 - **Shelby Pinedo and Harley Haas:** never replied to the migration message; no follow-up until Fatima says.
 - Upset creators (about the 5% change): open their messages so they are read, list them for Fatima, do not reply.
 
@@ -118,7 +135,9 @@ Cambria Reau, Sophia Lease, Ciara Burnett, Carissa Lyman, Cassie Avery Charvat, 
 
 ## 10. Autonomy and irreversible actions
 
-- Approve, reject and accept **only on your go**, per creator, even clear-cut ones.
+- Approve, reject and accept **only on your go**, per creator, even clear-cut ones. Exception: the standing accept and reject goes for applicants in section 5.
+- **Existing creators' submissions: revisions and rejections HOLD until Fatima has watched the videos herself** (2026-09-27). Bring them to her; don't send them on your own yes alone.
+- **Sweeps keep running when you're silent** (2026-09-25): past any stated end time, until you type `stop the routines`. So always type it at the end of your shift, then tell Fatima (one computer at a time).
 - Except: eligible samples (section 4), which Claude approves and then tells you.
 - **If your words could mean "discuss" instead of "act", Claude asks one line first** ("let's do the 8" was once read as "reject the 8"). (2026-09-24)
 - **Test one before the batch:** after any change that affects outgoing messages (like a program welcome message), do one real case and read the thread before continuing. An empty V3 welcome once sent Trybe's generic default to six creators.
@@ -127,12 +146,15 @@ Cambria Reau, Sophia Lease, Ciara Burnett, Carissa Lyman, Cassie Avery Charvat, 
 - Status is always **live**: re-check the portal before reporting (Sam Macsai was listed after Fatima had already rejected her).
 - **Anything new becomes a routine** in the same step (skill, routines, ledger), then pushed.
 - **Solve from the data first**; ask only about taste and real decisions.
+- **Unsure how Trybe works?** Check Trybe's help guides (top-right "Creators help" / "Discovery help" dropdown), then ask Trybe support via "Chat Now" in that dropdown. Don't guess. (2026-09-26)
+- **Partnership ads never post to the creator's profile.** They only run as paid ads from her handle. Creator-friendly answer: "no need to post anything! the partnership ads run from your handle but they don't show up on your profile or feed 😊" (Trybe support, 2026-09-26)
+- **Creators asking to post their videos elsewhere too:** fine, the program is sharing videos on Trybe so they can run as ads; kindly ask what they had in mind. (2026-09-26)
 
-## 11. Drive and Liam
+## 11. Drive
 
 - Approved videos go to Drive folder **Trybe** (Main Media > Trybe, the media buyers' drive) right after approval, named `CreatorNameNoSpaces/fatima/trybe=<8-char id>` (the "fatima" part stays; it is the naming convention the media buyers use).
 - Inspo and example videos go to **My Drive > Bambora Inspo**, never Main Media.
-- Liam gets links in batches of 5+ (and the rest at end of day). Never resend a video he already has. After every Drive filing Claude runs `liam_batch.py status`; at READY you get a forward-ready "Now you can send this to Liam:" message, and Claude marks them sent. (2026-09-25)
+- **Nothing goes to Liam anymore (2026-09-27).** The Liam links messages (09-25) and then Liam's ad-launcher sheet were both retired. Filing in Main Media > Trybe is the whole job. Ignore any older Liam step you see in a routine file.
 - Fatima's "Bambora_Trybe_DM_History" and "Tasks for Trybe Management" Google Docs are not for Claude to use.
 
 ## 12. Meta (partnership ads) access check (2026-09-25)

@@ -1,6 +1,6 @@
 # How the job works
 
-Bambora (https://bamboraco.com) sells a baby sling carrier. Creators (mostly moms) film short UGC videos with the sling on **Trybe**, a creator platform. Bambora pays them commission on sales, and the best videos become Meta ads. The job is to keep that machine running: answer creators fast, get them samples, approve good videos, recruit good new creators, keep everyone filming, and feed approved videos to Liam (the media buyer).
+Bambora (https://bamboraco.com) sells a baby sling carrier. Creators (mostly moms) film short UGC videos with the sling on **Trybe**, a creator platform. Bambora pays them commission on sales, and the best videos become Meta ads. The job is to keep that machine running: answer creators fast, get them samples, approve good videos, recruit good new creators, keep everyone filming, and file approved videos in Google Drive, where the media buyers pick them up.
 
 Source files Claude follows: `routines/START.md`, `routines/full-run.md`, `routines/live-sweep.md`, skill `creator-ops-daily`.
 
@@ -18,7 +18,9 @@ Fatima's day ran from about **5 PM to 5 AM Pakistan time**, which matches US day
 2. **Every 30 minutes: a full sweep** of all six streams (below). Slow work (watching applicant videos, checking submission frames) goes to background helpers so chat never waits.
 3. **After each sweep:** ONE message to you: what was done (counts and names), "Needs your go" (numbered, each with a recommendation), "Questions" (only what no rule answers), and a line like `chat 3m · samples 3m · partnership 3m · submissions 4m · discovery 5m · ledger 3m`.
 4. **Every ~5 hours:** the Meta (partnership ads) access check.
-5. **End of day** (about 45 minutes before you stop): file any approved videos not yet in Drive, send you the Liam links, write the session log, push to GitHub, stop the timer.
+5. **End of day** (about 45 minutes before you stop): file any approved videos not yet in Drive, write the session log, push to GitHub. The sweeps keep going until you type `stop the routines`; then tell Fatima you've stopped.
+
+**Send window:** nothing goes out to creators before **12 PM US Eastern** (9 PM Pakistan time). Earlier sweeps still read, review and prepare everything into a send queue; the first sweep after 12 PM ET sends it.
 
 ## The six streams (every sweep, in this order)
 
@@ -32,7 +34,7 @@ Fatima's day ran from about **5 PM to 5 AM Pakistan time**, which matches US day
 ### 2. Samples
 - Creators request a free sling (a "sample") through Trybe. Claude approves requests that are: from **V3** creators, requested **on or after 2026-09-17**, shipping to an **English-speaking country** (US, Canada, UK, Australia, New Zealand, Ireland). Multiple items are fine. Then it sends the approval message.
 - **Never** approves a request made before 2026-09-17 (those stay untouched).
-- Creators accepted 20+ hours ago with no sample request get one nudge. Creators who already own a Bambora get "no need to request a sample, you can start filming whenever you're ready" instead.
+- Creators accepted with no sample request get one nudge 15 to 20 hours after our last message ("your free sample", their benefit). Creators who already own a Bambora get "no need to request a sample, you can start filming whenever you're ready" instead.
 
 ### 3. Partnership ads (Meta access)
 - For V3 creators, Bambora asks for "partnership ads" permission so their videos can run as ads from their Instagram.
@@ -41,12 +43,15 @@ Fatima's day ran from about **5 PM to 5 AM Pakistan time**, which matches US day
 
 ### 4. Submissions (videos)
 - Claude pulls pending videos from the Trybe API, watches each (frames plus transcript) against the 6-point checklist and the no-sale-led rule, and brings you a verdict: approve, revise or reject, with the reason.
-- **Nothing is approved or rejected without your yes.** After your yes: it acts, messages the creator, files the video in Google Drive straight away, and adds it to the Liam list.
+- **Nothing is approved or rejected without your yes.** After your yes: it acts, messages the creator, and files the video in Google Drive straight away.
+- **Revisions and rejections of existing creators' videos wait until Fatima has watched them herself** (2026-09-27).
 
 ### 5. Discovery (new applicants)
 - New creators apply in Trybe's Discovery Inbox. Every sweep Claude lists the Inbox names and compares them with `seen.txt`; any new name gets a full review in the background.
 - The deciding rule: **can we see them on camera, talking to camera?** Good delivery and a clear English accent = accept. Nothing on camera = hold. Big numbers but no talking = ask them for talking-head ("yapper") content.
-- **Accepting or rejecting waits for your yes.** After accepting: request partnership ads, and a sample nudge is scheduled for the next day.
+- Every new applicant first gets the fit questions (baby 10 to 50 lbs to film with, OK on camera, 3 to 5 videos a week).
+- **Standing go:** all yes + confident talking-to-camera videos + English-speaking country = Claude accepts on its own and tells you. Asked for a talking video and never sent one = Claude rejects. Everything in between waits for your yes.
+- After accepting: welcome note in the thread, partnership ads request, and a sample nudge for the next day.
 
 ### 6. Ledger and follow-ups
 - `followups.py due` lists everything owed today: sample check-ins, inspo check-ins, applicant follow-ups, quiet-creator check-ins, promises, replies owed. Claude sends each one in this sweep and closes it.
@@ -57,21 +62,20 @@ Fatima's day ran from about **5 PM to 5 AM Pakistan time**, which matches US day
 
 | Routine | When | What |
 |---|---|---|
-| Liam batches | after every Drive filing | When 5 or more filed videos have not gone to Liam, Claude gives you a ready-to-forward message ("hey Liam, here are 5 more videos you can add to Meta:" plus one link each). You forward it to Liam on Slack. |
 | Creator database refresh | first sweep of the day | `build_db.py` refreshes every creator's profile from the API and adds quiet creators (no video in 14+ days) to the ledger; `fetch_media.py` makes frame sheets of new videos. |
 | Inspo research | every 3 days (scheduled task) | Top human video ads from Atria plus popular mom videos on TikTok, YouTube and Instagram, saved to Drive "Bambora Inspo / Week of ...", tagged, then matched to creators. |
 | Personal inspo messages | every 3 days | 3 to 5 ideas per creator who already has the sling, in Fatima's voice, "just inspo, put your own spin on it", checklist link, warm close. |
-| End-of-day wrap-up | daily, ~45 min before you stop | Session log, tracker tidy, Liam links, push, repo zip to Drive. |
+| End-of-day wrap-up | daily, ~45 min before you stop | Session log, tracker tidy, push, repo zip to Drive. |
 
 ## What waits for you, and what does not
 
 | Claude does it on its own | Claude asks you first |
 |---|---|
 | Replies to creators under the voice rules | Approve, reject or request revision on a video |
-| Approving eligible sample requests, then the message | Accept or reject an applicant |
+| Approving eligible sample requests, then the message | Accept or reject an applicant the standing rule doesn't cover |
 | Partnership ads requests, connect-Instagram asks, nudges | Anything about money, retainers or commission |
 | Every due follow-up, quiet check-in, sample check-in | Anything about the 10 protected creators' programs |
-| Filing approved videos in Drive, Liam lists | Program settings (welcome messages, briefs) |
+| Filing approved videos in Drive; accepting applicants who meet the standing rule | Program settings (welcome messages, briefs) |
 | Updating the ledger, database, tracker, session log, GitHub | A creator question no rule answers |
 
 ## Why each rule exists

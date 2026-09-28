@@ -29,7 +29,7 @@ Add any new tool, folder or cloud location here the day it appears (Claude does 
 | `work/creator-db/` | the follow-up ledger (`followups.py`, `followups.json`), the creator database (`db/profiles`, `db/dms`, `db/media`, `db/creators.json`), `build_db.py`, `fetch_media.py`, `quiet_creators.py` |
 | `work/trybe-chat/` | browser helpers (`chat-helpers.js`, `roster-scan.js`, `sample-status.js`), `lint_message.py`, `cors_srv.py`, `front.ps1` |
 | `work/trybe-applicant-review/` | `seen.txt` (every applicant name already reviewed), dated verdict files, `new_applicants.py`, the taste profile |
-| `work/trybe-drive-filing/` | `file_approved.py`, `filed.json`, `liam_batch.py`, `liam-sent.json`, `liam-links-<date>.md`, `drive-upload.ps1`, `sendkeys.ps1` |
+| `work/trybe-drive-filing/` | `file_approved.py`, `filed.json`, `drive-upload.ps1`, `sendkeys.ps1` |
 | `work/inspo/` | `seen.txt` (no repeats), `example-videos-map.md` (which anonymous Video 1 to 7 is whose), `authority-creators-*.md`, tag rules, dated packs |
 | `work/social-tools/` | `tt.py` (TikTok creator check), `tt_find.py` (find TikTok videos by topic) |
 | `work/sweep/` | `start.ps1`, `keep-awake.ps1`, `health.ps1`, `streams.sh/.ps1`, `mark.sh/.ps1`, `watchdog.sh/.ps1`, `every.sh/.ps1` |
@@ -60,16 +60,10 @@ Add any new tool, folder or cloud location here the day it appears (Claude does 
 3. `drive-upload.ps1 -Source <that folder> -Target Trybe` (Google Drive for desktop)
 4. Drive connector: `search_files` in the Trybe folder, `update_file` to rename each to its `drive_name`
 5. `file_approved.py --mark <ids>`, then delete the download folder
-6. Add the line to `liam-links-<date>.md`, then `liam_batch.py status`
+
+That's the whole job. **Nothing goes to Liam** (Fatima, 2026-09-27): no Liam sheet, no copy to his folder, no Slack message. The media buyers pick videos up from the Trybe folder.
 
 Fatima's Google Docs "Bambora_Trybe_DM_History" and "Tasks for Trybe Management" are **not** for Claude to use.
-
-## Liam links
-
-Liam is the media buyer; he puts approved videos into Meta ads. He gets the individual Drive links:
-- **Batches:** when `liam_batch.py status` says READY (5+ unsent), Claude gives you: "Now you can send this to Liam:" plus "hey Liam, here are N more videos you can add to Meta:" and one line per video (creator, id, link). You paste it to Liam in Slack. Then Claude runs `liam_batch.py sent`.
-- **End of day:** whatever is left (`liam_batch.py message --any`).
-- Never resend a video he already got (`liam-sent.json` remembers).
 
 ## Other places
 
@@ -80,6 +74,6 @@ Liam is the media buyer; he puts approved videos into Meta ads. He gets the indi
 | How-to-use tutorial | https://bamboraco.com/pages/how-to-use |
 | Atria (ad library, inspo) | connector `https://api.tryatria.com/mcp`; board "Bambora Creator Inspo" (id `6252eeab-7896-45f8-9dbf-78b60cb6d240`); 46 of 50 followed-brand slots used |
 | Notion | Ad pipeline pages (memory `notion-ad-pipeline-build`) |
-| Slack | Liam and the team; read in Chrome |
+| Slack | the team; read in Chrome (you don't need to send Liam anything) |
 | Media watcher (public) | https://github.com/fatimaarshadg-ux/claude-media-watcher |
 | Brave web search (optional, for finding TikTok/IG/YouTube links) | Claude app MCP server `brave-search` with your own Brave API key (never in the repo) |

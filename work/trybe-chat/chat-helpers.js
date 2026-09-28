@@ -61,7 +61,11 @@ window.open2 = async (n, q) => { const b = [...root().querySelectorAll('button')
 // and writing a reply that answers it first.
 window.ACK = window.ACK || {};
 window.theirLastUnanswered = () => { const segs = dShort().split(' | ').filter(s => !/^(Edit message|Delete message|Attach file|Send message|Add reaction|Reply in thread|Scroll to bottom|New messages)$/.test(s)); let lastWho = null, lastText = ''; for (let i = 0; i < segs.length; i++) { if (/^(Today|Yesterday|\w{3} \d+),? \d+:\d+ [AP]M$/.test(segs[i])) { lastWho = /Bambora Admin/.test(segs[i - 1]) ? 'us' : 'them'; lastText = segs[i + 1] || ''; } else if (/^(Today|Yesterday|\w{3} \d+)$/.test(segs[i])) { lastWho = 'us'; } } return lastWho === 'them' ? lastText : null; };
-window.g2 = async (n, q) => { window.cur = n; const o = await open2(n, q); if (o !== 'open') return o; window.snap = lastTheirLine(); const un = theirLastUnanswered(); if (un && !window.ACK[n]) return 'READ FIRST, unanswered: ' + un.slice(0, 200); const f = dFill(n, N2[n]); if (f !== 'filled') { document.activeElement.blur(); return f; } return [snap.slice(0, 70), dArm(n, N2[n])]; };
+// Context gate (Fatima 2026-09-26: follow-ups must read as follow-ups). ctx(n) returns the last few messages
+// before our newest one and marks the thread as read; g2 refuses to send until ctx(n) ran for that creator.
+window.CTX = window.CTX || {};
+window.ctx = async (n, q) => { const o = await open2(n, q); if (o !== 'open') return o; const s = dShort().replace(/ \| (Delete message|Edit message|Attach file|Send message|Scroll to bottom)/g,''); window.CTX[n] = Date.now(); return s.slice(-600); };
+window.g2 = async (n, q) => { if (!window.CTX[n] || Date.now() - window.CTX[n] > 15*60*1000) return 'READ THE THREAD FIRST: run ctx("' + n + '") and write the message as the next line of that conversation'; window.cur = n; const o = await open2(n, q); if (o !== 'open') return o; window.snap = lastTheirLine(); const un = theirLastUnanswered(); if (un && !window.ACK[n]) return 'READ FIRST, unanswered: ' + un.slice(0, 200); const f = dFill(n, N2[n]); if (f !== 'filled') { document.activeElement.blur(); return f; } return [snap.slice(0, 70), dArm(n, N2[n])]; };
 // Conversation list scan (2026-09-24). Run on the chat list (DMs tab, search cleared). Reads every DM row's
 // last-message preview and age, so nothing depends on the Unread filter.
 //   convoScan() -> { needsUs: rows where THEY sent the last message (answer these, oldest first),

@@ -402,7 +402,7 @@
   {
     "creator": "Jenasa Prudhomme",
     "type": "inspo_checkin",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "inspo sent Sep 23; has the sling, so ask which idea she's trying and offer help",
     "status": "open",
     "created": "2026-09-23"
@@ -745,7 +745,7 @@
   {
     "creator": "Sirat kaur",
     "type": "inspo_checkin",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "quiet check-in and inspo sent Sep 23; see if she's filming, offer help",
     "status": "open",
     "created": "2026-09-23"
@@ -989,7 +989,7 @@
   {
     "creator": "Jen Smith",
     "type": "retake_check",
-    "due": "2026-09-25",
+    "due": "2026-09-26",
     "note": "revision sent 9/23 for loop + one hand; encouraged her; watch for re-take and review it",
     "status": "open",
     "created": "2026-09-23"
@@ -999,88 +999,110 @@
     "type": "partnership_nudge",
     "due": "2026-09-26",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "roster 9/26 00:25: no longer Pending (accepted)"
   },
   {
     "creator": "Lily Paschel",
     "type": "partnership_nudge",
     "due": "2026-09-26",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "roster 9/26 00:25: no longer Pending (accepted)"
   },
   {
     "creator": "Jordan Murray",
     "type": "partnership_nudge",
     "due": "2026-09-26",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "roster 9/26 00:25: no longer Pending (accepted)"
   },
   {
     "creator": "Scarlet Jeppson",
     "type": "partnership_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Taylor Condidorio",
     "type": "partnership_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Abigail Lucero",
     "type": "partnership_nudge",
     "due": "2026-09-26",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "roster 9/26 00:25: no longer Pending (accepted)"
   },
   {
     "creator": "Corina",
     "type": "partnership_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Precious Brown",
     "type": "partnership_nudge",
     "due": "2026-09-26",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "roster 9/26 00:25: no longer Pending (accepted)"
   },
   {
     "creator": "Yesenia Wittman",
     "type": "partnership_nudge",
     "due": "2026-09-26",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "roster 9/26 00:25: no longer Pending (accepted)"
   },
   {
     "creator": "Amy Haas",
     "type": "partnership_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Marisa Miller",
     "type": "partnership_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Joanna Nalezny",
@@ -1096,24 +1118,30 @@
     "type": "partnership_nudge",
     "due": "2026-09-26",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "roster 9/26 00:25: no longer Pending (accepted)"
   },
   {
     "creator": "Shivani Kothari",
     "type": "partnership_nudge",
     "due": "2026-09-26",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "roster 9/26 00:25: no longer Pending (accepted)"
   },
   {
     "creator": "Leilani Hodges",
     "type": "partnership_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Michaela Engelmann",
@@ -1129,32 +1157,40 @@
     "type": "partnership_nudge",
     "due": "2026-09-26",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "roster 9/26 00:25: no longer Pending (accepted)"
   },
   {
     "creator": "Samantha bumstead",
     "type": "partnership_nudge",
     "due": "2026-09-26",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "roster 9/26 00:25: no longer Pending (accepted)"
   },
   {
     "creator": "katlyn preston",
     "type": "partnership_nudge",
     "due": "2026-09-26",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "light nudge sent 9/26 00:35"
   },
   {
     "creator": "Kali Severn",
     "type": "partnership_nudge",
     "due": "2026-09-26",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "roster 9/26 00:25: no longer Pending (accepted)"
   },
   {
     "creator": "Meghin Furniss",
@@ -1189,24 +1225,30 @@
     "type": "partnership_nudge",
     "due": "2026-09-26",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "roster 9/26 00:25: no longer Pending (accepted)"
   },
   {
     "creator": "Elise Lesuma",
     "type": "partnership_nudge",
     "due": "2026-09-26",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "roster 9/26 00:25: no longer Pending (accepted)"
   },
   {
     "creator": "Chelsea Debruin",
     "type": "partnership_nudge",
     "due": "2026-09-26",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "light nudge sent 9/26 00:35"
   },
   {
     "creator": "Aubri Tranel",
@@ -1222,48 +1264,60 @@
     "type": "partnership_nudge",
     "due": "2026-09-26",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "roster 9/26 00:25: no longer Pending (accepted)"
   },
   {
     "creator": "Abbi Purvis",
     "type": "partnership_nudge",
     "due": "2026-09-26",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "roster 9/26 00:25: no longer Pending (accepted)"
   },
   {
     "creator": "Anna Budetti",
     "type": "partnership_nudge",
     "due": "2026-09-26",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "light nudge sent 9/26 00:35"
   },
   {
     "creator": "Kat Chandler",
     "type": "partnership_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Jessica Arafiles",
     "type": "partnership_nudge",
     "due": "2026-09-26",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "roster 9/26 00:25: no longer Pending (accepted)"
   },
   {
     "creator": "Olivia Lira",
     "type": "partnership_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "partnership ads requested 9/23 + note sent; if still Pending on the roster, one light nudge fitted to the thread",
-    "status": "open",
-    "created": "2026-09-23"
+    "status": "done",
+    "created": "2026-09-23",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Kacie Roberts",
@@ -1450,7 +1504,7 @@
   {
     "creator": "Jenasa Prudhomme",
     "type": "sample_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "two chat accounts with this name; verify which is V3 by history before any message",
     "status": "open",
     "created": "2026-09-24"
@@ -1458,34 +1512,42 @@
   {
     "creator": "Jennifer Olmos",
     "type": "sample_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "nudged 9/24 01:55; if still no request, one more light check",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Anya Dunlap",
     "type": "sample_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "nudged 9/24 01:55; if still no request, one more light check",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Coral Williams",
     "type": "sample_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "nudged 9/24 01:55; if still no request, one more light check",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Megan Elizabeth Smith",
     "type": "sample_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "nudged 9/24 01:55; if still no request, one more light check",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Shelby Alvarado",
@@ -1517,39 +1579,47 @@
   {
     "creator": "Jennifer Olmos",
     "type": "connect_ig",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "Partnership Ads shows -- (no Instagram/Meta connected to Trybe). Ask them to connect their Instagram in their Trybe profile so we can send the request. Held 9/24 (we'd just messaged them)",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Anya Dunlap",
     "type": "connect_ig",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "Partnership Ads shows -- (no Instagram/Meta connected to Trybe). Ask them to connect their Instagram in their Trybe profile so we can send the request. Held 9/24 (we'd just messaged them)",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Coral Williams",
     "type": "connect_ig",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "Partnership Ads shows -- (no Instagram/Meta connected to Trybe). Ask them to connect their Instagram in their Trybe profile so we can send the request. Held 9/24 (we'd just messaged them)",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Megan Elizabeth Smith",
     "type": "connect_ig",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "Partnership Ads shows -- (no Instagram/Meta connected to Trybe). Ask them to connect their Instagram in their Trybe profile so we can send the request. Held 9/24 (we'd just messaged them)",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Jenasa Prudhomme",
     "type": "connect_ig",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "Partnership Ads shows -- (no Instagram/Meta connected to Trybe). Ask them to connect their Instagram in their Trybe profile so we can send the request. Held 9/24 (we'd just messaged them)",
     "status": "open",
     "created": "2026-09-24"
@@ -1566,10 +1636,12 @@
   {
     "creator": "Shelby Alvarado",
     "type": "connect_ig",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "asked 9/24 to connect Instagram in Trybe; once the roster shows Request, click it and send a tiny note; if still -- nudge once",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Alison Boutwell",
@@ -1585,16 +1657,20 @@
     "type": "connect_ig",
     "due": "2026-09-26",
     "note": "asked 9/24 to connect Instagram in Trybe; once the roster shows Request, click it and send a tiny note; if still -- nudge once",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "roster 9/26 00:25: Instagram connected"
   },
   {
     "creator": "Jemyah Brasfield",
     "type": "connect_ig",
     "due": "2026-09-26",
     "note": "asked 9/24 to connect Instagram in Trybe; once the roster shows Request, click it and send a tiny note; if still -- nudge once",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "roster 9/26 00:25: Instagram connected"
   },
   {
     "creator": "Megan Chronister",
@@ -1611,8 +1687,10 @@
     "type": "connect_ig",
     "due": "2026-09-26",
     "note": "asked 9/24 to connect Instagram in Trybe; once the roster shows Request, click it and send a tiny note; if still -- nudge once",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-25",
+    "outcome": "IG connected; PA requested 9/25 19:22 + note"
   },
   {
     "creator": "Lauren McCann",
@@ -1628,16 +1706,20 @@
     "type": "connect_ig",
     "due": "2026-09-26",
     "note": "asked 9/24 to connect Instagram in Trybe; once the roster shows Request, click it and send a tiny note; if still -- nudge once",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "roster 9/26 00:25: Instagram connected"
   },
   {
     "creator": "Kyara Vinales",
     "type": "connect_ig",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "asked 9/24 to connect Instagram in Trybe; once the roster shows Request, click it and send a tiny note; if still -- nudge once",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Brandie Pearson",
@@ -1651,10 +1733,12 @@
   {
     "creator": "Sirat kaur",
     "type": "connect_ig",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "asked 9/24 to connect Instagram in Trybe; once the roster shows Request, click it and send a tiny note; if still -- nudge once",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Jena Swapp",
@@ -1710,7 +1794,7 @@
   {
     "creator": "Cheylene Katt",
     "type": "reply_owed",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "quiet check-in sent 9/24 (offered ideas); if she replies, send 3-4 fitting ideas; if not, one light nudge",
     "status": "open",
     "created": "2026-09-24"
@@ -1792,8 +1876,9 @@
     "type": "applicant_final",
     "due": "2026-09-27",
     "note": "asked 9/23 for talking video, followed up 9/24 03:15; if still nothing, bring to Fatima as reject or hold",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-27"
   },
   {
     "creator": "Casey Muniz",
@@ -1809,8 +1894,9 @@
     "type": "applicant_final",
     "due": "2026-09-27",
     "note": "asked 9/23 for talking video, followed up 9/24 03:15; if still nothing, bring to Fatima as reject or hold",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-27"
   },
   {
     "creator": "Kaylie Geschke",
@@ -1956,16 +2042,20 @@
     "type": "partnership_nudge",
     "due": "2026-09-27",
     "note": "partnership ads requested 9/24 evening after she connected IG; if still Pending, one light nudge",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-27",
+    "outcome": "roster 9/27 00:10: no longer pending (accepted)"
   },
   {
     "creator": "Jena Swapp",
     "type": "partnership_nudge",
     "due": "2026-09-27",
     "note": "partnership ads requested 9/24 evening after she connected IG; if still Pending, one light nudge",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-27",
+    "outcome": "roster 9/27 00:10: no longer pending (accepted)"
   },
   {
     "creator": "Jen Smith",
@@ -1980,10 +2070,12 @@
   {
     "creator": "Brandie Pearson",
     "type": "connect_ig",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "said 'I did!' but roster still shows no IG; told her 9/24 it isn't showing, asked to check public IG + Trybe profile. When roster shows Request: click + tiny note",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Retired Athlete Turned Mom",
@@ -2063,18 +2155,22 @@
   {
     "creator": "brooklyn dunn",
     "type": "connect_ig",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "no IG connected; asked 9/24 to connect Instagram in Trybe profile. When roster shows Request: click + tiny note",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Angelica Seto",
     "type": "applicant_followup",
-    "due": "2026-09-25",
+    "due": "2026-09-26",
     "note": "talking-to-camera ask sent 9/24 ~21:05 from Discovery (Fatima's go, strong pitch, no videos). One follow-up after 24h; nothing 3 days later -> Fatima reject/hold",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "one follow-up sent 9/26 21:25"
   },
   {
     "creator": "Paige Wolf",
@@ -2219,66 +2315,82 @@
   {
     "creator": "Taylor Condidorio",
     "type": "sample_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "nudged 9/24 21:35; if still no request (check Samples tab first), one more light check",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Corina",
     "type": "sample_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "nudged 9/24 21:35; if still no request (check Samples tab first), one more light check",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Yesenia Wittman",
     "type": "sample_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "nudged 9/24 21:35; if still no request (check Samples tab first), one more light check",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Laura Daniels",
     "type": "sample_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "nudged 9/24 21:35; if still no request (check Samples tab first), one more light check",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Leilani Hodges",
     "type": "sample_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "nudged 9/24 21:35; if still no request (check Samples tab first), one more light check",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Kat Chandler",
     "type": "sample_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "nudged 9/24 21:35; if still no request (check Samples tab first), one more light check",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Marisa Miller",
     "type": "sample_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "nudged 9/24 21:35; if still no request (check Samples tab first), one more light check",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Kodi Sarlett",
     "type": "sample_nudge",
-    "due": "2026-09-26",
+    "due": "2026-09-27",
     "note": "nudged 9/24 21:35; if still no request (check Samples tab first), one more light check",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "follow-up sent 9/26 ~04:30"
   },
   {
     "creator": "Abigail Lucero",
@@ -2301,16 +2413,18 @@
     "type": "applicant_final",
     "due": "2026-09-27",
     "note": "talking-video ask + follow-up 9/24; if still nothing, bring to Fatima as reject or hold",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-27"
   },
   {
     "creator": "Alyssa Lauderdale",
     "type": "applicant_final",
     "due": "2026-09-27",
     "note": "talking-video ask + follow-up 9/24; if still nothing, bring to Fatima as reject or hold",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-27"
   },
   {
     "creator": "Caitlin Smith",
@@ -2325,8 +2439,9 @@
     "type": "applicant_final",
     "due": "2026-09-27",
     "note": "talking-video ask + follow-up 9/24; if still nothing, bring to Fatima as reject or hold",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-27"
   },
   {
     "creator": "Jacob Hatch",
@@ -2386,8 +2501,10 @@
     "type": "partnership_nudge",
     "due": "2026-09-27",
     "note": "PA requested 9/24; if still Pending, one light nudge",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-27",
+    "outcome": "roster 9/27 00:10: no longer pending (accepted)"
   },
   {
     "creator": "Hazel Vargas",
@@ -2414,8 +2531,10 @@
     "type": "partnership_nudge",
     "due": "2026-09-27",
     "note": "PA requested 9/24 22:40; if still Pending, one light nudge",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-27",
+    "outcome": "roster 9/27 00:10: no longer pending (accepted)"
   },
   {
     "creator": "Carlie Corey",
@@ -2440,24 +2559,30 @@
     "type": "partnership_nudge",
     "due": "2026-09-27",
     "note": "PA requested 9/24; if still Pending, one light nudge",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-27",
+    "outcome": "roster 9/27 00:10: no longer pending (accepted)"
   },
   {
     "creator": "Kaitlin Duncan",
     "type": "sample_nudge",
     "due": "2026-09-25",
     "note": "accepted (Grandparents by mistake) + moved to V3 9/24 ~23:05; note about grandparent welcome sent; asked to connect IG. Nudge if no sample request after 20h",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-25",
+    "outcome": "sample approved 9/25; approval message sent 19:25"
   },
   {
     "creator": "Kaitlin Duncan",
     "type": "connect_ig",
     "due": "2026-09-26",
     "note": "asked 9/24 to connect Instagram; when roster shows Request, click + tiny note",
-    "status": "open",
-    "created": "2026-09-24"
+    "status": "done",
+    "created": "2026-09-24",
+    "closed": "2026-09-26",
+    "outcome": "roster 9/26: partnership ads APPROVED"
   },
   {
     "creator": "Megan Chronister",
@@ -2673,10 +2798,12 @@
   {
     "creator": "Labourgeoise Bynum",
     "type": "sample_nudge",
-    "due": "2026-09-25",
+    "due": "2026-10-05",
     "note": "accepted 9/25 ~02:08 on Fatima's go (V3). Asked to connect IG. Nudge if no sample request after 20h",
-    "status": "open",
-    "created": "2026-09-25"
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-26",
+    "outcome": "Fatima 9/26: ignore; never approve her sample"
   },
   {
     "creator": "Labourgeoise Bynum",
@@ -2701,10 +2828,12 @@
   {
     "creator": "Labourgeoise Bynum",
     "type": "partnership_nudge",
-    "due": "2026-09-28",
+    "due": "2026-10-05",
     "note": "PA requested 9/25; one light nudge if still Pending",
-    "status": "open",
-    "created": "2026-09-25"
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-26",
+    "outcome": "Fatima 9/26: ignore"
   },
   {
     "creator": "Chelsea Bryant",
@@ -2719,18 +2848,22 @@
   {
     "creator": "Labourgeoise Bynum",
     "type": "note",
-    "due": "2026-09-27",
-    "note": "Fatima's plan 9/25: no-child content like the reel she sent (instagram DdhR4SNgnEC), some ideas don't need the sling; Fatima sends more inspo",
-    "status": "open",
-    "created": "2026-09-25"
+    "due": "2026-10-05",
+    "note": "ON HOLD 9/25: Fatima asked to remove her from all programs (only V3; removal = Archive creator on her roster profile). Do NOT message or nudge until Fatima decides. Fatima's plan 9/25: no-child content like the reel she sent (instagram DdhR4SNgnEC), some ideas don't need the sling; Fatima sends more inspo",
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-26",
+    "outcome": "superseded 9/26: ignore, never approve sample"
   },
   {
     "creator": "Meghan Currie",
     "type": "sample_nudge",
     "due": "2026-09-26",
     "note": "accepted 9/25 ~02:50 on Fatima's go, moved Grandparents->V3 (Canada address OK), grandparent-welcome note + PA requested. Nudge if no sample request after 20h",
-    "status": "open",
-    "created": "2026-09-25"
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-25",
+    "outcome": "requested + approved 9/25 by Fatima with message"
   },
   {
     "creator": "Meghan Currie",
@@ -2794,10 +2927,12 @@
   {
     "creator": "Labourgeoise Bynum",
     "type": "promise",
-    "due": "2026-09-26",
+    "due": "2026-10-05",
     "note": "no-baby nurse creator: told her 9/25 04:00 we'll send research material, scripts and angles (product comparison style, like the ring sling comparison inspo); she should edit in products like the inspo. Never suggest filming with the sling/baby",
-    "status": "open",
-    "created": "2026-09-25"
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-26",
+    "outcome": "Fatima 9/26: ignore her, too much trouble"
   },
   {
     "creator": "Madilynne Cantrell",
@@ -2812,8 +2947,10 @@
     "type": "applicant_followup",
     "due": "2026-09-28",
     "note": "follow-up sent 9/25 04:27 for the talking video; nothing by 9/28 means reject or hold (Fatima's call)",
-    "status": "open",
-    "created": "2026-09-25"
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-25",
+    "outcome": "sent 67s talking video 9/25 20:53"
   },
   {
     "creator": "Tasha Clay",
@@ -2862,16 +2999,19 @@
     "type": "applicant_followup",
     "due": "2026-09-26",
     "note": "talking-to-camera ask sent 9/25 ~06:20 from Discovery (Fatima's go; hold, no talking videos, 98 TikTok followers). One follow-up after 24h; nothing 3 days later goes to Fatima as reject or hold",
-    "status": "open",
-    "created": "2026-09-25"
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-26",
+    "outcome": "one follow-up sent 9/26 21:26"
   },
   {
     "creator": "Kaitlyn Cunningham",
     "type": "applicant_followup",
     "due": "2026-09-26",
     "note": "talking-to-camera ask sent 9/25 ~06:40 from Discovery (Fatima's go; verdict accept, but she applied to GRANDPARENTS by mistake, so accept then move to V3 + ignore-grandparent note). Accept only on Fatima's go once the video arrives; one follow-up after 24h",
-    "status": "open",
-    "created": "2026-09-25"
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-26"
   },
   {
     "creator": "Madilynne Cantrell",
@@ -2904,5 +3044,2046 @@
     "note": "sample (Black) approved + messaged 9/25 06:55; check it arrived, share ideas",
     "status": "open",
     "created": "2026-09-25"
+  },
+  {
+    "creator": "Mackenzie Perez",
+    "type": "quiet_checkin",
+    "due": "2026-09-28",
+    "note": "no video for 28 days (last 2026-08-28), GMV $1267, group v3; check-in with the 20 to 30 videos a month point plus fitting inspo",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Lilly Clark",
+    "type": "quiet_checkin",
+    "due": "2026-09-28",
+    "note": "no video for 45 days (last 2026-08-11), GMV $2217, group protected; check-in with the 20 to 30 videos a month point plus fitting inspo",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Kaylie Russell",
+    "type": "quiet_checkin",
+    "due": "2026-09-27",
+    "note": "no video for 30 days (last 2026-08-26), GMV $0, group v3; check-in with the 20 to 30 videos a month point plus fitting inspo",
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-27"
+  },
+  {
+    "creator": "Ciara Burnett",
+    "type": "quiet_checkin",
+    "due": "2026-09-25",
+    "note": "no video for 23 days (last 2026-09-02), GMV $2379, group protected; check-in with the 20 to 30 videos a month point plus fitting inspo",
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-25",
+    "outcome": "replied 9/24: filming pumpkin patch idea"
+  },
+  {
+    "creator": "Michelle Speakman",
+    "type": "quiet_checkin",
+    "due": "2026-09-27",
+    "note": "no video for 49 days (last 2026-08-07), GMV $97, group v3; check-in with the 20 to 30 videos a month point plus fitting inspo",
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-27"
+  },
+  {
+    "creator": "Alexis Long",
+    "type": "quiet_checkin",
+    "due": "2026-09-27",
+    "note": "no video for 17 days (last 2026-09-08), GMV $247, group v3; check-in with the 20 to 30 videos a month point plus fitting inspo",
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-27"
+  },
+  {
+    "creator": "Nina Pleshe",
+    "type": "quiet_checkin",
+    "due": "2026-09-27",
+    "note": "no video for 33 days (last 2026-08-23), GMV $153, group v3; check-in with the 20 to 30 videos a month point plus fitting inspo",
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-27"
+  },
+  {
+    "creator": "Myrka Bustillo",
+    "type": "quiet_checkin",
+    "due": "2026-09-25",
+    "note": "no video for 46 days (last 2026-08-10), GMV $2649, group protected; check-in with the 20 to 30 videos a month point plus fitting inspo",
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-25",
+    "outcome": "Fatima messaged her 9/25"
+  },
+  {
+    "creator": "Hayley swann",
+    "type": "quiet_checkin",
+    "due": "2026-09-27",
+    "note": "no video for 15 days (last 2026-09-10), GMV $312, group v3; check-in with the 20 to 30 videos a month point plus fitting inspo",
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-27",
+    "outcome": "active 9/26 (resubmitted)"
+  },
+  {
+    "creator": "Lauren Leneave",
+    "type": "quiet_checkin",
+    "due": "2026-10-06",
+    "note": "no video for 24 days (last 2026-09-01), GMV $1558, group v3; check-in with the 20 to 30 videos a month point plus fitting inspo",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Carissa Lyman",
+    "type": "quiet_checkin",
+    "due": "2026-09-25",
+    "note": "no video for 39 days (last 2026-08-17), GMV $2365, group protected; check-in with the 20 to 30 videos a month point plus fitting inspo",
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-25",
+    "outcome": "inspo 9/23 + check-in 9/24; sick kids, plans to submit next week (replied 9/24)"
+  },
+  {
+    "creator": "Courtney Drake",
+    "type": "quiet_checkin",
+    "due": "2026-09-25",
+    "note": "no video for 39 days (last 2026-08-17), GMV $700, group v3; check-in with the 20 to 30 videos a month point plus fitting inspo",
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-25",
+    "outcome": "inspo check-in sent 9/25 19:33"
+  },
+  {
+    "creator": "Jena Swapp",
+    "type": "quiet_checkin",
+    "due": "2026-09-27",
+    "note": "no video for 24 days (last 2026-09-01), GMV $244, group v3; check-in with the 20 to 30 videos a month point plus fitting inspo",
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-27",
+    "outcome": "active 9/26 (2 new submissions)"
+  },
+  {
+    "creator": "Brianna Whiteman",
+    "type": "quiet_checkin",
+    "due": "2026-10-02",
+    "note": "no video for 32 days (last 2026-08-24), GMV $0, group v3; check-in with the 20 to 30 videos a month point plus fitting inspo",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Regan Harrison",
+    "type": "quiet_checkin",
+    "due": "2026-09-27",
+    "note": "no video for 36 days (last 2026-08-20), GMV $851, group v3; check-in with the 20 to 30 videos a month point plus fitting inspo",
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-27"
+  },
+  {
+    "creator": "Arie Allred",
+    "type": "quiet_checkin",
+    "due": "2026-09-29",
+    "note": "no video for 23 days (last 2026-09-02), GMV $1035, group v3; check-in with the 20 to 30 videos a month point plus fitting inspo",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Kaitlin Duncan",
+    "type": "sample_checkin",
+    "due": "2026-10-09",
+    "note": "sample approved 9/25; ask if it arrived, then ideas",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Meghan Currie",
+    "type": "sample_checkin",
+    "due": "2026-10-09",
+    "note": "sample approved 9/25; ask if it arrived, then ideas",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Autumn Tobiasz",
+    "type": "partnership_nudge",
+    "due": "2026-09-28",
+    "note": "PA requested 9/25; one light nudge if still Pending",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Carissa Lyman",
+    "type": "quiet_checkin",
+    "due": "2026-10-03",
+    "note": "said she'd submit the week of 9/28; check if nothing came in",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Courtney Drake",
+    "type": "inspo_checkin",
+    "due": "2026-09-28",
+    "note": "check-in sent 9/25; if no reply and no videos, one warm line",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Ciara Burnett",
+    "type": "quiet_checkin",
+    "due": "2026-10-01",
+    "note": "said 9/24 she's filming a pumpkin patch video; check if nothing came in",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Sophia Lease",
+    "type": "quiet_checkin",
+    "due": "2026-09-30",
+    "note": "newborn; inspo 9/23 with no reply; one gentle hope-you're-both-well line",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Raquel Cedeno",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "talking-to-camera ask sent 9/25 ~19:50 from Discovery. One follow-up after a full day (48h gap rule); nothing 3 days later -> reject/hold list",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Yvette Borojerdi",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "talking-to-camera ask sent 9/25 ~19:50 from Discovery. One follow-up after a full day (48h gap rule); nothing 3 days later -> reject/hold list",
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-26"
+  },
+  {
+    "creator": "Lee McCreary",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "talking-to-camera ask sent 9/25 ~19:50 from Discovery. One follow-up after a full day (48h gap rule); nothing 3 days later -> reject/hold list",
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-25",
+    "outcome": "sent 27s talking video 9/25 21:26"
+  },
+  {
+    "creator": "Amy Gardner",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "asked 9/25 ~19:52 if she has a little one under 50 lbs to film with; saw only school-age kids + IVF video",
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-26",
+    "outcome": "replied 9/26 00:20: has a 2-month-old boy"
+  },
+  {
+    "creator": "Nicole Palmer",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "UK nurse, mom of 4, 5-month-old; voiceover only, low numbers. Talking-video ask sent 9/25 ~20:15. One follow-up 9/27; nothing 3 days later -> reject/hold",
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-25",
+    "outcome": "sent 29s talking video 9/25 ~23:15"
+  },
+  {
+    "creator": "Mackenzie Perez",
+    "type": "note",
+    "due": "2026-09-26",
+    "note": "4 pending submissions 9/25 (27c5a4e9, e3108645, 7b2d991b, 0b26824c) = one 19s clip, 2 cuts x 2 audio. UNSURE: safety loop not visible, arm on toddler not confirmed at 0:03 and 0:11-0:13. Waiting on Fatima (approve / revise / reject)",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Cynthia Pardue",
+    "type": "note",
+    "due": "2026-09-27",
+    "note": "invited grandparent; asked 9/25 if her 2-year-old grandbaby is too big; told her 10-50 lbs so perfect. Watch for her join request",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Retired Athlete Turned Mom",
+    "type": "note",
+    "due": "2026-09-26",
+    "note": "Ashley, Jacksonville FL, V3, mom of 3 (youngest ~17 months). Talking video: fluent, 3.7 w/s, calm/low-key. Recommend accept; waiting on Fatima's go. Safety: she floated her older daughter wearing the youngest, which is not allowed",
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-26"
+  },
+  {
+    "creator": "Courtney Drake",
+    "type": "note",
+    "due": "2026-09-26",
+    "note": "submission f81204a3 (toddler-friendly explainer, 3yo + 9mo) FAILS one point: safety loop hanging loose beside the buckle at 28.5-30.7s, never visible hooked in worn shots. All else passes. Recommend: request revision (re-film the close-up with loop hooked + show it hooked once per child) rather than reject. Waiting on Fatima",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Jaden Frazier",
+    "type": "note",
+    "due": "2026-09-26",
+    "note": "new applicant 9/25: recommend accept (confident talking to camera 3.2-4.3 w/s, Texas, V3, mom of 3, pregnant with #4, real TikTok comments). Youngest's age unverified. Waiting on Fatima",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Gerardo Padron",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "Missouri dad-age male, strong on camera; no baby seen; applied to GRANDPARENTS by mistake (put in V3 if accepted). Asked 9/25 ~22:35 if he has a little one to film with. Some edgy wording in his videos",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Brooke Stoddard",
+    "type": "note",
+    "due": "2026-09-26",
+    "note": "new applicant 9/25: recommend accept (confident talking to camera 3.8-4.2 w/s, Quebec Canada, toddler daughter + baby son). Applied to GRANDPARENTS by mistake, so move to V3. Waiting on Fatima",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Lee McCreary",
+    "type": "note",
+    "due": "2026-09-26",
+    "note": "recommend accept: warm, confident talking to camera 3.9 w/s, Oklahoma, daughter turns 1 on 9/25. Applied to GRANDPARENTS, so move to V3. Waiting on Fatima",
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-26"
+  },
+  {
+    "creator": "Nicole Palmer",
+    "type": "note",
+    "due": "2026-09-26",
+    "note": "borderline leaning accept: talks to camera but rehearsed and slow (2.4 w/s), UK nurse, mom of 4, 5-month-old, V3. Fatima's call",
+    "status": "done",
+    "created": "2026-09-25",
+    "closed": "2026-09-26"
+  },
+  {
+    "creator": "Jena Swapp",
+    "type": "note",
+    "due": "2026-09-26",
+    "note": "5 submissions 9/25 ~23:00. CLEAN (recommend approve): 54050392 (10s why-I-love-it, sale mention only at end), b4c710ee (honest review talking head). UNSURE: 19a59e39 (baby shower gift angle, near the ruled-out hospital-bag idea). FAIL: 86527552 (no hand visible on baby 20-24s; recommend revision), 79e81e73 (no hand 8-11s + 'more freedom, do things around the house' hands-free angle; recommend revision). Waiting on Fatima",
+    "status": "open",
+    "created": "2026-09-25"
+  },
+  {
+    "creator": "Chris and Alicia Cameron",
+    "type": "sample_checkin",
+    "due": "2026-10-07",
+    "note": "sample approved Sep 23; last msg 9/24 'Sounds amazing!' (weekly inspo promised once product arrives). Ask if it arrived, then first inspo",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Victoria Ranaudo",
+    "type": "sample_checkin",
+    "due": "2026-10-08",
+    "note": "both samples (Checkered + Houndstooth) approved Sep 24; she said 'can't wait'. Ask if they arrived, then ideas",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Ashlyn Miller",
+    "type": "sample_checkin",
+    "due": "2026-10-08",
+    "note": "sample approved Sep 24 (mom of 4, new baby); ask if it arrived, then ideas",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Joanna Nalezny",
+    "type": "sample_checkin",
+    "due": "2026-10-05",
+    "note": "Houndstooth LE approved Sep 21; accepted PA 9/24; never got V3 welcome links, so include checklist + inspo when checking in",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Kayla Reyn",
+    "type": "sample_checkin",
+    "due": "2026-10-03",
+    "note": "Black + Leopard samples approved Sep 19; PA accepted 9/23; Discord invite was promised week of Sep 22 (check it went)",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Michaela Engelmann",
+    "type": "sample_checkin",
+    "due": "2026-10-03",
+    "note": "sample approved Sep 19; PA accepted 9/24; 5 months pregnant, films with toddler (10 to 50 lbs only)",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Jacqui Bloom",
+    "type": "sample_checkin",
+    "due": "2026-10-03",
+    "note": "Checkered approved Sep 19; PA confirmed 9/25; 9 month old clinger, hip/body pain angle",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Katherine Bodie",
+    "type": "quiet_checkin",
+    "due": "2026-10-07",
+    "note": "last video Sep 23 (retake approved 9/24, 'keep them coming'); check in only if no new video by then",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Shy Bristow",
+    "type": "quiet_checkin",
+    "due": "2026-09-29",
+    "note": "last video Aug 27; 9/24 said baby teething, will film more; our last msg 9/24 2:18 AM. Gentle how's-she-doing check",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Danielle Corbin",
+    "type": "quiet_checkin",
+    "due": "2026-10-06",
+    "note": "last video Sep 22; Fatima answered her sale question 9/24 (she reacted); check in if no new video",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Tayler Raza",
+    "type": "quiet_checkin",
+    "due": "2026-10-07",
+    "note": "PROTECTED (loved ten). last video Sep 16; 9/23 said she'll film after volleyball season. Warm check-in only",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Jennifer Thomas",
+    "type": "quiet_checkin",
+    "due": "2026-10-06",
+    "note": "last video Sep 22 (62 total); replied to inspo 9/23; check in if nothing new",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Jacob Hatch",
+    "type": "quiet_checkin",
+    "due": "2026-10-04",
+    "note": "last video Sep 20 (now live as ad); 9/24 said no questions yet; check in if no new video",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "katlyn preston",
+    "type": "note",
+    "due": "2026-09-29",
+    "note": "PA nudge sent 9/26 00:35; if still Pending, tell Fatima (no more nudges)",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Chelsea Debruin",
+    "type": "note",
+    "due": "2026-09-29",
+    "note": "PA nudge sent 9/26 00:35; if still Pending, tell Fatima (no more nudges)",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Anna Budetti",
+    "type": "note",
+    "due": "2026-09-29",
+    "note": "PA nudge sent 9/26 00:35; if still Pending, tell Fatima (no more nudges)",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Labourgeoise Bynum",
+    "type": "reply_owed",
+    "due": "2026-09-26",
+    "note": "asked 9/26 00:43 for the program terms link (after 'no separate contract needed'). Waiting on Fatima: where are the Trybe program terms?",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26",
+    "outcome": "Fatima 9/26: ignore her"
+  },
+  {
+    "creator": "Kilyn Brown",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "22, US, strong on camera but no baby seen; applied to GRANDPARENTS by mistake. Asked 9/26 ~01:30 if she has a little one to film with",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Tumarkan Nurdin Kyzy",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "Miami, mom of 1-year-old Eva (in cancer treatment, be gentle); no talking in any video, low numbers; GRANDPARENTS by mistake. Talking-video ask sent 9/26 ~01:32. Nothing 3 days later -> hold/reject list for Fatima",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Amy Gardner",
+    "type": "note",
+    "due": "2026-09-26",
+    "note": "confident US yapper, V3; has a 2-month-old (right at the 10 lb minimum, could be under). Sent congrats 9/26 01:34. Accept is Fatima's call; if accepted, she films only once baby is 10+ lbs",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Lauren Dbrot",
+    "type": "note",
+    "due": "2026-09-26",
+    "note": "recommend accept (strongest): polished talking to camera 3.2-4.3 w/s, US, mom of two under 3 (1-year-old daughter). GRANDPARENTS by mistake, so move to V3. Waiting on Fatima",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Cat Lee",
+    "type": "note",
+    "due": "2026-09-26",
+    "note": "lean accept: British mum in North Vancouver, V3, warm talking unboxing 2.7 w/s, baby Henry ~6 months; tiny socials. Waiting on Fatima",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Angel Garcia",
+    "type": "note",
+    "due": "2026-09-26",
+    "note": "lean accept (weakest): New Haven US, talks to camera 2.8 w/s, even-toned; first-time mom with a toddler. GRANDPARENTS by mistake, so move to V3. Waiting on Fatima",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26"
+  },
+  {
+    "creator": "Mackenzie Perez",
+    "type": "inspo_checkin",
+    "due": "2026-09-29",
+    "note": "sent 5 winning videos 9/26 ~02:35 (Videos 1,2,6,7,9 as video 1-5; replicate exactly, Fatima's go). Check in if nothing by 9/29",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Jena Swapp",
+    "type": "inspo_checkin",
+    "due": "2026-09-29",
+    "note": "approved 19a59e39 + sent 5 winning videos 9/26 ~02:45 (Videos 1,2,6,7,9; Video 9 caveat edited, cooking OK)",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Bianca Sotrea",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "Illinois, polished voiceover UGC, toddler in range; never talks to camera; GRANDPARENTS by mistake. Talking-video ask sent 9/26 ~03:40",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-28"
+  },
+  {
+    "creator": "Labourgeoise Bynum",
+    "type": "note",
+    "due": "2026-12-31",
+    "note": "IGNORE (Fatima 9/26): don't reply, never approve her sample request",
+    "status": "done",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Athena Bennett",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "sent the 3 fit questions 9/26 ~04:15 (baby to film with, OK on camera, 4-5 videos/week). Bring answers to Fatima; accept only on her go",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Elizabeth Parker",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "sent the 3 fit questions 9/26 ~04:15 (baby to film with, OK on camera, 4-5 videos/week). Bring answers to Fatima; accept only on her go",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Payton Hoerbert",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "sent the 3 fit questions 9/26 ~04:15 (baby to film with, OK on camera, 4-5 videos/week). Bring answers to Fatima; accept only on her go",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26"
+  },
+  {
+    "creator": "Kristin Crane",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "sent the 3 fit questions 9/26 ~04:15 (baby to film with, OK on camera, 4-5 videos/week). Bring answers to Fatima; accept only on her go",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Mia Hankieson",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "sent the 3 fit questions 9/26 ~04:15 (baby to film with, OK on camera, 4-5 videos/week). Bring answers to Fatima; accept only on her go",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Justine Krohn",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "sent the 3 fit questions 9/26 ~04:15 (baby to film with, OK on camera, 4-5 videos/week). Bring answers to Fatima; accept only on her go",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Breanna Ourada",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "sent the 3 fit questions 9/26 ~04:15 (baby to film with, OK on camera, 4-5 videos/week). Bring answers to Fatima; accept only on her go",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26"
+  },
+  {
+    "creator": "Linsey Roberts",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "sent the 3 fit questions 9/26 ~04:15 (baby to film with, OK on camera, 4-5 videos/week). Bring answers to Fatima; accept only on her go",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Laura OSullivan",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "sent the 3 fit questions 9/26 ~04:15 (baby to film with, OK on camera, 4-5 videos/week). Bring answers to Fatima; accept only on her go",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Lexie stephens",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "sent the 3 fit questions 9/26 ~04:15 (baby to film with, OK on camera, 4-5 videos/week). Bring answers to Fatima; accept only on her go",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Lillian Gutierrez",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "sent the 3 fit questions 9/26 ~04:15 (baby to film with, OK on camera, 4-5 videos/week). Bring answers to Fatima; accept only on her go",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Lais Moreira Franchini",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "sent the 3 fit questions 9/26 ~04:15 (baby to film with, OK on camera, 4-5 videos/week). Bring answers to Fatima; accept only on her go",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Jaden Frazier",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "sent the 3 fit questions 9/26 ~04:15 (baby to film with, OK on camera, 4-5 videos/week). Bring answers to Fatima; accept only on her go",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Brooke Stoddard",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "sent the 3 fit questions 9/26 ~04:15 (baby to film with, OK on camera, 4-5 videos/week). Bring answers to Fatima; accept only on her go",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Angel Garcia",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "sent the 3 fit questions 9/26 ~04:15 (baby to film with, OK on camera, 4-5 videos/week). Bring answers to Fatima; accept only on her go",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26"
+  },
+  {
+    "creator": "Lauren Dbrot",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "sent the 3 fit questions 9/26 ~04:15 (baby to film with, OK on camera, 4-5 videos/week). Bring answers to Fatima; accept only on her go",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Cat Lee",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "sent the 3 fit questions 9/26 ~04:15 (baby to film with, OK on camera, 4-5 videos/week). Bring answers to Fatima; accept only on her go",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Taylor Condidorio",
+    "type": "sample_nudge",
+    "due": "2026-09-27",
+    "note": "follow-up sent 9/26 ~04:30 (sample/IG/PA as needed); next check after 15-20h, then Fatima if still nothing",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Corina",
+    "type": "sample_nudge",
+    "due": "2026-09-27",
+    "note": "follow-up sent 9/26 ~04:30 (sample/IG/PA as needed); next check after 15-20h, then Fatima if still nothing",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Marisa Miller",
+    "type": "sample_nudge",
+    "due": "2026-09-27",
+    "note": "follow-up sent 9/26 ~04:30 (sample/IG/PA as needed); next check after 15-20h, then Fatima if still nothing",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Kat Chandler",
+    "type": "sample_nudge",
+    "due": "2026-09-27",
+    "note": "follow-up sent 9/26 ~04:30 (sample/IG/PA as needed); next check after 15-20h, then Fatima if still nothing",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Leilani Hodges",
+    "type": "sample_nudge",
+    "due": "2026-09-27",
+    "note": "follow-up sent 9/26 ~04:30 (sample/IG/PA as needed); next check after 15-20h, then Fatima if still nothing",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Kodi Sarlett",
+    "type": "sample_nudge",
+    "due": "2026-09-27",
+    "note": "follow-up sent 9/26 ~04:30 (sample/IG/PA as needed); next check after 15-20h, then Fatima if still nothing",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Yesenia Wittman",
+    "type": "sample_nudge",
+    "due": "2026-09-27",
+    "note": "follow-up sent 9/26 ~04:30 (sample/IG/PA as needed); next check after 15-20h, then Fatima if still nothing",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26",
+    "outcome": "requested + approved 9/26 04:45"
+  },
+  {
+    "creator": "Laura Daniels",
+    "type": "sample_nudge",
+    "due": "2026-09-27",
+    "note": "follow-up sent 9/26 ~04:30 (sample/IG/PA as needed); next check after 15-20h, then Fatima if still nothing",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26",
+    "outcome": "requested + approved 9/26 04:40; PA approved"
+  },
+  {
+    "creator": "Jennifer Olmos",
+    "type": "sample_nudge",
+    "due": "2026-09-27",
+    "note": "follow-up sent 9/26 ~04:30 (sample/IG/PA as needed); next check after 15-20h, then Fatima if still nothing",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Anya Dunlap",
+    "type": "sample_nudge",
+    "due": "2026-09-27",
+    "note": "follow-up sent 9/26 ~04:30 (sample/IG/PA as needed); next check after 15-20h, then Fatima if still nothing",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Coral Williams",
+    "type": "sample_nudge",
+    "due": "2026-09-27",
+    "note": "follow-up sent 9/26 ~04:30 (sample/IG/PA as needed); next check after 15-20h, then Fatima if still nothing",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Megan Elizabeth Smith",
+    "type": "sample_nudge",
+    "due": "2026-09-27",
+    "note": "follow-up sent 9/26 ~04:30 (sample/IG/PA as needed); next check after 15-20h, then Fatima if still nothing",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Shelby Alvarado",
+    "type": "connect_ig",
+    "due": "2026-09-27",
+    "note": "IG follow-up sent 9/26 ~04:30; when roster shows Request: click + tiny note",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Jennifer Olmos",
+    "type": "connect_ig",
+    "due": "2026-09-27",
+    "note": "IG follow-up sent 9/26 ~04:30; when roster shows Request: click + tiny note",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Anya Dunlap",
+    "type": "connect_ig",
+    "due": "2026-09-27",
+    "note": "IG follow-up sent 9/26 ~04:30; when roster shows Request: click + tiny note",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Coral Williams",
+    "type": "connect_ig",
+    "due": "2026-09-27",
+    "note": "IG follow-up sent 9/26 ~04:30; when roster shows Request: click + tiny note",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Megan Elizabeth Smith",
+    "type": "connect_ig",
+    "due": "2026-09-27",
+    "note": "IG follow-up sent 9/26 ~04:30; when roster shows Request: click + tiny note",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Kyara Vinales",
+    "type": "connect_ig",
+    "due": "2026-09-27",
+    "note": "IG follow-up sent 9/26 ~04:30; when roster shows Request: click + tiny note",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Sirat kaur",
+    "type": "connect_ig",
+    "due": "2026-09-27",
+    "note": "IG follow-up sent 9/26 ~04:30; when roster shows Request: click + tiny note",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Brandie Pearson",
+    "type": "connect_ig",
+    "due": "2026-09-27",
+    "note": "IG follow-up sent 9/26 ~04:30; when roster shows Request: click + tiny note",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "brooklyn dunn",
+    "type": "connect_ig",
+    "due": "2026-09-27",
+    "note": "IG follow-up sent 9/26 ~04:30; when roster shows Request: click + tiny note",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Laura Daniels",
+    "type": "sample_checkin",
+    "due": "2026-10-10",
+    "note": "sample approved 9/26; ask if it arrived, then ideas (pediatric PT, authority angle)",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Yesenia Wittman",
+    "type": "sample_checkin",
+    "due": "2026-10-10",
+    "note": "sample approved 9/26; ask if it arrived, then ideas",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Scarlet Jeppson",
+    "type": "partnership_nudge",
+    "due": "2026-09-27",
+    "note": "says she accepted 9/26 04:29 but roster still PENDING; told her it may take time to sync. Recheck roster; if APPROVED send a tiny thank you",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Alexandria Lewis",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "new applicant (Grandparents by mistake); natural on camera; sent the 3 fit questions 9/26 ~05:15",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-27"
+  },
+  {
+    "creator": "Payton Hoerbert",
+    "type": "note",
+    "due": "2026-09-27",
+    "note": "answered her posting question; asked for a talking video 9/26 ~05:10 (nothing on camera yet)",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Lillian Gutierrez",
+    "type": "note",
+    "due": "2026-09-27",
+    "note": "answered posting question 9/26 ~05:05, asked about 4-5/week; recommend accept (Grandparents -> V3) on Fatima's go",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Kris Ludden",
+    "type": "partnership_nudge",
+    "due": "2026-09-27",
+    "note": "PA requested 9/26 06:05 + note sent; if still Pending after 15 to 20h, one light nudge (thread-continuing)",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-27",
+    "outcome": "roster 9/27 00:10: no longer pending (accepted)"
+  },
+  {
+    "creator": "Kris Ludden",
+    "type": "sample_nudge",
+    "due": "2026-09-27",
+    "note": "accepted 9/26 ~04:40 (V3 welcome); if no sample request 20h+ after, one nudge continuing the thread",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26"
+  },
+  {
+    "creator": "Katie Willmer",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "first-message template sent 9/26 ~06:25 from Discovery (V3 5%, Edmore MI, confident talker, likely mom, sells baby products on TikTok Shop). Verdict ACCEPT pending her answers + Fatima's go. One follow-up after 24h+ if silent",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-27"
+  },
+  {
+    "creator": "Payton Hoerbert",
+    "type": "sample_nudge",
+    "due": "2026-09-27",
+    "note": "accepted 9/26 06:30 (Fatima's standing accept go: all yes + IG talking reel + Illinois). welcome note sent 06:40 with free-sample next step; nudge after 15 to 20h if no request",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Payton Hoerbert",
+    "type": "partnership_nudge",
+    "due": "2026-09-27",
+    "note": "PA requested 9/26 06:35, Pending; one light nudge after 15 to 20h",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Angel Garcia",
+    "type": "sample_nudge",
+    "due": "2026-09-27",
+    "note": "accepted 9/26 06:30 (Grandparents mix-up, moved to V3 + move accepted; got the V3 welcome twice). note sent 06:41 with free-sample next step; nudge after 15 to 20h",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26"
+  },
+  {
+    "creator": "Angel Garcia",
+    "type": "connect_ig",
+    "due": "2026-09-27",
+    "note": "Partnership Ads shows -- (no Instagram connected). Ask her to connect a public IG in her Trybe profile (not asked yet, kept out of the welcome note for length), then Request + tiny note",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26"
+  },
+  {
+    "creator": "Breanna Ourada",
+    "type": "sample_nudge",
+    "due": "2026-09-27",
+    "note": "accepted 9/26 06:59 on Fatima's go (all 3 yes, no yapper). welcome note sent 07:05 (free sample next step, weekly inspo, PA). nudge after 15 to 20h if no sample request",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26"
+  },
+  {
+    "creator": "Breanna Ourada",
+    "type": "partnership_nudge",
+    "due": "2026-09-27",
+    "note": "PA requested 9/26 07:02, Pending; one light nudge after 15 to 20h",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-27",
+    "outcome": "roster 9/27 00:10: no longer pending (accepted)"
+  },
+  {
+    "creator": "Breanna Ourada",
+    "type": "sample_checkin",
+    "due": "2026-10-10",
+    "note": "sample approved 9/26 07:20 (Checkered, IL); check it arrived + share ideas",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Angel Garcia",
+    "type": "sample_checkin",
+    "due": "2026-10-10",
+    "note": "sample approved 9/26 07:20 (Blue Sailboat, CT); check it arrived + share ideas. Promised Discord invite next week",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Kris Ludden",
+    "type": "sample_checkin",
+    "due": "2026-10-10",
+    "note": "sample approved 9/26 07:20 (Houndstooth LE, VA); check it arrived + share ideas",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Angel Garcia",
+    "type": "connect_ig",
+    "due": "2026-09-27",
+    "note": "FATIMA ASKED 9/26 07:25: ask Angel for Meta access (partnership ads) later, once 15 to 20h have passed since our 07:18 message. Her roster Partnership Ads cell shows -- (no Instagram connected), so ask her to connect a PUBLIC Instagram in her Trybe profile; once it shows Request, click it + tiny note. Continue the thread, don't restart it",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-27",
+    "outcome": "connected, PA requested + accepted"
+  },
+  {
+    "creator": "Taylor Goodman",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "first-message template sent 9/26 ~07:40 from Discovery (V3 5%, US, teacher, mom of two incl. 5yo, confident talker 3.2 to 4.1 w/s, TikTok private). If all 3 answers are yes: accept under the standing go + welcome note in thread. One follow-up after 24h+ if silent",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26"
+  },
+  {
+    "creator": "Taylor Goodman",
+    "type": "sample_nudge",
+    "due": "2026-09-27",
+    "note": "accepted 9/26 07:39 on Fatima's go (all 3 yes: son under 50 lbs, faces OK, posts several videos a day). onboarding note posted in thread on her answer 07:45 (free sample, 4 to 5/week inspo, connect IG). nudge 15 to 20h later if no sample request",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26"
+  },
+  {
+    "creator": "Taylor Goodman",
+    "type": "connect_ig",
+    "due": "2026-09-27",
+    "note": "Partnership Ads shows -- (no IG connected, TikTok only). Asked 9/26 07:45 in the onboarding note. When roster shows Request: click + tiny note; otherwise one light reminder after 15 to 20h",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Taylor Goodman",
+    "type": "sample_checkin",
+    "due": "2026-10-10",
+    "note": "sample approved 9/26 ~07:55 (Brown, KY); check it arrived + share ideas",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Caitlin Smith",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "9/26 ~08:05 sent thanks for the talking video + the 3 fit questions (Discovery). All yes + yapper + English-speaking -> accept under the standing go (Grandparents: move to V3), welcome note in thread. One follow-up after 24h+ if silent",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26"
+  },
+  {
+    "creator": "Retired Athlete Turned Mom",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "9/26 ~08:05 sent thanks for the talking video + the 3 fit questions (Discovery). All yes + yapper + English-speaking -> accept under the standing go (Grandparents: move to V3), welcome note in thread. One follow-up after 24h+ if silent",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Kaitlyn Cunningham",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "9/26 ~08:05 sent thanks for the talking video + the 3 fit questions (Discovery). All yes + yapper + English-speaking -> accept under the standing go (Grandparents: move to V3), welcome note in thread. One follow-up after 24h+ if silent",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Lee McCreary",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "9/26 ~08:05 sent thanks for the talking video + the 3 fit questions (Discovery). All yes + yapper + English-speaking -> accept under the standing go (Grandparents: move to V3), welcome note in thread. One follow-up after 24h+ if silent",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Yvette Borojerdi",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "9/26 ~08:05 sent thanks for the talking video + the 3 fit questions (Discovery). All yes + yapper + English-speaking -> accept under the standing go (Grandparents: move to V3), welcome note in thread. One follow-up after 24h+ if silent",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Nicole Palmer",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "9/26 ~08:05 sent thanks for the talking video + the 3 fit questions (Discovery). All yes + yapper + English-speaking -> accept under the standing go (Grandparents: move to V3), welcome note in thread. One follow-up after 24h+ if silent",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Caitlin Smith",
+    "type": "sample_nudge",
+    "due": "2026-09-27",
+    "note": "accepted 9/26 08:33 under the standing go (6-month-old, faces OK, 4 to 5/week yes, VA). welcome note in thread 08:40 (free sample, inspo, PA). nudge 15 to 20h later if no sample request",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26"
+  },
+  {
+    "creator": "Caitlin Smith",
+    "type": "partnership_nudge",
+    "due": "2026-09-27",
+    "note": "PA requested 9/26 08:37; one light nudge after 15 to 20h if still Pending",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-27",
+    "outcome": "roster 9/27 00:10: no longer pending (accepted)"
+  },
+  {
+    "creator": "Caitlin Smith",
+    "type": "reply_owed",
+    "due": "2026-09-26",
+    "note": "SAMPLE APPROVED 9/26 ~09:05 (Checkered, VA) but the 'approved' message is NOT sent yet (Chrome tab group closed + Trybe chat page froze). Send in her thread on the answers message: 'and I just approved your sample!! 🥳 let me know when it arrives and I'll share some ideas to get you started 💗'",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26"
+  },
+  {
+    "creator": "Caitlin Smith",
+    "type": "sample_checkin",
+    "due": "2026-10-10",
+    "note": "sample approved 9/26 (Checkered, VA); check it arrived + share ideas",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Angel Garcia",
+    "type": "reply_owed",
+    "due": "2026-09-27",
+    "note": "asked 9/26 if she can upload videos outside Trybe; Fatima's answer sent (share on Trybe so I can run ads, own page fine too, asked what she had in mind). Bring her answer to Fatima. Partnership ads request sent 9/26, add a tiny note in next reply",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26",
+    "outcome": "she thought she had to post + run ads herself; clarified 9/26 21:55 and asked her to accept PA request"
+  },
+  {
+    "creator": "Lauren McCann",
+    "type": "partnership_nudge",
+    "due": "2026-09-27",
+    "note": "9/26 said she accepted but still pending; asked to retry + professional account tip",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-27"
+  },
+  {
+    "creator": "Jaden Frazier",
+    "type": "sample_checkin",
+    "due": "2026-10-10",
+    "note": "sample approved 9/26 night, approval message sent",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Payton Hoerbert",
+    "type": "sample_checkin",
+    "due": "2026-10-10",
+    "note": "sample approved 9/26 night, approval message sent",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Lauren Dbrot",
+    "type": "sample_checkin",
+    "due": "2026-10-10",
+    "note": "sample approved 9/26 night, approval message sent",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Brooke Stoddard",
+    "type": "sample_checkin",
+    "due": "2026-10-10",
+    "note": "sample approved 9/26 night, approval message sent",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Mariella Sica",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "first message sent 9/26 21:30 (US, 34, mom of 3, applied to GRANDPARENTS so likely mix-up; talking-to-camera featured videos with baby). Await answers; standing accept go applies if all yes",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26",
+    "outcome": "replied 23:09"
+  },
+  {
+    "creator": "Kaitlyn Cunningham",
+    "type": "sample_nudge",
+    "due": "2026-09-27",
+    "note": "accepted 9/26 ~21:20 (standing go), moved Grandparents->V3, welcome sent, partnership ads requested",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26",
+    "outcome": "requested; approved 9/26 22:35"
+  },
+  {
+    "creator": "Retired Athlete Turned Mom",
+    "type": "sample_nudge",
+    "due": "2026-09-27",
+    "note": "accepted 9/26 ~21:18 (standing go), welcome sent; asked to connect Instagram (roster shows --)",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26",
+    "outcome": "requested; approved 9/26 22:35"
+  },
+  {
+    "creator": "Retired Athlete Turned Mom",
+    "type": "connect_ig",
+    "due": "2026-09-27",
+    "note": "asked 9/26 in welcome note",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-27",
+    "outcome": "connected 9/27; PA requested 00:10"
+  },
+  {
+    "creator": "Angelica Seto",
+    "type": "fatima_decision",
+    "due": "2026-09-29",
+    "note": "no talking video after ask 9/24 + follow-up 9/26; if still nothing by 9/29 -> Fatima reject/hold",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-26",
+    "outcome": "she replied 9/26 23:17: uploaded videos to Trybe profile; sent the 3 Qs 23:45"
+  },
+  {
+    "creator": "Jaimie Kunkel",
+    "type": "fatima_decision",
+    "due": "2026-09-29",
+    "note": "no talking video after ask 9/25 + follow-up 9/26; if nothing by 9/29 -> Fatima reject/hold",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Angel Garcia",
+    "type": "partnership_nudge",
+    "due": "2026-09-27",
+    "note": "PA requested 9/26 21:10, asked her to accept 21:55",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-27",
+    "outcome": "roster 9/27 00:10: no longer pending (accepted)"
+  },
+  {
+    "creator": "Retired Athlete Turned Mom",
+    "type": "sample_checkin",
+    "due": "2026-10-10",
+    "note": "sample approved 9/26 22:35 + message sent",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Kaitlyn Cunningham",
+    "type": "sample_checkin",
+    "due": "2026-10-10",
+    "note": "sample approved 9/26 22:35 + message sent",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Nicole Thomas",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "first message sent 9/26 22:40. NYC, 41, Grandparents program (likely mix-up), TikTok Shop creator 50-70k GMV/month, maternity fashion, babywearing Sherpa jacket video. Await answers; standing go if all yes + confident talking",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-27"
+  },
+  {
+    "creator": "Precious Brown",
+    "type": "sample_checkin",
+    "due": "2026-10-08",
+    "note": "check-in audit 9/26: sample approved 09/24; 2-week check-in (has it arrived? then ideas)",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Olivia Lira",
+    "type": "sample_checkin",
+    "due": "2026-10-07",
+    "note": "check-in audit 9/26: sample approved 09/23; 2-week check-in (has it arrived? then ideas)",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Lily Paschel",
+    "type": "sample_checkin",
+    "due": "2026-10-07",
+    "note": "check-in audit 9/26: sample approved 09/23; 2-week check-in (has it arrived? then ideas)",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Briann Hamric",
+    "type": "sample_checkin",
+    "due": "2026-10-06",
+    "note": "check-in audit 9/26: sample approved 09/22; 2-week check-in (has it arrived? then ideas)",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Jessica Arafiles",
+    "type": "sample_checkin",
+    "due": "2026-10-06",
+    "note": "check-in audit 9/26: sample approved 09/22; 2-week check-in (has it arrived? then ideas)",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Shivani Kothari",
+    "type": "sample_checkin",
+    "due": "2026-10-03",
+    "note": "check-in audit 9/26: sample approved 09/19; 2-week check-in (has it arrived? then ideas)",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Aubrie Martinez",
+    "type": "note",
+    "due": "2026-09-26",
+    "note": "submission 94287d8b (9/26): FAIL one hand, both hands off toddler 12.0-15.5s (turns her back), 5.5s, doubtful 24.5-25.5; contradicts her own 'hand here at all times' line. Recommend revision: refilm those parts one hand on, show buckle+loop. Waiting on Fatima",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-27"
+  },
+  {
+    "creator": "Stefania bertone",
+    "type": "note",
+    "due": "2026-09-26",
+    "note": "submission b2ab4cf0: FAIL one hand (4-10s vacuuming, 14.5-16s arms up, 18-23s dresser). Recommend revision. Waiting on Fatima",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Kristen Smith",
+    "type": "fatima_decision",
+    "due": "2026-09-26",
+    "note": "check-in audit 9/26: no ledger item; two accounts, sample approved 8/25 then a request denied 9/11. Which account is V3 and what's owed? Fatima",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Nicole Thomas",
+    "type": "fatima_decision",
+    "due": "2026-09-26",
+    "note": "answered all 3 yes 9/26 22:33 (7mo son, fine on camera, posts 6-8 TikToks/day, 50-70k GMV/mo TikTok Shop). Grandparents mix-up. Couldn't verify talking delivery (TikTok private, video URLs blocked). Recommend accept + move to V3",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-27"
+  },
+  {
+    "creator": "Angelica Seto",
+    "type": "applicant_followup",
+    "due": "2026-09-27",
+    "note": "Maui, 10mo son, uploaded talking videos to Trybe profile 9/26 (not yet watched/heard); 3 Qs sent 9/26 23:45. Fatima to judge delivery",
+    "status": "done",
+    "created": "2026-09-26",
+    "closed": "2026-09-27"
+  },
+  {
+    "creator": "Mariella Sica",
+    "type": "fatima_decision",
+    "due": "2026-09-26",
+    "note": "answered 9/26 23:09: kids OK on camera but only PARTIAL faces; 2 of 3 kids fit the sling; commits to 4 videos/week (not 4-5). Conditional -> Fatima",
+    "status": "open",
+    "created": "2026-09-26"
+  },
+  {
+    "creator": "Retired Athlete Turned Mom",
+    "type": "partnership_nudge",
+    "due": "2026-09-28",
+    "note": "IG connected; PA requested 9/27 00:10 + note sent",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Aubrie Martinez",
+    "type": "inspo_checkin",
+    "due": "2026-09-30",
+    "note": "sent 5 winning videos 9/27 (same as Mackenzie: Videos 1,2,6,7,9) with both new videos approved; check in if nothing by 9/30",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Debbie Struck",
+    "type": "reply_owed",
+    "due": "2026-09-27",
+    "note": "9/27 01:24 submitted first video (9e0db474, no kid faces by family rule) and owns two Bamboras; verdict REVISE one voiceover line 'my arm around him is just for comfort'. Reply after Fatima's go",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Labourgeoise Bynum",
+    "type": "reply_owed",
+    "due": "2026-09-27",
+    "note": "9/26 00:43 asked us to send the program terms (we said no separate contract, Trybe terms cover it). Need Fatima: where/what to send",
+    "status": "done",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Lauren McCann",
+    "type": "partnership_nudge",
+    "due": "2026-09-28",
+    "note": "9/27 asked her to accept again on IG after switching to creator account; recheck roster, tiny thanks if APPROVED",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Kaylie Russell",
+    "type": "reply_owed",
+    "due": "2026-09-29",
+    "note": "quiet check-in sent 9/27 21:05 (offered ideas). If she replies: 3 or 4 fitting ideas. If not by 9/29: one light nudge",
+    "status": "done",
+    "created": "2026-09-27",
+    "closed": "2026-09-27"
+  },
+  {
+    "creator": "Michelle Speakman",
+    "type": "reply_owed",
+    "due": "2026-09-29",
+    "note": "quiet check-in sent 9/27 21:05 (offered ideas). If she replies: 3 or 4 fitting ideas. If not by 9/29: one light nudge",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Alexis Long",
+    "type": "reply_owed",
+    "due": "2026-09-29",
+    "note": "quiet check-in sent 9/27 21:05 (offered ideas). If she replies: 3 or 4 fitting ideas. If not by 9/29: one light nudge",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Nina Pleshe",
+    "type": "reply_owed",
+    "due": "2026-09-29",
+    "note": "quiet check-in sent 9/27 21:05 (offered ideas). If she replies: 3 or 4 fitting ideas. If not by 9/29: one light nudge",
+    "status": "done",
+    "created": "2026-09-27",
+    "closed": "2026-09-27"
+  },
+  {
+    "creator": "Regan Harrison",
+    "type": "reply_owed",
+    "due": "2026-09-29",
+    "note": "quiet check-in sent 9/27 21:05 (offered ideas). If she replies: 3 or 4 fitting ideas. If not by 9/29: one light nudge",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Angelica Seto",
+    "type": "sample_nudge",
+    "due": "2026-09-28",
+    "note": "accepted 9/27 21:05 (standing go, yes to all + talks to camera); welcome note in thread; nudge free sample 15-20h if no request",
+    "status": "done",
+    "created": "2026-09-27",
+    "closed": "2026-09-27"
+  },
+  {
+    "creator": "Angelica Seto",
+    "type": "partnership_nudge",
+    "due": "2026-09-30",
+    "note": "PA requested 9/27 21:08, Pending; one light nudge after 3 days",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Nicole Palmer",
+    "type": "sample_nudge",
+    "due": "2026-09-28",
+    "note": "accepted 9/27 21:05 (standing go, yes to all + talks to camera); welcome note in thread; nudge free sample 15-20h if no request",
+    "status": "done",
+    "created": "2026-09-27",
+    "closed": "2026-09-27"
+  },
+  {
+    "creator": "Nicole Palmer",
+    "type": "partnership_nudge",
+    "due": "2026-09-30",
+    "note": "PA requested 9/27 21:08, Pending; one light nudge after 3 days",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Nicole Thomas",
+    "type": "sample_nudge",
+    "due": "2026-09-28",
+    "note": "accepted 9/27 21:05 (standing go, yes to all + talks to camera); welcome note in thread; nudge free sample 15-20h if no request",
+    "status": "done",
+    "created": "2026-09-27",
+    "closed": "2026-09-28"
+  },
+  {
+    "creator": "Nicole Thomas",
+    "type": "partnership_nudge",
+    "due": "2026-09-30",
+    "note": "PA requested 9/27 21:08, Pending; one light nudge after 3 days",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Carrie Boarman",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "9/27 21:10 final question(s) sent (3 to 5 a week / faces). Yes + talking content = accept under standing go (Grandparents to V3) + onboarding",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Emily Martines",
+    "type": "applicant_final",
+    "due": "2026-09-28",
+    "note": "9/27 21:20 final talking-video follow-up (Fatima's go). Still nothing ~24h later = reject",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Bailey Schneider",
+    "type": "applicant_final",
+    "due": "2026-09-28",
+    "note": "9/27 21:20 final talking-video follow-up (Fatima's go). Still nothing ~24h later = reject",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Yaritzacruz",
+    "type": "applicant_final",
+    "due": "2026-09-28",
+    "note": "9/27 21:20 final talking-video follow-up (Fatima's go). Still nothing ~24h later = reject",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Alyssa Lauderdale",
+    "type": "applicant_final",
+    "due": "2026-09-28",
+    "note": "9/27 21:20 final talking-video follow-up (Fatima's go). Still nothing ~24h later = reject",
+    "status": "done",
+    "created": "2026-09-27",
+    "closed": "2026-09-28"
+  },
+  {
+    "creator": "Jaimie Clements",
+    "type": "applicant_final",
+    "due": "2026-09-28",
+    "note": "9/27 21:20 final talking-video follow-up (Fatima's go). Still nothing ~24h later = reject",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Jaimie Kunkel",
+    "type": "applicant_final",
+    "due": "2026-09-28",
+    "note": "9/27 21:20 final talking-video follow-up (Fatima's go). Still nothing ~24h later = reject",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Raquel Cedeno",
+    "type": "applicant_final",
+    "due": "2026-09-28",
+    "note": "9/27 21:20 final talking-video follow-up (Fatima's go). Still nothing ~24h later = reject",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Tumarkan Nurdin Kyzy",
+    "type": "applicant_final",
+    "due": "2026-09-28",
+    "note": "9/27 21:20 final talking-video follow-up (Fatima's go). Still nothing ~24h later = reject",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Bianca Sotrea",
+    "type": "applicant_final",
+    "due": "2026-09-28",
+    "note": "9/27 21:20 final talking-video follow-up (Fatima's go). Still nothing ~24h later = reject",
+    "status": "done",
+    "created": "2026-09-27",
+    "closed": "2026-09-28"
+  },
+  {
+    "creator": "Cassidy Shortridge",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "3 fit questions sent 9/27 21:25 (3 to 5 a week). Verdict in 2026-09-27-day/verdicts.md; yes + good talking content = accept",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Kathia Martinez",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "3 fit questions sent 9/27 21:25 (3 to 5 a week). Verdict in 2026-09-27-day/verdicts.md; yes + good talking content = accept",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Natalie Fiaseu",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "3 fit questions sent 9/27 21:25 (3 to 5 a week). Verdict in 2026-09-27-day/verdicts.md; yes + good talking content = accept",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Sadie Harris",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "3 fit questions sent 9/27 21:25 (3 to 5 a week). Verdict in 2026-09-27-day/verdicts.md; yes + good talking content = accept",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Elissa Brianne",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "3 fit questions sent 9/27 21:25 (3 to 5 a week). Verdict in 2026-09-27-day/verdicts.md; yes + good talking content = accept",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Sharmeen Kazmi",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "3 fit questions sent 9/27 21:25 (3 to 5 a week). Verdict in 2026-09-27-day/verdicts.md; yes + good talking content = accept",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Louise Sahlinger",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "3 fit questions sent 9/27 21:25 (3 to 5 a week). Verdict in 2026-09-27-day/verdicts.md; yes + good talking content = accept",
+    "status": "done",
+    "created": "2026-09-27",
+    "closed": "2026-09-28"
+  },
+  {
+    "creator": "Samantha Simmons",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "3 fit questions sent 9/27 21:25 (3 to 5 a week). Verdict in 2026-09-27-day/verdicts.md; yes + good talking content = accept",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Turner Schumpf",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "3 fit questions sent 9/27 21:25 (3 to 5 a week). Verdict in 2026-09-27-day/verdicts.md; yes + good talking content = accept",
+    "status": "done",
+    "created": "2026-09-27",
+    "closed": "2026-09-27"
+  },
+  {
+    "creator": "Juan",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "3 fit questions sent 9/27 21:25 (3 to 5 a week). Verdict in 2026-09-27-day/verdicts.md; yes + good talking content = accept",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Michelle Padilla",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "3 fit questions sent 9/27 21:25 (3 to 5 a week). Verdict in 2026-09-27-day/verdicts.md; yes + good talking content = accept",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Brandilynn Elbek",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "3 fit questions sent 9/27 21:25 (3 to 5 a week). Verdict in 2026-09-27-day/verdicts.md; yes + good talking content = accept",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Janessa Domingo",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "3 fit questions sent 9/27 21:25 (3 to 5 a week). Verdict in 2026-09-27-day/verdicts.md; yes + good talking content = accept",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Elisa Morley",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "3 fit questions sent 9/27 21:25 (3 to 5 a week). Verdict in 2026-09-27-day/verdicts.md; yes + good talking content = accept",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Kristi Sgambato",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "3 fit questions sent 9/27 21:25 (3 to 5 a week). Verdict in 2026-09-27-day/verdicts.md; yes + good talking content = accept",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Samantha Wan",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "3 fit questions sent 9/27 21:25 (3 to 5 a week). Verdict in 2026-09-27-day/verdicts.md; yes + good talking content = accept",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Taylor Matlock",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "3 fit questions sent 9/27 21:25 (3 to 5 a week). Verdict in 2026-09-27-day/verdicts.md; yes + good talking content = accept",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Hailey Skolout",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "3 fit questions sent 9/27 21:25 (3 to 5 a week). Verdict in 2026-09-27-day/verdicts.md; yes + good talking content = accept",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Kaylie Russell",
+    "type": "fatima_decision",
+    "due": "2026-09-27",
+    "note": "9/27 21:36 replied: chronic condition (pain, joint dislocations) makes wearing the sling painful, doesn't show daughter's face, finding it hard to share authentically. Reacted 💙. Fatima: pause her kindly, or offer no-baby formats?",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Katie Willmer",
+    "type": "sample_nudge",
+    "due": "2026-09-28",
+    "note": "accepted 9/27 22:00 (all yes + talker). Welcome note in thread asked her to connect a public IG (no Meta). Daughter Lily has microtia; she asked if we mind, told her of course not",
+    "status": "done",
+    "created": "2026-09-27",
+    "closed": "2026-09-28"
+  },
+  {
+    "creator": "Katie Willmer",
+    "type": "connect_ig",
+    "due": "2026-09-28",
+    "note": "asked 9/27 22:00 to connect a public IG; when roster shows Request: click + tiny note",
+    "status": "done",
+    "created": "2026-09-27",
+    "closed": "2026-09-28"
+  },
+  {
+    "creator": "Lee McCreary",
+    "type": "fatima_decision",
+    "due": "2026-09-27",
+    "note": "9/27 ~21:40 said yes but no baby face on camera (Sharmeen: side profile only; Kristi and Sharmeen also ask if they post on their own socials). Conditional: Fatima",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Kristi Sgambato",
+    "type": "fatima_decision",
+    "due": "2026-09-27",
+    "note": "9/27 ~21:40 said yes but no baby face on camera (Sharmeen: side profile only; Kristi and Sharmeen also ask if they post on their own socials). Conditional: Fatima",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Sharmeen Kazmi",
+    "type": "fatima_decision",
+    "due": "2026-09-27",
+    "note": "9/27 ~21:40 said yes but no baby face on camera (Sharmeen: side profile only; Kristi and Sharmeen also ask if they post on their own socials). Conditional: Fatima",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Kilyn Brown",
+    "type": "fatima_decision",
+    "due": "2026-09-27",
+    "note": "9/27 21:31 'yes i am and is it only 5% commission' (faces yes; asked about commission). Money question: Fatima",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Kristian Renee Henry",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "new 9/27 (Grandparents by mistake, US, IG kristianhenry, TT krhenry, UGC pitch). 3 fit questions sent 22:05. Review talking content when she answers",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Nina Pleshe",
+    "type": "promise",
+    "due": "2026-10-01",
+    "note": "9/27 said she'll film one at Tuesday's (9/29) football game; busy with back to school + photography biz. Check for the video ~10/1",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Angelica Seto",
+    "type": "sample_checkin",
+    "due": "2026-10-11",
+    "note": "sample approved 9/27 ~22:40 (message sent); 2-week check-in: arrived? then ideas",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Nicole Palmer",
+    "type": "sample_checkin",
+    "due": "2026-10-11",
+    "note": "sample approved 9/27 ~22:40 (message sent); 2-week check-in: arrived? then ideas",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Turner Schumpf",
+    "type": "sample_nudge",
+    "due": "2026-09-28",
+    "note": "accepted 9/27 ~23:10 (yes to all + talker); welcome note in thread; nudge free sample 15-20h if no request",
+    "status": "done",
+    "created": "2026-09-27",
+    "closed": "2026-09-28"
+  },
+  {
+    "creator": "Turner Schumpf",
+    "type": "partnership_nudge",
+    "due": "2026-09-30",
+    "note": "PA requested 9/27 23:15, Pending",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Alexandria Lewis",
+    "type": "sample_nudge",
+    "due": "2026-09-28",
+    "note": "accepted 9/27 ~23:10 (yes to all + talker); welcome note in thread; nudge free sample 15-20h if no request",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Alexandria Lewis",
+    "type": "partnership_nudge",
+    "due": "2026-09-30",
+    "note": "PA requested 9/27 23:15, Pending",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Mia Hankieson",
+    "type": "fatima_decision",
+    "due": "2026-09-27",
+    "note": "talking video 9/27: pajama haul, rambly and disjointed (2.0 w/s), same as her Trybe videos. Weak on camera -> recommend reject",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Yaritzacruz",
+    "type": "fatima_decision",
+    "due": "2026-09-27",
+    "note": "sent TikTok 9/27: Spanish, mostly product in hand, not English talking. Recommend reject (or English ask)",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Hailey Skolout",
+    "type": "fatima_decision",
+    "due": "2026-09-27",
+    "note": "all 3 yes (toddlers 35 + 25 lbs, faces ok, 3 to 5); asks if pay is per video or a contract. Talking not reviewed yet. Money question",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Elizabeth Parker",
+    "type": "fatima_decision",
+    "due": "2026-09-27",
+    "note": "yes 15 lb baby + 30 lb toddler, faces ok; asks to be paid per video (UGC), 'can only do this if I'm getting paid'. Money question; likely not a fit for commission-only",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Kathia Martinez",
+    "type": "fatima_decision",
+    "due": "2026-09-27",
+    "note": "yes baby girl + toddler, faces ok; wants to start with 1 to 2 videos a week (under 3). Voiceover only on TikTok. Fatima",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Michelle Padilla",
+    "type": "fatima_decision",
+    "due": "2026-09-27",
+    "note": "due this week (newborn under 10 lbs), prefers not to show child's face. Conditional: Fatima",
+    "status": "open",
+    "created": "2026-09-27"
+  },
+  {
+    "creator": "Louise Sahlinger",
+    "type": "sample_nudge",
+    "due": "2026-09-28",
+    "note": "accepted 9/27 ~23:55 (yes to all + good talking video); welcome in thread; PA Pending; nudge free sample 15-20h",
+    "status": "done",
+    "created": "2026-09-28",
+    "closed": "2026-09-28"
+  },
+  {
+    "creator": "Louise Sahlinger",
+    "type": "partnership_nudge",
+    "due": "2026-10-01",
+    "note": "PA requested 9/28 00:00, Pending",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Bianca Sotrea",
+    "type": "sample_nudge",
+    "due": "2026-09-28",
+    "note": "accepted 9/27 ~23:55 (yes to all + good talking video); welcome in thread; PA Pending; nudge free sample 15-20h",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Bianca Sotrea",
+    "type": "partnership_nudge",
+    "due": "2026-10-01",
+    "note": "PA requested 9/28 00:00, Pending",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Turner Schumpf",
+    "type": "sample_checkin",
+    "due": "2026-10-12",
+    "note": "sample approved 9/27 23:55 (Brown), message sent",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Alexandria Lewis",
+    "type": "fatima_decision",
+    "due": "2026-09-28",
+    "note": "requested 3 samples 9/27 18:28-18:29 (Houndstooth, Blue Sailboat, Black), same address. Approve one? Ask her to pick?",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Louise Sahlinger",
+    "type": "fatima_decision",
+    "due": "2026-09-28",
+    "note": "asked 'how many submissions actually earn money, any insight?' (answered the no-contract question myself). Stats question for Fatima",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Samantha Simmons",
+    "type": "fatima_decision",
+    "due": "2026-09-28",
+    "note": "yes but prefers not to show child's face. Conditional",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Alyssa Lauderdale",
+    "type": "applicant_followup",
+    "due": "2026-10-02",
+    "note": "9/27: son broke his foot, will send talking video this week. Told her no pressure. Don't reject; check ~10/2",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Erin Dessert",
+    "type": "applicant_followup",
+    "due": "2026-09-28",
+    "note": "new 9/27 (V3, US, owns a Bambora, pitch video wearing it with toddler at Target, talks on camera). Sent faces + 3 to 5 Qs. Yes = accept (no sample needed)",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Louise Sahlinger",
+    "type": "sample_checkin",
+    "due": "2026-10-12",
+    "note": "sample approved 9/28 00:40, message sent",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Nicole Thomas",
+    "type": "sample_checkin",
+    "due": "2026-10-12",
+    "note": "sample approved 9/28 00:40, message sent",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Nicole Thomas",
+    "type": "note",
+    "due": "2026-11-25",
+    "note": "going to Disney early December: Disney babywearing content + NYC everyday content (told Fatima 9/28). Tailor inspo",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Katie Willmer",
+    "type": "sample_checkin",
+    "due": "2026-10-12",
+    "note": "sample approved 9/28 01:45 (Leopard), message sent",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Katie Willmer",
+    "type": "connect_ig",
+    "due": "2026-09-30",
+    "note": "doesn't use Instagram; told her a Facebook page works or a quick public IG. When roster shows Request: click + tiny note",
+    "status": "open",
+    "created": "2026-09-28"
   }
 ]

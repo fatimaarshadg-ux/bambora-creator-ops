@@ -6,7 +6,7 @@
 - Programs: Bambora Affiliates V3 since 2026-09-23
 - Videos: 2 submitted, 2 approved, 0 rejected, last 2026-09-15
 - Videos run as ads: 2
-- Performance since Jun 2026: earnings $29, Trybe GMV $240, conversions 3, ads 2, ad spend $295, purchases 3 ($240), ROAS 0.81
+- Performance since Jun 2026: earnings $29, Trybe GMV $240, conversions 3, ads 2, ad spend $297, purchases 3 ($240), ROAS 0.81
 
 ### Videos (newest first)
 - 2026-09-15 approved (trybe=7201ef4b, ads 1): "If you have a Velcro baby or a toddler baby, then I highly suggest you get yourself a good baby carrier. This Bambora sling is the only type of sling my son will actually let me carry him in because it's not him being st"

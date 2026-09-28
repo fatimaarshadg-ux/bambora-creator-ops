@@ -36,3 +36,7 @@ $ErrorActionPreference = $old
 # 4. What is owed today, and how fresh each stream is
 & py -3 (Join-Path $repo "work\creator-db\followups.py") due | Select-Object -Last 40
 & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $state "streams.ps1") status
+
+# 5. Keep-awake check and the US send window (nothing to creators before 12 PM US Eastern)
+& powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $state "keep-awake.ps1") status
+& powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $repo "work\common\us-time.ps1")

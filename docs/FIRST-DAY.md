@@ -33,7 +33,7 @@ Plan on a relaxed first shift: let Claude do the work and use each step to see h
 
 ## End of shift
 
-Follow the **END OF SHIFT** checklist. Check the wrap-up message says "Pushed". Forward any Liam links on Slack.
+Follow the **END OF SHIFT** checklist. Type `stop the routines`, message Fatima that you've stopped, and check the wrap-up message says "Pushed".
 
 ## Things that are normal (don't worry)
 

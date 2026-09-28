@@ -68,6 +68,7 @@
   "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"$USERPROFILE/claude-setup/work/backup/make_backup_zip.ps1\")",
   "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"$USERPROFILE/claude-setup/sync.ps1\"*)",
   "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"$USERPROFILE/claude-setup/work/sweep/health.ps1\")",
+  "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"$USERPROFILE/claude-setup/work/common/us-time.ps1\")",
   "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"$USERPROFILE/claude-setup/work/sweep/keep-awake.ps1\" *)",
   "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"$USERPROFILE/claude-setup/work/sweep/streams.ps1\" *)",
   "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"$USERPROFILE/claude-setup/work/sweep/mark.ps1\")",

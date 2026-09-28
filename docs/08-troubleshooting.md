@@ -127,6 +127,4 @@ Because you both use Fatima's Claude account, Claude in Chrome may see Fatima's 
 ### Claude in Chrome says "not connected" / no browser found
 In Chrome, click the Claude icon (puzzle piece > Claude if it isn't pinned) and check you are signed in with Fatima's Claude account. Then in Claude say "try Chrome again". Still nothing: close Chrome completely and reopen it with the Bambora profile.
 
-### The Liam message: how do I send it?
-Open a **new** Chrome window in the Bambora profile (Ctrl+N; don't use Claude's Trybe tabs), go to https://app.slack.com, click **Liam** under **Direct messages** on the left, paste the message Claude gave you (Ctrl+V), press Enter. It goes as Fatima, like everything else. (Claude marks those videos as sent when it gives you the message, so they are never offered twice. If you could not send it, the message is still in the chat above; send it later, or ask Claude to show it again.)
 

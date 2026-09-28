@@ -1,6 +1,6 @@
 ---
 name: bambora-end-of-day-wrapup
-description: Daily at 4:15 AM, the end of Fatima's work day (about 5 PM to 5 AM PKT): session log, tracker tidy-up, Drive filing + Liam links, push to GitHub, repo zip to Drive.
+description: Daily at 4:15 AM, the end of Fatima's work day (about 5 PM to 5 AM PKT): session log, tracker tidy-up, Drive filing, push to GitHub, repo zip to Drive.
 ---
 
 > **Not used on the Windows PC.** There the end-of-day session timer (routines/START.md, docs/10-shift-checklists.md) does this job, so this task is NOT created (two wrap-ups would file, push and message twice). Kept for Fatima's Mac.
@@ -22,4 +22,5 @@ Drive backup (every night, Fatima's rule 2026-09-23: "everything should be backe
 TOOL RULES FOR UNATTENDED RUNS (added 2026-09-23 after runs froze on a permission prompt): every Bash call must be ONE simple command with absolute paths. Never use cd, &&, ;, |, for or while loops, subshells or heredocs, because the allowlist only matches simple commands and any prompt freezes this run and every later one. To read several files, call `cat /abs/path/a.md /abs/path/b.md` or use the Read tool. For git use `git -C ~/claude-setup add -A`, `git -C ~/claude-setup commit -m "..."`, `git -C ~/claude-setup push`. If a step would need a command outside these patterns, skip it and note it in the tracker. For the Trybe API use the mcp__trybe__ tools (allowlisted), not curl or the stored key; build_db.py loads the key itself.
 .
 
-LINKS FOR LIAM (added 2026-09-23): after filing the day's approved videos in Drive (file_approved.py), write one list with a line per video (creator, trybe id, individual Drive link) at the top of the tracker's Due next and in the session log, so Fatima can forward it to Liam on Slack.
+Nothing goes to Liam (Fatima, 2026-09-27): no Liam sheet, no Liam folder copy, no Liam links, no Slack message to Liam. Filing in Main Media > Trybe is the whole job.
+KEEP RUNNING (Fatima, 2026-09-25): if she's silent, routines continue past 5 AM; never stop sweeps at the end of the day.

@@ -24,7 +24,7 @@ Print this page or keep it open. Times below use Fatima's day (about 5 PM to 5 A
 
 - Every ~30 minutes, one message from Claude: **Done**, **Needs your go** (numbered, with recommendations), **Questions**. Answer like "yes 1 and 3, no 2 because ...".
 - Money, retainers, protected creators, program settings, new Trybe key → check with Fatima before you say yes.
-- When 5+ videos are ready for Liam, Claude gives you a ready message: copy it into Slack to Liam (steps: `08-troubleshooting.md`, "The Liam message").
+- Before 12 PM US Eastern (9 PM Pakistan time), sweeps prepare but send nothing to creators. That's normal: the queue goes out at 12 PM ET.
 - Claude asks for permission? Answer it (what to allow and what to deny: `08-troubleshooting.md`). Not sure whether something is yours to decide? `11-decision-guide.md`.
 - The PC restarted, a Trybe tab closed, the screen locked, Claude hit a usage limit: `08-troubleshooting.md`, "Things that go wrong during a shift".
 - If you step away: leave everything open. The keep-awake keeps the PC on.
@@ -34,13 +34,13 @@ Print this page or keep it open. Times below use Fatima's day (about 5 PM to 5 A
 ## END OF SHIFT (Claude runs most of it at the end-of-day time; you finish the last 3 steps)
 
 1. Claude: files any approved videos not yet in Drive (download, upload, rename, mark).
-2. Claude: gives you the remaining **Liam links** (`liam_batch.py message --any`); you forward them to Liam on Slack.
 3. Claude: writes the session log `work/session-logs/YYYY-MM-DD.md` (what got done, new rules, what's open), updates memory and skills with anything new.
 4. Claude: makes sure the ledger holds everything still open, so tomorrow starts from it.
-5. Claude: runs `sync.ps1` (push to GitHub) and the repo zip to Drive; stops the sweep timer for the night.
-6. **You:** read Claude's wrap-up message. Check it says "Pushed".
-7. **You (optional):** stop keep-awake (`keep-awake.ps1 stop`) if you want the PC to sleep normally overnight.
-8. **You:** you can close the Claude app now. Tomorrow, "start the routines" rebuilds the timers.
+5. Claude: runs `sync.ps1` (push to GitHub) and the repo zip to Drive; does NOT stop the sweeps (they stop when you type `stop the routines`).
+6. **You:** type **`stop the routines`** so the 30-minute sweeps stop (they keep going otherwise, on purpose). Then message Fatima "I've stopped" so she can start hers.
+7. **You:** read Claude's wrap-up message. Check it says "Pushed".
+8. **You (optional):** stop keep-awake (`keep-awake.ps1 stop`) if you want the PC to sleep normally overnight.
+9. **You:** you can close the Claude app now. Tomorrow, "start the routines" rebuilds the timers.
 
 ## WHAT RUNS WHEN (one page)
 
@@ -50,11 +50,10 @@ Print this page or keep it open. Times below use Fatima's day (about 5 PM to 5 A
 | First sweep of the day | Creator database refresh (`build_db.py`, adds quiet creators to the ledger) and new frame sheets (`fetch_media.py`) | `routines/live-sweep.md` step 1 |
 | **Every 30 min** (:07 and :37) | **Full sweep, all six streams**: chat, samples, partnership ads, submissions, Discovery, ledger. Then ONE message | `routines/full-run.md` |
 | Every minute (background) | Watchdog: wakes Claude if the last sweep is 30+ min old or a stream is 60+ min stale | `work/sweep/watchdog.sh` |
-| After every Drive filing | Liam batch check: 5+ unsent videos → forward-ready message | `work/trybe-drive-filing/liam_batch.py` |
 | Every ~5 hours | Meta (partnership ads) access check across the V3 roster | `routines/full-run.md`, `work/sweep/every.sh due metaaccess 300` |
 | Once per shift (first sweep after 11 PM in Fatima's day) | Check-in audit: every V3 and protected creator has a ledger item or recent message | `routines/full-run.md` |
 | Every 3 days (scheduled task) | Inspo research pack to Drive, tagged, matched to creators | `scheduled-tasks/bambora-inspo-research-every-3-days` |
 | Every 3 days | Personal inspo messages (drafts to you first) | skill `creator-ops-daily` section 7 |
 | Every 4 hours (optional scheduled task) | Full-cycle prep for days without a live session (drafts only) | `scheduled-tasks/bambora-full-cycle-every-4h` |
-| End of day (~45 min before you stop) | Drive filing, Liam links, session log, push, repo zip to Drive, stop timer | the end-of-day session timer (`routines/START.md` section 4). The only end-of-day job on this PC. |
+| End of day (~45 min before you stop) | Drive filing, session log, push, repo zip to Drive, stop timer | the end-of-day session timer (`routines/START.md` section 4). The only end-of-day job on this PC. |
 | Weekly | Top performers ($500+) check; taste profile refresh every month or two | skill `creator-ops-daily` section 6, skill `trybe-applicant-review` |
