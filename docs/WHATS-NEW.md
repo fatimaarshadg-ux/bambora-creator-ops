@@ -9,6 +9,7 @@ Everything Fatima decided between 2026-09-25 and 2026-09-28. Claude already foll
 3. **Claude accepts some applicants on its own now.** Every fit question answered yes (baby or toddler 10 to 50 lbs to film with, OK showing faces, 3 to 5 videos a week) + confident talking-to-camera videos + lives in the US, Canada, UK, Australia, New Zealand or Ireland = accept, onboarding, and it tells you. Asked for a talking video and never sent one (after one follow-up) = reject. Conditional answers and borderline cases still come to you.
 4. **Existing creators' videos:** clear-cut approvals (all 6 checklist points, not sale-led) go ahead on their own and show up under Done. Unsure ones come to you. **Revisions and rejections wait until Fatima has watched them herself.**
 5. **Sweeps keep running until you type `stop the routines`.** Always type it at the end of your shift, then message Fatima. Keep-awake starts by itself with "start the routines" and stops with "stop the routines".
+6. **Claude remembers what each creator agreed to** (3 to 5 a week, or whatever they said, in their exact words) and uses it in every message and inspo.
 
 ## Messages
 

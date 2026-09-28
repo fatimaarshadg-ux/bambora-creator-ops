@@ -64,3 +64,4 @@
 - [Send window: US noon](send-window-us-noon.md): no creator messages before 12 PM ET (9 PM PKT); queue until then
 - [Applicant accept/reject rule](applicant-accept-reject-rule-0927.md): yes + good yapper = accept; asked for yapper, never sent = reject
 - [Clear-cut approvals go without review](feedback-clear-cut-approvals.md): sure approvals, standing applicant rules and routine actions need no review; revisions and rejects wait for Fatima to watch
+- [Creator volume commitments](creator-volume-commitments.md): record what each creator agreed to per week (commitments.py) and use it in every message and inspo

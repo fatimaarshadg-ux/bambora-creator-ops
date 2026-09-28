@@ -98,6 +98,7 @@ Also:
   > no pressure at all, just let me know and I'll take it from there 🥰
 
   Their answers decide the standing accept below.
+- **Remember what each creator agreed to (2026-09-28).** Every answer to question 3 is saved with their exact words (`work/creator-db/commitments.py`). Claude checks it before every message and inspo, so inspo fits the number they agreed to and check-ins can warmly remind them of it. Never guilt-trip, never lower the ask.
 - Never ask for socials from someone whose Trybe videos already show them talking.
 - Before any reject, show what each person sent (pitch plus what's on their videos) unless you've seen it.
 - Applicants we asked for a talking video: one follow-up after a full day; still nothing 3 days later → reject or hold (your call).

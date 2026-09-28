@@ -48,6 +48,7 @@
   "Bash(py -3 ~/claude-setup/work/social-tools/tt.py *)",
   "Bash(py -3 ~/claude-setup/work/social-tools/tt_find.py *)",
   "Bash(py -3 ~/claude-setup/work/creator-db/followups.py *)",
+  "Bash(py -3 ~/claude-setup/work/creator-db/commitments.py *)",
   "Bash(py -3 ~/claude-setup/work/creator-db/build_db.py*)",
   "Bash(py -3 ~/claude-setup/work/creator-db/fetch_media.py*)",
   "Bash(py -3 ~/claude-setup/work/creator-db/quiet_creators.py*)",

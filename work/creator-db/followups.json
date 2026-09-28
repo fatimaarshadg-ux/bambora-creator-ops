@@ -5117,5 +5117,13 @@
     "note": "no video for 60 days (last 2026-07-30), GMV $3641, group protected; check-in with the 20 to 30 videos a month point plus fitting inspo",
     "status": "open",
     "created": "2026-09-28"
+  },
+  {
+    "creator": "ALL (volume commitments)",
+    "type": "promise",
+    "due": "2026-09-28",
+    "note": "Copy the exact volume answers from the Discovery threads for the 11 entries in commitments.py list --verify, then add --verified. Also scan Discovery for anyone else who answered the volume question and add them.",
+    "status": "open",
+    "created": "2026-09-28"
   }
 ]
