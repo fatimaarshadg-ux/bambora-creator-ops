@@ -5247,24 +5247,30 @@
     "type": "reply_owed",
     "due": "2026-09-28",
     "note": "Asked whether 'posting' means her own socials or videos sent to the brand. Answer, then get her Q3. Faces: side profile only, so conditional.",
-    "status": "open",
-    "created": "2026-09-28"
+    "status": "done",
+    "created": "2026-09-28",
+    "closed": "2026-09-28",
+    "outcome": "SENT: explained they upload on Trybe and we run them as ads; asked her Q3"
   },
   {
     "creator": "Lillian Gutierrez",
     "type": "reply_owed",
     "due": "2026-09-28",
     "note": "Asked how long the 3 to 5 a week commitment runs; says long term would not be doable. Answer: no contract, no deadline, it is per video commission.",
-    "status": "open",
-    "created": "2026-09-28"
+    "status": "done",
+    "created": "2026-09-28",
+    "closed": "2026-09-28",
+    "outcome": "SENT: no contract, no end date, commission based"
   },
   {
     "creator": "Yvette Borojerdi",
     "type": "reply_owed",
     "due": "2026-09-28",
     "note": "Followed up asking for clarity and a response on joining the campaign. Read her earlier message and answer.",
-    "status": "open",
-    "created": "2026-09-28"
+    "status": "done",
+    "created": "2026-09-28",
+    "closed": "2026-09-28",
+    "outcome": "SENT: answered posting + volume. Her usage-terms question goes to Fatima"
   },
   {
     "creator": "ALL (5 attachments)",
@@ -5311,6 +5317,40 @@
     "type": "reply_owed",
     "due": "2026-09-28",
     "note": "Stuck 2 days on the Instagram partnership ads button (DM card does nothing, already professional). VERIFIED fix queued: profile > Professional dashboard > Partnership ads > Ad partners > Pending requests. Fallback: Business Suite > Creator Marketing > Manage permissions > Get link. She is also messaging @bamboraco on Instagram with no reply, someone should check that inbox.",
+    "status": "done",
+    "created": "2026-09-28",
+    "closed": "2026-09-28",
+    "outcome": "SENT 12:15 ET: Professional dashboard > Partnership ads > Ad partners > Pending requests path"
+  },
+  {
+    "creator": "Aubrie Martinez",
+    "type": "reply_owed",
+    "due": "2026-09-28",
+    "note": "SENT 12:17 ET holding reply (watched it, coming back today). MUST follow up with the real verdict once the buckle frame is confirmed: approve + approval message + Drive filing.",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Yvette Borojerdi",
+    "type": "fatima_decision",
+    "due": "2026-09-28",
+    "note": "Asked: is the 5% GMV the full compensation for usage, or are there separate usage terms? MONEY/terms, so Fatima. She has a 7-month-old in range and is comfortable on camera, so she is otherwise a good fit. Answered her other two questions already.",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Michelle Padilla",
+    "type": "reply_owed",
+    "due": "2026-09-28",
+    "note": "SENT the safety line (sling is 10 to 50 lbs, not the newborn stage). Her accept is still conditional on the faces answer, so nothing promised.",
+    "status": "open",
+    "created": "2026-09-28"
+  },
+  {
+    "creator": "Kristi Sgambato",
+    "type": "reply_owed",
+    "due": "2026-09-28",
+    "note": "SENT: explained how the videos are used. Still conditional on faces + volume below 3, so accept waits.",
     "status": "open",
     "created": "2026-09-28"
   }
