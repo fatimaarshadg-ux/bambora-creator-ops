@@ -55,12 +55,32 @@ These need a decision, because no existing rule answers them.
    business account** (@studior_photo), not a parenting account. No sign she has a child to film
    with. Recommendation: first message anyway, since question 1 settles it.
 
-## Sample videos being watched
+## Sample videos, watched
 
-Six applicants attached something playable. They are downloading and going through the media watcher
-now, to judge talking-to-camera delivery: Asya jihad, Robert James, Prescilla Randazzo,
-Valerie Llopis, Kimberly Wagaman, Samantha Saksa. Delivery notes land in the next sweep and feed the
-accept decision once they answer, not before.
+All six went through the media watcher. Delivery judged on whether they talk to camera and at what
+pace. This feeds the accept decision once they answer the fit questions, not before.
+
+**Strong talkers, accept-grade delivery when their answers come in:**
+
+- **Robert James**, 60s, 239 words, 3.9 w/s. Stay-at-home dad, opens with "Do you have a baby that
+  wants to be held 24 seven?", demonstrates a rival baby carrier end to end with a clear hook and a
+  conversion-focused close. The strongest of the six.
+- **Prescilla Randazzo**, 49s, 233 words, 4.7 w/s. Natural, fast, confident, a pumpkin-patch stroller
+  wagon piece. She is also the one referred by Tasha Clay.
+
+**Decent talker:**
+
+- **Kimberly Wagaman**, 48s, 116 words, 2.4 w/s. Talks to camera about a crochet gift blanket.
+  Slower, but clearly on camera and comfortable. She is the Ambassador Program one.
+
+**No talking to camera in what they sent, so they need the talking-video ask:**
+
+- **Asya jihad**, 35s, 53 words, 1.5 w/s. A "day in the life as a baby" piece with time stamps, a
+  voiceover and text-overlay format, no piece to camera. Her file is also truncated on Trybe's
+  server at 86%, though enough played to judge it.
+- **Samantha Saksa**, 15s, 14 words. Almost entirely music. Her written pitch is one of the best of
+  the batch, which makes the ask worth making.
+- **Valerie Llopis**, 42s, 17 words. Ambient sound, no piece to camera.
 
 ## Not yet added to seen.txt
 

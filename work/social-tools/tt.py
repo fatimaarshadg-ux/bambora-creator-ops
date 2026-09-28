@@ -7,11 +7,30 @@ Prints the recent videos (pinned included) with views, likes and comment
 counts, plus the first comments on each. Needs yt-dlp. --download saves the
 most-viewed recent video for media-watcher.
 """
-import json, subprocess, sys, time, urllib.request, argparse
+import json, os, shutil, subprocess, sys, time, urllib.request, argparse
+from pathlib import Path
 UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36'
 
+
+def ytdlp():
+    """Find yt-dlp. A shell started before the PATH entry existed does not have it,
+    which used to fail with a bare WinError 2 and no hint about the cause. The media
+    watcher ships its own copy, so fall back to that."""
+    found = shutil.which('yt-dlp')
+    if found:
+        return found
+    for cand in (Path.home() / 'claude-media-watcher/bin/yt-dlp.exe',
+                 Path.home() / 'claude-media-watcher/bin/yt-dlp'):
+        if cand.exists():
+            return str(cand)
+    sys.exit('yt-dlp not found. Install it, or restore ~/claude-media-watcher/bin/yt-dlp.exe')
+
+
+YTDLP = ytdlp()
+
+
 def videos(handle, n):
-    out = subprocess.run(['yt-dlp', '--flat-playlist', '-I', f'1:{n}', '--print',
+    out = subprocess.run([YTDLP, '--flat-playlist', '-I', f'1:{n}', '--print',
                           '%(id)s\t%(view_count)s\t%(like_count)s\t%(comment_count)s\t%(timestamp)s\t%(title).80s',
                           f'https://www.tiktok.com/@{handle.lstrip("@")}'], capture_output=True, text=True, timeout=180)
     rows = []
@@ -43,6 +62,6 @@ if __name__ == '__main__':
             time.sleep(1.5)
     if o.download:
         top = max(rows, key=lambda r: int(r['views']) if r['views'].isdigit() else 0)
-        subprocess.run(['yt-dlp', '-q', '-f', 'b[height<=720]/b', '-o', f"{o.download}/{h}_{top['id']}.%(ext)s",
+        subprocess.run([YTDLP, '-q', '-f', 'b[height<=720]/b', '-o', f"{o.download}/{h}_{top['id']}.%(ext)s",
                         f"https://www.tiktok.com/@{h}/video/{top['id']}"])
         print('\nDOWNLOADED', top['id'])

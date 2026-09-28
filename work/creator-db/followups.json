@@ -5281,5 +5281,13 @@
     "note": "ANSWERS ARE IN for 12 applicants who already had open items with stale notes. Read work/trybe-applicant-review/2026-09-28-answers.md before acting on any of: Michelle Padilla (SAFETY: expecting a baby this week, wants to film from the newborn stage; sling is 10-50 lbs), Hailey Skolout / Taylor Matlock / Kristian Renee Henry (all three MEET the standing accept, pending talking-video check), Brandilynn Elbek / Lee McCreary / Kristi Sgambato / Sharmeen Kazmi / Kathia Martinez (conditional, faces or volume), Elizabeth Parker (retainer, Fatima), Lillian Gutierrez / Yvette Borojerdi (questions owed). Volume commitments for all 9 who answered are recorded in commitments.json.",
     "status": "open",
     "created": "2026-09-28"
+  },
+  {
+    "creator": "ALL (delivery notes 9/28)",
+    "type": "note",
+    "due": "2026-09-28",
+    "note": "Talking-to-camera delivery judged from watched videos. ACCEPT-GRADE: Hailey Skolout (confirmed, full accept), Robert James (3.9 w/s, strongest), Prescilla Randazzo (4.7 w/s), Kimberly Wagaman (2.4 w/s, decent). NEEDS A TALKING-VIDEO ASK: Taylor Matlock, Kristian Renee Henry (TikTok only 129-378 views), Asya jihad, Samantha Saksa, Valerie Llopis. Notes: work/trybe-applicant-review/2026-09-28-new-applicants.md and -answers.md",
+    "status": "open",
+    "created": "2026-09-28"
   }
 ]
