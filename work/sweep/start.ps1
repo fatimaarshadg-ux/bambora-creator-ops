@@ -7,6 +7,28 @@ $repo = Join-Path $env:USERPROFILE "claude-setup"
 $chat = Join-Path $repo "work\trybe-chat"
 $state = Join-Path $repo "work\sweep"
 
+# Resolve the Python launcher. When this session started before the Launcher went on PATH
+# there is no "py" command, and the helper server plus the ledger both failed silently.
+$py = (Get-Command py -ErrorAction SilentlyContinue).Source
+# Git Bash keeps a shell shim called "py" in ~/bin. PowerShell cannot run that, so ignore anything but a real .exe.
+if ($py -and $py -notlike "*.exe") { $py = $null }
+$pyPre = @("-3")
+if (-not $py) {
+    $cands = @(
+        (Join-Path $env:LOCALAPPDATA "Programs/Python/Launcher/py.exe"),
+        (Join-Path $env:LOCALAPPDATA "Programs/Python/Python312/python.exe"),
+        (Join-Path $env:LOCALAPPDATA "Programs/Python/Python311/python.exe")
+    )
+    foreach ($c in $cands) {
+        if (Test-Path $c) {
+            $py = $c
+            if ($c -notlike "*py.exe") { $pyPre = @() }
+            break
+        }
+    }
+}
+if (-not $py) { Write-Output "python: NOT FOUND (reinstall Python 3, then rerun start.ps1)" }
+
 # 1. Keep the PC awake (the Mac used caffeinate -dimsu). See keep-awake.ps1 for how and why.
 & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $state "keep-awake.ps1") start
 
@@ -15,7 +37,7 @@ function PortOpen {
     try { $c = New-Object Net.Sockets.TcpClient; $c.Connect("127.0.0.1", 8765); $c.Close(); return $true } catch { return $false }
 }
 if (-not (PortOpen)) {
-    Start-Process py -ArgumentList "-3", "cors_srv.py" -WorkingDirectory $chat -WindowStyle Hidden | Out-Null
+    if ($py) { Start-Process $py -ArgumentList ($pyPre + @("cors_srv.py")) -WorkingDirectory $chat -WindowStyle Hidden | Out-Null }
     Start-Sleep -Seconds 2
 }
 try {
@@ -34,7 +56,7 @@ if ($last) { Write-Output "last change on GitHub: $last" }
 $ErrorActionPreference = $old
 
 # 4. What is owed today, and how fresh each stream is
-& py -3 (Join-Path $repo "work\creator-db\followups.py") due | Select-Object -Last 40
+if ($py) { & $py @pyPre (Join-Path $repo "work/creator-db/followups.py") due | Select-Object -Last 40 }
 & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $state "streams.ps1") status
 
 # 5. Keep-awake check and the US send window (nothing to creators before 12 PM US Eastern)

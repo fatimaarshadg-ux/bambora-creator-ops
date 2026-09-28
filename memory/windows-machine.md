@@ -1,8 +1,11 @@
 ---
 name: windows-machine
-description: This is a Windows PC; how the Mac-built routine maps onto it (shell, Python, paths, PowerShell ports, what differs)
-metadata:
+description: "This is a Windows PC; how the Mac-built routine maps onto it (shell, Python, paths, PowerShell ports, what differs)"
+metadata: 
+  node_type: memory
   type: reference
+  originSessionId: 69a3b3e5-e78c-4da3-971b-bbee6481f79a
+  modified: 2026-09-28T12:11:42.003Z
 ---
 
 The whole routine was built on Fatima's Mac and ported for this Windows PC on 2026-09-25 (repo `~/claude-setup`, see its HANDOVER-BUILD-REPORT.md for every change).
@@ -24,6 +27,15 @@ The whole routine was built on Fatima's Mac and ported for this Windows PC on 20
 - `sync_check.sh`, `make_backup_zip.sh` → `work/backup/*.ps1`. `apply-allowlist-mac.sh` + `apply-no-dash-hooks-mac.sh` → `settings/apply-settings.ps1`.
 - Slack desktop driving (Swift clicker, screencapture) was not ported: read Slack in Chrome instead ([[reading-slack-desktop]]).
 
-**Keep the PC awake during the work day:** start.ps1 holds a keep-awake request, but closing a laptop lid can still sleep it. Leave the lid open and the charger in.
+**Keep the PC awake during the work day:** start.ps1 holds a keep-awake request, but closing a laptop lid can still sleep it. Leave the lid open and the charger in. Say this to the operator every time a routine starts ([[play-the-routines]]).
 
-Related: [[operator-handover]].
+**The PC clock is US Pacific, not Pakistan time** (found 2026-09-28). `Get-TimeZone` says Pacific Standard Time, so during the shift local time runs 9 hours behind Ikra's PKT wall clock (PKT 5 PM = 5 AM local). Anything that uses the machine's local time has to be converted:
+- CronCreate fires on local (Pacific) time. Her 6:12 AM PKT end of day is `12 18 * * *`, not `12 4 * * *`.
+- The send window is safe either way, because `work/common/us-time.ps1` computes US Eastern itself. 12 PM ET is 9 AM on this clock.
+- A session-log filename taken from the local date stays on one date through her whole shift, while the PKT date rolls over at 12 AM PKT (2 PM local). Use the PKT date for logs so they line up with Fatima's Mac.
+
+**`py` can vanish from PATH** (found 2026-09-28). The launcher lives in `%LOCALAPPDATA%\Programs\Python\Launcher\py.exe` and is on the user PATH, but a Claude session started before that entry existed inherits the old PATH, so `py` is not found and the ledger and helper server fail with nothing obvious in the output. Fixes now in place: a `py` shell shim in `~/bin` for Git Bash, and `start.ps1` resolves `py.exe` by full path when `Get-Command py` misses (it ignores the `~/bin` shim, which PowerShell cannot execute). If `py` fails again, restart the Claude app first, since that picks up the real PATH.
+
+**There is a second clone of the repo at `D:\Projects\bambora-creator-ops`.** It is a spare from handover setup day and is not wired to anything. The live copy is `C:\Users\Hp\claude-setup`: it holds Ikra's filled-in OPERATOR.md, and every script, memory path and doc points at it. Both clones push to the same single GitHub repo, `fatimaarshadg-ux/bambora-creator-ops`. Ikra's instruction (2026-09-28): keep only one up to date. Never sweep or sync from the D copy.
+
+Related: [[operator-handover]], [[play-the-routines]].
